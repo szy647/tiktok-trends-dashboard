@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok 热梗监测台</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --bg2:#ffffff; --bg3:#eef1f5; --line:#e1e5ec;
+    --txt:#1f2530; --txt2:#5b6572; --txt3:#8b95a1;
+    --gold:#f472b6; --gold2:#db2777; --goldtext:#be185d; --accent:#12b3bd; --accent2:#0a7d85;
+    --ok:#16a34a; --warn:#d97706; --err:#dc2626; --purple:#7c5cff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+    background:linear-gradient(160deg,#eafaf1 0%,#f3fbf6 45%,#ffffff 100%);
+    background-attachment:fixed;
+    color:var(--txt); line-height:1.65; font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+
+  header{
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.6));
+    position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);
+  }
+  .topbar{display:flex;align-items:center;justify-content:space-between;height:88px;flex-wrap:wrap;gap:10px}
+  .brand{display:flex;align-items:center;gap:14px;font-weight:800;font-size:26px;letter-spacing:.3px}
+  .brand .dot{width:44px;height:44px;border-radius:10px;flex:none;
+    background:linear-gradient(135deg,var(--gold),var(--gold2));
+    display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:20px;font-weight:900}
+  .brand small{display:block;font-size:14px;color:var(--txt3);font-weight:400;letter-spacing:0;margin-top:2px}
+  .meta-line{font-size:14px;color:var(--txt3);text-align:right;line-height:1.7}
+  .meta-line b{color:var(--txt2);font-weight:700;font-size:15px}
+  .meta-line .tip{cursor:help;border-bottom:1px dashed var(--txt3)}
+
+  main{padding:28px 0 90px}
+
+  .filterbar{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    background:var(--bg2);border:1px solid var(--line);border-radius:16px;
+    padding:18px 22px;margin-bottom:24px;
+  }
+  .tabs{display:flex;gap:6px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:5px}
+  .tab{padding:10px 18px;border-radius:9px;font-size:15px;cursor:pointer;color:var(--txt2);white-space:nowrap;font-weight:600}
+  .tab.active{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#ffffff;font-weight:800}
+  .sep{width:1px;height:26px;background:var(--line)}
+  select,input[type=search]{
+    background:var(--bg);border:1px solid var(--line);color:var(--txt);
+    border-radius:10px;padding:10px 14px;font-size:15px;font-family:inherit
+  }
+  select:focus,input[type=search]:focus{outline:none;border-color:var(--accent)}
+  input[type=search]{min-width:220px;flex:1}
+  .count-tag{margin-left:auto;font-size:14px;color:var(--txt3);font-weight:600}
+
+  /* 总览排行图 */
+  .panel{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:26px;margin-bottom:24px;box-shadow:0 1px 4px rgba(20,30,50,.05)}
+  .panel h2{font-size:19px;margin-bottom:6px;color:var(--goldtext);display:flex;align-items:center;gap:10px;font-weight:800}
+  .panel .sub{font-size:14px;color:var(--txt3);margin-bottom:18px}
+  .chart-toggle{display:flex;gap:6px;margin-bottom:16px}
+  .chart-toggle .ctab{padding:7px 14px;font-size:13px;border-radius:8px;background:var(--bg3);border:1px solid var(--line);color:var(--txt2);cursor:pointer;font-weight:600}
+  .chart-toggle .ctab.active{background:var(--accent2);border-color:var(--accent2);color:#fff}
+  .rank-chart{display:flex;flex-direction:column;gap:10px;max-height:520px;overflow-y:auto;padding-right:6px}
+  .rank-row{display:grid;grid-template-columns:150px 1fr 90px;align-items:center;gap:12px;font-size:14px}
+  .rank-row .rlabel{color:var(--txt2);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .rank-row .rbar-bg{background:var(--bg3);border-radius:6px;height:20px;overflow:hidden;border:1px solid var(--line)}
+  .rank-row .rbar-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--accent2),var(--accent));display:flex;align-items:center}
+  .rank-row.sea .rbar-fill{background:linear-gradient(90deg,#8a5cd6,var(--purple))}
+  .rank-row .rvalue{color:var(--txt2);font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+
+  /* 卡片列表（单列，图文并排） */
+  .list{display:flex;flex-direction:column;gap:20px}
+  .card{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;gap:22px;flex-wrap:wrap;box-shadow:0 1px 4px rgba(20,30,50,.05)}
+  .card-media{flex:none;width:325px}
+  .card-media .tiktok-embed{margin:0 !important}
+  .video-fallback{width:325px;height:200px;background:var(--bg3);border:1px dashed var(--line);border-radius:12px;
+    display:flex;align-items:center;justify-content:center;color:var(--txt3);font-size:13px;text-align:center;padding:16px}
+  .video-openfallback{width:325px;min-height:200px;background:var(--bg3);border:1px solid var(--line);border-radius:12px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:20px;
+    text-decoration:none;color:var(--txt2);text-align:center;transition:.15s}
+  .video-openfallback:hover{border-color:var(--accent2);color:var(--accent2)}
+  .video-openfallback .vof-icon{width:48px;height:48px;border-radius:50%;background:var(--accent2);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:18px}
+  .video-openfallback .vof-text{font-size:13px;line-height:1.6}
+  .card-body{flex:1;min-width:320px;display:flex;flex-direction:column;gap:12px}
+  .card-head{display:flex;align-items:flex-start;gap:12px}
+  .rank{width:38px;height:38px;flex:none;border-radius:10px;background:var(--bg3);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;color:var(--goldtext)}
+  .card-title{flex:1;min-width:0}
+  .card-title .name{font-size:22px;font-weight:800;color:var(--txt)}
+  .card-title .cat{font-size:14px;color:var(--txt3);margin-top:3px;font-weight:600}
+  .conf{font-size:13px;padding:5px 12px;border-radius:20px;flex:none;white-space:nowrap;align-self:flex-start;font-weight:700}
+  .conf.official{background:rgba(63,185,80,.15);color:var(--ok);border:1px solid rgba(63,185,80,.35)}
+  .conf.uncertain{background:rgba(210,153,34,.15);color:var(--warn);border:1px solid rgba(210,153,34,.35)}
+
+  .region-chart{display:flex;flex-direction:column;gap:6px}
+  .region-chart .rc-row{display:grid;grid-template-columns:56px 1fr 130px;align-items:center;gap:10px;font-size:14px}
+  .region-chart .rc-code{font-weight:800;color:var(--accent2)}
+  .region-chart .rc-bar-bg{background:var(--bg3);border-radius:6px;height:16px;overflow:hidden;border:1px solid var(--line)}
+  .region-chart .rc-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent))}
+  .region-chart .rc-val{color:var(--txt2);font-size:13px;text-align:right}
+
+  .field-row{font-size:16px;color:var(--txt2)}
+  .field-row .lbl{color:var(--txt3);font-size:13px;font-weight:800;margin-bottom:3px;display:block;letter-spacing:.3px}
+  .whyhot{background:var(--bg3);border-left:4px solid var(--goldtext);border-radius:0 10px 10px 0;padding:12px 14px;font-size:16px;color:var(--txt)}
+  .whyhot b{color:var(--goldtext)}
+
+  .fusion{background:rgba(10,125,133,.08);border:1px solid rgba(10,125,133,.3);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+  .fusion .fusion-title{font-size:13px;font-weight:800;color:var(--accent2);letter-spacing:.5px}
+  .fusion .fpart{font-size:15px;color:var(--txt);display:flex;gap:8px}
+  .fusion .fpart .ftag{flex:none;font-size:12px;font-weight:800;color:#fff;background:var(--accent2);border-radius:6px;padding:3px 9px;height:fit-content;white-space:nowrap}
+  .fusion .fpart .ftag.video{background:var(--gold2)}
+  .fusion .fpart .ftext{flex:1}
+
+  .douyin-badge{display:inline-flex;align-items:center;gap:6px;font-size:13px;border-radius:8px;padding:6px 12px;width:fit-content;font-weight:600}
+  .douyin-badge.not_found{background:rgba(170,182,194,.12);color:var(--txt2);border:1px solid var(--line)}
+  .douyin-badge.nonapplicable{background:rgba(124,92,255,.14);color:var(--purple);border:1px solid rgba(124,92,255,.35)}
+  .douyin-badge.synced{background:rgba(63,185,80,.15);color:var(--ok);border:1px solid rgba(63,185,80,.35)}
+
+  .link-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:2px}
+  .lbtn{font-size:14px;padding:9px 16px;border-radius:9px;border:1px solid var(--line);background:var(--bg3);color:var(--txt2);
+    text-decoration:none;transition:.15s;font-weight:600}
+  .lbtn:hover{border-color:var(--accent2);color:var(--accent2)}
+
+  .douyin-panel{margin-top:0}
+  .douyin-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media(max-width:860px){.douyin-list{grid-template-columns:1fr}}
+  .douyin-item{display:flex;align-items:center;gap:12px;background:var(--bg3);border:1px solid var(--line);
+    border-radius:10px;padding:11px 14px;font-size:15px}
+  .douyin-item .r{color:var(--txt3);font-weight:800;width:24px;flex:none}
+  .douyin-item a{color:var(--txt);text-decoration:none;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+  .douyin-item a:hover{color:var(--accent2)}
+  .douyin-item .hv{color:var(--txt3);font-size:12px;flex:none}
+
+  footer{margin-top:30px;font-size:14px;color:var(--txt3);line-height:1.9}
+  footer b{color:var(--txt2)}
+  .empty{padding:70px 0;text-align:center;color:var(--txt3);font-size:16px}
+  @media(max-width:760px){
+    .card{flex-direction:column}
+    .card-media,.video-fallback{width:100%}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <div class="brand">
+      <div class="dot">TT</div>
+      <div>
+        TikTok 热梗监测台
+        <small>全球 + 东南亚 · 官方 Creative Center 一手数据</small>
+      </div>
+    </div>
+    <div class="meta-line">
+      最后更新：<b id="lastUpdated">--</b><br>
+      <span class="tip" id="methodTip">数据口径说明（悬停查看）</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="filterbar">
+    <div class="tabs" id="windowTabs">
+      <div class="tab" data-window="7">近7天</div>
+      <div class="tab active" data-window="30">近30天</div>
+      <div class="tab" data-window="90">近90天</div>
+    </div>
+    <div class="sep"></div>
+    <div class="tabs" id="regionTabs">
+      <div class="tab active" data-region="all">全部</div>
+      <div class="tab" data-region="global">全球·欧美</div>
+      <div class="tab" data-region="sea">东南亚</div>
+    </div>
+    <div class="sep"></div>
+    <div class="tabs" id="danceTabs">
+      <div class="tab active" data-dance="all">全部</div>
+      <div class="tab" data-dance="dance">歌舞类</div>
+      <div class="tab" data-dance="non_dance">非歌舞类</div>
+    </div>
+    <div class="sep"></div>
+    <select id="sortSelect">
+      <option value="rank">按综合排名</option>
+      <option value="views">按播放量</option>
+      <option value="posts">按投稿量</option>
+    </select>
+    <input type="search" id="searchInput" placeholder="搜索话题名称 / 分类关键词...">
+    <div class="count-tag" id="countTag"></div>
+  </div>
+
+  <div class="panel">
+    <h2>热度排行总览</h2>
+    <div class="sub" id="chartSub">跟随上方筛选/排序联动，柱状图按当前列表实时刷新（紫色=东南亚，蓝色=全球·欧美）</div>
+    <div class="chart-toggle">
+      <div class="ctab active" data-metric="views">按播放量</div>
+      <div class="ctab" data-metric="posts">按投稿量</div>
+    </div>
+    <div class="rank-chart" id="rankChart"></div>
+  </div>
+
+  <div class="list" id="cardList"></div>
+  <div class="empty" id="emptyState" style="display:none">没有匹配的话题，换个筛选或关键词试试</div>
+
+  <div class="panel douyin-panel">
+    <h2>中国参照 · 抖音热搜榜快照</h2>
+    <div class="sub" id="douyinNote"></div>
+    <div class="douyin-list" id="douyinList"></div>
+  </div>
+
+  <footer id="footerNote"></footer>
+</main>
+
+<script src="data.js"></script>
+<script>
+const D = window.TREND_DATA;
+
+function parseNum(str){
+  if(!str) return 0;
+  const m = String(str).trim().match(/^([\d.]+)\s*([KMB])?$/i);
+  if(!m) return 0;
+  let n = parseFloat(m[1]);
+  const unit = (m[2]||'').toUpperCase();
+  if(unit==='K') n *= 1e3;
+  if(unit==='M') n *= 1e6;
+  if(unit==='B') n *= 1e9;
+  return n;
+}
+function fmtNum(n){
+  if(n>=1e9) return (n/1e9).toFixed(1)+'B';
+  if(n>=1e6) return (n/1e6).toFixed(1)+'M';
+  if(n>=1e3) return (n/1e3).toFixed(1)+'K';
+  return String(Math.round(n));
+}
+
+Object.keys(D.windows).forEach(w=>{
+  D.windows[w].items.forEach(it=>{
+    it._maxViews = Math.max(...it.regions.map(r=>parseNum(r.views)));
+    it._maxPosts = Math.max(...it.regions.map(r=>parseNum(r.posts)));
+  });
+});
+
+const state = { window:'30', region:'all', dance:'all', sort:'rank', keyword:'', chartMetric:'views' };
+
+const douyinLabel = {
+  not_found: {cls:'not_found', text:'⚠ 国内暂未同步'},
+  nonapplicable: {cls:'nonapplicable', text:'— 地域局限，无法核实'},
+  synced: {cls:'synced', text:'✅ 国内抖音同步在热'}
+};
+
+function renderMeta(){
+  document.getElementById('lastUpdated').textContent = D.meta.lastUpdated.replace('T',' ').slice(0,16);
+  document.getElementById('methodTip').title = (D.meta.windowDescs[state.window]||'') + '\n' + D.meta.methodology + '\n' + (D.meta.videoNote||'');
+  document.getElementById('douyinNote').textContent =
+    D.meta.douyinNote + '（抖音快照抓取时间：' + D.meta.douyinFetchedAt.replace('T',' ').slice(0,16) + '）';
+  document.getElementById('footerNote').innerHTML =
+    '<b>红线声明：</b>' + D.meta.redLine +
+    '<br><b>方法论：</b>' + D.meta.methodology +
+    '<br><b>视频说明：</b>' + (D.meta.videoNote||'') +
+    '<br><b>融合建议说明：</b>' + (D.meta.fusionNote||'') +
+    '<br>本页面数据来自本人登录 TikTok 官方广告主后台 Creative Center 一手抓取，配合 60s 开放接口抓取抖音热搜快照做国内核实参照；国内参照与 TikTok 排序互不混算。';
+}
+
+function regionRow(r, maxV){
+  const val = state.chartMetric==='views' ? parseNum(r.views) : parseNum(r.posts);
+  const disp = state.chartMetric==='views' ? r.views : r.posts;
+  const pct = maxV? Math.max(4, val/maxV*100) : 4;
+  return `<div class="rc-row">
+    <div class="rc-code">${r.code}</div>
+    <div class="rc-bar-bg"><div class="rc-bar-fill" style="width:${pct}%"></div></div>
+    <div class="rc-val">${disp}</div>
+  </div>`;
+}
+
+function videoBlock(it){
+  const ve = it.videoEmbed;
+  if(!ve) return `<div class="video-fallback">暂无可展示的真实参考视频</div>`;
+  const url = `https://www.tiktok.com/@${ve.author}/video/${ve.videoId}`;
+  return `<blockquote class="tiktok-embed" cite="${url}" data-video-id="${ve.videoId}" style="max-width:325px;min-width:325px;">
+    <section><a target="_blank" href="${url}">@${ve.author} 的真实视频（抓取自话题页）</a></section>
+  </blockquote>`;
+}
+
+function fusionBlock(it){
+  const fs = it.fusionSuggestion;
+  if(!fs) return '';
+  return `<div class="fusion">
+    <div class="fusion-title">🎮 融合建议 · MCGG</div>
+    <div class="fpart"><span class="ftag">商业化</span><span class="ftext">${fs.commercial}</span></div>
+    <div class="fpart"><span class="ftag video">短视频</span><span class="ftext">${fs.video}</span></div>
+  </div>`;
+}
+
+function cardHtml(it){
+  const dc = douyinLabel[it.douyinCheck.status] || douyinLabel.not_found;
+  const maxV = Math.max(...it.regions.map(r=> state.chartMetric==='views'? parseNum(r.views): parseNum(r.posts)));
+  return `
+  <div class="card">
+    <div class="card-media">${videoBlock(it)}</div>
+    <div class="card-body">
+      <div class="card-head">
+        <div class="rank">${it.rank}</div>
+        <div class="card-title">
+          <div class="name">${it.name}</div>
+          <div class="cat">${it.category} · ${it.regionGroup==='global'?'全球/欧美':'东南亚'} · ${it.danceCategory==='dance'?'歌舞类':'非歌舞类'}</div>
+        </div>
+        <div class="conf ${it.confidence}">${it.confidence==='official'?'官方口径':'含义待核验'}</div>
+      </div>
+      <div class="region-chart">${it.regions.map(r=>regionRow(r,maxV)).join('')}</div>
+      <div class="field-row"><span class="lbl">简介</span>${it.summary}</div>
+      <div class="whyhot"><b>火的原因：</b>${it.whyHot}</div>
+      <div class="field-row"><span class="lbl">原梗出处</span>${it.origin}</div>
+      ${fusionBlock(it)}
+      <div class="douyin-badge ${dc.cls}" title="${it.douyinCheck.note}">${dc.text}</div>
+      <div class="link-row">
+        <a class="lbtn" href="${it.links.tag}" target="_blank" rel="noopener">话题页</a>
+        <a class="lbtn" href="${it.links.search}" target="_blank" rel="noopener">搜索页</a>
+        <a class="lbtn" href="${it.links.rankingSource}" target="_blank" rel="noopener">官方榜单入口</a>
+      </div>
+    </div>
+  </div>`;
+}
+
+function applyFilters(){
+  let list = D.windows[state.window].items.slice();
+  if(state.region!=='all') list = list.filter(it=>it.regionGroup===state.region);
+  if(state.dance!=='all') list = list.filter(it=>it.danceCategory===state.dance);
+  if(state.keyword){
+    const kw = state.keyword.toLowerCase();
+    list = list.filter(it=> (it.name+it.category+it.summary+it.whyHot).toLowerCase().includes(kw));
+  }
+  if(state.sort==='views') list.sort((a,b)=>b._maxViews-a._maxViews);
+  else if(state.sort==='posts') list.sort((a,b)=>b._maxPosts-a._maxPosts);
+  else list.sort((a,b)=>a.rank-b.rank);
+  return list;
+}
+
+function renderRankChart(list){
+  const box = document.getElementById('rankChart');
+  const metric = state.chartMetric;
+  const vals = list.map(it=> metric==='views'? it._maxViews : it._maxPosts);
+  const max = Math.max(...vals, 1);
+  box.innerHTML = list.map((it,i)=>{
+    const v = vals[i];
+    const pct = Math.max(3, v/max*100);
+    return `<div class="rank-row ${it.regionGroup}">
+      <div class="rlabel" title="${it.name}">${it.rank}. ${it.name}</div>
+      <div class="rbar-bg"><div class="rbar-fill" style="width:${pct}%"></div></div>
+      <div class="rvalue">${fmtNum(v)}</div>
+    </div>`;
+  }).join('');
+}
+
+function loadEmbedScript(){
+  const old = document.getElementById('tiktokEmbedScript');
+  if(old) old.remove();
+  const s = document.createElement('script');
+  s.id = 'tiktokEmbedScript';
+  s.async = true;
+  s.src = 'https://www.tiktok.com/embed.js?_=' + Date.now();
+  s.onerror = ()=> scheduleEmbedFallbackCheck(300);
+  document.body.appendChild(s);
+  scheduleEmbedFallbackCheck(6000);
+}
+
+function scheduleEmbedFallbackCheck(delay){
+  setTimeout(()=>{
+    document.querySelectorAll('.card-media').forEach(media=>{
+      const bq = media.querySelector('.tiktok-embed');
+      if(!bq || bq.querySelector('iframe')) return;
+      const url = bq.getAttribute('cite');
+      const m = url.match(/@([^/]+)/);
+      const author = m ? m[1] : '未知作者';
+      media.innerHTML = `<a class="video-openfallback" href="${url}" target="_blank" rel="noopener">
+        <div class="vof-icon">▶</div>
+        <div class="vof-text">视频未能在页面内加载（可能是浏览器广告拦截插件挡住了 TikTok 官方 embed 脚本）<br>点击在 TikTok 打开 @${author} 的真实视频</div>
+      </a>`;
+    });
+  }, delay);
+}
+
+function render(){
+  const list = applyFilters();
+  const cardList = document.getElementById('cardList');
+  document.getElementById('countTag').textContent = `共 ${list.length} / ${D.windows[state.window].items.length} 条`;
+  document.getElementById('emptyState').style.display = list.length? 'none':'block';
+  cardList.innerHTML = list.map(cardHtml).join('');
+  renderRankChart(list);
+  loadEmbedScript();
+  document.getElementById('methodTip').title = (D.meta.windowDescs[state.window]||'') + '\n' + D.meta.methodology + '\n' + (D.meta.videoNote||'');
+  const windowLabel = {"7":"近7天","30":"近30天","90":"近90天"}[state.window];
+  document.getElementById('chartSub').textContent =
+    `跟随上方筛选/排序联动，柱状图按当前列表实时刷新（紫色=东南亚，蓝色=全球·欧美）· 当前窗口：${windowLabel}`;
+}
+
+function renderDouyinList(){
+  const box = document.getElementById('douyinList');
+  box.innerHTML = D.douyinRef.map(d=>`
+    <div class="douyin-item">
+      <div class="r">${d.rank}</div>
+      <a href="${d.url}" target="_blank" rel="noopener">${d.keyword}</a>
+      <div class="hv">热度 ${d.hotValue.toLocaleString()}</div>
+    </div>`).join('');
+}
+
+document.getElementById('windowTabs').addEventListener('click', e=>{
+  const t = e.target.closest('.tab'); if(!t) return;
+  document.querySelectorAll('#windowTabs .tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  state.window = t.dataset.window;
+  render();
+});
+document.getElementById('regionTabs').addEventListener('click', e=>{
+  const t = e.target.closest('.tab'); if(!t) return;
+  document.querySelectorAll('#regionTabs .tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  state.region = t.dataset.region;
+  render();
+});
+document.getElementById('danceTabs').addEventListener('click', e=>{
+  const t = e.target.closest('.tab'); if(!t) return;
+  document.querySelectorAll('#danceTabs .tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  state.dance = t.dataset.dance;
+  render();
+});
+document.getElementById('sortSelect').addEventListener('change', e=>{ state.sort = e.target.value; render(); });
+document.getElementById('searchInput').addEventListener('input', e=>{ state.keyword = e.target.value.trim(); render(); });
+document.querySelector('.chart-toggle').addEventListener('click', e=>{
+  const t = e.target.closest('.ctab'); if(!t) return;
+  document.querySelectorAll('.chart-toggle .ctab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  state.chartMetric = t.dataset.metric;
+  render();
+});
+
+renderMeta();
+render();
+renderDouyinList();
+</script>
+</body>
+</html>
