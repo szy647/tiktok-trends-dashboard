@@ -1,13 +1,13 @@
 window.TREND_DATA = {
   "meta": {
-    "lastUpdated": "2026-08-24T18:00:00+08:00",
+    "lastUpdated": "2026-08-28T10:02:50.367+08:00",
     "methodology": "TikTok 官方不提供「全球娱乐总榜」，本榜为 7 个市场（美国/英国/巴西/印尼/泰国/菲律宾/越南）娱乐类（News & Entertainment）榜单合并去重、按官方播放量排序得出，不是某一张官方榜的原生前N条。TikTok Creative Center 官方仅提供 7天/30天/90天 三个时间窗口档位（无120天档位）。",
     "windowDescs": {
       "7": "近7天，TikTok Creative Center 官方口径",
       "30": "近30天，TikTok Creative Center 官方口径",
       "90": "近90天，TikTok Creative Center 官方口径"
     },
-    "douyinFetchedAt": "2026-08-24T17:55:00+08:00",
+    "douyinFetchedAt": "2026-08-28T10:02:50.367+08:00",
     "douyinNote": "抖音热搜与 TikTok Creative Center 的热度算法、语言、内容生态均不同，两者数值不可直接比较；抖音数据仅用于核实同一话题是否在国内同步可见，不参与本榜排序。",
     "videoNote": "每条下方嵌入的视频为本人实际打开该话题页时当前展示的真实视频（作者+视频ID均为抓取所得，非编造）；若近期抓取时话题页触发登录验证或未能成功嵌入，则该条 videoEmbed 为 null，页面会显示「点击在 TikTok 打开」的兜底入口，不编造视频信息。",
     "fusionNote": "融合建议为基于该热梗特征给 MCGG（Magic Chess: GoGo）的创意方向参考，非官方立项计划；凡涉及真实人物肖像、第三方IP版权的条目，均已标注风险并给出更稳妥的替代路径，不建议未经授权直接商用。",
@@ -2544,123 +2544,123 @@ window.TREND_DATA = {
   "douyinRef": [
     {
       "rank": 1,
-      "keyword": "美这件事我只取悦自己",
-      "hotValue": 11306829,
-      "url": "https://www.douyin.com/search/%E7%BE%8E%E8%BF%99%E4%BB%B6%E4%BA%8B%E6%88%91%E5%8F%AA%E5%8F%96%E6%82%A6%E8%87%AA%E5%B7%B1"
+      "keyword": "中国男篮83:57大胜卡塔尔男篮",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE83%3A57%E5%A4%A7%E8%83%9C%E5%8D%A1%E5%A1%94%E5%B0%94%E7%94%B7%E7%AF%AE",
+      "hotValue": "11.8M"
     },
     {
       "rank": 2,
-      "keyword": "AI补全了我对长辈的所有未知",
-      "hotValue": 11102575,
-      "url": "https://www.douyin.com/search/AI%E8%A1%A5%E5%85%A8%E4%BA%86%E6%88%91%E5%AF%B9%E9%95%BF%E8%BE%88%E7%9A%84%E6%89%80%E6%9C%89%E6%9C%AA%E7%9F%A5"
+      "keyword": "“沙德尔”在浙江玉环登陆",
+      "url": "https://www.douyin.com/search/%E2%80%9C%E6%B2%99%E5%BE%B7%E5%B0%94%E2%80%9D%E5%9C%A8%E6%B5%99%E6%B1%9F%E7%8E%89%E7%8E%AF%E7%99%BB%E9%99%86",
+      "hotValue": "11.1M"
     },
     {
       "rank": 3,
-      "keyword": "我国服务业持续扩能提质",
-      "hotValue": 11042407,
-      "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E6%9C%8D%E5%8A%A1%E4%B8%9A%E6%8C%81%E7%BB%AD%E6%89%A9%E8%83%BD%E6%8F%90%E8%B4%A8"
+      "keyword": "运20抵达西藏驰援吉隆",
+      "url": "https://www.douyin.com/search/%E8%BF%9020%E6%8A%B5%E8%BE%BE%E8%A5%BF%E8%97%8F%E9%A9%B0%E6%8F%B4%E5%90%89%E9%9A%86",
+      "hotValue": "10.9M"
     },
     {
       "rank": 4,
-      "keyword": "追梦这件事只要开始就不晚",
-      "hotValue": 10985383,
-      "url": "https://www.douyin.com/search/%E8%BF%BD%E6%A2%A6%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%8F%AA%E8%A6%81%E5%BC%80%E5%A7%8B%E5%B0%B1%E4%B8%8D%E6%99%9A"
+      "keyword": "秋季外套大测评",
+      "url": "https://www.douyin.com/search/%E7%A7%8B%E5%AD%A3%E5%A4%96%E5%A5%97%E5%A4%A7%E6%B5%8B%E8%AF%84",
+      "hotValue": "10.9M"
     },
     {
       "rank": 5,
-      "keyword": "娃圈总动员全体开动",
-      "hotValue": 10384988,
-      "url": "https://www.douyin.com/search/%E5%A8%83%E5%9C%88%E6%80%BB%E5%8A%A8%E5%91%98%E5%85%A8%E4%BD%93%E5%BC%80%E5%8A%A8"
+      "keyword": "英伟达市值一夜暴增2.97万亿元",
+      "url": "https://www.douyin.com/search/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E4%B8%80%E5%A4%9C%E6%9A%B4%E5%A2%9E2.97%E4%B8%87%E4%BA%BF%E5%85%83",
+      "hotValue": "10.2M"
     },
     {
       "rank": 6,
-      "keyword": "广东男篮新任主教练曝光",
-      "hotValue": 10361190,
-      "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E7%94%B7%E7%AF%AE%E6%96%B0%E4%BB%BB%E4%B8%BB%E6%95%99%E7%BB%83%E6%9B%9D%E5%85%89"
+      "keyword": "赵心童世界排名升至第一",
+      "url": "https://www.douyin.com/search/%E8%B5%B5%E5%BF%83%E7%AB%A5%E4%B8%96%E7%95%8C%E6%8E%92%E5%90%8D%E5%8D%87%E8%87%B3%E7%AC%AC%E4%B8%80",
+      "hotValue": "10.1M"
     },
     {
       "rank": 7,
-      "keyword": "揭秘朱雀三号的回家路",
-      "hotValue": 9172581,
-      "url": "https://www.douyin.com/search/%E6%8F%AD%E7%A7%98%E6%9C%B1%E9%9B%80%E4%B8%89%E5%8F%B7%E7%9A%84%E5%9B%9E%E5%AE%B6%E8%B7%AF"
+      "keyword": "台风沙德尔实时路径",
+      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E5%AE%9E%E6%97%B6%E8%B7%AF%E5%BE%84",
+      "hotValue": "8.9M"
     },
     {
       "rank": 8,
-      "keyword": "BLG战胜LGD",
-      "hotValue": 8983679,
-      "url": "https://www.douyin.com/search/BLG%E6%88%98%E8%83%9CLGD"
+      "keyword": "苹果华为小米折叠屏集中撞档9月",
+      "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E6%8A%98%E5%8F%A0%E5%B1%8F%E9%9B%86%E4%B8%AD%E6%92%9E%E6%A1%A39%E6%9C%88",
+      "hotValue": "8.9M"
     },
     {
       "rank": 9,
-      "keyword": "机器人跑出凌波微步既视感",
-      "hotValue": 8971723,
-      "url": "https://www.douyin.com/search/%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B7%91%E5%87%BA%E5%87%8C%E6%B3%A2%E5%BE%AE%E6%AD%A5%E6%97%A2%E8%A7%86%E6%84%9F"
+      "keyword": "秋日citygirl穿搭",
+      "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5citygirl%E7%A9%BF%E6%90%AD",
+      "hotValue": "8.5M"
     },
     {
       "rank": 10,
-      "keyword": "对话吉利汽车创始人李书福",
-      "hotValue": 8741553,
-      "url": "https://www.douyin.com/search/%E5%AF%B9%E8%AF%9D%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9D%8E%E4%B9%A6%E7%A6%8F"
+      "keyword": "GTA6加长版实机预告公布",
+      "url": "https://www.douyin.com/search/GTA6%E5%8A%A0%E9%95%BF%E7%89%88%E5%AE%9E%E6%9C%BA%E9%A2%84%E5%91%8A%E5%85%AC%E5%B8%83",
+      "hotValue": "8.4M"
     },
     {
       "rank": 11,
-      "keyword": "SK海力士发布下一代CPO路线图",
-      "hotValue": 8576734,
-      "url": "https://www.douyin.com/search/SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E5%8F%91%E5%B8%83%E4%B8%8B%E4%B8%80%E4%BB%A3CPO%E8%B7%AF%E7%BA%BF%E5%9B%BE"
+      "keyword": "孙千的flora是形容词",
+      "url": "https://www.douyin.com/search/%E5%AD%99%E5%8D%83%E7%9A%84flora%E6%98%AF%E5%BD%A2%E5%AE%B9%E8%AF%8D",
+      "hotValue": "8.4M"
     },
     {
       "rank": 12,
-      "keyword": "仿生机器人亮相世界机器人大会",
-      "hotValue": 8271867,
-      "url": "https://www.douyin.com/search/%E4%BB%BF%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BA%AE%E7%9B%B8%E4%B8%96%E7%95%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E4%BC%9A"
+      "keyword": "山东公布夏季高考调整优化方案",
+      "url": "https://www.douyin.com/search/%E5%B1%B1%E4%B8%9C%E5%85%AC%E5%B8%83%E5%A4%8F%E5%AD%A3%E9%AB%98%E8%80%83%E8%B0%83%E6%95%B4%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88",
+      "hotValue": "7.8M"
     },
     {
       "rank": 13,
-      "keyword": "解析宇树的成长之路",
-      "hotValue": 8117052,
-      "url": "https://www.douyin.com/search/%E8%A7%A3%E6%9E%90%E5%AE%87%E6%A0%91%E7%9A%84%E6%88%90%E9%95%BF%E4%B9%8B%E8%B7%AF"
+      "keyword": "这些危险信号或预示泥石流来袭",
+      "url": "https://www.douyin.com/search/%E8%BF%99%E4%BA%9B%E5%8D%B1%E9%99%A9%E4%BF%A1%E5%8F%B7%E6%88%96%E9%A2%84%E7%A4%BA%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%9D%A5%E8%A2%AD",
+      "hotValue": "7.8M"
     },
     {
       "rank": 14,
-      "keyword": "华为发布阔直板手机",
-      "hotValue": 8011489,
-      "url": "https://www.douyin.com/search/%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E9%98%94%E7%9B%B4%E6%9D%BF%E6%89%8B%E6%9C%BA"
+      "keyword": "梗最多的一个暑假要结束了",
+      "url": "https://www.douyin.com/search/%E6%A2%97%E6%9C%80%E5%A4%9A%E7%9A%84%E4%B8%80%E4%B8%AA%E6%9A%91%E5%81%87%E8%A6%81%E7%BB%93%E6%9D%9F%E4%BA%86",
+      "hotValue": "7.8M"
     },
     {
       "rank": 15,
-      "keyword": "生是为了证明爱存在的痕迹",
-      "hotValue": 7815951,
-      "url": "https://www.douyin.com/search/%E7%94%9F%E6%98%AF%E4%B8%BA%E4%BA%86%E8%AF%81%E6%98%8E%E7%88%B1%E5%AD%98%E5%9C%A8%E7%9A%84%E7%97%95%E8%BF%B9"
+      "keyword": "OpenAI发布入侵抱抱脸事件报告",
+      "url": "https://www.douyin.com/search/OpenAI%E5%8F%91%E5%B8%83%E5%85%A5%E4%BE%B5%E6%8A%B1%E6%8A%B1%E8%84%B8%E4%BA%8B%E4%BB%B6%E6%8A%A5%E5%91%8A",
+      "hotValue": "7.8M"
     },
     {
       "rank": 16,
-      "keyword": "秋天的主场是燕麦格雷",
-      "hotValue": 7801050,
-      "url": "https://www.douyin.com/search/%E7%A7%8B%E5%A4%A9%E7%9A%84%E4%B8%BB%E5%9C%BA%E6%98%AF%E7%87%95%E9%BA%A6%E6%A0%BC%E9%9B%B7"
+      "keyword": "台风沙德尔防御指南请查收",
+      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E9%98%B2%E5%BE%A1%E6%8C%87%E5%8D%97%E8%AF%B7%E6%9F%A5%E6%94%B6",
+      "hotValue": "7.8M"
     },
     {
       "rank": 17,
-      "keyword": "华为阔直板手机首发开箱",
-      "hotValue": 7774610,
-      "url": "https://www.douyin.com/search/%E5%8D%8E%E4%B8%BA%E9%98%94%E7%9B%B4%E6%9D%BF%E6%89%8B%E6%9C%BA%E9%A6%96%E5%8F%91%E5%BC%80%E7%AE%B1"
+      "keyword": "栾念尚之桃以包换包嗑到了",
+      "url": "https://www.douyin.com/search/%E6%A0%BE%E5%BF%B5%E5%B0%9A%E4%B9%8B%E6%A1%83%E4%BB%A5%E5%8C%85%E6%8D%A2%E5%8C%85%E5%97%91%E5%88%B0%E4%BA%86",
+      "hotValue": "7.7M"
     },
     {
       "rank": 18,
-      "keyword": "美股三大指数全线收跌",
-      "hotValue": 7749239,
-      "url": "https://www.douyin.com/search/%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E5%85%A8%E7%BA%BF%E6%94%B6%E8%B7%8C"
+      "keyword": "权威的音乐就该配权威的脸",
+      "url": "https://www.douyin.com/search/%E6%9D%83%E5%A8%81%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%B1%E8%AF%A5%E9%85%8D%E6%9D%83%E5%A8%81%E7%9A%84%E8%84%B8",
+      "hotValue": "7.7M"
     },
     {
       "rank": 19,
-      "keyword": "英语四六级成绩8月24日起可查",
-      "hotValue": 7738664,
-      "url": "https://www.douyin.com/search/%E8%8B%B1%E8%AF%AD%E5%9B%9B%E5%85%AD%E7%BA%A7%E6%88%90%E7%BB%A98%E6%9C%8824%E6%97%A5%E8%B5%B7%E5%8F%AF%E6%9F%A5"
+      "keyword": "我眼里的早春晴朗",
+      "url": "https://www.douyin.com/search/%E6%88%91%E7%9C%BC%E9%87%8C%E7%9A%84%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97",
+      "hotValue": "7.7M"
     },
     {
       "rank": 20,
-      "keyword": "三角洲S11极星守望活动",
-      "hotValue": 7735423,
-      "url": "https://www.douyin.com/search/%E4%B8%89%E8%A7%92%E6%B4%B2S11%E6%9E%81%E6%98%9F%E5%AE%88%E6%9C%9B%E6%B4%BB%E5%8A%A8"
+      "keyword": "西藏泥石流558人失联3人遇难",
+      "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81558%E4%BA%BA%E5%A4%B1%E8%81%943%E4%BA%BA%E9%81%87%E9%9A%BE",
+      "hotValue": "7.7M"
     }
   ]
 };
