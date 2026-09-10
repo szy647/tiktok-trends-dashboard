@@ -43,7 +43,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "帕顿逝世在中文媒体（新浪、今日头条等）也有报道，但当日未进入抖音热搜前列，故标记为未在抖音热搜中找到直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "gracieblevins01",
+            "videoId": "7682146475475750175"
+          },
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热，如需联动建议仅在官方致敬/公益向内容中使用，不做游戏内商业化设计。",
             "video": "暂不建议制作联动短视频，纯粹的名人逝世新闻不适合娱乐化二创。"
@@ -109,7 +112,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "巴西本地节庆，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "poder360",
+            "videoId": "7678465261145476372"
+          },
           "fusionSuggestion": {
             "commercial": "可参考节庆的牛仔竞技+音乐节双主题，为MCGG设计\"狂欢音乐节\"限时活动皮肤（吉他、牛仔帽元素），避免直接使用真实赞助商/艺人肖像。",
             "video": "适合做\"巴西狂欢节庆x MCGG\"节奏感短视频，突出现场氛围与音乐节拍。"
@@ -142,7 +148,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "新华社等中国官媒有报道该事件，但当日未进入抖音热搜前列。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tribunpontianak",
+            "videoId": "7683752184609082645"
+          },
           "fusionSuggestion": {
             "commercial": "灾害类议题不建议做游戏内商业化联动。",
             "video": "不建议制作娱乐化二创，可考虑公益向内容但需谨慎处理。"
@@ -175,7 +184,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "Netflix未在中国大陆上线，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "editmxnds29",
+            "videoId": "7683524447332076830"
+          },
           "fusionSuggestion": {
             "commercial": "涉及第三方影视IP版权，不建议直接商用；如需联动应走正规版权合作路径。",
             "video": "不建议未经授权直接使用剧集素材做联动短视频。"
@@ -208,7 +220,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "菲律宾本地娱乐活动，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "kintaranoigan",
+            "videoId": "7683116080688123157"
+          },
           "fusionSuggestion": {
             "commercial": "可参考\"明星慈善赛\"形式为MCGG策划社区向公益/慈善主题活动，但避免使用真实艺人形象。",
             "video": "适合做泛\"粉丝应援\"类联动素材，不直接引用具体艺人画面。"
@@ -241,7 +256,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "泰剧粉丝内容主要在东南亚TikTok传播，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "isabellashane1995",
+            "videoId": "7681350279664586002"
+          },
           "fusionSuggestion": {
             "commercial": "涉及第三方影视公司IP，不建议直接商用联动。",
             "video": "不建议未经授权使用剧集片段。"
@@ -274,7 +292,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "印尼本地宗教节日，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "suarajepara",
+            "videoId": "7683481670263000340"
+          },
           "fusionSuggestion": {
             "commercial": "宗教节日不建议做游戏商业化联动，避免文化敏感风险。",
             "video": "不建议制作娱乐化二创内容。"
@@ -307,7 +328,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "同#karhutla，中文媒体有报道但未进入抖音热搜前列。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "buletintv3",
+            "videoId": "7683529940385434897"
+          },
           "fusionSuggestion": {
             "commercial": "灾害类议题不建议商业化联动。",
             "video": "不建议制作娱乐化二创。"
@@ -340,7 +364,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "泰语本地话题，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "kersoeyamuletofficial",
+            "videoId": "7683744872230161685"
+          },
           "fusionSuggestion": {
             "commercial": "来源未核实，不建议蹭此话题做商业化设计。",
             "video": "暂不建议制作联动内容。"
@@ -373,7 +400,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南本地爱国主题内容，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "alithucphuong",
+            "videoId": "7680564980466339092"
+          },
           "fusionSuggestion": {
             "commercial": "涉及他国爱国/政治敏感元素，不建议做任何商业化联动。",
             "video": "不建议制作联动内容。"
@@ -406,7 +436,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "未在当日抖音热搜中找到对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tg_pantera161",
+            "videoId": "7683535355592772896"
+          },
           "fusionSuggestion": {
             "commercial": "来源未核实，不建议蹭此话题做商业化设计。",
             "video": "暂不建议制作联动内容。"
@@ -439,7 +472,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "该片未在中国大陆院线上映，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "user395184074815",
+            "videoId": "7682339495177424159"
+          },
           "fusionSuggestion": {
             "commercial": "涉及第三方电影IP版权，不建议直接商用；如需联动应走正规版权合作路径。",
             "video": "不建议未经授权使用电影素材。"
@@ -472,7 +508,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "未在当日抖音热搜中找到对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "drewfishy1",
+            "videoId": "7683702888945831181"
+          },
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热。",
             "video": "不建议制作联动短视频。"
@@ -505,7 +544,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "巴西本地节庆，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "luanpereiracantor",
+            "videoId": "7676687897008819477"
+          },
           "fusionSuggestion": {
             "commercial": "参考#barretos条目建议。",
             "video": "参考#barretos条目建议。"
@@ -538,7 +580,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "印尼本地宗教节日，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "fashionylh06",
+            "videoId": "7683755634344430866"
+          },
           "fusionSuggestion": {
             "commercial": "宗教节日不建议做游戏商业化联动。",
             "video": "不建议制作娱乐化二创内容。"
@@ -571,7 +616,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "泰国本地艺人活动，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pondphuwinn69",
+            "videoId": "7682138414044499221"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实艺人肖像与第三方演出版权，不建议直接商用联动。",
             "video": "不建议未经授权使用艺人演出素材。"
@@ -604,7 +652,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "节目未在中国大陆播出，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "lorelai.greene",
+            "videoId": "7683786018792705293"
+          },
           "fusionSuggestion": {
             "commercial": "来源未完全核实，且涉及第三方节目版权，不建议直接商用联动。",
             "video": "不建议未经授权使用节目素材。"
@@ -637,7 +688,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南本地官方活动，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "alithucphuong",
+            "videoId": "7680564980466339092"
+          },
           "fusionSuggestion": {
             "commercial": "涉及他国官方/政治相关活动，不建议做任何商业化联动。",
             "video": "不建议制作联动内容。"
@@ -670,7 +724,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "泰国本地艺人活动，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "ppaompyt",
+            "videoId": "7683744462148848917"
+          },
           "fusionSuggestion": {
             "commercial": "参考#pondphuwin条目建议，不建议直接商用联动。",
             "video": "参考#pondphuwin条目建议。"
@@ -703,7 +760,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南本地爱国主题内容，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tiktokcreators_vn",
+            "videoId": "7223624173111774469"
+          },
           "fusionSuggestion": {
             "commercial": "涉及他国爱国/政治敏感元素，不建议做任何商业化联动。",
             "video": "不建议制作联动内容。"
@@ -736,7 +796,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "巴西本地节庆，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "poder360",
+            "videoId": "7678465261145476372"
+          },
           "fusionSuggestion": {
             "commercial": "参考#barretos条目建议。",
             "video": "参考#barretos条目建议。"
@@ -769,7 +832,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "印尼本地话题，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "botokampbpati",
+            "videoId": "7683441763666660628"
+          },
           "fusionSuggestion": {
             "commercial": "来源未核实，不建议蹭此话题做商业化设计。",
             "video": "暂不建议制作联动内容。"
@@ -802,7 +868,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "未在当日抖音热搜中找到对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "thecaroandtina",
+            "videoId": "7680260193594150158"
+          },
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热。",
             "video": "不建议制作联动短视频。"
@@ -1295,7 +1364,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "好莱坞院线电影官方预告话题，非抖音原生梗，不适用平台间直接对标核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "avengersdomsdayupdates",
+            "videoId": "7683253519264009486"
+          },
           "fusionSuggestion": {
             "commercial": "漫威/迪士尼影业版权IP，角色形象与剧情受严格版权保护，不建议未经授权直接联动商业化产品；可用'多元宇宙碰撞'等抽象概念做原创皮肤灵感，但需规避角色相似度风险。",
             "video": "可做预告片解析、彩蛋盘点等评论类内容，避免直接搬运片方素材。"
@@ -1328,7 +1400,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "巴西本地节日话题，与抖音内容生态不相关，不适用核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "laurengodwin",
+            "videoId": "240789156484743168"
+          },
           "fusionSuggestion": {
             "commercial": "可结合'父亲节'情感主题做限时亲情向指挥官皮肤或活动，非第三方IP，商业化风险低，可常规推进。",
             "video": "建议制作巴西父亲节主题的游戏内内容（如父子组队、感恩短视频），贴合节日情绪，风险低。"
@@ -1394,7 +1469,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "含义未核实，暂不适用抖音核实流程。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "khanhsky8689",
+            "videoId": "7667967347415698718"
+          },
           "fusionSuggestion": {
             "commercial": "含义未明确前不建议投入商业化资源，避免误用可能关联真实人物或品牌的梗。",
             "video": "建议先人工核实该梗具体来源后再决定是否跟进，避免创作方向出错或误蹭无关内容。"
@@ -1427,7 +1505,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "属真实自然灾害新闻类严肃议题，不适用于抖音娱乐化对标核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "mzf76",
+            "videoId": "7683257307857161492"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实自然灾害与人员伤亡，不适合做任何娱乐化商业联动，不建议投入指挥官皮肤等商业资源。",
             "video": "不建议围绕地震灾情做娱乐化内容创作；如需关注可仅做公益募捐信息的严肃转发，避免以灾难为噱头博取流量。"
@@ -1470,7 +1551,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "欧美歌手官方专辑推广话题，非抖音原生梗，不适用平台间直接对标核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "facemojikeyboard",
+            "videoId": "7681497495163260180"
+          },
           "fusionSuggestion": {
             "commercial": "属于真实歌手的音乐作品与形象，不建议未经授权将其肖像或专辑元素用于商业化皮肤设计；可考虑'花瓣/绽放'等通用意象做原创联动创意，避开具体艺人版权。",
             "video": "可做专辑歌曲混剪、歌词翻译解读等内容，若使用官方MV/歌曲片段需留意版权授权。"
@@ -1503,7 +1587,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "外国真人演员娱乐新闻，非抖音原生梗，不适用平台间直接对标核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "mex.aep7",
+            "videoId": "7683661961720122645"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实演员肖像权，未经授权不可用于商业化角色设计或代言暗示，不建议投入资源做人物联动。",
             "video": "可做其相关电影票房、职业生涯盘点类内容，但涉及肖像照片/视频素材需注意版权与授权，不建议擅自剪辑其肖像做二创商用。"
@@ -1572,7 +1659,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南本土女演员相关话题，抖音无对应认证信息，暂不适用核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "odaycotrendbymznews",
+            "videoId": "7683794003275369749"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实公众人物肖像，不建议做具体人物形象关联的商业化联动，存在肖像权及授权风险；可考虑完全脱离该人物，借「越南影视女星/旅游大使」泛化形象做本地化推广创意。",
             "video": "不建议直接使用该真实人物的形象或名字做内容跟进；可关注其一般性公众话题热度，转向泛化的越南娱乐资讯类内容。"
@@ -1646,7 +1736,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "巴西本地语境标签且含义本身未确认，与抖音内容生态不相关，不适用核实。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "jhonatanblein2",
+            "videoId": "7683580076490755346"
+          },
           "fusionSuggestion": {
             "commercial": "含义未核实，暂不建议投入具体资源，需先人工确认标签实际内容后再评估联动方向。",
             "video": "含义待核验，不建议在未确认具体内容前跟进创作。"
