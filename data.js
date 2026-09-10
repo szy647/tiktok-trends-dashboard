@@ -1083,8 +1083,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "111.2K",
-              "views": "824.1M"
+              "posts": "158.3K",
+              "views": "1.3B"
             }
           ],
           "summary": "印尼独立日(8月17日)传统街头趣味比赛合集，如爬椰子树、吃克拉克面包比赛等庆典活动。",
@@ -1519,8 +1519,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "TH",
-              "posts": "46.7K",
-              "views": "395.5M"
+              "posts": "56.6K",
+              "views": "547.8M"
             }
           ],
           "summary": "泰国TikTok近期热门标签，指向名为「อู๋จุน」的人物，具体身份【含义待核验】。",
@@ -2117,8 +2117,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "507.3K",
-              "views": "2B"
+              "posts": "586.1K",
+              "views": "2.3B"
             }
           ],
           "summary": "17 Agustus即印尼独立日(8月17日)，是最大规模的印尼本地节日标签，承载各类庆典内容。",
@@ -2353,7 +2353,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "59K",
+              "posts": "59.3K",
               "views": "1.4B"
             }
           ],
@@ -2425,8 +2425,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "111.2K",
-              "views": "824.1M"
+              "posts": "164K",
+              "views": "1.4B"
             }
           ],
           "summary": "印尼独立日(8月17日)传统街头趣味比赛合集，如爬椰子树、吃克拉克面包比赛等庆典活动。",
