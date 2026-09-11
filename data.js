@@ -1,7 +1,7 @@
 window.TREND_DATA = {
   "meta": {
-    "lastUpdated": "2026-09-11T23:10:00+08:00",
-    "methodology": "TikTok 官方不提供「全球娱乐总榜」，本榜为 5 个市场（美国 US 代表全球+欧美，印尼 ID / 菲律宾 PH / 越南 VN / 马来西亚 MY 代表东南亚）娱乐类（News & Entertainment）榜单合并去重、按官方播放量排序得出，不是某一张官方榜的原生前N条。每个市场每个时间窗口在合并前均已抓取≥30条候选，并已排除纯硬新闻/政治事件/自然灾害通报及其衍生的\"灾情居家/避灾\"类内容、刑事案件等\"新闻类\"内容，只保留具备娱乐/梗/文化庆典/明星作品属性的条目（国家法定节日的全民庆典类内容视为文化娱乐范畴保留）。TikTok Creative Center 官方仅提供 7天/30天/90天 三个时间窗口档位（无120天档位，无效period参数会静默回退到7天档，需注意）。官方页面排序采用其自有trending算法而非单纯按播放量降序，本榜的\"按播放量重排\"是本站自定口径，与官方页面顺序不完全一致属正常现象。",
+    "lastUpdated": "2026-09-12T00:15:00+08:00",
+    "methodology": "TikTok 官方不提供「全球娱乐总榜」，本榜为 5 个市场（美国 US 代表全球+欧美，印尼 ID / 菲律宾 PH / 越南 VN / 马来西亚 MY 代表东南亚）娱乐类（News & Entertainment）榜单合并去重、按官方播放量排序得出，不是某一张官方榜的原生前N条。每个市场每个时间窗口在合并前均已抓取≥30条候选，并排除三类内容：①硬新闻/政治事件/自然灾害通报及其衍生的\"灾情居家/避灾\"类内容、刑事案件等新闻类；②\"播放量高但公开检索无法确认具体走红原因\"的模糊话题（不满足\"火的原因写得清楚明白\"的最低标准）；③以某个具体真实公众人物（明星/网红/运动员等）为核心话题的内容，即使该人物身份或事件本身是清楚的，也不纳入本榜——本榜聚焦泛娱乐梗/文化庆典/影视综艺IP/生活方式潮流，不做真人物话题的榜单化处理。国家法定节日的全民庆典类内容视为文化娱乐范畴保留。TikTok Creative Center 官方仅提供 7天/30天/90天 三个时间窗口档位（无120天档位，无效period参数会静默回退到7天档，需注意）。官方页面排序采用其自有trending算法而非单纯按播放量降序，本榜的\"按播放量重排\"是本站自定口径，与官方页面顺序不完全一致属正常现象。",
     "windowDescs": {
       "7": "近7天，TikTok Creative Center 官方口径",
       "30": "近30天，TikTok Creative Center 官方口径",
@@ -18,78 +18,6 @@ window.TREND_DATA = {
       "items": [
         {
           "rank": 1,
-          "tag": "#brez",
-          "name": "Brez（身份待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "65.3K",
-              "views": "1.1B"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
-          "whyHot": "播放量较高但未能通过公开检索找到明确的新闻源或人物身份，可能是小众社群内的梗/俚语/品牌词，具体走红原因暂无法确认。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/brez",
-            "search": "https://www.tiktok.com/search?q=brez",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "brezful",
-            "videoId": "7632574246438407445"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 2,
-          "tag": "#allamerican",
-          "name": "All American（美剧《全美一半》相关话题，具体触发事件待核验）",
-          "regionGroup": "global",
-          "category": "影视",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "54.7K",
-              "views": "1B"
-            }
-          ],
-          "summary": "美国电视剧《All American》(全美一半/橄榄球青春剧)相关话题，具体是否对应新季播出或特定剧情节点【待核验】。",
-          "whyHot": "该剧是CW/Netflix平台长青校园橄榄球题材美剧，拥有稳定粉丝群体，剧集相关片段常规性地在TikTok获得二创传播；本轮具体爆量原因未能通过公开检索确认。",
-          "origin": "美剧官方内容衍生传播，非创作者自发发起的独立话题。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/allamerican",
-            "search": "https://www.tiktok.com/search?q=allamerican",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "gj.ej7",
-            "videoId": "7682737061052386574"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及第三方影视剧版权，不建议未经授权直接使用剧集素材做商业联动。",
-            "video": "不建议直接搬运剧集片段做二创。"
-          }
-        },
-        {
-          "rank": 3,
           "tag": "#khaigiang",
           "name": "Khai Giảng（越南语\"开学典礼\"）",
           "regionGroup": "sea",
@@ -125,7 +53,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 4,
+          "rank": 2,
           "tag": "#buddy",
           "name": "Buddy（PokéDance舞蹈挑战主题曲）",
           "regionGroup": "global",
@@ -141,7 +69,7 @@ window.TREND_DATA = {
           "summary": "美国TikTok近期热门舞蹈挑战\"PokéDance\"的主题曲话题标签，用户跟着歌词\"Buddy buddy boom boom / Hey you're my my ma my buddy\"编排简单肢体动作，常搭配AI宠物/卡通滤镜特效拍摄。",
           "whyHot": "歌词简单重复、编舞门槛低，适合泛年龄层跟拍，配合TikTok AI特效工具形成低门槛强互动的传播组合，是典型的舞蹈类挑战热梗。",
           "origin": "创作者自发编排的舞蹈挑战，非官方品牌发起。",
-          "confidence": "uncertain",
+          "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/buddy",
             "search": "https://www.tiktok.com/search?q=buddy",
@@ -161,7 +89,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "tag": "#missworld",
           "name": "Miss World 2026（第73届世界小姐总决赛，越南芽庄举办）",
           "regionGroup": "sea",
@@ -197,223 +125,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 6,
-          "tag": "#dauxuantuoisang",
-          "name": "Đầu Xuân Tươi Sáng（越南语短语，具体出处待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "21.7K",
-              "views": "252.2M"
-            }
-          ],
-          "summary": "越南语短语，直译近似\"春日伊始，明媚美好\"，具体对应内容(歌曲/口号/活动)【待核验】。",
-          "whyHot": "越南语区播放量较高但未能通过公开检索确认具体出处，可能是歌曲歌词或商业活动口号，暂无法确认走红原因。",
-          "origin": "具体来源不明，非已核实公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dauxuantuoisang",
-            "search": "https://www.tiktok.com/search?q=dauxuantuoisang",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "bupbemiao",
-            "videoId": "7683881493134855445"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#paris",
-          "name": "Paris（具体指向待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "8.1K",
-              "views": "230.5M"
-            }
-          ],
-          "summary": "印尼TikTok近期热门标签，具体指向内容【待核验】，可能与巴黎旅行/时尚内容或同名人物相关，未查证到明确的官方新闻源。",
-          "whyHot": "播放量较高但公开检索未能确认具体走红事件，可能是泛旅行/生活方式类内容集合话题。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/paris",
-            "search": "https://www.tiktok.com/search?q=paris",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "thivv.jeyan",
-            "videoId": "7620814201346477333"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 8,
-          "tag": "#kanyewest",
-          "name": "Kanye West（美国说唱歌手/设计师）",
-          "regionGroup": "global",
-          "category": "音乐/明星",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "22.5K",
-              "views": "196.9M"
-            }
-          ],
-          "summary": "美国知名说唱歌手、时尚设计师Kanye West（现更名为Ye）相关话题，涵盖其音乐作品、时尚发布及公众言论的二创与讨论内容。",
-          "whyHot": "作为长期具有高话题性的公众人物，其新动态（专辑/时尚系列/公开言论）持续在TikTok引发模仿、剪辑与讨论，本轮具体触发点【待核验】。",
-          "origin": "公众人物个人动态引发的自发传播，非官方话题活动。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/kanyewest",
-            "search": "https://www.tiktok.com/search?q=kanyewest",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "pripattel",
-            "videoId": "7681507893857832206"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实明星肖像与争议言论，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
-            "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
-          }
-        },
-        {
-          "rank": 9,
-          "tag": "#maiamgiadinhviet",
-          "name": "Mái Ấm Gia Đình Việt（越南家庭主题电视节目相关话题）",
-          "regionGroup": "sea",
-          "category": "综艺/影视",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "3.2K",
-              "views": "187M"
-            }
-          ],
-          "summary": "越南电视节目《Mái Ấm Gia Đình Việt》（直译\"越南家庭的温暖\"）相关话题，节目聚焦真实家庭故事与公益互助内容，片段常被剪辑传播。",
-          "whyHot": "该节目在越南具有稳定收视基础，情感向片段容易引发共鸣式转发，具体本轮爆量节点【待核验】。",
-          "origin": "电视节目官方内容衍生传播。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/maiamgiadinhviet",
-            "search": "https://www.tiktok.com/search?q=maiamgiadinhviet",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "dicungmaiamgiadinhviet",
-            "videoId": "7682269014562770194"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实家庭故事，不建议直接商业化，可关注其温情叙事风格做泛化参考。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 10,
-          "tag": "#alixearle",
-          "name": "Alix Earle（美国知名TikTok/社媒博主）",
-          "regionGroup": "global",
-          "category": "网络红人",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "4.5K",
-              "views": "183M"
-            }
-          ],
-          "summary": "Alix Earle是美国知名生活方式类社交媒体博主/播客主持人，在Z世代群体中有较高影响力。",
-          "whyHot": "作为长期活跃的头部网红，其内容常规性地在TikTok获得高传播，本轮具体带动大量播放的单条内容或事件【待核验】。",
-          "origin": "真实公开博主，具体本轮走红内容片段未核实。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/alixearle",
-            "search": "https://www.tiktok.com/search?q=alixearle",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "bria.stuart",
-            "videoId": "7684055308200627487"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实网红肖像，不建议未经授权商用。",
-            "video": "不建议直接使用其肖像做联动内容。"
-          }
-        },
-        {
-          "rank": 11,
-          "tag": "#ye",
-          "name": "Ye（Kanye West现用名）",
-          "regionGroup": "global",
-          "category": "音乐/明星",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "24.4K",
-              "views": "173.8M"
-            }
-          ],
-          "summary": "Kanye West现用名\"Ye\"相关话题标签，与#kanyewest指向同一位公众人物，内容涵盖音乐与时尚动态讨论。",
-          "whyHot": "作为长期具有高话题性的公众人物，其新动态持续在TikTok引发模仿、剪辑与讨论，本轮具体触发点【待核验】。",
-          "origin": "公众人物个人动态引发的自发传播，非官方话题活动。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/ye",
-            "search": "https://www.tiktok.com/search?q=ye",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "pripattel",
-            "videoId": "7681507893857832206"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
-            "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
-          }
-        },
-        {
-          "rank": 12,
+          "rank": 4,
           "tag": "#anime",
           "name": "Anime（泛动漫内容合集标签）",
           "regionGroup": "sea",
@@ -449,7 +161,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 13,
+          "rank": 5,
           "tag": "#spongebob",
           "name": "海绵宝宝（SpongeBob SquarePants）",
           "regionGroup": "sea",
@@ -485,115 +197,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 14,
-          "tag": "#nataliereynolds",
-          "name": "Natalie Reynolds（身份待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "1.2K",
-              "views": "135.5M"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/nataliereynolds",
-            "search": "https://www.tiktok.com/search?q=nataliereynolds",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "nataliireynoldss",
-            "videoId": "7682950319470316830"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 15,
-          "tag": "#mcv",
-          "name": "MCV（具体指向待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "2.2K",
-              "views": "113.1M"
-            }
-          ],
-          "summary": "越南TikTok近期热门标签，具体指向内容【待核验】，可能与某选秀节目/媒体机构缩写相关，未查证到明确来源。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/mcv",
-            "search": "https://www.tiktok.com/search?q=mcv",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "ifootball.mcv",
-            "videoId": "6949758135821241602"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 16,
-          "tag": "#glenpowell",
-          "name": "Glen Powell（美国男演员）",
-          "regionGroup": "global",
-          "category": "影视/明星",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "2.1K",
-              "views": "108.8M"
-            }
-          ],
-          "summary": "美国演员Glen Powell（代表作《壮志凌云2》《龙卷风暴》）相关话题，涵盖其新作品宣传及粉丝二创内容。",
-          "whyHot": "作为近年上升期的好莱坞男演员，其新片宣传活动/采访片段常规性地在TikTok获得关注，本轮具体触发点【待核验】。",
-          "origin": "明星个人及作品宣传衍生传播。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/glenpowell",
-            "search": "https://www.tiktok.com/search?q=glenpowell",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "collegegameday",
-            "videoId": "7683939154622762254"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实明星肖像，不建议直接商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 17,
+          "rank": 6,
           "tag": "#michaelmyers",
           "name": "Michael Myers（《月光光心慌慌》系列反派角色）",
           "regionGroup": "global",
@@ -629,7 +233,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 18,
+          "rank": 7,
           "tag": "#virall",
           "name": "Virall（泛\"求上热门\"标签）",
           "regionGroup": "sea",
@@ -665,7 +269,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 19,
+          "rank": 8,
           "tag": "#spongebobsquarepants",
           "name": "海绵宝宝（SpongeBob SquarePants，全名标签）",
           "regionGroup": "sea",
@@ -701,7 +305,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 20,
+          "rank": 9,
           "tag": "#macha",
           "name": "Macha（抹茶风味饮品/甜品热潮，\"matcha\"的口语拼写变体）",
           "regionGroup": "sea",
@@ -737,79 +341,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 21,
-          "tag": "#latasya",
-          "name": "Latasya（身份待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "8.8K",
-              "views": "75.9M"
-            }
-          ],
-          "summary": "印尼TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/latasya",
-            "search": "https://www.tiktok.com/search?q=latasya",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "nayla_fardila",
-            "videoId": "7638471160572693780"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 22,
-          "tag": "#adela",
-          "name": "Adela（身份待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "10.4K",
-              "views": "74.1M"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/adela",
-            "search": "https://www.tiktok.com/search?q=adela",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "dreamlesz",
-            "videoId": "7673490468600286482"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 23,
+          "rank": 10,
           "tag": "#sabilutaubah",
           "name": "Sabilut Taubah（印尼语\"忏悔/回归正道之路\"，宗教主题内容）",
           "regionGroup": "sea",
@@ -845,7 +377,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 24,
+          "rank": 11,
           "tag": "#halloweenthegame",
           "name": "Halloween The Game（万圣节主题游戏/挑战梗）",
           "regionGroup": "global",
@@ -859,9 +391,9 @@ window.TREND_DATA = {
             }
           ],
           "summary": "随万圣节季节临近，以\"万圣节游戏\"为主题的挑战类内容标签，涵盖恐怖主题小游戏实况、装扮挑战等。",
-          "whyHot": "季节性话题，万圣节临近带动恐怖/装扮/游戏类内容集中爆发，具体指向的单一游戏【待核验】。",
+          "whyHot": "季节性话题，万圣节临近带动恐怖题材游戏实况、装扮挑战类内容集中爆发，是每年10月万圣节前的规律性游戏/装扮热梗。",
           "origin": "季节性泛类别标签，无单一发起人。",
-          "confidence": "uncertain",
+          "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/halloweenthegame",
             "search": "https://www.tiktok.com/search?q=halloweenthegame",
@@ -881,7 +413,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 25,
+          "rank": 12,
           "tag": "#sidehustlelive",
           "name": "Side Hustle Live（副业直播带货主题）",
           "regionGroup": "sea",
@@ -917,7 +449,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 26,
+          "rank": 13,
           "tag": "#livecanbeeasy",
           "name": "Live Can Be Easy（TikTok直播\"开播不难\"创作者梗）",
           "regionGroup": "global",
@@ -963,7 +495,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 27,
+          "rank": 14,
           "tag": "#animeedit",
           "name": "Anime Edit（泛动漫剪辑合集标签）",
           "regionGroup": "sea",
@@ -999,7 +531,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 28,
+          "rank": 15,
           "tag": "#thanhxuan",
           "name": "Thanh Xuân（越南语\"青春\"，怀旧主题标签）",
           "regionGroup": "sea",
@@ -1035,7 +567,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 29,
+          "rank": 16,
           "tag": "#chimpanzee",
           "name": "Chimpanzee（黑猩猩相关动物内容）",
           "regionGroup": "global",
@@ -1071,26 +603,206 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 30,
-          "tag": "#arianagrande",
-          "name": "Ariana Grande（美国歌手，本轮菲律宾地区热门话题）",
+          "rank": 17,
+          "tag": "#khaigiangnamhocmoi",
+          "name": "Khai Giảng Năm Học Mới（越南语\"新学年开学典礼\"，完整表述）",
           "regionGroup": "sea",
-          "category": "音乐明星",
+          "category": "教育/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "18.5K",
+              "views": "54.6M"
+            }
+          ],
+          "summary": "越南语\"新学年开学典礼\"的完整表述，与#khaigiang为同一开学季主题的不同变体。",
+          "whyHot": "与#khaigiang同源，越南教育部规定每年9月5日为全国统一开学日，各地学校举行开学典礼，是庆典矩阵中的完整表述变体。",
+          "origin": "越南教育部规定的全国性开学日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/khaigiangnamhocmoi",
+            "search": "https://www.tiktok.com/search?q=khaigiangnamhocmoi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "fellingthesound",
+            "videoId": "7681846777221221653"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注开学季情绪营销节点，做轻松向内容。",
+            "video": "适合做开学季主题的短视频文案参考。"
+          }
+        },
+        {
+          "rank": 18,
+          "tag": "#manifest",
+          "name": "Manifest（\"显化/心想事成\"自我实现内容潮流）",
+          "regionGroup": "sea",
+          "category": "生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "20K",
+              "views": "49.9M"
+            }
+          ],
+          "summary": "\"manifestation\"（显化）是TikTok长期流行的自我成长内容品类，用户分享通过正向思考、可视化目标来\"心想事成\"的经历和方法。",
+          "whyHot": "泛心理健康/自我提升类内容长期具有稳定受众，用户通过分享显化实现的具体案例（涨薪、恋爱、考试通过等）持续产出，是常年活跃的评论区互动型泛娱乐标签，非单一突发事件。",
+          "origin": "源自西方新时代自我实现理念，在TikTok被泛用为生活方式内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/manifest",
+            "search": "https://www.tiktok.com/search?q=manifest",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "souuuyyyaaa",
+            "videoId": "7680917169860807954"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注\"心想事成\"正向情绪营销角度，做游戏内愿望/抽卡系统的轻松向内容。",
+            "video": "适合做\"显化愿望成真瞬间\"风格的游戏内容参考。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#naruto",
+          "name": "火影忍者 Naruto",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "39K",
+              "views": "31.7M"
+            }
+          ],
+          "summary": "经典日本动漫IP《火影忍者》相关内容合集标签，涵盖角色剪辑、名场面二创等。",
+          "whyHot": "作为长青国民级动漫IP，拥有稳定的全球粉丝基础，角色/剧情相关剪辑内容长期持续产出，是常年活跃的泛娱乐标签而非单一热点事件。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/naruto",
+            "search": "https://www.tiktok.com/search?q=naruto",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "aaa..edits",
+            "videoId": "7682839469489212694"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑忍者风格皮肤/技能特效做泛化联动参考。",
+            "video": "适合做忍术风格的英雄技能卡点混剪。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#onepiece",
+          "name": "海贼王 One Piece",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "42.4K",
+              "views": "31.3M"
+            }
+          ],
+          "summary": "日本长青动漫IP《海贼王》相关内容合集标签。",
+          "whyHot": "作为全球发行量最高的漫画IP之一，粉丝群体庞大，剪辑/角色扮演/名场面二创内容长期持续产出，是常年活跃的泛娱乐标签。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/onepiece",
+            "search": "https://www.tiktok.com/search?q=onepiece",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "netflixvn",
+            "videoId": "7275585530400640274"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑海盗风格皮肤做泛化联动参考。",
+            "video": "适合做冒险主题的英雄剧情向短片。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#dragoncon",
+          "name": "Dragon Con 2026（美国亚特兰大流行文化盛会，40周年）",
+          "regionGroup": "global",
+          "category": "展会",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "6.3K",
+              "views": "29.7M"
+            }
+          ],
+          "summary": "北美规模最大的科幻、漫画与流行文化盛会之一，2026年迎来40周年，于劳动节假期（9月4日-7日）在美国亚特兰大举行。",
+          "whyHot": "本届吸引约7.5万参会者，为当地慈善机构筹款超32万美元，cosplay游行、明星见面会及展区内容在TikTok集中涌现，是每年劳动节假期的固定重磅流行文化活动。",
+          "origin": "官方流行文化盛会，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/dragoncon",
+            "search": "https://www.tiktok.com/search?q=dragoncon",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "lizzyy_bee",
+            "videoId": "7682533194880830733"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑参与同类展会做cosplay/角色扮演主题线下联动。",
+            "video": "适合做游戏角色cosplay风格的展会向内容参考。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#chiikawa",
+          "name": "Chiikawa（吉伊卡哇，日本人气可爱角色IP）",
+          "regionGroup": "sea",
+          "category": "动画角色",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "PH",
-              "posts": "6.7K",
-              "views": "56.8M"
+              "posts": "3.1K",
+              "views": "28.6M"
             }
           ],
-          "summary": "美国歌手Ariana Grande相关内容标签，本轮在菲律宾地区娱乐类榜单中出现，具体是新歌宣发、影视作品（如《魔法坏女巫》系列）片段翻拍还是其他单一事件驱动【待核验】，抓取时未见明确单一诱因。",
-          "whyHot": "作为长期活跃的顶级流行歌手/演员，其歌曲、影视片段、造型常被粉丝二次创作和跟拍，具体这轮激增的直接触发点尚未确认。",
-          "origin": "泛用明星话题标签，非单一事件发起。",
-          "confidence": "uncertain",
+          "summary": "日本插画家原创的人气角色IP\"Chiikawa\"（吉伊卡哇），以治愈系可爱画风走红全球。",
+          "whyHot": "该IP周边、动画短片、表情包长期在TikTok获得高传播，治愈系萌系内容具有稳定的跨市场受众基础，是常年活跃的泛娱乐IP标签。",
+          "origin": "日本独立插画家原创IP，非营销或创作者发起。",
+          "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/arianagrande",
-            "search": "https://www.tiktok.com/search?q=arianagrande",
+            "tag": "https://www.tiktok.com/tag/chiikawa",
+            "search": "https://www.tiktok.com/search?q=chiikawa",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
           },
           "douyinCheck": {
@@ -1098,12 +810,305 @@ window.TREND_DATA = {
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
           "videoEmbed": {
-            "author": "christiancafa",
-            "videoId": "7681467422330604832"
+            "author": "billythe.bean",
+            "videoId": "7682307719977520404"
           },
           "fusionSuggestion": {
-            "commercial": "泛用明星话题标签，暂无明确联动切入点。",
-            "video": "不建议特别制作联动内容。"
+            "commercial": "可考虑萌系吉祥物风格周边做泛化视觉参考。",
+            "video": "适合做治愈系萌趣风格的游戏内容参考。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#jjk",
+          "name": "咒术回战 Jujutsu Kaisen（缩写标签）",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "33.9K",
+              "views": "24.3M"
+            }
+          ],
+          "summary": "日本人气动漫《咒术回战》的缩写标签，相关内容合集。",
+          "whyHot": "作为近年热度最高的动漫IP之一，角色剪辑/AMV/cosplay内容长期活跃，是常年稳定的泛娱乐标签。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/jjk",
+            "search": "https://www.tiktok.com/search?q=jjk",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "._._._yz._._._",
+            "videoId": "7683129232364522773"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑咒力风格技能特效做泛化联动参考。",
+            "video": "适合做暗黑风格英雄技能卡点混剪。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#tiktokdoyourmagic",
+          "name": "TikTok Do Your Magic（TikTok官方创作者激励活动标签）",
+          "regionGroup": "sea",
+          "category": "创作者活动",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "8.8K",
+              "views": "20M"
+            },
+            {
+              "code": "VN",
+              "posts": "1.9K",
+              "views": "2.2M"
+            }
+          ],
+          "summary": "TikTok平台官方发起的创作者激励活动标签，鼓励用户发挥创意、展示才艺参与平台推广。",
+          "whyHot": "作为平台官方运营向标签，创作者广泛使用以获得算法流量倾斜，是常规的平台创作者激励型标签，非具体单一事件驱动。",
+          "origin": "TikTok平台官方发起，非创作者自发。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/tiktokdoyourmagic",
+            "search": "https://www.tiktok.com/search?q=tiktokdoyourmagic",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "hayif7",
+            "videoId": "7683339730884267282"
+          },
+          "fusionSuggestion": {
+            "commercial": "泛平台运营标签，不适合单独做商业化联动。",
+            "video": "可作为常规发布小技巧参考，非内容方向。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#demonslayer",
+          "name": "鬼灭之刃 Demon Slayer",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "41.3K",
+              "views": "18.9M"
+            }
+          ],
+          "summary": "日本人气动漫《鬼灭之刃》相关内容合集标签。",
+          "whyHot": "作为近年现象级动漫/剧场版IP，角色剪辑、剧场版相关内容持续在TikTok获得高传播，是稳定的泛娱乐动漫标签。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/demonslayer",
+            "search": "https://www.tiktok.com/search?q=demonslayer",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "choppem.edits",
+            "videoId": "7683536466017881357"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑刀剑风格技能特效做泛化联动参考。",
+            "video": "适合做剑术风格的英雄技能卡点混剪。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#labor",
+          "name": "Labor（美国劳动节，9月第一个星期一）",
+          "regionGroup": "global",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "3K",
+              "views": "17.6M"
+            }
+          ],
+          "summary": "美国劳动节（Labor Day）是联邦法定假日，落在每年9月第一个星期一，象征夏季结束。",
+          "whyHot": "劳动节长周末期间家庭聚会、烧烤、outlet促销季、返校季相关内容集中涌现，是美国每年周期性的季节性话题标签。",
+          "origin": "美国联邦法定节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/labor",
+            "search": "https://www.tiktok.com/search?q=labor",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "bazoka858",
+            "videoId": "7677990420055362847"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑劳动节长周末促销活动联动。",
+            "video": "适合做劳动节主题的游戏内促销活动预告。"
+          }
+        },
+        {
+          "rank": 27,
+          "tag": "#greenflag",
+          "name": "Green Flag（\"关系里的好信号\"梗，与Red Flag相对）",
+          "regionGroup": "sea",
+          "category": "情感/生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "7K",
+              "views": "17M"
+            }
+          ],
+          "summary": "源自\"red flag\"（危险信号/警示行为）的反义梗，用户用\"green flag\"分享恋爱、社交关系中值得称赞的正向行为。",
+          "whyHot": "情感/两性关系类内容长期是TikTok的稳定评论区互动品类，用户通过列举\"green flag\"行为进行共鸣式讨论和二创，是长期流行的泛娱乐情感标签，非单一突发事件。",
+          "origin": "网络流行语，源自\"red flag\"梗的反义延伸，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/greenflag",
+            "search": "https://www.tiktok.com/search?q=greenflag",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "jjkwifey_yy",
+            "videoId": "7682094120504020244"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注\"good teammate green flag\"角度做游戏内组队/社交系统轻松向内容。",
+            "video": "适合做\"游戏队友的green flag瞬间\"风格短视频。"
+          }
+        },
+        {
+          "rank": 28,
+          "tag": "#boruto",
+          "name": "博人传 Boruto（《火影忍者》续作）",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "25.5K",
+              "views": "16.2M"
+            }
+          ],
+          "summary": "《火影忍者》续作动漫《博人传》相关内容合集标签。",
+          "whyHot": "承接《火影忍者》的粉丝基础，角色剪辑/剧情讨论内容持续产出，是常年活跃的泛娱乐动漫标签。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/boruto",
+            "search": "https://www.tiktok.com/search?q=boruto",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "cindyngl__",
+            "videoId": "7684114438764498197"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑忍者风格皮肤/技能特效做泛化联动参考。",
+            "video": "适合做忍术风格的英雄技能卡点混剪。"
+          }
+        },
+        {
+          "rank": 29,
+          "tag": "#haikyuu",
+          "name": "排球少年 Haikyuu!!",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "32.9K",
+              "views": "15.3M"
+            }
+          ],
+          "summary": "日本人气排球题材动漫《排球少年》相关内容合集标签。",
+          "whyHot": "作为长青体育题材动漫IP，角色剪辑/名场面二创内容长期具有稳定粉丝群体支持，是常年活跃的泛娱乐标签。",
+          "origin": "长青动漫IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/haikyuu",
+            "search": "https://www.tiktok.com/search?q=haikyuu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "kiranichan7",
+            "videoId": "7683694178798243090"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注热血团队竞技风格做泛化联动参考。",
+            "video": "适合做团队协作竞技风格的短片。"
+          }
+        },
+        {
+          "rank": 30,
+          "tag": "#honkaistarrail",
+          "name": "崩坏：星穹铁道 Honkai: Star Rail",
+          "regionGroup": "sea",
+          "category": "游戏",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "33.3K",
+              "views": "14.7M"
+            }
+          ],
+          "summary": "米哈游旗下人气回合制RPG游戏《崩坏：星穹铁道》相关内容合集标签，涵盖角色宣传PV、剧情剪辑、二创同人内容。",
+          "whyHot": "作为近年全球发行量领先的二次元手游之一，持续的新角色/版本更新带动玩家实况、角色宣传向内容长期活跃，是稳定的泛娱乐游戏IP标签。",
+          "origin": "游戏官方IP衍生内容标签，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/honkaistarrail",
+            "search": "https://www.tiktok.com/search?q=honkaistarrail",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "lunarkyryll",
+            "videoId": "7683686157884067080"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注同类二次元回合制RPG的角色包装/抽卡玩法做同行业对标参考。",
+            "video": "适合做角色PV风格的英雄宣传短片。"
           }
         }
       ]
@@ -1112,114 +1117,6 @@ window.TREND_DATA = {
       "items": [
         {
           "rank": 1,
-          "tag": "#dollyparton",
-          "name": "Dolly Parton（美国乡村音乐传奇歌手逝世）",
-          "regionGroup": "global",
-          "category": "名人/音乐",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "416.1K",
-              "views": "2.6B"
-            }
-          ],
-          "summary": "美国乡村音乐传奇歌手Dolly Parton于2026年8月25日在田纳西州纳什维尔逝世，享年80岁，全网掀起悼念与金曲回顾热潮。",
-          "whyHot": "帕顿一生创作近3000首歌曲，代表作《Jolene》《I Will Always Love You》家喻户晓；去世后美国总统特朗普发文悼念并下令全美降半旗一周，大量用户用她的经典歌曲配乐制作纪念/回顾类短视频，带动#dolly #jolene #iwillalwaysloveyou等关联标签同步走高。",
-          "origin": "真实新闻事件（其侄子代表家属通过社媒确认死讯），非营销或创作者发起的话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dollyparton",
-            "search": "https://www.tiktok.com/search?q=dollyparton",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "帕顿逝世在中文媒体（新浪、今日头条等）也有报道，但当日未进入抖音热搜前列，故标记为未在抖音热搜中找到直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "gracieblevins01",
-            "videoId": "7682146475475750175"
-          },
-          "fusionSuggestion": {
-            "commercial": "避免借真实人物逝世话题做商业蹭热，如需联动建议仅在官方致敬/公益向内容中使用，不做游戏内商业化设计。",
-            "video": "暂不建议制作联动短视频，纯粹的名人逝世新闻不适合娱乐化二创。"
-          }
-        },
-        {
-          "rank": 2,
-          "tag": "#lovestory",
-          "name": "Love Story（越南音乐/情感向挑战热潮，具体出处待核验）",
-          "regionGroup": "sea",
-          "category": "音乐/挑战",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "904.2K",
-              "views": "1.6B"
-            }
-          ],
-          "summary": "越南TikTok近7天播放量最高的话题之一，围绕\"Love Story\"这一英文短语展开的音乐/情感向内容合集。",
-          "whyHot": "【含义待核验】英文标签在越南语语境下大量使用，声量集中在越南市场，推测与某首歌曲翻用或情感类短视频模板相关，但具体是哪首歌/哪个创作者发起未能独立核实。",
-          "origin": "【含义待核验】未能确认具体发起人或作品来源。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/lovestory",
-            "search": "https://www.tiktok.com/search?q=lovestory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "越南语境本地话题，非抖音热搜可比对对象。"
-          },
-          "videoEmbed": {
-            "author": "scutiefy_17",
-            "videoId": "7641364722507386130"
-          },
-          "fusionSuggestion": {
-            "commercial": "暂不建议蹭此话题，来源未核实前不宜设计具体商业化联动。",
-            "video": "暂不建议制作联动内容。"
-          }
-        },
-        {
-          "rank": 3,
-          "tag": "#brez",
-          "name": "Brez（身份待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "100.3K",
-              "views": "1.5B"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
-          "whyHot": "播放量较高但未能通过公开检索找到明确的新闻源或人物身份，可能是小众社群内的梗/俚语/品牌词，具体走红原因暂无法确认。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/brez",
-            "search": "https://www.tiktok.com/search?q=brez",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "brezful",
-            "videoId": "7632574246438407445"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 4,
           "tag": "#merdeka",
           "name": "Merdeka（印尼语\"独立\"，印尼独立日主题泛用词，与#17agustus同源）",
           "regionGroup": "sea",
@@ -1260,115 +1157,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 5,
-          "tag": "#haydenpanettiere",
-          "name": "Hayden Panettiere（美国女演员，2026年8月16日逝世）",
-          "regionGroup": "global",
-          "category": "名人",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "62.8K",
-              "views": "820.8M"
-            }
-          ],
-          "summary": "美国女演员Hayden Panettiere于2026年8月16日在美国南卡罗来纳州家中逝世，年仅36岁，其经纪人已发布官方声明确认。她曾主演NBC科幻剧《英雄》(Heroes)、《惊声尖叫6》等作品。",
-          "whyHot": "作为曾主演经典剧集《英雄》(饰演拥有自愈超能力的啦啦队长)的知名童星/演员，其逝世消息引发大量纪念/回顾类内容，警方正在调查其死亡是否涉及犯罪行为，事件仍在发展中。",
-          "origin": "真实新闻事件，其经纪人代表官方确认死讯，多家权威媒体(如ABC News)报道。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/haydenpanettiere",
-            "search": "https://www.tiktok.com/search?q=haydenpanettiere",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "provaislam752",
-            "videoId": "7683919117463637261"
-          },
-          "fusionSuggestion": {
-            "commercial": "避免借真实人物逝世话题做商业蹭热。",
-            "video": "不建议制作娱乐化二创，纯粹的名人逝世新闻不适合联动。"
-          }
-        },
-        {
-          "rank": 6,
-          "tag": "#phuongmychi",
-          "name": "Phương Mỹ Chi（越南知名歌手，童星出身）",
-          "regionGroup": "sea",
-          "category": "名人/音乐",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "68.5K",
-              "views": "796.4M"
-            }
-          ],
-          "summary": "Phương Mỹ Chi是越南知名歌手，童星出身(曾参加越南版《The Voice Kids》)，现已成长为具有全国知名度的流行歌手。",
-          "whyHot": "作为越南人气歌手，其音乐作品/舞台内容常规性地在TikTok获得高传播，本轮具体带动大量播放的单一作品/事件【待核验】。",
-          "origin": "真实公开歌手，具体本轮走红作品未核实。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/phuongmychi",
-            "search": "https://www.tiktok.com/search?q=phuongmychi",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "phuongmychiofficial",
-            "videoId": "7683075677494463762"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实音乐人肖像及版权，不建议未经授权商用。",
-            "video": "如需联动应走正规版权合作路径。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#rahul",
-          "name": "Rahul（身份待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "51.6K",
-              "views": "793.2M"
-            }
-          ],
-          "summary": "印尼TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/rahul",
-            "search": "https://www.tiktok.com/search?q=rahul",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "pd_khalil",
-            "videoId": "7681737392629517589"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 8,
+          "rank": 2,
           "tag": "#maulidnabi",
           "name": "Maulid Nabi（先知穆罕默德诞辰纪念日）",
           "regionGroup": "sea",
@@ -1409,43 +1198,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 9,
-          "tag": "#yengconstantino",
-          "name": "Yeng Constantino（菲律宾知名歌手）",
-          "regionGroup": "sea",
-          "category": "名人/音乐",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "26.5K",
-              "views": "638.6M"
-            }
-          ],
-          "summary": "Yeng Constantino是菲律宾知名歌手/词曲创作人，2006年通过菲律宾真人秀《Pinoy Dream Academy》出道，被誉为\"菲律宾流行摇滚女王\"，代表作《Ikaw》YouTube播放量已破亿。",
-          "whyHot": "作为菲律宾乐坛长青头部歌手，其音乐作品长期具有较高传播度，本轮具体带动大量播放的单一作品/事件【待核验】。",
-          "origin": "真实公开歌手，具体本轮走红作品未核实。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/yengconstantino",
-            "search": "https://www.tiktok.com/search?q=yengconstantino",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "cornerstoneofficial",
-            "videoId": "7679489630449782024"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实音乐人肖像及版权，不建议未经授权商用。",
-            "video": "如需联动应走正规版权合作路径。"
-          }
-        },
-        {
-          "rank": 10,
+          "rank": 3,
           "tag": "#d23",
           "name": "D23 Expo 2026（迪士尼官方粉丝盛会）",
           "regionGroup": "global",
@@ -1481,7 +1234,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 11,
+          "rank": 4,
           "tag": "#buddy",
           "name": "Buddy（PokéDance舞蹈挑战主题曲）",
           "regionGroup": "global",
@@ -1497,7 +1250,7 @@ window.TREND_DATA = {
           "summary": "美国TikTok近期热门舞蹈挑战\"PokéDance\"的主题曲话题标签，用户跟着歌词\"Buddy buddy boom boom / Hey you're my my ma my buddy\"编排简单肢体动作，常搭配AI宠物/卡通滤镜特效拍摄。",
           "whyHot": "歌词简单重复、编舞门槛低，适合泛年龄层跟拍，配合TikTok AI特效工具形成低门槛强互动的传播组合，是典型的舞蹈类挑战热梗。",
           "origin": "创作者自发编排的舞蹈挑战，非官方品牌发起。",
-          "confidence": "uncertain",
+          "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/buddy",
             "search": "https://www.tiktok.com/search?q=buddy",
@@ -1517,7 +1270,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 12,
+          "rank": 5,
           "tag": "#missworld",
           "name": "Miss World 2026（第73届世界小姐总决赛，越南芽庄举办）",
           "regionGroup": "sea",
@@ -1553,151 +1306,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 13,
-          "tag": "#ted",
-          "name": "Ted（具体指向待核验，可能与影视角色或同名内容相关）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "37.1K",
-              "views": "531.6M"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的明确新闻源或知名人物报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/ted",
-            "search": "https://www.tiktok.com/search?q=ted",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "dwzcore",
-            "videoId": "7682049616069578017"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 14,
-          "tag": "#dolly",
-          "name": "Dolly（Dolly Parton逝世话题的简称标签）",
-          "regionGroup": "global",
-          "category": "名人/音乐",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "123.1K",
-              "views": "521.6M"
-            }
-          ],
-          "summary": "与#dollyparton同一事件（歌手Dolly Parton逝世）相关的简称标签，聚合大量金曲回顾与悼念内容。",
-          "whyHot": "参见#dollyparton条目，用户更倾向用简称#dolly搭配她的经典歌曲进行二创传播。",
-          "origin": "真实新闻事件延伸出的简称标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dolly",
-            "search": "https://www.tiktok.com/search?q=dolly",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "未在当日抖音热搜中找到对应条目。"
-          },
-          "videoEmbed": {
-            "author": "drewfishy1",
-            "videoId": "7683702888945831181"
-          },
-          "fusionSuggestion": {
-            "commercial": "避免借真实人物逝世话题做商业蹭热。",
-            "video": "不建议制作联动短视频。"
-          }
-        },
-        {
-          "rank": 15,
-          "tag": "#spokane",
-          "name": "Spokane（美国华盛顿州城市，具体指向待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "140.7K",
-              "views": "507.4M"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，指向华盛顿州斯波坎市，具体关联事件【待核验】，未查证到明确的公开新闻源。",
-          "whyHot": "播放量较高但公开检索未能确认具体走红事件。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/spokane",
-            "search": "https://www.tiktok.com/search?q=spokane",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "raimamariyam82",
-            "videoId": "7676205388148133150"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 16,
-          "tag": "#dauxuantuoisang",
-          "name": "Đầu Xuân Tươi Sáng（越南语短语，具体出处待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "41.3K",
-              "views": "491M"
-            }
-          ],
-          "summary": "越南语短语，直译近似\"春日伊始，明媚美好\"，具体对应内容(歌曲/口号/活动)【待核验】。",
-          "whyHot": "越南语区播放量较高但未能通过公开检索确认具体出处，可能是歌曲歌词或商业活动口号，暂无法确认走红原因。",
-          "origin": "具体来源不明，非已核实公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dauxuantuoisang",
-            "search": "https://www.tiktok.com/search?q=dauxuantuoisang",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "bupbemiao",
-            "videoId": "7683881493134855445"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
-          }
-        },
-        {
-          "rank": 17,
+          "rank": 6,
           "tag": "#dirgahayuindonesia",
           "name": "Dirgahayu Indonesia（印尼语\"祝印尼生日快乐\"，独立日祝福语）",
           "regionGroup": "sea",
@@ -1733,43 +1342,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 18,
-          "tag": "#ryanbang",
-          "name": "Ryan Bang（韩裔菲律宾知名主持人/演员）",
-          "regionGroup": "sea",
-          "category": "名人/综艺",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "12.1K",
-              "views": "460M"
-            }
-          ],
-          "summary": "Ryan Bang是韩裔菲律宾知名电视主持人、演员、喜剧人，2010年通过菲律宾真人秀《Pinoy Big Brother: Teen Clash》出道，长期活跃于菲律宾主流综艺，被称为\"有菲律宾心的韩国人\"。",
-          "whyHot": "作为菲律宾家喻户晓的跨国艺人，长期保持较高人气，本轮具体触发大量播放的单一事件/视频内容【待核验】，可能是其近期主持/综艺片段被广泛转发。",
-          "origin": "真实公开的公众人物，非虚构。具体本轮走红片段未核实。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/ryanbang",
-            "search": "https://www.tiktok.com/search?q=ryanbang",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "abscbn",
-            "videoId": "7680807155183734024"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实公众人物肖像，不建议未经授权商用。",
-            "video": "不建议直接使用其肖像做联动内容。"
-          }
-        },
-        {
-          "rank": 19,
+          "rank": 7,
           "tag": "#lanterns",
           "name": "Lanterns《灯侠》（HBO Max绿灯侠题材新剧）",
           "regionGroup": "global",
@@ -1805,7 +1378,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 20,
+          "rank": 8,
           "tag": "#khaigiang",
           "name": "Khai Giảng（越南语\"开学典礼\"）",
           "regionGroup": "sea",
@@ -1841,7 +1414,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 21,
+          "rank": 9,
           "tag": "#loveislandreunion",
           "name": "Love Island Reunion（真人秀《恋爱岛》同学会特辑）",
           "regionGroup": "global",
@@ -1855,9 +1428,9 @@ window.TREND_DATA = {
             }
           ],
           "summary": "美国版真人秀《Love Island》季后同学会特辑相关话题，参赛选手重聚片段、感情线后续讨论在TikTok传播。",
-          "whyHot": "真人秀忠实粉丝群体活跃，同学会环节常有爆点剪辑传播，具体本季细节【待核验】。",
+          "whyHot": "真人秀忠实粉丝群体活跃，季后同学会环节历来是全季最容易产生冲突/告白等爆点画面的环节，剪辑内容常规性地在TikTok获得高传播，是该真人秀品类的固定收官热点。",
           "origin": "综艺节目官方内容衍生传播。",
-          "confidence": "uncertain",
+          "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/loveislandreunion",
             "search": "https://www.tiktok.com/search?q=loveislandreunion",
@@ -1877,79 +1450,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 22,
-          "tag": "#phule",
-          "name": "Phú Lễ（身份/内容待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "11.7K",
-              "views": "399.9M"
-            }
-          ],
-          "summary": "越南TikTok近期热门标签，归类于宠物/美容个护相关，具体指向内容【待核验】，未查证到明确来源。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/phule",
-            "search": "https://www.tiktok.com/search?q=phule",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "minhtri97.shop",
-            "videoId": "7675761589647084821"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 23,
-          "tag": "#junghaein",
-          "name": "정해인 Jung Hae-in（丁海寅，韩国男演员）",
-          "regionGroup": "sea",
-          "category": "影视/明星",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "20.8K",
-              "views": "393.6M"
-            }
-          ],
-          "summary": "韩国演员丁海寅主演的Netflix爱情喜剧《我的荒糖恋爱》（与何英共同主演）于2026年8月7日上线，8月19日升至Netflix全球非英语剧集榜第一位，剧集片段及丁海寅相关二创在TikTok热度攀升。",
-          "whyHot": "剧集迅速登顶Netflix全球非英语榜首并进入68个国家/地区TOP10，男主角丁海寅的甜蜜互动片段/花絮成为跨区域粉丝二创素材。",
-          "origin": "Netflix官方剧集宣传衍生传播（已通过公开信息核实：2026年8月上线并登顶榜单）。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/junghaein",
-            "search": "https://www.tiktok.com/search?q=junghaein",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "zloomyx",
-            "videoId": "7684035525296065800"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实演员肖像及第三方剧集版权，不建议直接商业化联动。",
-            "video": "可关注韩剧甜宠剧情风格做泛化剧情向内容参考，不建议直接使用剧集素材。"
-          }
-        },
-        {
-          "rank": 24,
+          "rank": 10,
           "tag": "#nghihesonghihuu",
           "name": "Nghỉ Hè Xong Nghỉ Hưu（\"放完暑假就退休\"越南语调侃梗）",
           "regionGroup": "sea",
@@ -1985,43 +1486,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 25,
-          "tag": "#tinhbachnhien",
-          "name": "Tình Bạch Nhiên（身份/内容待核验，可能为影视角色或音乐作品名）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "28.4K",
-              "views": "367.9M"
-            }
-          ],
-          "summary": "越南TikTok近期热门标签，具体指向内容【待核验】，可能与影视剧角色或歌曲名相关，未查证到明确来源。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/tinhbachnhien",
-            "search": "https://www.tiktok.com/search?q=tinhbachnhien",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "duphimminhthich",
-            "videoId": "7682196988938505479"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 26,
+          "rank": 11,
           "tag": "#christmas",
           "name": "Christmas（圣诞节主题内容）",
           "regionGroup": "sea",
@@ -2057,7 +1522,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 27,
+          "rank": 12,
           "tag": "#vietnamtoiyeu",
           "name": "Việt Nam Tôi Yêu（\"我爱越南\"爱国主题标签）",
           "regionGroup": "sea",
@@ -2093,26 +1558,67 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 28,
-          "tag": "#j97",
-          "name": "Jack - J97（越南顶流男歌手）",
+          "rank": 13,
+          "tag": "#maulidnabimuhamammadsaw",
+          "name": "Maulid Nabi Muhammad SAW（先知穆罕默德诞辰纪念日，全称标签）",
           "regionGroup": "sea",
-          "category": "音乐/明星",
+          "category": "宗教/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "136.6K",
+              "views": "343.7M"
+            },
+            {
+              "code": "MY",
+              "posts": "5K",
+              "views": "13.8M"
+            }
+          ],
+          "summary": "先知穆罕默德诞辰纪念日的完整名称标签，与#maulidnabi为同一宗教节日，2026年该纪念日落在8月25日前后。",
+          "whyHot": "各地举行诵经、游行、宗教讲座等庆祝活动，节日高峰期带动大量宗教纪念类短视频集中涌现，与#maulidnabi同源同期。",
+          "origin": "伊斯兰教传统宗教节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/maulidnabimuhamammadsaw",
+            "search": "https://www.tiktok.com/search?q=maulidnabimuhamammadsaw",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "khzulfamustofaofficial",
+            "videoId": "7684180439468100881"
+          },
+          "fusionSuggestion": {
+            "commercial": "宗教节日不建议做游戏商业化联动，避免文化敏感风险。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 14,
+          "tag": "#toquoctrongtim",
+          "name": "Tổ Quốc Trong Tim（越南语\"祖国在心中\"，爱国主题标签）",
+          "regionGroup": "sea",
+          "category": "节日",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "VN",
-              "posts": "41.6K",
-              "views": "354.4M"
+              "posts": "27.9K",
+              "views": "322.7M"
             }
           ],
-          "summary": "越南顶流男歌手兼词曲作者Jack（本名Trịnh Trần Phương Tuấn，艺名Jack-J97）相关话题，涵盖其音乐作品及公众动态讨论。",
-          "whyHot": "作为越南乐坛头部艺人（曾获MAMA最佳越南新人、MTV EMA最佳东南亚艺人等奖项），其新动态持续引发粉丝群体二创与讨论，本轮具体触发点【待核验】。",
-          "origin": "知名歌手个人动态引发的自发传播。",
-          "confidence": "uncertain",
+          "summary": "越南语爱国主题短语\"祖国在心中\"，常用于越南国庆季节的庆典类内容。",
+          "whyHot": "与#vietnamtoiyeu/#2thang9同属越南国庆季爱国主题标签矩阵，全民参与度高，是每年9月初的规律性文化热梗。",
+          "origin": "越南国庆季通用爱国主题短语，非单一创作者发起。",
+          "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/j97",
-            "search": "https://www.tiktok.com/search?q=j97",
+            "tag": "https://www.tiktok.com/tag/toquoctrongtim",
+            "search": "https://www.tiktok.com/search?q=toquoctrongtim",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
           },
           "douyinCheck": {
@@ -2120,12 +1626,536 @@ window.TREND_DATA = {
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
           "videoEmbed": {
-            "author": "genzetertainment",
-            "videoId": "7684078858240412949"
+            "author": "nguoiyeunuoc2310",
+            "videoId": "7684068341446757639"
           },
           "fusionSuggestion": {
-            "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐风格做灵感参考。",
-            "video": "可参考其歌曲片段做卡点内容，避免直接使用其肖像。"
+            "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
+            "video": "适合做越南国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 15,
+          "tag": "#quockhanh",
+          "name": "Quốc Khánh（越南语\"国庆\"通用说法）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "93K",
+              "views": "308.7M"
+            }
+          ],
+          "summary": "越南语\"国庆\"的通用表述，与#2thang9为同一节日的不同表述。",
+          "whyHot": "与#2thang9/#toquoctrongtim同属越南国庆主题标签矩阵，是通用说法变体，热度逻辑一致。",
+          "origin": "越南官方法定节日通用说法，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/quockhanh",
+            "search": "https://www.tiktok.com/search?q=quockhanh",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "vanhien1970",
+            "videoId": "7679319030708260103"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
+            "video": "适合做越南国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 16,
+          "tag": "#vulanbaohieu",
+          "name": "Vu Lan Báo Hiếu（越南盂兰盆节/报孝节）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "95.7K",
+              "views": "262.6M"
+            }
+          ],
+          "summary": "越南传统佛教节日\"报孝节\"，落在农历七月十五前后，是感念父母恩情的重要节日。",
+          "whyHot": "节日期间越南民众普遍前往寺庙祈福、家庭团聚，感恩父母主题内容集中涌现，是每年周期性的文化宗教节日。",
+          "origin": "越南传统佛教节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/vulanbaohieu",
+            "search": "https://www.tiktok.com/search?q=vulanbaohieu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "nguyennhongghai19",
+            "videoId": "7677709247882251527"
+          },
+          "fusionSuggestion": {
+            "commercial": "涉及宗教文化内容，不建议做商业化联动。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 17,
+          "tag": "#fypシ゚viral__",
+          "name": "FYP Viral（泛\"求上推荐页\"标签）",
+          "regionGroup": "sea",
+          "category": "泛流量标签",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "207.5K",
+              "views": "195.8M"
+            },
+            {
+              "code": "VN",
+              "posts": "12.7K",
+              "views": "33.9M"
+            },
+            {
+              "code": "MY",
+              "posts": "60.8K",
+              "views": "85.2M"
+            }
+          ],
+          "summary": "多地区TikTok上常见的泛流量标签变体（For You Page + viral的关键词堆叠拼法），创作者用于给内容打标希望获得推荐流量，不指向具体单一事件。",
+          "whyHot": "属于创作者常规蹭流量标签打法，非具体热点事件，在美国/印尼/菲律宾/马来西亚等多市场同步高频出现。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral__",
+            "search": "https://www.tiktok.com/search?q=fyp%E3%82%B7%E3%82%9Aviral__",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "may_hmue_thazin",
+            "videoId": "7682400377861360904"
+          },
+          "fusionSuggestion": {
+            "commercial": "泛流量标签，不适合单独做商业化联动。",
+            "video": "可作为常规发布小技巧参考，非内容方向。"
+          }
+        },
+        {
+          "rank": 18,
+          "tag": "#2thang9",
+          "name": "2 Tháng 9（越南国庆日，9月2日）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "42.6K",
+              "views": "181M"
+            }
+          ],
+          "summary": "越南语\"9月2日\"，即越南国庆日，纪念1945年胡志明主席宣布越南民主共和国独立。",
+          "whyHot": "每年9月2日是越南最重要的法定节日，全国举行升旗仪式、庆典活动，爱国主题内容在节日前后集中涌现，与#vietnamtoiyeu同属庆典季内容矩阵。",
+          "origin": "越南官方法定节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/2thang9",
+            "search": "https://www.tiktok.com/search?q=2thang9",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "mai750210",
+            "videoId": "7676887804823080213"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
+            "video": "适合做越南国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#buwanngwika",
+          "name": "Buwan ng Wika（菲律宾语言月，8月）",
+          "regionGroup": "sea",
+          "category": "节日/教育",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "46.8K",
+              "views": "171.3M"
+            }
+          ],
+          "summary": "菲律宾语\"语言月\"，菲律宾政府将每年8月定为语言月，纪念和推广菲律宾国语（Filipino）。",
+          "whyHot": "语言月期间学校普遍举办演讲比赛、传统服饰（Filipiniana）展示、传统游戏等活动，师生记录相关活动内容在这一时期集中涌现，是每年周期性的教育文化月主题。",
+          "origin": "菲律宾政府官方文化教育月，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/buwanngwika",
+            "search": "https://www.tiktok.com/search?q=buwanngwika",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "totaybueno",
+            "videoId": "7678602530099563796"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注传统文化服饰/游戏元素做泛化视觉参考。",
+            "video": "适合做菲律宾传统文化主题的游戏内活动预告。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#frozen3",
+          "name": "Frozen 3《冰雪奇缘3》（迪士尼动画新作，D23首曝）",
+          "regionGroup": "global",
+          "category": "影视",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "11.2K",
+              "views": "138.8M"
+            }
+          ],
+          "summary": "迪士尼在2026年8月D23 Expo粉丝盛会上首次公布《冰雪奇缘3》概念画面，剧情涉及安娜与克里斯托夫的婚礼被新反派搅局，正式定档2027年11月24日北美上映。",
+          "whyHot": "D23现场首曝概念图，主创伊迪娜·门泽尔、克里斯汀·贝尔现场献唱经典曲目，粉丝现场实拍及官方发布片段在TikTok广泛传播，是D23盛会当期最受关注的迪士尼新片公告之一。",
+          "origin": "迪士尼官方在D23 Expo 2026上正式公布，非创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/frozen3",
+            "search": "https://www.tiktok.com/search?q=frozen3",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "m8teox",
+            "videoId": "7675718881276693783"
+          },
+          "fusionSuggestion": {
+            "commercial": "涉及第三方迪士尼IP，不建议直接商业化联动。",
+            "video": "可关注其\"婚礼被搅局\"式反转叙事结构做泛化剧情灵感参考。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#karnaval17agustus",
+          "name": "Karnaval 17 Agustus（印尼独立日狂欢游行）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "19.1K",
+              "views": "136.4M"
+            }
+          ],
+          "summary": "印尼语\"8月17日狂欢游行\"，指独立日期间社区组织的化装游行/彩车巡游活动，是庆典矩阵中的具体活动类型标签。",
+          "whyHot": "印尼独立日期间各地社区自发组织化装游行、创意彩车巡游，视觉效果强、参与度高，与#pawai/#gerakjalan/#17agustus同属庆典矩阵。",
+          "origin": "印尼独立日庆典的固定活动形式，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/karnaval17agustus",
+            "search": "https://www.tiktok.com/search?q=karnaval17agustus",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "ikyy00547",
+            "videoId": "7674966692564372754"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑游行彩车/化装元素做游戏内团队协作宣传素材。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#upacara17agustus",
+          "name": "Upacara 17 Agustus（印尼独立日升旗仪式）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "16.1K",
+              "views": "123.4M"
+            }
+          ],
+          "summary": "印尼语\"8月17日升旗仪式\"，指独立日当天全国统一举行的升旗典礼。",
+          "whyHot": "印尼独立日当天，从总统府到各地学校、机关、社区都会同步举行升旗仪式，是全民参与度最高的庆典环节，与#17agustus/#gerakjalan同属庆典矩阵。",
+          "origin": "印尼独立日固定仪式环节，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/upacara17agustus",
+            "search": "https://www.tiktok.com/search?q=upacara17agustus",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "jurandaj",
+            "videoId": "7674488538942950677"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#maulid",
+          "name": "Maulid（先知诞辰纪念日简称标签）",
+          "regionGroup": "sea",
+          "category": "宗教/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "45.7K",
+              "views": "112.1M"
+            },
+            {
+              "code": "MY",
+              "posts": "2.2K",
+              "views": "6.3M"
+            }
+          ],
+          "summary": "先知穆罕默德诞辰纪念日的简称标签，与#maulidnabi/#maulidnabimuhamammadsaw为同一宗教节日。",
+          "whyHot": "节日期间用户更倾向用简称标签搭配诵经/庆典内容发布，是同一节日热度矩阵的简称变体。",
+          "origin": "伊斯兰教传统宗教节日简称标签，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/maulid",
+            "search": "https://www.tiktok.com/search?q=maulid",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "iyanseleo",
+            "videoId": "7679311356276772116"
+          },
+          "fusionSuggestion": {
+            "commercial": "宗教节日不建议做游戏商业化联动，避免文化敏感风险。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#pawai",
+          "name": "Pawai（印尼语\"游行\"，独立日游行活动）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "23.3K",
+              "views": "108.7M"
+            }
+          ],
+          "summary": "印尼语\"游行\"，指独立日期间社区/学校组织的游行庆祝活动，与#gerakjalan类似但更泛用。",
+          "whyHot": "印尼独立日期间全国社区、学校普遍组织游行活动记录并上传，是庆典矩阵中的具体活动类型标签，热度逻辑与已核实的#gerakjalan/#17agustus一致。",
+          "origin": "印尼独立日庆典的固定活动形式，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/pawai",
+            "search": "https://www.tiktok.com/search?q=pawai",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "mochi_klepon1",
+            "videoId": "7679816189685550357"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑\"整齐划一\"的游行视觉元素做游戏内团队协作宣传素材。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#independenceday",
+          "name": "Independence Day（印尼独立日的英文通用说法）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "21.9K",
+              "views": "99.4M"
+            },
+            {
+              "code": "MY",
+              "posts": "5.8K",
+              "views": "23.6M"
+            }
+          ],
+          "summary": "印尼独立日（8月17日）的英文表述标签，与#merdeka/#17agustus为同一节日的不同语言变体。",
+          "whyHot": "每年8月围绕印尼独立日的庆典活动会同时带动印尼语和英语版标签，是庆典矩阵中的英文变体，热度逻辑与已核实的#17agustus/#merdeka一致。",
+          "origin": "印尼官方法定节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/independenceday",
+            "search": "https://www.tiktok.com/search?q=independenceday",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "zshanmalick",
+            "videoId": "7673616713467923720"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#17agustus",
+          "name": "17 Agustus（印尼独立日，8月17日）",
+          "regionGroup": "sea",
+          "category": "节日/时事",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "2.8K",
+              "views": "94.7M"
+            }
+          ],
+          "summary": "17 Agustus即印尼独立日(8月17日)，是最大规模的印尼本地节日标签，承载各类庆典内容。",
+          "whyHot": "1945年8月17日印尼宣布独立，此后每年8月17日成为全国最重要的法定节日，从升旗仪式、总统府庆典到街头趣味比赛、校园游行，几乎所有独立日相关内容都会打上此标签，是该批数据中体量最大的话题(近30天内50万+发布、总播放达2B)。",
+          "origin": "印尼国家法定节日，官方历史事件纪念日，全民共用标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/17agustus",
+            "search": "https://www.tiktok.com/search?q=17agustus",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=MY"
+          },
+          "douyinCheck": {
+            "status": "nonapplicable",
+            "note": "印尼国家法定节日泛用标签，非抖音热搜可比对的话题类型。"
+          },
+          "videoEmbed": {
+            "author": "rinisini2",
+            "videoId": "7674263628660509959"
+          },
+          "fusionSuggestion": {
+            "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
+            "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
+          }
+        },
+        {
+          "rank": 27,
+          "tag": "#harikebangsaan",
+          "name": "Hari Kebangsaan（马来西亚国庆日，8月31日）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "25.7K",
+              "views": "83.1M"
+            }
+          ],
+          "summary": "马来语\"国庆日\"，纪念1957年8月31日马来亚联合邦独立，是马来西亚最重要的法定节日。",
+          "whyHot": "每年8月围绕马来西亚国庆的庆典活动持续产生大量周边标签，游行、升旗、爱国主题内容集中涌现，与#malaysiamerdeka同源同期。",
+          "origin": "马来西亚官方法定节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/harikebangsaan",
+            "search": "https://www.tiktok.com/search?q=harikebangsaan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "efjey1624",
+            "videoId": "7680144194945502484"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑马来西亚国庆限定配色活动皮肤/庆典元素联动。",
+            "video": "适合做马来西亚国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 28,
+          "tag": "#minnesotastatefair",
+          "name": "Minnesota State Fair（明尼苏达州年度州博览会）",
+          "regionGroup": "global",
+          "category": "节日/生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "7.4K",
+              "views": "68M"
+            }
+          ],
+          "summary": "美国明尼苏达州的年度州博览会，被当地人称为\"the Great Minnesota Get-Together\"，是全美规模最大的州级博览会之一，历年惯例在8月末至劳动节假期期间举办。",
+          "whyHot": "博览会期间游乐设施、特色炸物小吃、农业展览等内容是美国中西部秋季固定的地方文化盛事，游客打卡内容在这段时间规律性增多，与#fairs同属秋季集市季内容矩阵。",
+          "origin": "美国明尼苏达州官方年度博览会，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/minnesotastatefair",
+            "search": "https://www.tiktok.com/search?q=minnesotastatefair",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "theerichammer",
+            "videoId": "7682051039817731341"
+          },
+          "fusionSuggestion": {
+            "commercial": "可结合集市游乐设施元素设计限时活动皮肤(摩天轮/炸物摊位等)。",
+            "video": "适合做\"秋季游乐集市\"主题短视频。"
           }
         }
       ]
@@ -2242,191 +2272,6 @@ window.TREND_DATA = {
         },
         {
           "rank": 4,
-          "tag": "#olivertree",
-          "name": "Oliver Tree",
-          "regionGroup": "global",
-          "category": "音乐/整活",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "235.8K",
-              "views": "2.7B"
-            },
-            {
-              "code": "PH",
-              "posts": "17.8K",
-              "views": "394.5M"
-            }
-          ],
-          "summary": "另类流行音乐人 Oliver Tree 相关话题，本轮近90天在巴西、英国娱乐榜同时上榜。",
-          "whyHot": "Oliver Tree 是一位美国另类流行音乐人，长期用夸张的公众人设做营销——巨大墨镜、锅盖头造型、复古运动服，整个形象自带笑点的视觉符号，梗点主要靠造型和肢体表演、不依赖语言，因此能跨市场传播。",
-          "origin": "歌手 Oliver Tree 本人及其歌曲/MV 引发的二创潮。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/olivertree",
-            "search": "https://www.tiktok.com/search?q=olivertree",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见相同关键词，海外音乐人整活类内容较少直接进入该榜。"
-          },
-          "videoEmbed": {
-            "author": "yelithh..z147",
-            "videoId": "7668042191591247112"
-          },
-          "fusionSuggestion": {
-            "commercial": "指挥官皮肤方向：巨型墨镜+锅盖头的『沙雕音乐人』限定造型，登场动作加入摘墨镜/甩头的浮夸镜头语言。",
-            "video": "拍一条指挥官戴上巨型墨镜、卡点做浮夸 pose 的整活短片，模仿 Oliver Tree 的肢体喜剧感。"
-          }
-        },
-        {
-          "rank": 5,
-          "tag": "#dollyparton",
-          "name": "Dolly Parton（美国乡村音乐传奇歌手逝世）",
-          "regionGroup": "global",
-          "category": "名人/音乐",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "430.8K",
-              "views": "2.7B"
-            }
-          ],
-          "summary": "美国乡村音乐传奇歌手Dolly Parton于2026年8月25日在田纳西州纳什维尔逝世，享年80岁，全网掀起悼念与金曲回顾热潮。",
-          "whyHot": "帕顿一生创作近3000首歌曲，代表作《Jolene》《I Will Always Love You》家喻户晓；去世后美国总统特朗普发文悼念并下令全美降半旗一周，大量用户用她的经典歌曲配乐制作纪念/回顾类短视频，带动#dolly #jolene #iwillalwaysloveyou等关联标签同步走高。",
-          "origin": "真实新闻事件（其侄子代表家属通过社媒确认死讯），非营销或创作者发起的话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dollyparton",
-            "search": "https://www.tiktok.com/search?q=dollyparton",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "帕顿逝世在中文媒体（新浪、今日头条等）也有报道，但当日未进入抖音热搜前列，故标记为未在抖音热搜中找到直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "gracieblevins01",
-            "videoId": "7682146475475750175"
-          },
-          "fusionSuggestion": {
-            "commercial": "避免借真实人物逝世话题做商业蹭热，如需联动建议仅在官方致敬/公益向内容中使用，不做游戏内商业化设计。",
-            "video": "暂不建议制作联动短视频，纯粹的名人逝世新闻不适合娱乐化二创。"
-          }
-        },
-        {
-          "rank": 6,
-          "tag": "#lovestory",
-          "name": "Love Story（越南音乐/情感向挑战热潮，具体出处待核验）",
-          "regionGroup": "sea",
-          "category": "音乐/挑战",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "934.8K",
-              "views": "1.9B"
-            }
-          ],
-          "summary": "越南TikTok近7天播放量最高的话题之一，围绕\"Love Story\"这一英文短语展开的音乐/情感向内容合集。",
-          "whyHot": "【含义待核验】英文标签在越南语语境下大量使用，声量集中在越南市场，推测与某首歌曲翻用或情感类短视频模板相关，但具体是哪首歌/哪个创作者发起未能独立核实。",
-          "origin": "【含义待核验】未能确认具体发起人或作品来源。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/lovestory",
-            "search": "https://www.tiktok.com/search?q=lovestory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "越南语境本地话题，非抖音热搜可比对对象。"
-          },
-          "videoEmbed": {
-            "author": "scutiefy_17",
-            "videoId": "7641364722507386130"
-          },
-          "fusionSuggestion": {
-            "commercial": "暂不建议蹭此话题，来源未核实前不宜设计具体商业化联动。",
-            "video": "暂不建议制作联动内容。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#naykilla",
-          "name": "Naykilla（含义待核验）",
-          "regionGroup": "sea",
-          "category": "含义不明",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "418.3K",
-              "views": "1.8B"
-            }
-          ],
-          "summary": "印尼语境标签，具体指代的人物或作品目前无法独立确认。",
-          "whyHot": "检索仅发现'Naykilla'出现在印尼Dangdut Koplo改编音乐应用的曲目名称中（如'So Naykilla'混音曲），TikTok Creative Center将其归类为'新闻与娱乐+美容个护'，暗示可能关联某位网红或艺人，但未找到可靠信源确认其具体身份。【含义待核验】。",
-          "origin": "印尼语境标签，具体归属（人物/歌曲/网红）【待核验】。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/naykilla",
-            "search": "https://www.tiktok.com/search?q=naykilla",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "印尼语境标签，与抖音（中国大陆产品）内容生态不相关，不适用核实。"
-          },
-          "videoEmbed": {
-            "author": "lovinglylov3ly0",
-            "videoId": "7672684387728641301"
-          },
-          "fusionSuggestion": {
-            "commercial": "含义未核实（可能为印尼歌曲或网红），暂不建议投入具体资源，需先人工确认后再评估联动方向。",
-            "video": "含义待核验，不建议在未确认具体内容前跟进创作。"
-          }
-        },
-        {
-          "rank": 8,
-          "tag": "#brez",
-          "name": "Brez（身份待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "111.9K",
-              "views": "1.7B"
-            }
-          ],
-          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
-          "whyHot": "播放量较高但未能通过公开检索找到明确的新闻源或人物身份，可能是小众社群内的梗/俚语/品牌词，具体走红原因暂无法确认。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/brez",
-            "search": "https://www.tiktok.com/search?q=brez",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "brezful",
-            "videoId": "7632574246438407445"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 9,
           "tag": "#catinthehat",
           "name": "The Cat in the Hat（华纳兄弟动画电影，迈克·梅耶斯主演）",
           "regionGroup": "global",
@@ -2462,7 +2307,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 10,
+          "rank": 5,
           "tag": "#merdeka",
           "name": "Merdeka（印尼语\"独立\"，印尼独立日主题泛用词，与#17agustus同源）",
           "regionGroup": "sea",
@@ -2503,7 +2348,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 11,
+          "rank": 6,
           "tag": "#spidermanbrandnewday",
           "name": "Spider-Man: Brand New Day",
           "regionGroup": "sea",
@@ -2549,43 +2394,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 12,
-          "tag": "#quietonthecreek",
-          "name": "Quiet on the Creek",
-          "regionGroup": "global",
-          "category": "影视/真人秀",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "358.3K",
-              "views": "1.2B"
-            }
-          ],
-          "summary": "美国真人秀/影视相关内容，本轮美国娱乐类播放量第一。",
-          "whyHot": "从标签字面意思看，「Quiet on the Creek」疑似与一部美国真人秀或影视剧相关（creek 意为小溪，可能与户外/乡村背景的剧情有关）。这类标签通常是剧粉剪辑名场面、讨论剧情反转、或对角色做二创的聚合入口。播放量持续走高说明该话题在美国有较高的话题热度，但具体指向哪部作品/哪个事件未经独立信源核实，标注待核验。",
-          "origin": "美国影视/真人秀话题。【具体剧名/节目归属待核验】",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/quietonthecreek",
-            "search": "https://www.tiktok.com/search?q=quietonthecreek",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照中未见相同关键词，海外影视话题通常不会直接进入抖音热搜。"
-          },
-          "videoEmbed": {
-            "author": "harley_haisleyyy",
-            "videoId": "7669527448807099678"
-          },
-          "fusionSuggestion": {
-            "commercial": "信息不足且含义待核验，暂不建议投入具体资源；如后续确认为热播真人秀，可考虑与节目方谈联名棋盘/指挥官皮肤（需版权授权）。",
-            "video": "暂不适合做内容联动，建议先确认该话题的具体指向后再决定是否跟进。"
-          }
-        },
-        {
-          "rank": 13,
+          "rank": 7,
           "tag": "#hutri",
           "name": "HUTRI（印尼\"共和国独立纪念日\"缩写，与#17agustus同源）",
           "regionGroup": "sea",
@@ -2621,7 +2430,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 14,
+          "rank": 8,
           "tag": "#agustusan",
           "name": "Agustusan（印尼语\"八月庆典\"，印尼独立日主题泛用词）",
           "regionGroup": "sea",
@@ -2657,7 +2466,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 15,
+          "rank": 9,
           "tag": "#fairs",
           "name": "Fairs（美国秋季州/县集市季相关内容）",
           "regionGroup": "global",
@@ -2673,7 +2482,7 @@ window.TREND_DATA = {
           "summary": "美国秋季州集市(State Fair)/县集市(County Fair)相关内容泛用标签，涵盖游乐设施、集市小吃、农产品展等主题短视频。",
           "whyHot": "美国大部分州/县的秋季集市集中在8-9月举办，是每年周期性的季节活动，家庭出游打卡内容在这个时间段规律性增多。",
           "origin": "季节性/周期性活动泛用标签，非单一事件发起。",
-          "confidence": "uncertain",
+          "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/fairs",
             "search": "https://www.tiktok.com/search?q=fairs",
@@ -2693,43 +2502,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 16,
-          "tag": "#brinity",
-          "name": "Brinity（具体身份/含义待核验）",
-          "regionGroup": "global",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "46.2K",
-              "views": "1.1B"
-            }
-          ],
-          "summary": "美国TikTok标签，具体对应内容【待核验】，未查证到对应的公开新闻或知名人物/事件报道。",
-          "whyHot": "播放量较高但未能通过公开检索确认具体内容，可能是小众社群梗或人物昵称，暂无法判断走红原因。",
-          "origin": "具体来源不明，非已核实公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/brinity",
-            "search": "https://www.tiktok.com/search?q=brinity",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "mysticring",
-            "videoId": "7680430244754427158"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
-          }
-        },
-        {
-          "rank": 17,
+          "rank": 10,
           "tag": "#fypfyypシfyp",
           "name": "FYP堆叠标签（泛用算法引流标签组合，非真实事件）",
           "regionGroup": "sea",
@@ -2765,7 +2538,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 18,
+          "rank": 11,
           "tag": "#kemerdekaan",
           "name": "Kemerdekaan（印尼语\"独立\"，印尼81周年独立日相关话题）",
           "regionGroup": "sea",
@@ -2801,79 +2574,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 19,
-          "tag": "#haydenpanettiere",
-          "name": "Hayden Panettiere（美国女演员，2026年8月16日逝世）",
-          "regionGroup": "global",
-          "category": "名人",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "63.1K",
-              "views": "829.8M"
-            }
-          ],
-          "summary": "美国女演员Hayden Panettiere于2026年8月16日在美国南卡罗来纳州家中逝世，年仅36岁，其经纪人已发布官方声明确认。她曾主演NBC科幻剧《英雄》(Heroes)、《惊声尖叫6》等作品。",
-          "whyHot": "作为曾主演经典剧集《英雄》(饰演拥有自愈超能力的啦啦队长)的知名童星/演员，其逝世消息引发大量纪念/回顾类内容，警方正在调查其死亡是否涉及犯罪行为，事件仍在发展中。",
-          "origin": "真实新闻事件，其经纪人代表官方确认死讯，多家权威媒体(如ABC News)报道。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/haydenpanettiere",
-            "search": "https://www.tiktok.com/search?q=haydenpanettiere",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "provaislam752",
-            "videoId": "7683919117463637261"
-          },
-          "fusionSuggestion": {
-            "commercial": "避免借真实人物逝世话题做商业蹭热。",
-            "video": "不建议制作娱乐化二创，纯粹的名人逝世新闻不适合联动。"
-          }
-        },
-        {
-          "rank": 20,
-          "tag": "#milenmelelehbahagia",
-          "name": "Milen Meleleh Bahagia（印尼歌手Mila与Valen合作曲目相关话题）",
-          "regionGroup": "sea",
-          "category": "音乐",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "79.9K",
-              "views": "812.7M"
-            }
-          ],
-          "summary": "印尼歌手Mila与Valen合作单曲《Meleleh Bahagia》（意为\"融化的幸福\"）相关话题，MV于2026年6月发布，本轮在TikTok上延续热度。",
-          "whyHot": "两位创作者的联名合作曲吸引双方粉丝群体传播，歌曲片段常被用作卡点/翻唱素材。",
-          "origin": "音乐作品官方发布衍生传播（已通过公开视频平台信息核实：2026年6月24日发布MV）。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/milenmelelehbahagia",
-            "search": "https://www.tiktok.com/search?q=milenmelelehbahagia",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "3dent_id",
-            "videoId": "7654885700478766356"
-          },
-          "fusionSuggestion": {
-            "commercial": "可考虑洗脑副歌片段做游戏内BGM/广告配乐参考。",
-            "video": "适合做歌曲片段卡点的角色展示视频。"
-          }
-        },
-        {
-          "rank": 21,
+          "rank": 12,
           "tag": "#maulidnabi",
           "name": "Maulid Nabi（先知穆罕默德诞辰纪念日）",
           "regionGroup": "sea",
@@ -2909,43 +2610,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 22,
-          "tag": "#mattcayetano",
-          "name": "Matt Cayetano（身份待核验，可能为体育相关人物）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "57K",
-              "views": "732.2M"
-            }
-          ],
-          "summary": "菲律宾TikTok近期热门标签，归类于体育/户外相关，具体指向人物或事件【待核验】，未查证到明确公开报道。",
-          "whyHot": "播放量较高但未能确认具体走红原因。",
-          "origin": "具体发起人/事件不明，非已核实的公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/mattcayetano",
-            "search": "https://www.tiktok.com/search?q=mattcayetano",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": {
-            "author": "chiksie",
-            "videoId": "7684171236804447508"
-          },
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议做任何商业化联动。",
-            "video": "暂不建议制作相关二创内容。"
-          }
-        },
-        {
-          "rank": 23,
+          "rank": 13,
           "tag": "#panitia17agustus",
           "name": "Panitia 17 Agustus（印尼独立日筹备委员会主题）",
           "regionGroup": "sea",
@@ -2981,7 +2646,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 24,
+          "rank": 14,
           "tag": "#fypシ゚viral__",
           "name": "FYP Viral（泛\"求上推荐页\"标签）",
           "regionGroup": "global",
@@ -3032,7 +2697,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 25,
+          "rank": 15,
           "tag": "#gerakjalan",
           "name": "Gerak Jalan（印尼独立日游行/踢正步方阵表演）",
           "regionGroup": "sea",
@@ -3068,7 +2733,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 26,
+          "rank": 16,
           "tag": "#agustus",
           "name": "Agustus（印尼语\"八月\"，独立日庆典季通用月份标签）",
           "regionGroup": "sea",
@@ -3101,6 +2766,371 @@ window.TREND_DATA = {
           "fusionSuggestion": {
             "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
             "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 17,
+          "tag": "#dirgahayuindonesia",
+          "name": "Dirgahayu Indonesia（印尼语\"祝印尼生日快乐\"，独立日祝福语）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "246.5K",
+              "views": "587.9M"
+            }
+          ],
+          "summary": "印尼语传统独立日祝福用语，每年8月17日前后印尼TikTok用户大量使用该标签发布爱国主题、庆祝活动内容。",
+          "whyHot": "印尼国庆季节性固定热词，全民参与度高，是每年8月的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/dirgahayuindonesia",
+            "search": "https://www.tiktok.com/search?q=dirgahayuindonesia",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "azamiami28",
+            "videoId": "7670890259474877703"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 18,
+          "tag": "#kemerdekaanindonesia",
+          "name": "Kemerdekaan Indonesia（印尼独立，完整表述变体）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "149.8K",
+              "views": "510.4M"
+            }
+          ],
+          "summary": "印尼语\"印尼独立\"的完整表述，与#merdeka/#kemerdekaan为同一独立日主题的不同变体。",
+          "whyHot": "与#merdeka/#kemerdekaan/#17agustus同属独立日庆典矩阵中的完整表述标签变体，热度逻辑一致。",
+          "origin": "印尼独立日主题通用表述，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/kemerdekaanindonesia",
+            "search": "https://www.tiktok.com/search?q=kemerdekaanindonesia",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "lokalpride035",
+            "videoId": "7674105411422883092"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#khaigiang",
+          "name": "Khai Giảng（越南语\"开学典礼\"）",
+          "regionGroup": "sea",
+          "category": "校园/生活",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "81.9K",
+              "views": "493.2M"
+            }
+          ],
+          "summary": "越南9月5日左右全国统一开学典礼相关内容，是越南每年固定的教育系统仪式性活动。",
+          "whyHot": "越南教育部规定每年9月5日为全国统一开学日，各地学校举行升旗、致辞等开学典礼，家长和学生大量发布相关记录视频，是每年周期性话题。",
+          "origin": "越南教育系统官方固定节庆日，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/khaigiang",
+            "search": "https://www.tiktok.com/search?q=khaigiang",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "fellingthesound",
+            "videoId": "7681846777221221653"
+          },
+          "fusionSuggestion": {
+            "commercial": "可参考类似#lomba17agustus的处理方式，设计\"开学季\"限时活动，避免使用真实校园肖像。",
+            "video": "适合做\"越南开学季\"主题短视频联动。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#nghihesonghihuu",
+          "name": "Nghỉ Hè Xong Nghỉ Hưu（\"放完暑假就退休\"越南语调侃梗）",
+          "regionGroup": "sea",
+          "category": "生活方式/校园",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "25.4K",
+              "views": "456.4M"
+            }
+          ],
+          "summary": "越南语调侃短语，直译\"放完暑假紧接着退休\"，学生/老师用来自嘲暑假结束后开学的疲惫与不情愿心态。",
+          "whyHot": "开学季固定情绪共鸣梗，用夸张的\"退休\"说法制造反差幽默感，是每年8-9月开学季的规律性校园热梗。",
+          "origin": "网络自发调侃用语，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/nghihesonghihuu",
+            "search": "https://www.tiktok.com/search?q=nghihesonghihuu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "sunseeshowbiz",
+            "videoId": "7683906780681751816"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注开学季情绪营销节点，做\"开学后如何靠游戏放松\"角度的轻松内容。",
+            "video": "适合做开学季自嘲/共鸣类短视频文案参考。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#maulidnabimuhamammadsaw",
+          "name": "Maulid Nabi Muhammad SAW（先知穆罕默德诞辰纪念日，全称标签）",
+          "regionGroup": "sea",
+          "category": "宗教/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "141K",
+              "views": "382.2M"
+            }
+          ],
+          "summary": "先知穆罕默德诞辰纪念日的完整名称标签，与#maulidnabi为同一宗教节日，2026年该纪念日落在8月25日前后。",
+          "whyHot": "各地举行诵经、游行、宗教讲座等庆祝活动，节日高峰期带动大量宗教纪念类短视频集中涌现，与#maulidnabi同源同期。",
+          "origin": "伊斯兰教传统宗教节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/maulidnabimuhamammadsaw",
+            "search": "https://www.tiktok.com/search?q=maulidnabimuhamammadsaw",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "khzulfamustofaofficial",
+            "videoId": "7684180439468100881"
+          },
+          "fusionSuggestion": {
+            "commercial": "宗教节日不建议做游戏商业化联动，避免文化敏感风险。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#quockhanh",
+          "name": "Quốc Khánh（越南语\"国庆\"通用说法）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "95.5K",
+              "views": "347M"
+            }
+          ],
+          "summary": "越南语\"国庆\"的通用表述，与#2thang9为同一节日的不同表述。",
+          "whyHot": "与#2thang9/#toquoctrongtim同属越南国庆主题标签矩阵，是通用说法变体，热度逻辑一致。",
+          "origin": "越南官方法定节日通用说法，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/quockhanh",
+            "search": "https://www.tiktok.com/search?q=quockhanh",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "vanhien1970",
+            "videoId": "7679319030708260103"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
+            "video": "适合做越南国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#vulanbaohieu",
+          "name": "Vu Lan Báo Hiếu（越南盂兰盆节/报孝节）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "100.7K",
+              "views": "294.3M"
+            }
+          ],
+          "summary": "越南传统佛教节日\"报孝节\"，落在农历七月十五前后，是感念父母恩情的重要节日。",
+          "whyHot": "节日期间越南民众普遍前往寺庙祈福、家庭团聚，感恩父母主题内容集中涌现，是每年周期性的文化宗教节日。",
+          "origin": "越南传统佛教节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/vulanbaohieu",
+            "search": "https://www.tiktok.com/search?q=vulanbaohieu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "nguyennhongghai19",
+            "videoId": "7677709247882251527"
+          },
+          "fusionSuggestion": {
+            "commercial": "涉及宗教文化内容，不建议做商业化联动。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#agustusmerdeka",
+          "name": "Agustus Merdeka（印尼语\"独立八月\"，独立日庆典变体）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "89.6K",
+              "views": "265.7M"
+            }
+          ],
+          "summary": "印尼语\"独立八月\"，将\"八月\"与\"独立\"两个独立日核心词组合的合成标签。",
+          "whyHot": "与#agustus/#merdeka同源，是独立日庆典矩阵中的合成词变体标签，热度逻辑一致。",
+          "origin": "印尼独立日主题合成词变体，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/agustusmerdeka",
+            "search": "https://www.tiktok.com/search?q=agustusmerdeka",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "zivana_queen",
+            "videoId": "7669974731071802641"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#buwanngwika",
+          "name": "Buwan ng Wika（菲律宾语言月，8月）",
+          "regionGroup": "sea",
+          "category": "节日/教育",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "60.9K",
+              "views": "254.8M"
+            }
+          ],
+          "summary": "菲律宾语\"语言月\"，菲律宾政府将每年8月定为语言月，纪念和推广菲律宾国语（Filipino）。",
+          "whyHot": "语言月期间学校普遍举办演讲比赛、传统服饰（Filipiniana）展示、传统游戏等活动，师生记录相关活动内容在这一时期集中涌现，是每年周期性的教育文化月主题。",
+          "origin": "菲律宾政府官方文化教育月，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/buwanngwika",
+            "search": "https://www.tiktok.com/search?q=buwanngwika",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "totaybueno",
+            "videoId": "7678602530099563796"
+          },
+          "fusionSuggestion": {
+            "commercial": "可关注传统文化服饰/游戏元素做泛化视觉参考。",
+            "video": "适合做菲律宾传统文化主题的游戏内活动预告。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#harimerdeka",
+          "name": "Hari Merdeka（马来语/印尼语\"独立日\"通用说法）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "38.4K",
+              "views": "125.3M"
+            },
+            {
+              "code": "MY",
+              "posts": "22.1K",
+              "views": "59.9M"
+            }
+          ],
+          "summary": "马来语/印尼语\"独立日\"的通用说法，可指印尼8月17日独立日或马来西亚8月31日国庆日，具体归属地区视发布账号地域而定。",
+          "whyHot": "与#merdeka/#harikebangsaan同属独立日主题标签矩阵的通用说法变体，各地8月庆典季同步带动此类通用标签走高。",
+          "origin": "印尼语/马来语独立日通用说法，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/harimerdeka",
+            "search": "https://www.tiktok.com/search?q=harimerdeka",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": {
+            "author": "ceritarania_",
+            "videoId": "7675233741530287381"
+          },
+          "fusionSuggestion": {
+            "commercial": "可考虑独立日限定配色活动皮肤/庆典元素联动。",
+            "video": "适合做独立日主题的游戏内庆典活动预告。"
           }
         }
       ]
