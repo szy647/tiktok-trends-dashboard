@@ -1,7 +1,7 @@
 window.TREND_DATA = {
   "meta": {
-    "lastUpdated": "2026-09-10T18:30:00+08:00",
-    "methodology": "TikTok 官方不提供「全球娱乐总榜」，本榜为 7 个市场（美国/英国/巴西/印尼/泰国/菲律宾/越南）娱乐类（News & Entertainment）榜单合并去重、按官方播放量排序得出，不是某一张官方榜的原生前N条。TikTok Creative Center 官方仅提供 7天/30天/90天 三个时间窗口档位（无120天档位）。",
+    "lastUpdated": "2026-09-11T23:10:00+08:00",
+    "methodology": "TikTok 官方不提供「全球娱乐总榜」，本榜为 5 个市场（美国 US 代表全球+欧美，印尼 ID / 菲律宾 PH / 越南 VN / 马来西亚 MY 代表东南亚）娱乐类（News & Entertainment）榜单合并去重、按官方播放量排序得出，不是某一张官方榜的原生前N条。每个市场每个时间窗口在合并前均已抓取≥30条候选，并已排除纯硬新闻/政治事件/自然灾害通报及其衍生的\"灾情居家/避灾\"类内容、刑事案件等\"新闻类\"内容，只保留具备娱乐/梗/文化庆典/明星作品属性的条目（国家法定节日的全民庆典类内容视为文化娱乐范畴保留）。TikTok Creative Center 官方仅提供 7天/30天/90天 三个时间窗口档位（无120天档位，无效period参数会静默回退到7天档，需注意）。官方页面排序采用其自有trending算法而非单纯按播放量降序，本榜的\"按播放量重排\"是本站自定口径，与官方页面顺序不完全一致属正常现象。",
     "windowDescs": {
       "7": "近7天，TikTok Creative Center 官方口径",
       "30": "近30天，TikTok Creative Center 官方口径",
@@ -26,8 +26,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "54.7K",
-              "views": "1B"
+              "posts": "65.3K",
+              "views": "1.1B"
             }
           ],
           "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
@@ -59,8 +59,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "46.1K",
-              "views": "922.8M"
+              "posts": "54.7K",
+              "views": "1B"
             }
           ],
           "summary": "美国电视剧《All American》(全美一半/橄榄球青春剧)相关话题，具体是否对应新季播出或特定剧情节点【待核验】。",
@@ -84,204 +84,6 @@ window.TREND_DATA = {
         },
         {
           "rank": 3,
-          "tag": "#krakatau",
-          "name": "Krakatau（喀拉喀托火山，印尼喀拉喀托之子火山剧烈喷发）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "31.7K",
-              "views": "761M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/krakatau",
-            "search": "https://www.tiktok.com/search?q=krakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 4,
-          "tag": "#anakkrakatau",
-          "name": "Krakatau（喀拉喀托火山，印尼喀拉喀托之子火山剧烈喷发）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "30.7K",
-              "views": "718.8M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/anakkrakatau",
-            "search": "https://www.tiktok.com/search?q=anakkrakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 5,
-          "tag": "#erupsi",
-          "name": "Erupsi（火山喷发，印尼语泛称，指向喀拉喀托之子火山喷发事件）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "26.5K",
-              "views": "710.5M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/erupsi",
-            "search": "https://www.tiktok.com/search?q=erupsi",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 6,
-          "tag": "#gununganakkrakatau",
-          "name": "Gunung Anak Krakatau（喀拉喀托之子火山，同一喷发事件）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "15.7K",
-              "views": "423.1M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/gununganakkrakatau",
-            "search": "https://www.tiktok.com/search?q=gununganakkrakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#school",
-          "name": "School（英国返校季相关内容）",
-          "regionGroup": "global",
-          "category": "校园/生活",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "GB",
-              "posts": "90.9K",
-              "views": "405.3M"
-            }
-          ],
-          "summary": "英国9月开学季返校相关泛用标签，涵盖返校穿搭、新学期心情、校园vlog等内容。",
-          "whyHot": "英国大部分学校9月初开学，是每年周期性话题，返校季家长/学生大量发布相关短视频，属于季节性规律性热度而非突发新闻。",
-          "origin": "季节性/周期性话题，非单一事件发起。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/school",
-            "search": "https://www.tiktok.com/search?q=school",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=GB"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "可结合返校季做\"新学期/新赛季\"主题活动，避免直接使用真实校园场景素材。",
-            "video": "适合做\"开学季 x MCGG新赛季\"联动短视频。"
-          }
-        },
-        {
-          "rank": 8,
-          "tag": "#gunungkrakatau",
-          "name": "Gunung Krakatau（喀拉喀托火山，同一喷发事件）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "18.3K",
-              "views": "333.2M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/gunungkrakatau",
-            "search": "https://www.tiktok.com/search?q=gunungkrakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 9,
           "tag": "#khaigiang",
           "name": "Khai Giảng（越南语\"开学典礼\"）",
           "regionGroup": "sea",
@@ -290,8 +92,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "70.7K",
-              "views": "320.9M"
+              "posts": "70.9K",
+              "views": "333.8M"
             }
           ],
           "summary": "越南9月5日左右全国统一开学典礼相关内容，是越南每年固定的教育系统仪式性活动。",
@@ -314,22 +116,50 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 10,
+          "rank": 4,
+          "tag": "#buddy",
+          "name": "Buddy（PokéDance舞蹈挑战主题曲）",
+          "regionGroup": "global",
+          "category": "舞蹈挑战",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "21.2K",
+              "views": "309.2M"
+            }
+          ],
+          "summary": "美国TikTok近期热门舞蹈挑战\"PokéDance\"的主题曲话题标签，用户跟着歌词\"Buddy buddy boom boom / Hey you're my my ma my buddy\"编排简单肢体动作，常搭配AI宠物/卡通滤镜特效拍摄。",
+          "whyHot": "歌词简单重复、编舞门槛低，适合泛年龄层跟拍，配合TikTok AI特效工具形成低门槛强互动的传播组合，是典型的舞蹈类挑战热梗。",
+          "origin": "创作者自发编排的舞蹈挑战，非官方品牌发起。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/buddy",
+            "search": "https://www.tiktok.com/search?q=buddy",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑让MCGG英雄IP角色用同款\"Buddy\"舞蹈动作剪辑二创，蹭舞蹈挑战流量。",
+            "video": "适合做游戏角色跳舞版PokéDance模仿视频。"
+          }
+        },
+        {
+          "rank": 5,
           "tag": "#missworld",
           "name": "Miss World 2026（第73届世界小姐总决赛，越南芽庄举办）",
-          "regionGroup": "global",
+          "regionGroup": "sea",
           "category": "选美赛事",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "TH",
-              "posts": "2.4K",
-              "views": "65.9M"
-            },
-            {
               "code": "VN",
-              "posts": "10.6K",
-              "views": "292.7M"
+              "posts": "9.3K",
+              "views": "290.1M"
             }
           ],
           "summary": "第73届世界小姐(Miss World)总决赛于2026年9月5日在越南芽庄举行，来自111个国家/地区的佳丽参赛，多米尼加共和国选手Joheirry Mola夺冠，该国时隔44年再获此项赛事冠军。",
@@ -339,7 +169,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/missworld",
             "search": "https://www.tiktok.com/search?q=missworld",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -352,106 +182,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 11,
-          "tag": "#ryanbang",
-          "name": "Ryan Bang（韩裔菲律宾知名主持人/演员）",
-          "regionGroup": "sea",
-          "category": "名人/综艺",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "8.6K",
-              "views": "273.2M"
-            }
-          ],
-          "summary": "Ryan Bang是韩裔菲律宾知名电视主持人、演员、喜剧人，2010年通过菲律宾真人秀《Pinoy Big Brother: Teen Clash》出道，长期活跃于菲律宾主流综艺，被称为\"有菲律宾心的韩国人\"。",
-          "whyHot": "作为菲律宾家喻户晓的跨国艺人，长期保持较高人气，本轮具体触发大量播放的单一事件/视频内容【待核验】，可能是其近期主持/综艺片段被广泛转发。",
-          "origin": "真实公开的公众人物，非虚构。具体本轮走红片段未核实。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/ryanbang",
-            "search": "https://www.tiktok.com/search?q=ryanbang",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "涉及真实公众人物肖像，不建议未经授权商用。",
-            "video": "不建议直接使用其肖像做联动内容。"
-          }
-        },
-        {
-          "rank": 12,
-          "tag": "#flashflood",
-          "name": "Flash Flood（美国突发洪水相关内容）",
-          "regionGroup": "global",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "24.5K",
-              "views": "259.7M"
-            }
-          ],
-          "summary": "美国近期突发洪水(flash flood)相关新闻/实拍视频泛用标签，9月是美国部分地区飓风/暴雨季节，具体对应的单一地点事件【待核验】。",
-          "whyHot": "极端天气实拍内容在TikTok上具有天然的紧急关注度和传播性，具体触发本轮热度的确切地点事件未通过公开检索确认。",
-          "origin": "泛用灾害类标签，具体单一事件来源待核验。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/flashflood",
-            "search": "https://www.tiktok.com/search?q=flashflood",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "灾害类议题不建议做商业化联动。",
-            "video": "不建议娱乐化二创。"
-          }
-        },
-        {
-          "rank": 13,
-          "tag": "#bbcnews",
-          "name": "BBC News（BBC新闻内容片段泛用标签）",
-          "regionGroup": "global",
-          "category": "新闻媒体",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "17K",
-              "views": "250.6M"
-            }
-          ],
-          "summary": "BBC官方新闻账号或新闻剪辑类内容的泛用标签，用户常用此标签标记转发/讨论BBC报道的新闻片段，非单一新闻事件。",
-          "whyHot": "作为主流媒体机构标签，播放量高但对应内容较分散，本轮具体是哪条新闻带动【待核验】。",
-          "origin": "主流媒体官方内容衍生标签，非独立创作者事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/bbcnews",
-            "search": "https://www.tiktok.com/search?q=bbcnews",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "新闻媒体类标签不适合游戏商业化联动。",
-            "video": "不建议制作相关联动内容。"
-          }
-        },
-        {
-          "rank": 14,
+          "rank": 6,
           "tag": "#dauxuantuoisang",
           "name": "Đầu Xuân Tươi Sáng（越南语短语，具体出处待核验）",
           "regionGroup": "sea",
@@ -460,8 +191,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "21.2K",
-              "views": "249.1M"
+              "posts": "21.7K",
+              "views": "252.2M"
             }
           ],
           "summary": "越南语短语，直译近似\"春日伊始，明媚美好\"，具体对应内容(歌曲/口号/活动)【待核验】。",
@@ -484,27 +215,27 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 15,
-          "tag": "#rockinrio",
-          "name": "Rock in Rio 2026（巴西里约摇滚音乐节）",
-          "regionGroup": "global",
-          "category": "音乐节",
-          "danceCategory": "dance",
+          "rank": 7,
+          "tag": "#paris",
+          "name": "Paris（具体指向待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "BR",
-              "posts": "22.3K",
-              "views": "236.7M"
+              "code": "ID",
+              "posts": "8.1K",
+              "views": "230.5M"
             }
           ],
-          "summary": "巴西传统大型音乐节Rock in Rio 2026在里约热内卢举办，是拉美地区最具影响力的音乐节之一，历史可追溯至1985年。",
-          "whyHot": "音乐节现场大量明星演出片段、观众实拍内容在TikTok集中传播，是每届固定周期性的音乐盛事热度。",
-          "origin": "真实官方大型音乐节，非虚构。",
-          "confidence": "official",
+          "summary": "印尼TikTok近期热门标签，具体指向内容【待核验】，可能与巴黎旅行/时尚内容或同名人物相关，未查证到明确的官方新闻源。",
+          "whyHot": "播放量较高但公开检索未能确认具体走红事件，可能是泛旅行/生活方式类内容集合话题。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/rockinrio",
-            "search": "https://www.tiktok.com/search?q=rockinrio",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=BR"
+            "tag": "https://www.tiktok.com/tag/paris",
+            "search": "https://www.tiktok.com/search?q=paris",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -512,31 +243,31 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "可参考已有的Lollapalooza处理思路，设计音乐节主题限时活动，避免使用真实艺人肖像。",
-            "video": "适合做\"音乐节现场氛围\"主题短视频。"
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
           }
         },
         {
-          "rank": 16,
-          "tag": "#tibet",
-          "name": "Tibet（西藏相关内容，具体触发事件待核验）",
+          "rank": 8,
+          "tag": "#kanyewest",
+          "name": "Kanye West（美国说唱歌手/设计师）",
           "regionGroup": "global",
-          "category": "待核验",
+          "category": "音乐/明星",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "US",
-              "posts": "18.1K",
-              "views": "230.7M"
+              "posts": "22.5K",
+              "views": "196.9M"
             }
           ],
-          "summary": "西藏相关内容标签，具体对应旅游vlog/文化内容/新闻事件中的哪一类【待核验】。",
-          "whyHot": "播放量较高但未能通过公开检索确认具体触发内容，可能是旅游博主内容或某条新闻报道带动，暂无法确认。",
-          "origin": "具体来源不明，非已核实公共事件。",
+          "summary": "美国知名说唱歌手、时尚设计师Kanye West（现更名为Ye）相关话题，涵盖其音乐作品、时尚发布及公众言论的二创与讨论内容。",
+          "whyHot": "作为长期具有高话题性的公众人物，其新动态（专辑/时尚系列/公开言论）持续在TikTok引发模仿、剪辑与讨论，本轮具体触发点【待核验】。",
+          "origin": "公众人物个人动态引发的自发传播，非官方话题活动。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/tibet",
-            "search": "https://www.tiktok.com/search?q=tibet",
+            "tag": "https://www.tiktok.com/tag/kanyewest",
+            "search": "https://www.tiktok.com/search?q=kanyewest",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
           },
           "douyinCheck": {
@@ -545,196 +276,31 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "涉及地域文化议题，商业化前需谨慎核实内容性质。",
-            "video": "暂不建议制作联动内容。"
+            "commercial": "涉及真实明星肖像与争议言论，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
+            "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
           }
         },
         {
-          "rank": 17,
-          "tag": "#rockinrio2026",
-          "name": "Rock in Rio 2026（巴西里约摇滚音乐节）",
-          "regionGroup": "global",
-          "category": "音乐节",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "BR",
-              "posts": "8.2K",
-              "views": "223.1M"
-            }
-          ],
-          "summary": "巴西传统大型音乐节Rock in Rio 2026在里约热内卢举办，是拉美地区最具影响力的音乐节之一，历史可追溯至1985年。",
-          "whyHot": "音乐节现场大量明星演出片段、观众实拍内容在TikTok集中传播，是每届固定周期性的音乐盛事热度。",
-          "origin": "真实官方大型音乐节，非虚构。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/rockinrio2026",
-            "search": "https://www.tiktok.com/search?q=rockinrio2026",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=BR"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "可参考已有的Lollapalooza处理思路，设计音乐节主题限时活动，避免使用真实艺人肖像。",
-            "video": "适合做\"音乐节现场氛围\"主题短视频。"
-          }
-        },
-        {
-          "rank": 18,
-          "tag": "#dirumahaja",
-          "name": "Di Rumah Aja（印尼语\"待在家里\"，本轮多指火山喷发/空气质量期间居家内容）",
+          "rank": 9,
+          "tag": "#maiamgiadinhviet",
+          "name": "Mái Ấm Gia Đình Việt（越南家庭主题电视节目相关话题）",
           "regionGroup": "sea",
-          "category": "生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "51.4K",
-              "views": "185.2M"
-            }
-          ],
-          "summary": "印尼语\"待在家里\"，是一个反复出现的泛用标签（疫情期间曾大规模使用），本轮在喀拉喀托之子火山喷发、机场关闭期间被大量用于记录居家/避灾日常。",
-          "whyHot": "与火山喷发导致的出行受限、空气质量下降相关，居民用此标签分享居家生活内容；因为是泛用老标签，具体这轮激增的直接诱因【待核验，推测与火山事件相关】。",
-          "origin": "泛用生活方式标签，非单一事件发起。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dirumahaja",
-            "search": "https://www.tiktok.com/search?q=dirumahaja",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "泛用生活方式标签，暂无明确联动切入点。",
-            "video": "不建议特别制作联动内容。"
-          }
-        },
-        {
-          "rank": 19,
-          "tag": "#เจนนี่ได้หมดถ้าสดชื่น",
-          "name": "เจนนี่ได้หมดถ้าสดชื่น（泰语短语，疑似广告/品牌口号，具体待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "3.4K",
-              "views": "179.8M"
-            }
-          ],
-          "summary": "泰语短语，直译近似\"Jenny只要提神就能得到一切\"，形式上很像饮料/提神类产品的广告口号，具体品牌/出处【待核验】。",
-          "whyHot": "播放量较高但未能通过公开检索确认具体品牌或活动，暂无法判断走红原因。",
-          "origin": "具体来源不明，非已核实公共事件。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/เจนนี่ได้หมดถ้าสดชื่น",
-            "search": "https://www.tiktok.com/search?q=เจนนี่ได้หมดถ้าสดชื่น",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
-          }
-        },
-        {
-          "rank": 20,
-          "tag": "#7desetembro",
-          "name": "7 de Setembro（巴西独立日，9月7日）",
-          "regionGroup": "global",
-          "category": "节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "BR",
-              "posts": "31.5K",
-              "views": "175.8M"
-            }
-          ],
-          "summary": "巴西独立日(9月7日)相关庆典内容，涵盖阅兵、街头庆祝、国旗元素等主题短视频。",
-          "whyHot": "巴西独立日是全国性法定假日，每年固定在这一时间段产生大量相关内容，属于周期性节庆热度。",
-          "origin": "巴西国家法定节日，非单一创作者发起。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/7desetembro",
-            "search": "https://www.tiktok.com/search?q=7desetembro",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=BR"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "可设计巴西国旗配色的限时庆典主题皮肤/图标。",
-            "video": "适合做\"巴西独立日\"主题短视频联动。"
-          }
-        },
-        {
-          "rank": 21,
-          "tag": "#selatsunda",
-          "name": "Selat Sunda（巽他海峡，喀拉喀托之子火山所在海域，同一喷发事件相关内容）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "3.4K",
-              "views": "173.3M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/selatsunda",
-            "search": "https://www.tiktok.com/search?q=selatsunda",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 22,
-          "tag": "#lenguyenbaongoc",
-          "name": "Lê Nguyễn Bảo Ngọc（越南人名，具体身份待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
+          "category": "综艺/影视",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "VN",
-              "posts": "5.5K",
-              "views": "170M"
+              "posts": "3.2K",
+              "views": "187M"
             }
           ],
-          "summary": "越南语人名标签，具体对应人物身份及走红原因【待核验】，未查证到明确的公开报道。",
-          "whyHot": "播放量较高但身份信息未能通过公开检索确认，暂无法判断具体走红原因。",
-          "origin": "具体身份不明，非已核实公共事件。",
+          "summary": "越南电视节目《Mái Ấm Gia Đình Việt》（直译\"越南家庭的温暖\"）相关话题，节目聚焦真实家庭故事与公益互助内容，片段常被剪辑传播。",
+          "whyHot": "该节目在越南具有稳定收视基础，情感向片段容易引发共鸣式转发，具体本轮爆量节点【待核验】。",
+          "origin": "电视节目官方内容衍生传播。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/lenguyenbaongoc",
-            "search": "https://www.tiktok.com/search?q=lenguyenbaongoc",
+            "tag": "https://www.tiktok.com/tag/maiamgiadinhviet",
+            "search": "https://www.tiktok.com/search?q=maiamgiadinhviet",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
           },
           "douyinCheck": {
@@ -743,12 +309,12 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
+            "commercial": "涉及真实家庭故事，不建议直接商业化，可关注其温情叙事风格做泛化参考。",
+            "video": "暂不建议制作相关二创内容。"
           }
         },
         {
-          "rank": 23,
+          "rank": 10,
           "tag": "#alixearle",
           "name": "Alix Earle（美国知名TikTok/社媒博主）",
           "regionGroup": "global",
@@ -757,8 +323,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "4K",
-              "views": "169.2M"
+              "posts": "4.5K",
+              "views": "183M"
             }
           ],
           "summary": "Alix Earle是美国知名生活方式类社交媒体博主/播客主持人，在Z世代群体中有较高影响力。",
@@ -781,27 +347,27 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 24,
-          "tag": "#ขวัญอุษามณี",
-          "name": "ขวัญอุษามณี（泰国人名，具体身份待核验）",
-          "regionGroup": "sea",
-          "category": "待核验",
+          "rank": 11,
+          "tag": "#ye",
+          "name": "Ye（Kanye West现用名）",
+          "regionGroup": "global",
+          "category": "音乐/明星",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "TH",
-              "posts": "4.6K",
-              "views": "167.7M"
+              "code": "US",
+              "posts": "24.4K",
+              "views": "173.8M"
             }
           ],
-          "summary": "泰语人名标签，具体对应人物身份及走红原因【待核验】，未查证到明确的中文或英文公开报道。",
-          "whyHot": "泰语区播放量较高，但身份信息未能通过公开检索确认，暂无法判断具体走红原因。",
-          "origin": "具体身份不明，非已核实公共事件。",
+          "summary": "Kanye West现用名\"Ye\"相关话题标签，与#kanyewest指向同一位公众人物，内容涵盖音乐与时尚动态讨论。",
+          "whyHot": "作为长期具有高话题性的公众人物，其新动态持续在TikTok引发模仿、剪辑与讨论，本轮具体触发点【待核验】。",
+          "origin": "公众人物个人动态引发的自发传播，非官方话题活动。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/ขวัญอุษามณี",
-            "search": "https://www.tiktok.com/search?q=ขวัญอุษามณี",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
+            "tag": "https://www.tiktok.com/tag/ye",
+            "search": "https://www.tiktok.com/search?q=ye",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -809,8 +375,645 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
+            "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
+            "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
+          }
+        },
+        {
+          "rank": 12,
+          "tag": "#anime",
+          "name": "Anime（泛动漫内容合集标签）",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "51.8K",
+              "views": "150.1M"
+            }
+          ],
+          "summary": "马来西亚TikTok上泛动漫内容的合集类标签，覆盖各类日本动画剪辑、二创与讨论，不指向单一具体事件。",
+          "whyHot": "动漫爱好者社群基数大，剪辑/吐槽/角色扮演等内容持续产出，是常年活跃的泛娱乐标签而非单一热点事件。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/anime",
+            "search": "https://www.tiktok.com/search?q=anime",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑动漫风格插画/角色设计与MCGG联动，蹭泛动漫受众。",
+            "video": "适合做动漫风格英雄二创短片。"
+          }
+        },
+        {
+          "rank": 13,
+          "tag": "#spongebob",
+          "name": "海绵宝宝（SpongeBob SquarePants）",
+          "regionGroup": "sea",
+          "category": "动画/影视",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "9.8K",
+              "views": "142.7M"
+            }
+          ],
+          "summary": "经典美国动画《海绵宝宝》相关话题，梗图、台词剪辑与表情包在TikTok长期具有稳定的二创热度。",
+          "whyHot": "作为国民级动画IP，其经典片段常被用作各类吐槽/反转类视频的素材，具体本轮爆量原因【待核验】。",
+          "origin": "IP官方内容衍生传播。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/spongebob",
+            "search": "https://www.tiktok.com/search?q=spongebob",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑与Nickelodeon官方联动做限时活动皮肤，需走版权合作路径。",
+            "video": "适合借用海绵宝宝经典梗做游戏角色的搞笑混剪。"
+          }
+        },
+        {
+          "rank": 14,
+          "tag": "#nataliereynolds",
+          "name": "Natalie Reynolds（身份待核验）",
+          "regionGroup": "global",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "1.2K",
+              "views": "135.5M"
+            }
+          ],
+          "summary": "美国TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/nataliereynolds",
+            "search": "https://www.tiktok.com/search?q=nataliereynolds",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 15,
+          "tag": "#mcv",
+          "name": "MCV（具体指向待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "2.2K",
+              "views": "113.1M"
+            }
+          ],
+          "summary": "越南TikTok近期热门标签，具体指向内容【待核验】，可能与某选秀节目/媒体机构缩写相关，未查证到明确来源。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mcv",
+            "search": "https://www.tiktok.com/search?q=mcv",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 16,
+          "tag": "#glenpowell",
+          "name": "Glen Powell（美国男演员）",
+          "regionGroup": "global",
+          "category": "影视/明星",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "2.1K",
+              "views": "108.8M"
+            }
+          ],
+          "summary": "美国演员Glen Powell（代表作《壮志凌云2》《龙卷风暴》）相关话题，涵盖其新作品宣传及粉丝二创内容。",
+          "whyHot": "作为近年上升期的好莱坞男演员，其新片宣传活动/采访片段常规性地在TikTok获得关注，本轮具体触发点【待核验】。",
+          "origin": "明星个人及作品宣传衍生传播。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/glenpowell",
+            "search": "https://www.tiktok.com/search?q=glenpowell",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "涉及真实明星肖像，不建议直接商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 17,
+          "tag": "#michaelmyers",
+          "name": "Michael Myers（《月光光心慌慌》系列反派角色）",
+          "regionGroup": "global",
+          "category": "影视/万圣节",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "11.5K",
+              "views": "95.8M"
+            }
+          ],
+          "summary": "美国恐怖电影系列《Halloween》标志性反派角色，随万圣节季节临近，相关cosplay、混剪内容在TikTok升温。",
+          "whyHot": "万圣节季节性话题，经典恐怖IP角色具有稳定的季节性二创热度。",
+          "origin": "IP官方内容衍生传播，具有季节性规律。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/michaelmyers",
+            "search": "https://www.tiktok.com/search?q=michaelmyers",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑万圣节限定恐怖风格皮肤/活动，蹭季节性话题。",
+            "video": "适合做万圣节主题的游戏角色cosplay混剪。"
+          }
+        },
+        {
+          "rank": 18,
+          "tag": "#virall",
+          "name": "Virall（泛\"求上热门\"标签）",
+          "regionGroup": "sea",
+          "category": "泛流量标签",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "31.1K",
+              "views": "92.5M"
+            }
+          ],
+          "summary": "越南TikTok上常见的泛流量标签（\"viral\"的口语拼写变体），创作者常用于给内容打标希望获得推荐流量，不指向具体单一事件。",
+          "whyHot": "属于创作者常规蹭流量标签打法，非具体热点事件。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/virall",
+            "search": "https://www.tiktok.com/search?q=virall",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "泛流量标签，不适合单独做商业化联动。",
+            "video": "可作为常规发布小技巧参考，非内容方向。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#spongebobsquarepants",
+          "name": "海绵宝宝（SpongeBob SquarePants，全名标签）",
+          "regionGroup": "sea",
+          "category": "动画/影视",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "8.7K",
+              "views": "83.7M"
+            }
+          ],
+          "summary": "经典美国动画《海绵宝宝》相关话题（全名标签），梗图、台词剪辑与表情包在TikTok长期具有稳定的二创热度。",
+          "whyHot": "作为国民级动画IP，其经典片段常被用作各类吐槽/反转类视频的素材，具体本轮爆量原因【待核验】。",
+          "origin": "IP官方内容衍生传播。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/spongebobsquarepants",
+            "search": "https://www.tiktok.com/search?q=spongebobsquarepants",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑与Nickelodeon官方联动做限时活动皮肤，需走版权合作路径。",
+            "video": "适合借用海绵宝宝经典梗做游戏角色的搞笑混剪。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#macha",
+          "name": "Macha（抹茶风味饮品/甜品热潮，\"matcha\"的口语拼写变体）",
+          "regionGroup": "sea",
+          "category": "美食",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "8K",
+              "views": "77M"
+            }
+          ],
+          "summary": "印尼TikTok上围绕抹茶（matcha）风味饮品与甜品的美食内容标签，涵盖抹茶饮品测评、甜品制作教程等。",
+          "whyHot": "抹茶风味饮品/甜品是近年持续流行的美食潮流，测评与制作类内容长期具有稳定关注度，非单一突发事件。",
+          "origin": "美食潮流类泛话题，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/macha",
+            "search": "https://www.tiktok.com/search?q=macha",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑抹茶配色的游戏内联名周边/皮肤视觉参考。",
+            "video": "适合做美食探店/甜品测评风格的游戏周边内容。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#latasya",
+          "name": "Latasya（身份待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "8.8K",
+              "views": "75.9M"
+            }
+          ],
+          "summary": "印尼TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/latasya",
+            "search": "https://www.tiktok.com/search?q=latasya",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#adela",
+          "name": "Adela（身份待核验）",
+          "regionGroup": "global",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "10.4K",
+              "views": "74.1M"
+            }
+          ],
+          "summary": "美国TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/adela",
+            "search": "https://www.tiktok.com/search?q=adela",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#sabilutaubah",
+          "name": "Sabilut Taubah（印尼语\"忏悔/回归正道之路\"，宗教主题内容）",
+          "regionGroup": "sea",
+          "category": "宗教/文化",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "5.3K",
+              "views": "73.4M"
+            }
+          ],
+          "summary": "印尼语宗教用语，直译\"忏悔/回归正道之路\"，多用于伊斯兰教宗教反思、劝善类内容标签。",
+          "whyHot": "印尼作为穆斯林人口大国，宗教反思/劝善类内容长期具有稳定受众基础，非单一突发事件。",
+          "origin": "宗教文化类泛话题，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/sabilutaubah",
+            "search": "https://www.tiktok.com/search?q=sabilutaubah",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "涉及宗教内容，不建议做商业化联动。",
+            "video": "不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#halloweenthegame",
+          "name": "Halloween The Game（万圣节主题游戏/挑战梗）",
+          "regionGroup": "global",
+          "category": "游戏/万圣节",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "10.5K",
+              "views": "73.1M"
+            }
+          ],
+          "summary": "随万圣节季节临近，以\"万圣节游戏\"为主题的挑战类内容标签，涵盖恐怖主题小游戏实况、装扮挑战等。",
+          "whyHot": "季节性话题，万圣节临近带动恐怖/装扮/游戏类内容集中爆发，具体指向的单一游戏【待核验】。",
+          "origin": "季节性泛类别标签，无单一发起人。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/halloweenthegame",
+            "search": "https://www.tiktok.com/search?q=halloweenthegame",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑万圣节限定恐怖风格活动皮肤，蹭季节性话题。",
+            "video": "适合做万圣节主题的游戏内小游戏/装扮挑战预告。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#sidehustlelive",
+          "name": "Side Hustle Live（副业直播带货主题）",
+          "regionGroup": "sea",
+          "category": "生活方式/电商",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "43.3K",
+              "views": "68.7M"
+            }
+          ],
+          "summary": "越南TikTok上聚焦\"副业直播\"的内容标签，创作者分享通过TikTok Live带货/兼职增收的经验与实况片段。",
+          "whyHot": "东南亚创作者经济与直播电商持续升温，\"副业变现\"类内容长期具有稳定关注度，非单一突发事件。",
+          "origin": "创作者经济类泛话题，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/sidehustlelive",
+            "search": "https://www.tiktok.com/search?q=sidehustlelive",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注直播带货类内容形式，探索游戏内商城/皮肤的直播带货式推广。",
+            "video": "适合做\"游戏主播副业\"角度的内容策划参考。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#livecanbeeasy",
+          "name": "Live Can Be Easy（TikTok直播\"开播不难\"创作者梗）",
+          "regionGroup": "global",
+          "category": "创作者/直播",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "34.5K",
+              "views": "49.1M"
+            },
+            {
+              "code": "PH",
+              "posts": "15.4K",
+              "views": "18M"
+            },
+            {
+              "code": "VN",
+              "posts": "35.9K",
+              "views": "67.3M"
+            }
+          ],
+          "summary": "TikTok创作者社群常用鼓励性短语\"开直播其实很简单\"，与#liveiseasy/#livewithlowfollowers等同属一组鼓励新人开播的创作者互助话题。",
+          "whyHot": "低粉创作者群体庞大，互相鼓励\"哪怕粉丝少也可以开播\"的内容形成稳定的社群互助型热梗，跨美国/菲律宾/越南多市场同步出现。",
+          "origin": "创作者社群自发形成的鼓励型话题，无官方发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/livecanbeeasy",
+            "search": "https://www.tiktok.com/search?q=livecanbeeasy",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注创作者互助文化，探索游戏官方账号\"陪伴新主播开播\"类互动活动。",
+            "video": "适合做\"新主播开播小技巧\"系列内容参考。"
+          }
+        },
+        {
+          "rank": 27,
+          "tag": "#animeedit",
+          "name": "Anime Edit（泛动漫剪辑合集标签）",
+          "regionGroup": "sea",
+          "category": "动漫",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "43.9K",
+              "views": "64.8M"
+            }
+          ],
+          "summary": "马来西亚TikTok上泛动漫剪辑类内容的合集标签，涵盖各类动画片段卡点混剪、角色向AMV等二创，不指向单一具体事件。",
+          "whyHot": "动漫剪辑长期是TikTok稳定的泛娱乐内容品类，创作者持续产出卡点/AMV类作品。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/animeedit",
+            "search": "https://www.tiktok.com/search?q=animeedit",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑MCGG英雄技能特效做卡点混剪素材，蹭泛动漫剪辑受众。",
+            "video": "适合做英雄技能卡点AMV风格短片。"
+          }
+        },
+        {
+          "rank": 28,
+          "tag": "#thanhxuan",
+          "name": "Thanh Xuân（越南语\"青春\"，怀旧主题标签）",
+          "regionGroup": "sea",
+          "category": "生活方式/怀旧",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "18.1K",
+              "views": "61.7M"
+            }
+          ],
+          "summary": "越南语\"青春\"，用于怀旧向内容标签，创作者常用其分享校园/年少时期的回忆向内容与老歌翻唱。",
+          "whyHot": "怀旧类内容长期是TikTok稳定的情感共鸣品类，非单一突发事件。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thanhxuan",
+            "search": "https://www.tiktok.com/search?q=thanhxuan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注怀旧情绪营销，做\"青春回忆\"角度的游戏怀旧向内容。",
+            "video": "适合做青春怀旧风格的游戏角色成长向短片。"
+          }
+        },
+        {
+          "rank": 29,
+          "tag": "#chimpanzee",
+          "name": "Chimpanzee（黑猩猩相关动物内容）",
+          "regionGroup": "global",
+          "category": "动物",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "2.4K",
+              "views": "59.4M"
+            }
+          ],
+          "summary": "美国TikTok上黑猩猩相关的动物内容标签，涵盖动物园/野生动物纪录类片段及趣味互动视频。",
+          "whyHot": "动物类内容长期是TikTok稳定的泛娱乐品类，具体本轮爆量单一视频【待核验】。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/chimpanzee",
+            "search": "https://www.tiktok.com/search?q=chimpanzee",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注动物拟人化萌趣内容形式做泛化参考。",
+            "video": "适合做萌趣动物向的游戏宠物/坐骑系统内容参考。"
+          }
+        },
+        {
+          "rank": 30,
+          "tag": "#arianagrande",
+          "name": "Ariana Grande（美国歌手，本轮菲律宾地区热门话题）",
+          "regionGroup": "sea",
+          "category": "音乐明星",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "6.7K",
+              "views": "56.8M"
+            }
+          ],
+          "summary": "美国歌手Ariana Grande相关内容标签，本轮在菲律宾地区娱乐类榜单中出现，具体是新歌宣发、影视作品（如《魔法坏女巫》系列）片段翻拍还是其他单一事件驱动【待核验】，抓取时未见明确单一诱因。",
+          "whyHot": "作为长期活跃的顶级流行歌手/演员，其歌曲、影视片段、造型常被粉丝二次创作和跟拍，具体这轮激增的直接触发点尚未确认。",
+          "origin": "泛用明星话题标签，非单一事件发起。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/arianagrande",
+            "search": "https://www.tiktok.com/search?q=arianagrande",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "泛用明星话题标签，暂无明确联动切入点。",
+            "video": "不建议特别制作联动内容。"
           }
         }
       ]
@@ -819,47 +1022,6 @@ window.TREND_DATA = {
       "items": [
         {
           "rank": 1,
-          "tag": "#lindsayclancy",
-          "name": "Lindsay Clancy案庭审",
-          "regionGroup": "global",
-          "category": "刑事案件",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "214.6K",
-              "views": "3.6B"
-            },
-            {
-              "code": "GB",
-              "posts": "9.9K",
-              "views": "529.9M"
-            }
-          ],
-          "summary": "美国马萨诸塞州母亲林赛·克兰西被控致三名子女死亡案的庭审持续引发关注。",
-          "whyHot": "该标签对应美国马萨诸塞州一起真实刑事案件：林赛·克兰西被控于2023年致其三名年幼子女死亡，面临三项谋杀指控。案件庭审于2026年7月30日在普利茅斯高等法院开庭，截至8月中旬仍在进行，辩方主张产后精神病、检方主张故意杀人，庭审进展经多家媒体持续报道，带动TikTok相关话题热度。这是真实、敏感的刑事悲剧事件，不是娱乐性网络梗。",
-          "origin": "美国马萨诸塞州真实刑事案件话题，围绕2023年发生的子女死亡案及2026年在普利茅斯高等法院进行的刑事庭审，为真实新闻事件而非娱乐梗。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/lindsayclancy",
-            "search": "https://www.tiktok.com/search?q=lindsayclancy",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "该案件为国际新闻，中文媒体有零散转载报道，但未在抖音发现对应的专属话题标签或规模化二创内容。"
-          },
-          "videoEmbed": {
-            "author": "funnyviralprank",
-            "videoId": "7674681194268609806"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实悲剧案件当事人，绝对不适合任何商业化/内容联动。",
-            "video": "涉及真实悲剧案件当事人，绝对不适合任何商业化/内容联动，不建议以任何形式跟进或做娱乐化处理。"
-          }
-        },
-        {
-          "rank": 2,
           "tag": "#dollyparton",
           "name": "Dolly Parton（美国乡村音乐传奇歌手逝世）",
           "regionGroup": "global",
@@ -868,13 +1030,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "413.2K",
-              "views": "2.5B"
-            },
-            {
-              "code": "GB",
-              "posts": "46.5K",
-              "views": "361.9M"
+              "posts": "416.1K",
+              "views": "2.6B"
             }
           ],
           "summary": "美国乡村音乐传奇歌手Dolly Parton于2026年8月25日在田纳西州纳什维尔逝世，享年80岁，全网掀起悼念与金曲回顾热潮。",
@@ -884,7 +1041,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/dollyparton",
             "search": "https://www.tiktok.com/search?q=dollyparton",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -900,7 +1057,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "tag": "#lovestory",
           "name": "Love Story（越南音乐/情感向挑战热潮，具体出处待核验）",
           "regionGroup": "sea",
@@ -909,7 +1066,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "895K",
+              "posts": "904.2K",
               "views": "1.6B"
             }
           ],
@@ -920,7 +1077,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/lovestory",
             "search": "https://www.tiktok.com/search?q=lovestory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -933,7 +1090,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "tag": "#brez",
           "name": "Brez（身份待核验）",
           "regionGroup": "global",
@@ -942,8 +1099,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "86.9K",
-              "views": "1.4B"
+              "posts": "100.3K",
+              "views": "1.5B"
             }
           ],
           "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
@@ -966,115 +1123,45 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 5,
-          "tag": "#karhutla",
-          "name": "Karhutla（印尼森林与泥炭地大火烟霾危机）",
+          "rank": 4,
+          "tag": "#merdeka",
+          "name": "Merdeka（印尼语\"独立\"，印尼独立日主题泛用词，与#17agustus同源）",
           "regionGroup": "sea",
-          "category": "社会/环境",
+          "category": "节日/时事",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "ID",
-              "posts": "73.1K",
+              "posts": "488.4K",
               "views": "1.1B"
+            },
+            {
+              "code": "MY",
+              "posts": "200.9K",
+              "views": "827.1M"
             }
           ],
-          "summary": "印尼苏门答腊、加里曼丹等地旱季森林大火持续蔓延，跨境烟霾影响周边国家，是2026年8月印尼最受关注的社会议题之一。",
-          "whyHot": "截至8月下旬，印尼全国多省超300万人笼罩烟霾中，总统普拉博沃亲赴灾区督战并要求严惩涉火企业，马来西亚部分地区因烟霾停课，事件持续升级，大量用户上传实地烟霾、救灾画面。",
-          "origin": "真实社会/环境新闻事件，印尼官方及主流媒体（新华社等）持续跟踪报道。",
+          "summary": "印尼独立日(8月17日)主题泛用标签，与#17agustus/#lomba17agustus同属独立日庆典内容矩阵，具体使用场景（庆典/致辞/游行等）视标签字面而定。",
+          "whyHot": "每年8月围绕印尼国庆的庆典活动会持续产生大量周边标签，本条是这一庆典矩阵中的一个具体变体，热度逻辑与已核实的#17agustus/#lomba17agustus一致。",
+          "origin": "印尼国家法定节日主题词，非单一创作者发起。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/karhutla",
-            "search": "https://www.tiktok.com/search?q=karhutla",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+            "tag": "https://www.tiktok.com/tag/merdeka",
+            "search": "https://www.tiktok.com/search?q=merdeka",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
-            "note": "新华社等中国官媒有报道该事件，但当日未进入抖音热搜前列。"
+            "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": {
-            "author": "tribunpontianak",
-            "videoId": "7683752184609082645"
-          },
+          "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益向内容但需谨慎处理。"
+            "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
+            "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
           }
         },
         {
-          "rank": 6,
-          "tag": "#ต้าเฟ็ดเฟ่",
-          "name": "ต้าเฟ็ดเฟ่（泰语热梗，具体人物/出处待核验）",
-          "regionGroup": "sea",
-          "category": "娱乐/网络热梗",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "22.8K",
-              "views": "955.2M"
-            }
-          ],
-          "summary": "泰国TikTok近7天热度较高的泰语标签，具体指向的人物或事件未能独立核实。",
-          "whyHot": "【含义待核验】播放量与投稿量比例悬殊（3.3K投稿对197.5M播放），推测是被少量高播放视频带动，但具体内容与出处无法确认。",
-          "origin": "【含义待核验】未能确认具体发起人或事件来源。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9F%E0%B9%88",
-            "search": "https://www.tiktok.com/search?q=%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9F%E0%B9%88",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "泰语本地话题，非抖音热搜可比对对象。"
-          },
-          "videoEmbed": {
-            "author": "kersoeyamuletofficial",
-            "videoId": "7683744872230161685"
-          },
-          "fusionSuggestion": {
-            "commercial": "来源未核实，不建议蹭此话题做商业化设计。",
-            "video": "暂不建议制作联动内容。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#barretos",
-          "name": "Festa do Peão de Barretos（巴西巴雷托斯牛仔竞技音乐节）",
-          "regionGroup": "global",
-          "category": "节日/音乐节",
-          "danceCategory": "dance",
-          "regions": [
-            {
-              "code": "BR",
-              "posts": "82.4K",
-              "views": "874.4M"
-            }
-          ],
-          "summary": "巴西圣保罗州巴雷托斯市每年8月举办的牛仔竞技+乡村音乐节，是巴西全国性文化盛会。",
-          "whyHot": "2026年该节庆持续投入基础设施升级（新增大屏、扩建VIP区等），11天活动含9场牛仔竞技赛与上百场音乐演出，门票已售往巴西2700个城市，是巴西现象级线下狂欢活动，天然带动大量现场打卡、明星表演片段在TikTok传播。",
-          "origin": "巴雷托斯市官方主办的传统节庆活动，已有70余年历史，非单一创作者发起。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/barretos",
-            "search": "https://www.tiktok.com/search?q=barretos",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=BR"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "巴西本地节庆，非抖音热搜可比对对象。"
-          },
-          "videoEmbed": {
-            "author": "poder360",
-            "videoId": "7678465261145476372"
-          },
-          "fusionSuggestion": {
-            "commercial": "可参考节庆的牛仔竞技+音乐节双主题，为MCGG设计\"狂欢音乐节\"限时活动皮肤（吉他、牛仔帽元素），避免直接使用真实赞助商/艺人肖像。",
-            "video": "适合做\"巴西狂欢节庆x MCGG\"节奏感短视频，突出现场氛围与音乐节拍。"
-          }
-        },
-        {
-          "rank": 8,
+          "rank": 5,
           "tag": "#haydenpanettiere",
           "name": "Hayden Panettiere（美国女演员，2026年8月16日逝世）",
           "regionGroup": "global",
@@ -1083,8 +1170,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "62.4K",
-              "views": "818.1M"
+              "posts": "62.8K",
+              "views": "820.8M"
             }
           ],
           "summary": "美国女演员Hayden Panettiere于2026年8月16日在美国南卡罗来纳州家中逝世，年仅36岁，其经纪人已发布官方声明确认。她曾主演NBC科幻剧《英雄》(Heroes)、《惊声尖叫6》等作品。",
@@ -1107,7 +1194,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 9,
+          "rank": 6,
           "tag": "#phuongmychi",
           "name": "Phương Mỹ Chi（越南知名歌手，童星出身）",
           "regionGroup": "sea",
@@ -1116,8 +1203,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "68.2K",
-              "views": "791.8M"
+              "posts": "68.5K",
+              "views": "796.4M"
             }
           ],
           "summary": "Phương Mỹ Chi是越南知名歌手，童星出身(曾参加越南版《The Voice Kids》)，现已成长为具有全国知名度的流行歌手。",
@@ -1140,128 +1227,26 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 10,
-          "tag": "#krakatau",
-          "name": "Krakatau（喀拉喀托火山，印尼喀拉喀托之子火山剧烈喷发）",
+          "rank": 7,
+          "tag": "#rahul",
+          "name": "Rahul（身份待核验）",
           "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "32.2K",
-              "views": "773.3M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/krakatau",
-            "search": "https://www.tiktok.com/search?q=krakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 11,
-          "tag": "#อู๋จุน",
-          "name": "อู๋จุน（泰文人名/昵称，具体身份【含义待核验】）",
-          "regionGroup": "sea",
-          "category": "人物话题",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "193.3K",
-              "views": "745.8M"
-            }
-          ],
-          "summary": "泰国TikTok近期热门标签，指向名为「อู๋จุน」的人物，具体身份【含义待核验】。",
-          "whyHot": "该标签7天内在泰国获得395.5M播放、4.67万条视频，归类为News & Entertainment，说明其确实是近期热点人物或事件。但多轮泰语关键词搜索未能定位到「อู๋จุน」具体对应的艺人、网红或新闻人物，【含义待核验，需人工进一步核实】。",
-          "origin": "泰国话题标签，具体人物归属【待核验】。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/อู๋จุน",
-            "search": "https://www.tiktok.com/search?q=อู๋จุน",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "泰文人名类热点标签，与抖音内容体系无直接对应，暂不适用抖音核实。"
-          },
-          "videoEmbed": {
-            "author": "noooaun",
-            "videoId": "7673911796457164050"
-          },
-          "fusionSuggestion": {
-            "commercial": "人物身份未核实前不建议做任何具体人物关联的商业化创意，避免误用真实人物形象，可待核实后再评估。",
-            "video": "身份未明确前建议内容团队暂不直接引用该标签做人物相关内容，防止误报或潜在侵权风险。"
-          }
-        },
-        {
-          "rank": 12,
-          "tag": "#ranchodomaia",
-          "name": "Rancho do Maia（巴西场地/活动名称，具体内容待核验）",
-          "regionGroup": "global",
           "category": "待核验",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "BR",
-              "posts": "51.8K",
-              "views": "734.7M"
+              "code": "ID",
+              "posts": "51.6K",
+              "views": "793.2M"
             }
           ],
-          "summary": "巴西语标签，可能对应某农场/牧场类活动场地名称，具体走红原因【待核验】，未查证到明确的公开报道。",
-          "whyHot": "播放量较高但未能通过公开检索确认具体内容和事件，暂无法判断走红原因。",
-          "origin": "具体来源不明，非已核实公共事件。",
+          "summary": "印尼TikTok近期热门标签，具体指向人物/事件【待核验】，未查证到对应的公开新闻或知名人物报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/ranchodomaia",
-            "search": "https://www.tiktok.com/search?q=ranchodomaia",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=BR"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
-          }
-        },
-        {
-          "rank": 13,
-          "tag": "#erupsi",
-          "name": "Erupsi（火山喷发，印尼语泛称，指向喀拉喀托之子火山喷发事件）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "27.9K",
-              "views": "730.4M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/erupsi",
-            "search": "https://www.tiktok.com/search?q=erupsi",
+            "tag": "https://www.tiktok.com/tag/rahul",
+            "search": "https://www.tiktok.com/search?q=rahul",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
           },
           "douyinCheck": {
@@ -1270,78 +1255,12 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
           }
         },
         {
-          "rank": 14,
-          "tag": "#anakkrakatau",
-          "name": "Krakatau（喀拉喀托火山，印尼喀拉喀托之子火山剧烈喷发）",
-          "regionGroup": "sea",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "30.9K",
-              "views": "728.8M"
-            }
-          ],
-          "summary": "印尼喀拉喀托之子火山(Anak Krakatau)于2026年9月4日夜间至5日凌晨在巽他海峡剧烈喷发，持续约25小时，火山灰一度冲上1.5万米高空，是该火山2026年记录到的最高强度喷发。",
-          "whyHot": "喷发导致雅加达苏加诺-哈达国际机场等8座机场一度关闭，超过30万旅客出行受影响，火山灰覆盖万丹省、楠榜省等地，大量居民实拍视频（清理火山灰、机场滞留、卫星画面）在TikTok和抖音广泛传播；中国驻棉兰总领馆也发布了紧急提醒。",
-          "origin": "真实自然灾害事件，印尼地质局(PVMBG)已official确认并持续发布火山活动等级公告(维持三级'警戒')。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/anakkrakatau",
-            "search": "https://www.tiktok.com/search?q=anakkrakatau",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益/安全提示向内容。"
-          }
-        },
-        {
-          "rank": 15,
-          "tag": "#noticiastiktok",
-          "name": "Noticias TikTok（西语\"TikTok新闻\"泛用标签）",
-          "regionGroup": "global",
-          "category": "新闻媒体",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "93.1K",
-              "views": "706.5M"
-            }
-          ],
-          "summary": "西语区用户标记新闻类内容的泛用标签，非单一新闻事件，涵盖各类被转发讨论的新闻片段。",
-          "whyHot": "泛用新闻类标签，播放量分散在多条不同新闻内容中，具体本轮带动的单一新闻【待核验】。",
-          "origin": "泛用标签，非单一创作者/事件发起。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/noticiastiktok",
-            "search": "https://www.tiktok.com/search?q=noticiastiktok",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "新闻类标签不适合商业化联动。",
-            "video": "不建议制作相关联动内容。"
-          }
-        },
-        {
-          "rank": 16,
+          "rank": 8,
           "tag": "#maulidnabi",
           "name": "Maulid Nabi（先知穆罕默德诞辰纪念日）",
           "regionGroup": "sea",
@@ -1350,8 +1269,13 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "224.1K",
-              "views": "646.6M"
+              "posts": "228K",
+              "views": "659.7M"
+            },
+            {
+              "code": "MY",
+              "posts": "11.3K",
+              "views": "39.9M"
             }
           ],
           "summary": "2026年伊斯兰教先知穆罕默德诞辰纪念日（圣纪节）落在8月25日前后，印尼作为全球最大穆斯林人口国家迎来集中庆祝。",
@@ -1361,7 +1285,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/maulidnabi",
             "search": "https://www.tiktok.com/search?q=maulidnabi",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -1377,7 +1301,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 17,
+          "rank": 9,
           "tag": "#yengconstantino",
           "name": "Yeng Constantino（菲律宾知名歌手）",
           "regionGroup": "sea",
@@ -1386,8 +1310,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "PH",
-              "posts": "25.6K",
-              "views": "618.2M"
+              "posts": "26.5K",
+              "views": "638.6M"
             }
           ],
           "summary": "Yeng Constantino是菲律宾知名歌手/词曲创作人，2006年通过菲律宾真人秀《Pinoy Dream Academy》出道，被誉为\"菲律宾流行摇滚女王\"，代表作《Ikaw》YouTube播放量已破亿。",
@@ -1410,7 +1334,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 18,
+          "rank": 10,
           "tag": "#d23",
           "name": "D23 Expo 2026（迪士尼官方粉丝盛会）",
           "regionGroup": "global",
@@ -1419,8 +1343,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "24.5K",
-              "views": "604.1M"
+              "posts": "24.4K",
+              "views": "603.8M"
             }
           ],
           "summary": "D23: The Ultimate Disney Fan Event是迪士尼官方粉丝盛会，2026年场次于8月14日至16日在美国加州阿纳海姆会议中心举行，公布了迪士尼乐园、迪士尼邮轮等多项新项目。",
@@ -1443,17 +1367,50 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 19,
+          "rank": 11,
+          "tag": "#buddy",
+          "name": "Buddy（PokéDance舞蹈挑战主题曲）",
+          "regionGroup": "global",
+          "category": "舞蹈挑战",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "34.2K",
+              "views": "595.5M"
+            }
+          ],
+          "summary": "美国TikTok近期热门舞蹈挑战\"PokéDance\"的主题曲话题标签，用户跟着歌词\"Buddy buddy boom boom / Hey you're my my ma my buddy\"编排简单肢体动作，常搭配AI宠物/卡通滤镜特效拍摄。",
+          "whyHot": "歌词简单重复、编舞门槛低，适合泛年龄层跟拍，配合TikTok AI特效工具形成低门槛强互动的传播组合，是典型的舞蹈类挑战热梗。",
+          "origin": "创作者自发编排的舞蹈挑战，非官方品牌发起。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/buddy",
+            "search": "https://www.tiktok.com/search?q=buddy",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑让MCGG英雄IP角色用同款\"Buddy\"舞蹈动作剪辑二创，蹭舞蹈挑战流量。",
+            "video": "适合做游戏角色跳舞版PokéDance模仿视频。"
+          }
+        },
+        {
+          "rank": 12,
           "tag": "#missworld",
           "name": "Miss World 2026（第73届世界小姐总决赛，越南芽庄举办）",
-          "regionGroup": "global",
+          "regionGroup": "sea",
           "category": "选美赛事",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "VN",
-              "posts": "23.9K",
-              "views": "563.7M"
+              "posts": "23.6K",
+              "views": "569.5M"
             }
           ],
           "summary": "第73届世界小姐(Miss World)总决赛于2026年9月5日在越南芽庄举行，来自111个国家/地区的佳丽参赛，多米尼加共和国选手Joheirry Mola夺冠，该国时隔44年再获此项赛事冠军。",
@@ -1476,62 +1433,26 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 20,
-          "tag": "#kebakaranhutan",
-          "name": "Kebakaran Hutan（印尼森林大火，与#karhutla同一事件的另一常用标签）",
-          "regionGroup": "sea",
-          "category": "社会/环境",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "36.4K",
-              "views": "554.7M"
-            }
-          ],
-          "summary": "与#karhutla指向同一起2026年8月印尼森林大火/烟霾事件，为该话题的另一常用印尼语标签。",
-          "whyHot": "参见#karhutla条目，事件本身持续升级，印尼多个省份受灾，官方持续救灾并追责涉火企业。",
-          "origin": "真实社会/环境新闻事件。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/kebakaranhutan",
-            "search": "https://www.tiktok.com/search?q=kebakaranhutan",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "同#karhutla，中文媒体有报道但未进入抖音热搜前列。"
-          },
-          "videoEmbed": {
-            "author": "buletintv3",
-            "videoId": "7683529940385434897"
-          },
-          "fusionSuggestion": {
-            "commercial": "灾害类议题不建议商业化联动。",
-            "video": "不建议制作娱乐化二创。"
-          }
-        },
-        {
-          "rank": 21,
-          "tag": "#emergencianacional",
-          "name": "Emergencia Nacional（西语\"国家紧急状态\"，具体对应事件待核验）",
+          "rank": 13,
+          "tag": "#ted",
+          "name": "Ted（具体指向待核验，可能与影视角色或同名内容相关）",
           "regionGroup": "global",
-          "category": "新闻/政治",
+          "category": "待核验",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "US",
-              "posts": "89.3K",
-              "views": "554.5M"
+              "posts": "37.1K",
+              "views": "531.6M"
             }
           ],
-          "summary": "美国西语社群标签，指向2026年美国政府宣布的\"国家紧急状态\"相关议题；2026年初特朗普政府曾以\"保护委内瑞拉在美石油收入\"为由宣布进入国家紧急状态，同年9月初财政部长又提及可能宣布\"全国住房紧急状态\"应对住房可负担性危机——本条具体对应哪一次紧急状态声明【待核验】。",
-          "whyHot": "\"国家紧急状态\"属于影响范围广的重大政治议题，在西语社群(含委内瑞拉侨民)中容易引发大量讨论和转发，具体是哪次紧急状态的最新进展带动本轮热度暂无法精确确认。",
-          "origin": "真实政治事件的衍生讨论标签，但因2026年内美国已有多次\"国家紧急状态\"相关声明，具体对应哪一次未能精确核实。",
+          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的明确新闻源或知名人物报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/emergencianacional",
-            "search": "https://www.tiktok.com/search?q=emergencianacional",
+            "tag": "https://www.tiktok.com/tag/ted",
+            "search": "https://www.tiktok.com/search?q=ted",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
@@ -1540,12 +1461,12 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "涉及真实政治议题，不适合任何商业化游戏联动。",
-            "video": "不建议制作相关内容。"
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
           }
         },
         {
-          "rank": 22,
+          "rank": 14,
           "tag": "#dolly",
           "name": "Dolly（Dolly Parton逝世话题的简称标签）",
           "regionGroup": "global",
@@ -1554,13 +1475,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "122.3K",
-              "views": "517.3M"
-            },
-            {
-              "code": "GB",
-              "posts": "10.5K",
-              "views": "59.1M"
+              "posts": "123.1K",
+              "views": "521.6M"
             }
           ],
           "summary": "与#dollyparton同一事件（歌手Dolly Parton逝世）相关的简称标签，聚合大量金曲回顾与悼念内容。",
@@ -1570,7 +1486,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/dolly",
             "search": "https://www.tiktok.com/search?q=dolly",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -1583,6 +1499,468 @@ window.TREND_DATA = {
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热。",
             "video": "不建议制作联动短视频。"
+          }
+        },
+        {
+          "rank": 15,
+          "tag": "#spokane",
+          "name": "Spokane（美国华盛顿州城市，具体指向待核验）",
+          "regionGroup": "global",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "140.7K",
+              "views": "507.4M"
+            }
+          ],
+          "summary": "美国TikTok近期热门标签，指向华盛顿州斯波坎市，具体关联事件【待核验】，未查证到明确的公开新闻源。",
+          "whyHot": "播放量较高但公开检索未能确认具体走红事件。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/spokane",
+            "search": "https://www.tiktok.com/search?q=spokane",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 16,
+          "tag": "#dauxuantuoisang",
+          "name": "Đầu Xuân Tươi Sáng（越南语短语，具体出处待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "41.3K",
+              "views": "491M"
+            }
+          ],
+          "summary": "越南语短语，直译近似\"春日伊始，明媚美好\"，具体对应内容(歌曲/口号/活动)【待核验】。",
+          "whyHot": "越南语区播放量较高但未能通过公开检索确认具体出处，可能是歌曲歌词或商业活动口号，暂无法确认走红原因。",
+          "origin": "具体来源不明，非已核实公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/dauxuantuoisang",
+            "search": "https://www.tiktok.com/search?q=dauxuantuoisang",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议商业化联动。",
+            "video": "暂不建议制作相关内容。"
+          }
+        },
+        {
+          "rank": 17,
+          "tag": "#dirgahayuindonesia",
+          "name": "Dirgahayu Indonesia（印尼语\"祝印尼生日快乐\"，独立日祝福语）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "198.1K",
+              "views": "489.1M"
+            }
+          ],
+          "summary": "印尼语传统独立日祝福用语，每年8月17日前后印尼TikTok用户大量使用该标签发布爱国主题、庆祝活动内容。",
+          "whyHot": "印尼国庆季节性固定热词，全民参与度高，是每年8月的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/dirgahayuindonesia",
+            "search": "https://www.tiktok.com/search?q=dirgahayuindonesia",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 18,
+          "tag": "#ryanbang",
+          "name": "Ryan Bang（韩裔菲律宾知名主持人/演员）",
+          "regionGroup": "sea",
+          "category": "名人/综艺",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "12.1K",
+              "views": "460M"
+            }
+          ],
+          "summary": "Ryan Bang是韩裔菲律宾知名电视主持人、演员、喜剧人，2010年通过菲律宾真人秀《Pinoy Big Brother: Teen Clash》出道，长期活跃于菲律宾主流综艺，被称为\"有菲律宾心的韩国人\"。",
+          "whyHot": "作为菲律宾家喻户晓的跨国艺人，长期保持较高人气，本轮具体触发大量播放的单一事件/视频内容【待核验】，可能是其近期主持/综艺片段被广泛转发。",
+          "origin": "真实公开的公众人物，非虚构。具体本轮走红片段未核实。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/ryanbang",
+            "search": "https://www.tiktok.com/search?q=ryanbang",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "涉及真实公众人物肖像，不建议未经授权商用。",
+            "video": "不建议直接使用其肖像做联动内容。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#lanterns",
+          "name": "Lanterns《灯侠》（HBO Max绿灯侠题材新剧）",
+          "regionGroup": "global",
+          "category": "影视",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "21.3K",
+              "views": "442.5M"
+            }
+          ],
+          "summary": "由James Gunn监制的DC宇宙新剧《Lanterns》（灯侠/绿灯军团），2026年8月16日在HBO Max首播，聚焦哈尔·乔丹与约翰·斯图尔特两代绿灯侠调查一起谋杀案的故事，融合硬派警探剧风格。",
+          "whyHot": "作为新DC宇宙首部真人剧集、詹姆斯·古恩执掌后的重要作品，开播前后预告片、剪辑及角色讨论在TikTok获得大量关注。",
+          "origin": "HBO Max官方剧集宣传衍生传播（已通过公开新闻核实：2026年8月16日/21日首播）。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/lanterns",
+            "search": "https://www.tiktok.com/search?q=lanterns",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑绿灯侠戒指/能量场视觉元素做联名皮肤特效参考（需版权合作）。",
+            "video": "适合做游戏英雄的\"能量武器\"主题混剪，呼应绿灯侠的意念构造能力。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#khaigiang",
+          "name": "Khai Giảng（越南语\"开学典礼\"）",
+          "regionGroup": "sea",
+          "category": "校园/生活",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "78.8K",
+              "views": "440.3M"
+            }
+          ],
+          "summary": "越南9月5日左右全国统一开学典礼相关内容，是越南每年固定的教育系统仪式性活动。",
+          "whyHot": "越南教育部规定每年9月5日为全国统一开学日，各地学校举行升旗、致辞等开学典礼，家长和学生大量发布相关记录视频，是每年周期性话题。",
+          "origin": "越南教育系统官方固定节庆日，非单一创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/khaigiang",
+            "search": "https://www.tiktok.com/search?q=khaigiang",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可参考类似#lomba17agustus的处理方式，设计\"开学季\"限时活动，避免使用真实校园肖像。",
+            "video": "适合做\"越南开学季\"主题短视频联动。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#loveislandreunion",
+          "name": "Love Island Reunion（真人秀《恋爱岛》同学会特辑）",
+          "regionGroup": "global",
+          "category": "综艺",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "13.4K",
+              "views": "430.2M"
+            }
+          ],
+          "summary": "美国版真人秀《Love Island》季后同学会特辑相关话题，参赛选手重聚片段、感情线后续讨论在TikTok传播。",
+          "whyHot": "真人秀忠实粉丝群体活跃，同学会环节常有爆点剪辑传播，具体本季细节【待核验】。",
+          "origin": "综艺节目官方内容衍生传播。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/loveislandreunion",
+            "search": "https://www.tiktok.com/search?q=loveislandreunion",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注真人秀式\"团综重聚\"内容形式做泛化参考。",
+            "video": "暂不建议直接使用节目片段二创。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#phule",
+          "name": "Phú Lễ（身份/内容待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "11.7K",
+              "views": "399.9M"
+            }
+          ],
+          "summary": "越南TikTok近期热门标签，归类于宠物/美容个护相关，具体指向内容【待核验】，未查证到明确来源。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/phule",
+            "search": "https://www.tiktok.com/search?q=phule",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#junghaein",
+          "name": "정해인 Jung Hae-in（丁海寅，韩国男演员）",
+          "regionGroup": "sea",
+          "category": "影视/明星",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "20.8K",
+              "views": "393.6M"
+            }
+          ],
+          "summary": "韩国演员丁海寅主演的Netflix爱情喜剧《我的荒糖恋爱》（与何英共同主演）于2026年8月7日上线，8月19日升至Netflix全球非英语剧集榜第一位，剧集片段及丁海寅相关二创在TikTok热度攀升。",
+          "whyHot": "剧集迅速登顶Netflix全球非英语榜首并进入68个国家/地区TOP10，男主角丁海寅的甜蜜互动片段/花絮成为跨区域粉丝二创素材。",
+          "origin": "Netflix官方剧集宣传衍生传播（已通过公开信息核实：2026年8月上线并登顶榜单）。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/junghaein",
+            "search": "https://www.tiktok.com/search?q=junghaein",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "涉及真实演员肖像及第三方剧集版权，不建议直接商业化联动。",
+            "video": "可关注韩剧甜宠剧情风格做泛化剧情向内容参考，不建议直接使用剧集素材。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#nghihesonghihuu",
+          "name": "Nghỉ Hè Xong Nghỉ Hưu（\"放完暑假就退休\"越南语调侃梗）",
+          "regionGroup": "sea",
+          "category": "生活方式/校园",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "23.3K",
+              "views": "391.9M"
+            }
+          ],
+          "summary": "越南语调侃短语，直译\"放完暑假紧接着退休\"，学生/老师用来自嘲暑假结束后开学的疲惫与不情愿心态。",
+          "whyHot": "开学季固定情绪共鸣梗，用夸张的\"退休\"说法制造反差幽默感，是每年8-9月开学季的规律性校园热梗。",
+          "origin": "网络自发调侃用语，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/nghihesonghihuu",
+            "search": "https://www.tiktok.com/search?q=nghihesonghihuu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可关注开学季情绪营销节点，做\"开学后如何靠游戏放松\"角度的轻松内容。",
+            "video": "适合做开学季自嘲/共鸣类短视频文案参考。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#tinhbachnhien",
+          "name": "Tình Bạch Nhiên（身份/内容待核验，可能为影视角色或音乐作品名）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "28.4K",
+              "views": "367.9M"
+            }
+          ],
+          "summary": "越南TikTok近期热门标签，具体指向内容【待核验】，可能与影视剧角色或歌曲名相关，未查证到明确来源。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/tinhbachnhien",
+            "search": "https://www.tiktok.com/search?q=tinhbachnhien",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#christmas",
+          "name": "Christmas（圣诞节主题内容）",
+          "regionGroup": "sea",
+          "category": "节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "102.3K",
+              "views": "365.3M"
+            }
+          ],
+          "summary": "菲律宾TikTok上的圣诞节主题内容标签，菲律宾圣诞季传统上从9月即开始，装饰、颂歌、家庭团聚类内容提前升温。",
+          "whyHot": "菲律宾以\"全球圣诞季最长的国家\"著称，9月起商场与家庭便开始圣诞装饰与颂歌，是每年规律性的季节性文化热梗。",
+          "origin": "全民性节日文化传统，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/christmas",
+            "search": "https://www.tiktok.com/search?q=christmas",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑提前布局圣诞主题限定活动/皮肤，契合菲律宾超长圣诞季的营销窗口。",
+            "video": "适合做圣诞主题的游戏内装饰/礼物系统预告。"
+          }
+        },
+        {
+          "rank": 27,
+          "tag": "#vietnamtoiyeu",
+          "name": "Việt Nam Tôi Yêu（\"我爱越南\"爱国主题标签）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "82.1K",
+              "views": "357.8M"
+            }
+          ],
+          "summary": "越南语\"我爱越南\"，围绕2026年9月2日越南国庆前后的爱国主题内容标签，涵盖风光展示、传统文化与庆典片段。",
+          "whyHot": "越南国庆季节性固定热词，全民参与度高，是每年9月初的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/vietnamtoiyeu",
+            "search": "https://www.tiktok.com/search?q=vietnamtoiyeu",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
+            "video": "适合做越南国庆主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 28,
+          "tag": "#j97",
+          "name": "Jack - J97（越南顶流男歌手）",
+          "regionGroup": "sea",
+          "category": "音乐/明星",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "41.6K",
+              "views": "354.4M"
+            }
+          ],
+          "summary": "越南顶流男歌手兼词曲作者Jack（本名Trịnh Trần Phương Tuấn，艺名Jack-J97）相关话题，涵盖其音乐作品及公众动态讨论。",
+          "whyHot": "作为越南乐坛头部艺人（曾获MAMA最佳越南新人、MTV EMA最佳东南亚艺人等奖项），其新动态持续引发粉丝群体二创与讨论，本轮具体触发点【待核验】。",
+          "origin": "知名歌手个人动态引发的自发传播。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/j97",
+            "search": "https://www.tiktok.com/search?q=j97",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐风格做灵感参考。",
+            "video": "可参考其歌曲片段做卡点内容，避免直接使用其肖像。"
           }
         }
       ]
@@ -1610,7 +1988,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/17agustus",
             "search": "https://www.tiktok.com/search?q=17agustus",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -1627,42 +2005,6 @@ window.TREND_DATA = {
         },
         {
           "rank": 2,
-          "tag": "#lindsayclancy",
-          "name": "Lindsay Clancy案庭审",
-          "regionGroup": "global",
-          "category": "刑事案件",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "239.4K",
-              "views": "4.3B"
-            }
-          ],
-          "summary": "美国马萨诸塞州母亲林赛·克兰西被控致三名子女死亡案的庭审持续引发关注。",
-          "whyHot": "该标签对应美国马萨诸塞州一起真实刑事案件：林赛·克兰西被控于2023年致其三名年幼子女死亡，面临三项谋杀指控。案件庭审于2026年7月30日在普利茅斯高等法院开庭，截至8月中旬仍在进行，辩方主张产后精神病、检方主张故意杀人，庭审进展经多家媒体持续报道，带动TikTok相关话题热度。这是真实、敏感的刑事悲剧事件，不是娱乐性网络梗。",
-          "origin": "美国马萨诸塞州真实刑事案件话题，围绕2023年发生的子女死亡案及2026年在普利茅斯高等法院进行的刑事庭审，为真实新闻事件而非娱乐梗。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/lindsayclancy",
-            "search": "https://www.tiktok.com/search?q=lindsayclancy",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "该案件为国际新闻，中文媒体有零散转载报道，但未在抖音发现对应的专属话题标签或规模化二创内容。"
-          },
-          "videoEmbed": {
-            "author": "funnyviralprank",
-            "videoId": "7674681194268609806"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实悲剧案件当事人，绝对不适合任何商业化/内容联动。",
-            "video": "涉及真实悲剧案件当事人，绝对不适合任何商业化/内容联动，不建议以任何形式跟进或做娱乐化处理。"
-          }
-        },
-        {
-          "rank": 3,
           "tag": "#lomba17agustus",
           "name": "Lomba 17 Agustus（8月17日独立日趣味比赛）",
           "regionGroup": "sea",
@@ -1671,7 +2013,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "477.9K",
+              "posts": "478.4K",
               "views": "3.9B"
             }
           ],
@@ -1682,7 +2024,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/lomba17agustus",
             "search": "https://www.tiktok.com/search?q=lomba17agustus",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -1698,7 +2040,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "tag": "#tinhhasayhi",
           "name": "tinhhasayhi（Tình Hà Say Hi，越南音乐真人秀节目，与《Anh Trai Say Hi》《Em Xinh Say Hi》同系列制作）",
           "regionGroup": "sea",
@@ -1707,8 +2049,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "436.9K",
-              "views": "3.8B"
+              "posts": "440K",
+              "views": "3.9B"
             }
           ],
           "summary": "《Tình Hà Say Hi》是越南同一制作团队打造的音乐真人秀节目，与热门节目《Anh Trai Say Hi》《Em Xinh Say Hi》属同系列，节目播出带动TikTok大量二创内容。",
@@ -1734,7 +2076,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "tag": "#olivertree",
           "name": "Oliver Tree",
           "regionGroup": "global",
@@ -1743,23 +2085,13 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "235.6K",
+              "posts": "235.8K",
               "views": "2.7B"
             },
             {
-              "code": "GB",
-              "posts": "40.1K",
-              "views": "378.9M"
-            },
-            {
-              "code": "BR",
-              "posts": "60.1K",
-              "views": "852.2M"
-            },
-            {
               "code": "PH",
-              "posts": "17.7K",
-              "views": "393.8M"
+              "posts": "17.8K",
+              "views": "394.5M"
             }
           ],
           "summary": "另类流行音乐人 Oliver Tree 相关话题，本轮近90天在巴西、英国娱乐榜同时上榜。",
@@ -1769,7 +2101,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/olivertree",
             "search": "https://www.tiktok.com/search?q=olivertree",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=GB"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -1785,79 +2117,43 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 6,
-          "tag": "#terremoto",
-          "name": "Terremoto(地震/西语葡语)",
+          "rank": 5,
+          "tag": "#dollyparton",
+          "name": "Dolly Parton（美国乡村音乐传奇歌手逝世）",
           "regionGroup": "global",
-          "category": "地震灾情",
-          "danceCategory": "non_dance",
+          "category": "名人/音乐",
+          "danceCategory": "dance",
           "regions": [
             {
               "code": "US",
-              "posts": "315.2K",
-              "views": "1.9B"
+              "posts": "430.8K",
+              "views": "2.7B"
             }
           ],
-          "summary": "西语/葡语'地震'词条，主要指向2026年8月10日哥伦比亚强震，可能叠加同期其他地震新闻。",
-          "whyHot": "该词与sismos大概率指向同一核心事件——哥伦比亚8月10日7.4/7.5级地震，死伤人数持续攀升至数百人；由于数据窗口为近90天，同期发生的印尼弗洛勒斯岛8月15日7.7级地震（触发海啸预警）等其他地震新闻也可能被计入该标签讨论，具体占比【待核验】。",
-          "origin": "真实自然灾害新闻话题，非娱乐梗；核心指向哥伦比亚地震，不排除叠加其他同期地震新闻，具体归属【待核验】。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/terremoto",
-            "search": "https://www.tiktok.com/search?q=terremoto",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "nonapplicable",
-            "note": "属真实自然灾害新闻类严肃议题，不适用于抖音娱乐化对标核实。"
-          },
-          "videoEmbed": {
-            "author": "cnn",
-            "videoId": "7672734246028545294"
-          },
-          "fusionSuggestion": {
-            "commercial": "涉及真实自然灾害与人员伤亡，不适合做任何娱乐化商业联动，不建议投入指挥官皮肤等商业资源。",
-            "video": "不建议围绕地震灾情做娱乐化内容创作，如需关注可仅做灾情通报或公益信息的严肃转发。"
-          }
-        },
-        {
-          "rank": 7,
-          "tag": "#tiktokgrowthchallenge",
-          "name": "TikTok Growth Challenge",
-          "regionGroup": "global",
-          "category": "创作者成长",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "GB",
-              "posts": "66.4K",
-              "views": "1.9B"
-            }
-          ],
-          "summary": "「TikTok Growth Challenge（增长挑战）」话题，官方创作者成长扶持活动。",
-          "whyHot": "该标签指向 TikTok 官方推出的创作者账号增长挑战活动，鼓励创作者在限定周期内完成发布任务以获取流量扶持，是平台运营驱动的官方活动型内容。",
-          "origin": "TikTok 官方创作者增长挑战活动。",
+          "summary": "美国乡村音乐传奇歌手Dolly Parton于2026年8月25日在田纳西州纳什维尔逝世，享年80岁，全网掀起悼念与金曲回顾热潮。",
+          "whyHot": "帕顿一生创作近3000首歌曲，代表作《Jolene》《I Will Always Love You》家喻户晓；去世后美国总统特朗普发文悼念并下令全美降半旗一周，大量用户用她的经典歌曲配乐制作纪念/回顾类短视频，带动#dolly #jolene #iwillalwaysloveyou等关联标签同步走高。",
+          "origin": "真实新闻事件（其侄子代表家属通过社媒确认死讯），非营销或创作者发起的话题。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/tiktokgrowthchallenge",
-            "search": "https://www.tiktok.com/search?q=tiktokgrowthchallenge",
+            "tag": "https://www.tiktok.com/tag/dollyparton",
+            "search": "https://www.tiktok.com/search?q=dollyparton",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
-            "note": "TikTok 平台官方活动，抖音无对应机制，无法核实。"
+            "note": "帕顿逝世在中文媒体（新浪、今日头条等）也有报道，但当日未进入抖音热搜前列，故标记为未在抖音热搜中找到直接对应条目。"
           },
           "videoEmbed": {
-            "author": "coffe.espreso_",
-            "videoId": "7669407191010528543"
+            "author": "gracieblevins01",
+            "videoId": "7682146475475750175"
           },
           "fusionSuggestion": {
-            "commercial": "可参考办游戏内『创作者成长挑战』，鼓励玩家UP主定期产出内容换取专属奖励。",
-            "video": "官方号发布挑战规则介绍视频，展示优秀参与者作品。"
+            "commercial": "避免借真实人物逝世话题做商业蹭热，如需联动建议仅在官方致敬/公益向内容中使用，不做游戏内商业化设计。",
+            "video": "暂不建议制作联动短视频，纯粹的名人逝世新闻不适合娱乐化二创。"
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "tag": "#lovestory",
           "name": "Love Story（越南音乐/情感向挑战热潮，具体出处待核验）",
           "regionGroup": "sea",
@@ -1866,7 +2162,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "VN",
-              "posts": "925.5K",
+              "posts": "934.8K",
               "views": "1.9B"
             }
           ],
@@ -1877,7 +2173,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/lovestory",
             "search": "https://www.tiktok.com/search?q=lovestory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -1890,7 +2186,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "tag": "#naykilla",
           "name": "Naykilla（含义待核验）",
           "regionGroup": "sea",
@@ -1899,7 +2195,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "417.6K",
+              "posts": "418.3K",
               "views": "1.8B"
             }
           ],
@@ -1926,7 +2222,40 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
+          "tag": "#brez",
+          "name": "Brez（身份待核验）",
+          "regionGroup": "global",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "111.9K",
+              "views": "1.7B"
+            }
+          ],
+          "summary": "美国TikTok近期热门标签，具体指向内容【待核验】，未查证到对应的官方新闻或知名人物/事件报道。",
+          "whyHot": "播放量较高但未能通过公开检索找到明确的新闻源或人物身份，可能是小众社群内的梗/俚语/品牌词，具体走红原因暂无法确认。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/brez",
+            "search": "https://www.tiktok.com/search?q=brez",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 9,
           "tag": "#catinthehat",
           "name": "The Cat in the Hat（华纳兄弟动画电影，迈克·梅耶斯主演）",
           "regionGroup": "global",
@@ -1935,13 +2264,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "128.8K",
+              "posts": "130.9K",
               "views": "1.4B"
-            },
-            {
-              "code": "GB",
-              "posts": "75.4K",
-              "views": "459.4M"
             }
           ],
           "summary": "根据苏斯博士经典绘本改编、迈克·梅耶斯主演的动画电影《The Cat in the Hat》相关内容在美区持续走高。",
@@ -1951,7 +2275,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/catinthehat",
             "search": "https://www.tiktok.com/search?q=catinthehat",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
           },
           "douyinCheck": {
             "status": "nonapplicable",
@@ -1967,7 +2291,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 11,
+          "rank": 10,
           "tag": "#merdeka",
           "name": "Merdeka（印尼语\"独立\"，印尼独立日主题泛用词，与#17agustus同源）",
           "regionGroup": "sea",
@@ -1976,8 +2300,13 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "574K",
+              "posts": "574.2K",
               "views": "1.4B"
+            },
+            {
+              "code": "MY",
+              "posts": "266.7K",
+              "views": "972.5M"
             }
           ],
           "summary": "印尼独立日(8月17日)主题泛用标签，与#17agustus/#lomba17agustus同属独立日庆典内容矩阵，具体使用场景（庆典/致辞/游行等）视标签字面而定。",
@@ -2000,32 +2329,27 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 12,
+          "rank": 11,
           "tag": "#spidermanbrandnewday",
           "name": "Spider-Man: Brand New Day",
-          "regionGroup": "global",
+          "regionGroup": "sea",
           "category": "影视",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "GB",
-              "posts": "313.1K",
+              "code": "ID",
+              "posts": "204.1K",
               "views": "1.3B"
             },
             {
-              "code": "BR",
-              "posts": "266.1K",
-              "views": "854.1M"
-            },
-            {
               "code": "PH",
-              "posts": "182.2K",
+              "posts": "182.4K",
               "views": "1.2B"
             },
             {
               "code": "VN",
               "posts": "106K",
-              "views": "358.1M"
+              "views": "358.4M"
             }
           ],
           "summary": "漫威电影《蜘蛛侠：崭新的一天》(Spider-Man: Brand New Day) 相关话题，英国娱乐榜前列。",
@@ -2035,7 +2359,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/spidermanbrandnewday",
             "search": "https://www.tiktok.com/search?q=spidermanbrandnewday",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=GB"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -2051,7 +2375,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 13,
+          "rank": 12,
           "tag": "#quietonthecreek",
           "name": "Quiet on the Creek",
           "regionGroup": "global",
@@ -2060,7 +2384,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "357.8K",
+              "posts": "358.3K",
               "views": "1.2B"
             }
           ],
@@ -2071,7 +2395,7 @@ window.TREND_DATA = {
           "links": {
             "tag": "https://www.tiktok.com/tag/quietonthecreek",
             "search": "https://www.tiktok.com/search?q=quietonthecreek",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -2087,40 +2411,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 14,
-          "tag": "#laguaira",
-          "name": "La Guaira（委内瑞拉拉瓜伊拉州，2026年6月强震灾区）",
-          "regionGroup": "global",
-          "category": "自然灾害/新闻",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "272K",
-              "views": "1.2B"
-            }
-          ],
-          "summary": "委内瑞拉拉瓜伊拉州(La Guaira)于2026年6月24日遭遇连续双震重创，该州多地建筑倒塌、人员伤亡，被政府列为灾区；本条为该事件后续救援/重建进展相关内容。",
-          "whyHot": "地震发生已过去约2个多月，仍在90天窗口的时间范围内，救援中\"奇迹生还\"(如保安在废墟8天后被救出)等后续报道持续引发关注和转发。",
-          "origin": "真实自然灾害事件，CBS News、NBC News等国际媒体及委内瑞拉政府均有报道确认。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/laguaira",
-            "search": "https://www.tiktok.com/search?q=laguaira",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "本轮抖音热搜快照未见直接对应条目。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "自然灾害类议题不建议做游戏内商业化联动。",
-            "video": "不建议制作娱乐化二创，可考虑公益向内容。"
-          }
-        },
-        {
-          "rank": 15,
+          "rank": 13,
           "tag": "#hutri",
           "name": "HUTRI（印尼\"共和国独立纪念日\"缩写，与#17agustus同源）",
           "regionGroup": "sea",
@@ -2129,7 +2420,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "280.7K",
+              "posts": "280.8K",
               "views": "1.2B"
             }
           ],
@@ -2153,7 +2444,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 16,
+          "rank": 14,
           "tag": "#agustusan",
           "name": "Agustusan（印尼语\"八月庆典\"，印尼独立日主题泛用词）",
           "regionGroup": "sea",
@@ -2162,7 +2453,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "ID",
-              "posts": "287.6K",
+              "posts": "287.8K",
               "views": "1.2B"
             }
           ],
@@ -2186,7 +2477,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 17,
+          "rank": 15,
           "tag": "#fairs",
           "name": "Fairs（美国秋季州/县集市季相关内容）",
           "regionGroup": "global",
@@ -2195,13 +2486,8 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "284.8K",
+              "posts": "287.1K",
               "views": "1.1B"
-            },
-            {
-              "code": "GB",
-              "posts": "46.8K",
-              "views": "192.7M"
             }
           ],
           "summary": "美国秋季州集市(State Fair)/县集市(County Fair)相关内容泛用标签，涵盖游乐设施、集市小吃、农产品展等主题短视频。",
@@ -2224,7 +2510,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 18,
+          "rank": 16,
           "tag": "#brinity",
           "name": "Brinity（具体身份/含义待核验）",
           "regionGroup": "global",
@@ -2233,7 +2519,7 @@ window.TREND_DATA = {
           "regions": [
             {
               "code": "US",
-              "posts": "46.3K",
+              "posts": "46.2K",
               "views": "1.1B"
             }
           ],
@@ -2257,7 +2543,7 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 19,
+          "rank": 17,
           "tag": "#fypfyypシfyp",
           "name": "FYP堆叠标签（泛用算法引流标签组合，非真实事件）",
           "regionGroup": "sea",
@@ -2275,8 +2561,8 @@ window.TREND_DATA = {
           "origin": "非事件类标签，是平台使用习惯衍生的泛用标签组合。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/fypfyypシfyp",
-            "search": "https://www.tiktok.com/search?q=fypfyypシfyp",
+            "tag": "https://www.tiktok.com/tag/fypfyyp%E3%82%B7fyp",
+            "search": "https://www.tiktok.com/search?q=fypfyyp%E3%82%B7fyp",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
@@ -2290,27 +2576,27 @@ window.TREND_DATA = {
           }
         },
         {
-          "rank": 20,
-          "tag": "#ทนายปีศาจ",
-          "name": "ทนายปีศาจ（泰语\"魔鬼律师\"，可能为剧集名称，具体待核验）",
+          "rank": 18,
+          "tag": "#kemerdekaan",
+          "name": "Kemerdekaan（印尼语\"独立\"，印尼81周年独立日相关话题）",
           "regionGroup": "sea",
-          "category": "待核验",
+          "category": "文化/节日",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "TH",
-              "posts": "38.3K",
-              "views": "1B"
+              "code": "ID",
+              "posts": "230.1K",
+              "views": "886.2M"
             }
           ],
-          "summary": "泰语短语\"魔鬼律师\"，直译推测可能为泰剧或综艺节目名称，具体对应作品及走红原因【待核验】。",
-          "whyHot": "播放量在泰国90天窗口中较为突出(达到1B级别)，但未能通过公开检索确认具体对应的作品或事件。",
-          "origin": "具体来源不明，非已核实公共事件。",
-          "confidence": "uncertain",
+          "summary": "印尼语\"独立\"，与#merdeka同属2026年8月17日印尼独立81周年纪念活动相关话题群。",
+          "whyHot": "印尼国庆季节性固定热词，全民参与度高，是每年8月的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/ทนายปีศาจ",
-            "search": "https://www.tiktok.com/search?q=ทนายปีศาจ",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
+            "tag": "https://www.tiktok.com/tag/kemerdekaan",
+            "search": "https://www.tiktok.com/search?q=kemerdekaan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
@@ -2318,8 +2604,290 @@ window.TREND_DATA = {
           },
           "videoEmbed": null,
           "fusionSuggestion": {
-            "commercial": "身份未核实前不建议商业化联动。",
-            "video": "暂不建议制作相关内容。"
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 19,
+          "tag": "#haydenpanettiere",
+          "name": "Hayden Panettiere（美国女演员，2026年8月16日逝世）",
+          "regionGroup": "global",
+          "category": "名人",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "63.1K",
+              "views": "829.8M"
+            }
+          ],
+          "summary": "美国女演员Hayden Panettiere于2026年8月16日在美国南卡罗来纳州家中逝世，年仅36岁，其经纪人已发布官方声明确认。她曾主演NBC科幻剧《英雄》(Heroes)、《惊声尖叫6》等作品。",
+          "whyHot": "作为曾主演经典剧集《英雄》(饰演拥有自愈超能力的啦啦队长)的知名童星/演员，其逝世消息引发大量纪念/回顾类内容，警方正在调查其死亡是否涉及犯罪行为，事件仍在发展中。",
+          "origin": "真实新闻事件，其经纪人代表官方确认死讯，多家权威媒体(如ABC News)报道。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/haydenpanettiere",
+            "search": "https://www.tiktok.com/search?q=haydenpanettiere",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "避免借真实人物逝世话题做商业蹭热。",
+            "video": "不建议制作娱乐化二创，纯粹的名人逝世新闻不适合联动。"
+          }
+        },
+        {
+          "rank": 20,
+          "tag": "#milenmelelehbahagia",
+          "name": "Milen Meleleh Bahagia（印尼歌手Mila与Valen合作曲目相关话题）",
+          "regionGroup": "sea",
+          "category": "音乐",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "79.9K",
+              "views": "812.7M"
+            }
+          ],
+          "summary": "印尼歌手Mila与Valen合作单曲《Meleleh Bahagia》（意为\"融化的幸福\"）相关话题，MV于2026年6月发布，本轮在TikTok上延续热度。",
+          "whyHot": "两位创作者的联名合作曲吸引双方粉丝群体传播，歌曲片段常被用作卡点/翻唱素材。",
+          "origin": "音乐作品官方发布衍生传播（已通过公开视频平台信息核实：2026年6月24日发布MV）。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/milenmelelehbahagia",
+            "search": "https://www.tiktok.com/search?q=milenmelelehbahagia",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑洗脑副歌片段做游戏内BGM/广告配乐参考。",
+            "video": "适合做歌曲片段卡点的角色展示视频。"
+          }
+        },
+        {
+          "rank": 21,
+          "tag": "#maulidnabi",
+          "name": "Maulid Nabi（先知穆罕默德诞辰纪念日）",
+          "regionGroup": "sea",
+          "category": "宗教/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "237.1K",
+              "views": "732.2M"
+            }
+          ],
+          "summary": "2026年伊斯兰教先知穆罕默德诞辰纪念日（圣纪节）落在8月25日前后，印尼作为全球最大穆斯林人口国家迎来集中庆祝。",
+          "whyHot": "各地举行诵经、游行、宗教讲座等庆祝活动，恰逢近7天窗口内的节日高峰，带动大量宗教纪念类短视频集中涌现。",
+          "origin": "伊斯兰教传统宗教节日，非营销或创作者发起。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/maulidnabi",
+            "search": "https://www.tiktok.com/search?q=maulidnabi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "nonapplicable",
+            "note": "印尼本地宗教节日，非抖音热搜可比对对象。"
+          },
+          "videoEmbed": {
+            "author": "suarajepara",
+            "videoId": "7683481670263000340"
+          },
+          "fusionSuggestion": {
+            "commercial": "宗教节日不建议做游戏商业化联动，避免文化敏感风险。",
+            "video": "不建议制作娱乐化二创内容。"
+          }
+        },
+        {
+          "rank": 22,
+          "tag": "#mattcayetano",
+          "name": "Matt Cayetano（身份待核验，可能为体育相关人物）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "57K",
+              "views": "732.2M"
+            }
+          ],
+          "summary": "菲律宾TikTok近期热门标签，归类于体育/户外相关，具体指向人物或事件【待核验】，未查证到明确公开报道。",
+          "whyHot": "播放量较高但未能确认具体走红原因。",
+          "origin": "具体发起人/事件不明，非已核实的公共事件。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mattcayetano",
+            "search": "https://www.tiktok.com/search?q=mattcayetano",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "身份未核实前不建议做任何商业化联动。",
+            "video": "暂不建议制作相关二创内容。"
+          }
+        },
+        {
+          "rank": 23,
+          "tag": "#panitia17agustus",
+          "name": "Panitia 17 Agustus（印尼独立日筹备委员会主题）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "152.1K",
+              "views": "731.6M"
+            }
+          ],
+          "summary": "印尼语\"8月17日（独立日）筹备委员会\"，指社区/校园自发组织独立日庆典活动的志愿者团队，相关趣味筹备花絮、活动现场内容在TikTok传播。",
+          "whyHot": "印尼独立日全民参与度极高，社区筹备过程本身也成为轻松幽默的内容素材，属于每年8月的规律性文化热梗。",
+          "origin": "民间自发的节日筹备活动内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/panitia17agustus",
+            "search": "https://www.tiktok.com/search?q=panitia17agustus",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑\"社区团队协作\"主题做游戏内公会/组队活动宣传素材。",
+            "video": "适合做趣味团队协作花絮风格的游戏内容预告。"
+          }
+        },
+        {
+          "rank": 24,
+          "tag": "#fypシ゚viral__",
+          "name": "FYP Viral（泛\"求上推荐页\"标签）",
+          "regionGroup": "global",
+          "category": "泛流量标签",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "372.2K",
+              "views": "545.7M"
+            },
+            {
+              "code": "ID",
+              "posts": "609.3K",
+              "views": "705.6M"
+            },
+            {
+              "code": "PH",
+              "posts": "228.9K",
+              "views": "211.6M"
+            },
+            {
+              "code": "MY",
+              "posts": "70.2K",
+              "views": "96M"
+            }
+          ],
+          "summary": "多地区TikTok上常见的泛流量标签变体（For You Page + viral的关键词堆叠拼法），创作者用于给内容打标希望获得推荐流量，不指向具体单一事件。",
+          "whyHot": "属于创作者常规蹭流量标签打法，非具体热点事件，在美国/印尼/菲律宾/马来西亚等多市场同步高频出现。",
+          "origin": "泛类别标签，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/fyp%E3%82%B7%E3%82%9Aviral__",
+            "search": "https://www.tiktok.com/search?q=fyp%E3%82%B7%E3%82%9Aviral__",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "泛流量标签，不适合单独做商业化联动。",
+            "video": "可作为常规发布小技巧参考，非内容方向。"
+          }
+        },
+        {
+          "rank": 25,
+          "tag": "#gerakjalan",
+          "name": "Gerak Jalan（印尼独立日游行/踢正步方阵表演）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "69.5K",
+              "views": "703.5M"
+            }
+          ],
+          "summary": "印尼语\"踢正步游行\"，指学校/社区在印尼独立日期间组织的方阵游行表演，是独立日庆典的传统项目之一。",
+          "whyHot": "印尼独立日全民参与度极高，整齐划一的游行方阵表演视觉效果强，是每年8月的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/gerakjalan",
+            "search": "https://www.tiktok.com/search?q=gerakjalan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑\"整齐划一\"的方阵视觉元素做游戏内团队协作宣传素材。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
+          }
+        },
+        {
+          "rank": 26,
+          "tag": "#agustus",
+          "name": "Agustus（印尼语\"八月\"，独立日庆典季通用月份标签）",
+          "regionGroup": "sea",
+          "category": "文化/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "235.3K",
+              "views": "679.7M"
+            }
+          ],
+          "summary": "印尼语\"八月\"，作为印尼独立日（8月17日）庆典季的通用月份标签，与#merdeka/#kemerdekaan等同属一组节日内容矩阵。",
+          "whyHot": "印尼国庆季节性固定热词，全民参与度高，是每年8月的规律性文化热梗。",
+          "origin": "官方国家纪念日衍生的全民自发庆祝内容。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/agustus",
+            "search": "https://www.tiktok.com/search?q=agustus",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "本轮抖音热搜快照未见直接对应条目。"
+          },
+          "videoEmbed": null,
+          "fusionSuggestion": {
+            "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
+            "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
           }
         }
       ]
