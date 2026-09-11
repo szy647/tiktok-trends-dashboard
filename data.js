@@ -43,7 +43,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brezful",
+            "videoId": "7632574246438407445"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -76,7 +79,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "gj.ej7",
+            "videoId": "7682737061052386574"
+          },
           "fusionSuggestion": {
             "commercial": "涉及第三方影视剧版权，不建议未经授权直接使用剧集素材做商业联动。",
             "video": "不建议直接搬运剧集片段做二创。"
@@ -109,7 +115,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "fellingthesound",
+            "videoId": "7681846777221221653"
+          },
           "fusionSuggestion": {
             "commercial": "可参考类似#lomba17agustus的处理方式，设计\"开学季\"限时活动，避免使用真实校园肖像。",
             "video": "适合做\"越南开学季\"主题短视频联动。"
@@ -142,7 +151,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brooklynguy01",
+            "videoId": "7682297188982050061"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑让MCGG英雄IP角色用同款\"Buddy\"舞蹈动作剪辑二创，蹭舞蹈挑战流量。",
             "video": "适合做游戏角色跳舞版PokéDance模仿视频。"
@@ -175,7 +187,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nhanstudio97",
+            "videoId": "7682236274169679124"
+          },
           "fusionSuggestion": {
             "commercial": "选美赛事本身可考虑\"荣耀加冕\"主题外观设计灵感，避免直接使用真人肖像。",
             "video": "可做\"东南亚主场荣耀\"主题短视频，不直接使用赛事真实画面。"
@@ -208,7 +223,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bupbemiao",
+            "videoId": "7683881493134855445"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议商业化联动。",
             "video": "暂不建议制作相关内容。"
@@ -241,7 +259,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "thivv.jeyan",
+            "videoId": "7620814201346477333"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -274,7 +295,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pripattel",
+            "videoId": "7681507893857832206"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实明星肖像与争议言论，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
             "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
@@ -307,7 +331,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dicungmaiamgiadinhviet",
+            "videoId": "7682269014562770194"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实家庭故事，不建议直接商业化，可关注其温情叙事风格做泛化参考。",
             "video": "暂不建议制作相关二创内容。"
@@ -340,7 +367,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bria.stuart",
+            "videoId": "7684055308200627487"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实网红肖像，不建议未经授权商用。",
             "video": "不建议直接使用其肖像做联动内容。"
@@ -373,7 +403,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pripattel",
+            "videoId": "7681507893857832206"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐/时尚元素做风格灵感参考。",
             "video": "可参考其标志性穿搭/舞台风格做泛化二创，避免直接使用其肖像。"
@@ -406,7 +439,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "xhenxz76",
+            "videoId": "7623728626411769109"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑动漫风格插画/角色设计与MCGG联动，蹭泛动漫受众。",
             "video": "适合做动漫风格英雄二创短片。"
@@ -439,7 +475,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "phillyknowstv",
+            "videoId": "7682470965724318989"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑与Nickelodeon官方联动做限时活动皮肤，需走版权合作路径。",
             "video": "适合借用海绵宝宝经典梗做游戏角色的搞笑混剪。"
@@ -472,7 +511,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nataliireynoldss",
+            "videoId": "7682950319470316830"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -505,7 +547,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "ifootball.mcv",
+            "videoId": "6949758135821241602"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -538,7 +583,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "collegegameday",
+            "videoId": "7683939154622762254"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实明星肖像，不建议直接商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -571,7 +619,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dnastyeditz",
+            "videoId": "7682735549228141854"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑万圣节限定恐怖风格皮肤/活动，蹭季节性话题。",
             "video": "适合做万圣节主题的游戏角色cosplay混剪。"
@@ -604,7 +655,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "kostqrw_0",
+            "videoId": "7617401766916738312"
+          },
           "fusionSuggestion": {
             "commercial": "泛流量标签，不适合单独做商业化联动。",
             "video": "可作为常规发布小技巧参考，非内容方向。"
@@ -637,7 +691,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brain.thot",
+            "videoId": "7563946851674737942"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑与Nickelodeon官方联动做限时活动皮肤，需走版权合作路径。",
             "video": "适合借用海绵宝宝经典梗做游戏角色的搞笑混剪。"
@@ -670,7 +727,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "arunartist07",
+            "videoId": "6806577416291536130"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑抹茶配色的游戏内联名周边/皮肤视觉参考。",
             "video": "适合做美食探店/甜品测评风格的游戏周边内容。"
@@ -703,7 +763,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nayla_fardila",
+            "videoId": "7638471160572693780"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -736,7 +799,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dreamlesz",
+            "videoId": "7673490468600286482"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -769,7 +835,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "ilhamfirdausaa",
+            "videoId": "7373122756721806597"
+          },
           "fusionSuggestion": {
             "commercial": "涉及宗教内容，不建议做商业化联动。",
             "video": "不建议制作相关二创内容。"
@@ -802,7 +871,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "barbiebitez",
+            "videoId": "7681937303111060766"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑万圣节限定恐怖风格活动皮肤，蹭季节性话题。",
             "video": "适合做万圣节主题的游戏内小游戏/装扮挑战预告。"
@@ -835,7 +907,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nhuquynhtran2k",
+            "videoId": "7663087375886732564"
+          },
           "fusionSuggestion": {
             "commercial": "可关注直播带货类内容形式，探索游戏内商城/皮肤的直播带货式推广。",
             "video": "适合做\"游戏主播副业\"角度的内容策划参考。"
@@ -878,7 +953,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "chaigocmit",
+            "videoId": "7641094587108396305"
+          },
           "fusionSuggestion": {
             "commercial": "可关注创作者互助文化，探索游戏官方账号\"陪伴新主播开播\"类互动活动。",
             "video": "适合做\"新主播开播小技巧\"系列内容参考。"
@@ -911,7 +989,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "zynix207",
+            "videoId": "7681966193149807880"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑MCGG英雄技能特效做卡点混剪素材，蹭泛动漫剪辑受众。",
             "video": "适合做英雄技能卡点AMV风格短片。"
@@ -944,7 +1025,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "300000778_",
+            "videoId": "7682001881727651092"
+          },
           "fusionSuggestion": {
             "commercial": "可关注怀旧情绪营销，做\"青春回忆\"角度的游戏怀旧向内容。",
             "video": "适合做青春怀旧风格的游戏角色成长向短片。"
@@ -977,7 +1061,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "criminal__acttv",
+            "videoId": "7683280135788825870"
+          },
           "fusionSuggestion": {
             "commercial": "可关注动物拟人化萌趣内容形式做泛化参考。",
             "video": "适合做萌趣动物向的游戏宠物/坐骑系统内容参考。"
@@ -1010,7 +1097,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "christiancafa",
+            "videoId": "7681467422330604832"
+          },
           "fusionSuggestion": {
             "commercial": "泛用明星话题标签，暂无明确联动切入点。",
             "video": "不建议特别制作联动内容。"
@@ -1083,7 +1173,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南语境本地话题，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "scutiefy_17",
+            "videoId": "7641364722507386130"
+          },
           "fusionSuggestion": {
             "commercial": "暂不建议蹭此话题，来源未核实前不宜设计具体商业化联动。",
             "video": "暂不建议制作联动内容。"
@@ -1116,7 +1209,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brezful",
+            "videoId": "7632574246438407445"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1154,7 +1250,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tpdnell",
+            "videoId": "7680063232890981650"
+          },
           "fusionSuggestion": {
             "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
             "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
@@ -1187,7 +1286,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "provaislam752",
+            "videoId": "7683919117463637261"
+          },
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热。",
             "video": "不建议制作娱乐化二创，纯粹的名人逝世新闻不适合联动。"
@@ -1220,7 +1322,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "phuongmychiofficial",
+            "videoId": "7683075677494463762"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实音乐人肖像及版权，不建议未经授权商用。",
             "video": "如需联动应走正规版权合作路径。"
@@ -1253,7 +1358,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pd_khalil",
+            "videoId": "7681737392629517589"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1327,7 +1435,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "cornerstoneofficial",
+            "videoId": "7679489630449782024"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实音乐人肖像及版权，不建议未经授权商用。",
             "video": "如需联动应走正规版权合作路径。"
@@ -1360,7 +1471,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "asantemadrigal",
+            "videoId": "7674176868039331103"
+          },
           "fusionSuggestion": {
             "commercial": "涉及迪士尼第三方IP版权，不建议未经授权使用相关形象。",
             "video": "可考虑\"如果指挥官参加粉丝盛会\"原创概念视频，避免使用受版权保护的迪士尼角色。"
@@ -1393,7 +1507,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brooklynguy01",
+            "videoId": "7682297188982050061"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑让MCGG英雄IP角色用同款\"Buddy\"舞蹈动作剪辑二创，蹭舞蹈挑战流量。",
             "video": "适合做游戏角色跳舞版PokéDance模仿视频。"
@@ -1426,7 +1543,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nhanstudio97",
+            "videoId": "7682236274169679124"
+          },
           "fusionSuggestion": {
             "commercial": "选美赛事本身可考虑\"荣耀加冕\"主题外观设计灵感，避免直接使用真人肖像。",
             "video": "可做\"东南亚主场荣耀\"主题短视频，不直接使用赛事真实画面。"
@@ -1459,7 +1579,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dwzcore",
+            "videoId": "7682049616069578017"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1528,7 +1651,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "raimamariyam82",
+            "videoId": "7676205388148133150"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1561,7 +1687,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bupbemiao",
+            "videoId": "7683881493134855445"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议商业化联动。",
             "video": "暂不建议制作相关内容。"
@@ -1594,7 +1723,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "azamiami28",
+            "videoId": "7670890259474877703"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
             "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
@@ -1627,7 +1759,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "abscbn",
+            "videoId": "7680807155183734024"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实公众人物肖像，不建议未经授权商用。",
             "video": "不建议直接使用其肖像做联动内容。"
@@ -1660,7 +1795,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "cykl0psfilm",
+            "videoId": "7683207538749213966"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑绿灯侠戒指/能量场视觉元素做联名皮肤特效参考（需版权合作）。",
             "video": "适合做游戏英雄的\"能量武器\"主题混剪，呼应绿灯侠的意念构造能力。"
@@ -1693,7 +1831,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "fellingthesound",
+            "videoId": "7681846777221221653"
+          },
           "fusionSuggestion": {
             "commercial": "可参考类似#lomba17agustus的处理方式，设计\"开学季\"限时活动，避免使用真实校园肖像。",
             "video": "适合做\"越南开学季\"主题短视频联动。"
@@ -1726,7 +1867,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "abbyabigalee",
+            "videoId": "7680388328541146399"
+          },
           "fusionSuggestion": {
             "commercial": "可关注真人秀式\"团综重聚\"内容形式做泛化参考。",
             "video": "暂不建议直接使用节目片段二创。"
@@ -1759,7 +1903,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "minhtri97.shop",
+            "videoId": "7675761589647084821"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1792,7 +1939,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "zloomyx",
+            "videoId": "7684035525296065800"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实演员肖像及第三方剧集版权，不建议直接商业化联动。",
             "video": "可关注韩剧甜宠剧情风格做泛化剧情向内容参考，不建议直接使用剧集素材。"
@@ -1825,7 +1975,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "sunseeshowbiz",
+            "videoId": "7683906780681751816"
+          },
           "fusionSuggestion": {
             "commercial": "可关注开学季情绪营销节点，做\"开学后如何靠游戏放松\"角度的轻松内容。",
             "video": "适合做开学季自嘲/共鸣类短视频文案参考。"
@@ -1858,7 +2011,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "duphimminhthich",
+            "videoId": "7682196988938505479"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -1891,7 +2047,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nyyxveiill",
+            "videoId": "7648617836226694432"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑提前布局圣诞主题限定活动/皮肤，契合菲律宾超长圣诞季的营销窗口。",
             "video": "适合做圣诞主题的游戏内装饰/礼物系统预告。"
@@ -1924,7 +2083,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "thecatlovesthemouse",
+            "videoId": "7683907761247178002"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑越南国庆限定红黄配色活动皮肤/庆典元素联动。",
             "video": "适合做越南国庆主题的游戏内庆典活动预告。"
@@ -1957,7 +2119,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "genzetertainment",
+            "videoId": "7684078858240412949"
+          },
           "fusionSuggestion": {
             "commercial": "涉及真实明星肖像，不建议直接商业化联动，可关注其音乐风格做灵感参考。",
             "video": "可参考其歌曲片段做卡点内容，避免直接使用其肖像。"
@@ -2179,7 +2344,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "越南语境本地话题，非抖音热搜可比对对象。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "scutiefy_17",
+            "videoId": "7641364722507386130"
+          },
           "fusionSuggestion": {
             "commercial": "暂不建议蹭此话题，来源未核实前不宜设计具体商业化联动。",
             "video": "暂不建议制作联动内容。"
@@ -2248,7 +2416,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brezful",
+            "videoId": "7632574246438407445"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -2322,7 +2493,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tpdnell",
+            "videoId": "7680063232890981650"
+          },
           "fusionSuggestion": {
             "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
             "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
@@ -2437,7 +2611,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tiktok.sherly.laos2",
+            "videoId": "7676611216818588948"
+          },
           "fusionSuggestion": {
             "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
             "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
@@ -2470,7 +2647,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "alinahasna.r",
+            "videoId": "7674829636248898836"
+          },
           "fusionSuggestion": {
             "commercial": "可作为年度固定节日营销节点，提前规划MCGG\"独立日庆典\"限定内容与皮肤；国旗配色/图案使用需过法务合规审核。",
             "video": "适合作为8月固定节日内容日历项，产出\"MCGG玩家如何庆祝印尼独立日\"系列内容。"
@@ -2503,7 +2683,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "no_gull5",
+            "videoId": "7654117748905233686"
+          },
           "fusionSuggestion": {
             "commercial": "可结合秋季集市元素设计限时活动皮肤(摩天轮/爆米花等元素)。",
             "video": "适合做\"秋季游乐集市\"主题短视频。"
@@ -2536,7 +2719,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "mysticring",
+            "videoId": "7680430244754427158"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议商业化联动。",
             "video": "暂不建议制作相关内容。"
@@ -2569,7 +2755,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "lyn.yong34",
+            "videoId": "7667412608269716757"
+          },
           "fusionSuggestion": {
             "commercial": "非真实热点，不具备联动价值。",
             "video": "不建议制作相关内容。"
@@ -2602,7 +2791,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "esraj17",
+            "videoId": "7679835944702299412"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
             "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
@@ -2635,7 +2827,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "provaislam752",
+            "videoId": "7683919117463637261"
+          },
           "fusionSuggestion": {
             "commercial": "避免借真实人物逝世话题做商业蹭热。",
             "video": "不建议制作娱乐化二创，纯粹的名人逝世新闻不适合联动。"
@@ -2668,7 +2863,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "3dent_id",
+            "videoId": "7654885700478766356"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑洗脑副歌片段做游戏内BGM/广告配乐参考。",
             "video": "适合做歌曲片段卡点的角色展示视频。"
@@ -2737,7 +2935,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "chiksie",
+            "videoId": "7684171236804447508"
+          },
           "fusionSuggestion": {
             "commercial": "身份未核实前不建议做任何商业化联动。",
             "video": "暂不建议制作相关二创内容。"
@@ -2770,7 +2971,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dwimanunggalofficial88_",
+            "videoId": "7672289785318362388"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑\"社区团队协作\"主题做游戏内公会/组队活动宣传素材。",
             "video": "适合做趣味团队协作花絮风格的游戏内容预告。"
@@ -2818,7 +3022,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "may_hmue_thazin",
+            "videoId": "7682400377861360904"
+          },
           "fusionSuggestion": {
             "commercial": "泛流量标签，不适合单独做商业化联动。",
             "video": "可作为常规发布小技巧参考，非内容方向。"
@@ -2851,7 +3058,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "paskibraprajuritkartika_",
+            "videoId": "7673414260466257160"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑\"整齐划一\"的方阵视觉元素做游戏内团队协作宣传素材。",
             "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
@@ -2884,7 +3094,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "本轮抖音热搜快照未见直接对应条目。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "alinahasna.r",
+            "videoId": "7674829636248898836"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑印尼独立日限定红白配色活动皮肤/庆典元素联动。",
             "video": "适合做印尼独立日主题的游戏内庆典活动预告。"
