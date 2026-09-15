@@ -135,6 +135,30 @@
   .douyin-item a:hover{color:var(--accent2)}
   .douyin-item .hv{color:var(--txt3);font-size:12px;flex:none}
 
+  .card{position:relative}
+  .card.is-selected{border-color:var(--accent2);box-shadow:0 0 0 2px rgba(10,125,133,.25)}
+  .pick-box{position:absolute;top:18px;left:18px;width:26px;height:26px;cursor:pointer;accent-color:var(--accent2);z-index:2;
+    background:#fff;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+  .selectbar-inline{display:flex;align-items:center;gap:10px;margin-left:auto}
+  .selectbar-inline button{font-size:13px;padding:8px 14px;border-radius:9px;border:1px solid var(--line);background:var(--bg3);color:var(--txt2);cursor:pointer;font-weight:700;white-space:nowrap}
+  .selectbar-inline button:hover{border-color:var(--accent2);color:var(--accent2)}
+
+  .export-float{position:fixed;left:50%;bottom:16px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:center;background:#1f2530;color:#fff;border-radius:16px;padding:12px 18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);z-index:100;transition:.2s;max-width:94vw;width:max-content}
+  .export-float.show{opacity:1;pointer-events:auto;transform:translate(-50%,0)}
+  .export-float .ef-count{font-weight:800;font-size:14px;white-space:nowrap}
+  .export-float .ef-count b{color:#5eead4}
+  .export-float button{font-size:13px;padding:9px 14px;border-radius:10px;border:none;cursor:pointer;font-weight:800;white-space:nowrap;flex:none}
+  .export-float .ef-export{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#fff}
+  .export-float .ef-clear{background:rgba(255,255,255,.12);color:#fff}
+  @media(max-width:640px){.export-float{flex-direction:column;bottom:10px;padding:10px 14px}}
+
+  .toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%) translateY(10px);opacity:0;
+    background:var(--ok);color:#fff;padding:14px 22px;border-radius:12px;font-size:15px;font-weight:700;
+    box-shadow:0 8px 24px rgba(0,0,0,.2);z-index:200;transition:.25s;max-width:90vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
   footer{margin-top:30px;font-size:14px;color:var(--txt3);line-height:1.9}
   footer b{color:var(--txt2)}
   .empty{padding:70px 0;text-align:center;color:var(--txt3);font-size:16px}
@@ -188,6 +212,10 @@
     </select>
     <input type="search" id="searchInput" placeholder="搜索话题名称 / 分类关键词...">
     <div class="count-tag" id="countTag"></div>
+    <div class="selectbar-inline">
+      <button id="selectAllBtn" type="button">全选当前列表</button>
+      <button id="selectNoneBtn" type="button">取消本页勾选</button>
+    </div>
   </div>
 
   <div class="panel">
@@ -211,6 +239,13 @@
 
   <footer id="footerNote"></footer>
 </main>
+
+<div class="export-float" id="exportFloat">
+  <div class="ef-count">已勾选 <b id="efCountNum">0</b> 条热梗</div>
+  <button class="ef-export" id="efExportBtn" type="button">复制内容 → 发给我生成飞书文档</button>
+  <button class="ef-clear" id="efClearBtn" type="button">清空全部勾选</button>
+</div>
+<div class="toast" id="toast"></div>
 
 <script src="data.js"></script>
 <script>
@@ -242,6 +277,9 @@ Object.keys(D.windows).forEach(w=>{
 });
 
 const state = { window:'30', region:'all', dance:'all', sort:'rank', keyword:'', chartMetric:'views' };
+const selected = new Map(); // key: "window::tag" -> { item, window }
+
+function itemKey(win, tag){ return win + '::' + tag; }
 
 const douyinLabel = {
   not_found: {cls:'not_found', text:'⚠ 国内暂未同步'},
@@ -295,8 +333,11 @@ function fusionBlock(it){
 function cardHtml(it){
   const dc = douyinLabel[it.douyinCheck.status] || douyinLabel.not_found;
   const maxV = Math.max(...it.regions.map(r=> state.chartMetric==='views'? parseNum(r.views): parseNum(r.posts)));
+  const key = itemKey(state.window, it.tag);
+  const checked = selected.has(key) ? 'checked' : '';
   return `
-  <div class="card">
+  <div class="card ${checked?'is-selected':''}" data-key="${key}">
+    <input type="checkbox" class="pick-box" data-key="${key}" title="勾选加入导出清单" ${checked}>
     <div class="card-media">${videoBlock(it)}</div>
     <div class="card-body">
       <div class="card-head">
@@ -403,6 +444,122 @@ function renderDouyinList(){
       <div class="hv">热度 ${d.hotValue.toLocaleString()}</div>
     </div>`).join('');
 }
+
+function updateExportFloat(){
+  const n = selected.size;
+  document.getElementById('efCountNum').textContent = n;
+  document.getElementById('exportFloat').classList.toggle('show', n>0);
+}
+
+let toastTimer = null;
+function showToast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=> t.classList.remove('show'), 3200);
+}
+
+const regionGroupLabel = { global:'全球 · 欧美', sea:'东南亚' };
+const danceLabel = { dance:'歌舞类', non_dance:'非歌舞类' };
+const windowLabelMap = {"7":"近7天","30":"近30天","90":"近90天"};
+
+function itemToMarkdown(entry, idx){
+  const it = entry.item;
+  const win = entry.window;
+  const dataLines = it.regions.map(r=>`  - ${r.code}：投稿 ${r.posts} · 播放 ${r.views}`).join('\n');
+  const conf = it.confidence==='official' ? '官方口径（含义明确）' : '含义待核验（社区整理，建议人工复核）';
+  const douyin = (douyinLabel[it.douyinCheck.status]||douyinLabel.not_found).text + '——' + it.douyinCheck.note;
+  const fs = it.fusionSuggestion || {};
+  return `### ${idx}. ${it.name}（${it.tag}）
+
+- **来源窗口 / 分类**：${windowLabelMap[win]||win+'天'} · ${it.category} · ${regionGroupLabel[it.regionGroup]||it.regionGroup} · ${danceLabel[it.danceCategory]||it.danceCategory}
+- **数据**：
+${dataLines}
+- **简介**：${it.summary}
+- **火的原因**：${it.whyHot}
+- **原梗出处**：${it.origin}
+- **置信度**：${conf}
+- **国内抖音核实**：${douyin}
+- **融合建议 · MCGG**
+  - 商业化：${fs.commercial||'—'}
+  - 短视频：${fs.video||'—'}
+- **参考链接**：
+  - 话题页：${it.links.tag}
+  - 搜索页：${it.links.search}
+  - 官方榜单入口：${it.links.rankingSource}
+`;
+}
+
+function buildExportText(){
+  const entries = Array.from(selected.values());
+  const global = entries.filter(e=>e.item.regionGroup==='global');
+  const sea = entries.filter(e=>e.item.regionGroup==='sea');
+  const now = new Date(D.meta.lastUpdated);
+  const dateStr = D.meta.lastUpdated.replace('T',' ').slice(0,16);
+  let out = `# TikTok 热梗精选清单（导出于站内数据 ${dateStr} 快照，共 ${entries.length} 条）\n\n> 来源：TikTok 热梗监测台（https://szy647.github.io/tiktok-trends-dashboard/）。字段口径见站内页脚"数据口径说明"；标注【含义待核验】的条目为社区整理内容，建议人工复核。\n\n`;
+  let idx = 1;
+  if(global.length){
+    out += `## 一、全球 · 欧美热梗\n\n`;
+    global.forEach(e=>{ out += itemToMarkdown(e, idx++) + '\n'; });
+  }
+  if(sea.length){
+    out += `## 二、东南亚热梗\n\n`;
+    sea.forEach(e=>{ out += itemToMarkdown(e, idx++) + '\n'; });
+  }
+  return out;
+}
+
+async function doExport(){
+  if(selected.size===0){ showToast('还没有勾选任何热梗'); return; }
+  const text = buildExportText();
+  try{
+    await navigator.clipboard.writeText(text);
+    showToast(`已复制 ${selected.size} 条热梗内容，粘贴发给我即可生成飞书文档`);
+  }catch(err){
+    // 剪贴板权限不可用时的兜底：弹出可手动复制的文本框
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position='fixed'; ta.style.left='0'; ta.style.top='0'; ta.style.width='100%'; ta.style.height='60%'; ta.style.zIndex='999';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    showToast('浏览器拦截了自动复制，已在页面顶部展示内容，请手动全选复制');
+  }
+}
+
+document.getElementById('cardList').addEventListener('change', e=>{
+  const cb = e.target.closest('.pick-box'); if(!cb) return;
+  const key = cb.dataset.key;
+  const card = cb.closest('.card');
+  if(cb.checked){
+    const it = D.windows[state.window].items.find(x=>x.tag===key.split('::')[1]);
+    if(it) selected.set(key, { item: it, window: state.window });
+    card.classList.add('is-selected');
+  } else {
+    selected.delete(key);
+    card.classList.remove('is-selected');
+  }
+  updateExportFloat();
+});
+
+document.getElementById('selectAllBtn').addEventListener('click', ()=>{
+  applyFilters().forEach(it=>{
+    selected.set(itemKey(state.window, it.tag), { item: it, window: state.window });
+  });
+  document.querySelectorAll('#cardList .pick-box').forEach(cb=>{ cb.checked = true; cb.closest('.card').classList.add('is-selected'); });
+  updateExportFloat();
+});
+document.getElementById('selectNoneBtn').addEventListener('click', ()=>{
+  applyFilters().forEach(it=> selected.delete(itemKey(state.window, it.tag)));
+  document.querySelectorAll('#cardList .pick-box').forEach(cb=>{ cb.checked = false; cb.closest('.card').classList.remove('is-selected'); });
+  updateExportFloat();
+});
+document.getElementById('efExportBtn').addEventListener('click', doExport);
+document.getElementById('efClearBtn').addEventListener('click', ()=>{
+  selected.clear();
+  document.querySelectorAll('#cardList .pick-box').forEach(cb=>{ cb.checked = false; cb.closest('.card').classList.remove('is-selected'); });
+  updateExportFloat();
+});
 
 document.getElementById('windowTabs').addEventListener('click', e=>{
   const t = e.target.closest('.tab'); if(!t) return;
