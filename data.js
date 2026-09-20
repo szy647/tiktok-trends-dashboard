@@ -1786,7 +1786,7 @@ window.TREND_DATA = {
         {
           "rank": 4,
           "tag": "#spidermanbrandnewday",
-          "name": "Spider-Man: Brand New Day",
+          "name": "Spider-Man: Brand New Day（漫威电影《蜘蛛侠：崭新的一天》）",
           "regionGroup": "sea",
           "category": "影视",
           "danceCategory": "non_dance",

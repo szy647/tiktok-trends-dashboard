@@ -377,6 +377,14 @@ function applyFilters(){
   return list;
 }
 
+function rankLabel(name){
+  // 排行榜这一栏很窄，英文标题一长中文说明就被省略号吃掉，看起来像"没有中文"。
+  // 优先截取括号里的中文说明单独展示；本身就以中文开头的（如"火影忍者 Naruto"）保持原样。
+  const m = name.match(/[（(]([^）)]*)[）)]/);
+  if(m && /[一-龥]/.test(m[1])) return m[1];
+  return name;
+}
+
 function renderRankChart(list){
   const box = document.getElementById('rankChart');
   const metric = state.chartMetric;
@@ -386,12 +394,14 @@ function renderRankChart(list){
     const v = vals[i];
     const pct = Math.max(3, v/max*100);
     return `<div class="rank-row ${it.regionGroup}">
-      <div class="rlabel" title="${it.name}">${it.rank}. ${it.name}</div>
+      <div class="rlabel" title="${it.name}">${it.rank}. ${rankLabel(it.name)}</div>
       <div class="rbar-bg"><div class="rbar-fill" style="width:${pct}%"></div></div>
       <div class="rvalue">${fmtNum(v)}</div>
     </div>`;
   }).join('');
 }
+
+let embedFallbackTimer = null;
 
 function loadEmbedScript(){
   const old = document.getElementById('tiktokEmbedScript');
@@ -402,23 +412,35 @@ function loadEmbedScript(){
   s.src = 'https://www.tiktok.com/embed.js?_=' + Date.now();
   s.onerror = ()=> scheduleEmbedFallbackCheck(300);
   document.body.appendChild(s);
-  scheduleEmbedFallbackCheck(6000);
+  // 一页同时有多个视频时，TikTok 官方 embed 库是排队顺序加载的，单个视频常见耗时 5~10s+，
+  // 之前固定 6s 就判定失败会把还在排队、其实能正常加载的视频误杀成"加载失败"。
+  // 改成轮询 + 更长的最长等待：能提前加载完就提前结束，加载慢也给够时间，只有真正超时的才回退。
+  scheduleEmbedFallbackCheck(35000);
 }
 
-function scheduleEmbedFallbackCheck(delay){
-  setTimeout(()=>{
-    document.querySelectorAll('.card-media').forEach(media=>{
+function scheduleEmbedFallbackCheck(maxWait){
+  if(embedFallbackTimer) clearInterval(embedFallbackTimer);
+  const start = Date.now();
+  embedFallbackTimer = setInterval(()=>{
+    const pending = Array.from(document.querySelectorAll('.card-media')).filter(media=>{
       const bq = media.querySelector('.tiktok-embed');
-      if(!bq || bq.querySelector('iframe')) return;
+      return bq && !bq.querySelector('iframe');
+    });
+    if(pending.length === 0){ clearInterval(embedFallbackTimer); embedFallbackTimer = null; return; }
+    if(Date.now() - start < maxWait) return;
+    pending.forEach(media=>{
+      const bq = media.querySelector('.tiktok-embed');
       const url = bq.getAttribute('cite');
       const m = url.match(/@([^/]+)/);
       const author = m ? m[1] : '未知作者';
       media.innerHTML = `<a class="video-openfallback" href="${url}" target="_blank" rel="noopener">
         <div class="vof-icon">▶</div>
-        <div class="vof-text">视频未能在页面内加载（可能是浏览器广告拦截插件挡住了 TikTok 官方 embed 脚本）<br>点击在 TikTok 打开 @${author} 的真实视频</div>
+        <div class="vof-text">视频未能在页面内加载（可能是浏览器广告拦截插件挡住了 TikTok 官方 embed 脚本，或视频过多排队超时）<br>点击在 TikTok 打开 @${author} 的真实视频</div>
       </a>`;
     });
-  }, delay);
+    clearInterval(embedFallbackTimer);
+    embedFallbackTimer = null;
+  }, 2000);
 }
 
 function render(){
