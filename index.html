@@ -63,11 +63,6 @@
   .chart-toggle{display:flex;gap:6px;margin-bottom:16px}
   .chart-toggle .ctab{padding:7px 14px;font-size:13px;border-radius:8px;background:var(--bg3);border:1px solid var(--line);color:var(--txt2);cursor:pointer;font-weight:600}
   .chart-toggle .ctab.active{background:var(--accent2);border-color:var(--accent2);color:#fff}
-  .rank-width-ctl{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:12px;font-size:13px;color:var(--txt2)}
-  .rank-width-ctl>span{white-space:nowrap}
-  .rank-width-ctl .rw-hint{color:var(--txt3)}
-  .rank-width-ctl input[type="range"]{flex:0 0 160px;accent-color:var(--accent2);cursor:pointer}
-  .rank-width-ctl .rwv{font-weight:600;min-width:44px}
   .rank-chart{display:flex;flex-direction:column;gap:10px;max-height:520px;overflow-y:auto;padding-right:6px;--rlabel-w:150px}
   .rank-row{position:relative;display:grid;grid-template-columns:var(--rlabel-w) 1fr 90px;align-items:center;gap:12px;font-size:14px}
   .rank-row .rlabel{color:var(--txt2);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:help}
@@ -174,7 +169,6 @@
   @media(max-width:760px){
     .card{flex-direction:column}
     .card-media,.video-fallback{width:100%}
-    .rank-width-ctl .rw-hint{display:none}
   }
 </style>
 </head>
@@ -234,12 +228,6 @@
     <div class="chart-toggle">
       <div class="ctab active" data-metric="views">按播放量</div>
       <div class="ctab" data-metric="posts">按投稿量</div>
-    </div>
-    <div class="rank-width-ctl">
-      <span>名称栏宽度</span>
-      <input type="range" id="rankLabelWidth" min="100" max="400" step="10" value="150">
-      <span class="rwv" id="rankLabelWidthVal">150px</span>
-      <span class="rw-hint">拖动滑块可完整显示较长的中文名称</span>
     </div>
     <div class="rank-chart" id="rankChart"></div>
   </div>
@@ -632,31 +620,25 @@ document.querySelector('.chart-toggle').addEventListener('click', e=>{
 });
 
 (function initRankLabelWidth(){
-  const slider = document.getElementById('rankLabelWidth');
-  const valTag = document.getElementById('rankLabelWidthVal');
   const chart = document.getElementById('rankChart');
   const MIN = 100, MAX = 400;
   const clamp = w => Math.min(MAX, Math.max(MIN, w));
   const apply = (w)=>{
     w = clamp(Math.round(w));
     chart.style.setProperty('--rlabel-w', w+'px');
-    valTag.textContent = w+'px';
-    slider.value = w;
     localStorage.setItem('rankLabelWidth', w);
   };
 
   const saved = localStorage.getItem('rankLabelWidth');
   if(saved) apply(Number(saved));
 
-  slider.addEventListener('input', ()=> apply(Number(slider.value)));
-
-  // 支持直接拖动名称栏和柱状图之间的分隔线调整宽度，类似 Excel 拉宽表格列
+  // 直接拖动名称栏和柱状图之间的分隔线调整宽度，类似 Excel 拉宽表格列
   let dragging = null;
   chart.addEventListener('pointerdown', e=>{
     const handle = e.target.closest('.rank-resizer');
     if(!handle) return;
     e.preventDefault();
-    const startW = parseFloat(getComputedStyle(chart).getPropertyValue('--rlabel-w')) || Number(slider.value);
+    const startW = parseFloat(getComputedStyle(chart).getPropertyValue('--rlabel-w')) || MIN;
     dragging = { startX: e.clientX, startW, handle };
     handle.classList.add('dragging');
     chart.classList.add('resizing');
