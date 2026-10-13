@@ -62,7 +62,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "themindaa",
+            "videoId": "7691451275795352864"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -115,7 +118,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "addieblesausage",
+            "videoId": "7292429394444832002"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -148,7 +154,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "ricosofly",
+            "videoId": "7692577398709046558"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -186,7 +195,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bynatalija",
+            "videoId": "7695788131643084064"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -224,7 +236,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "suss_fran",
+            "videoId": "7695976035778678029"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -257,7 +272,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "freesouthparkepisodes9",
+            "videoId": "7694450361234738453"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -300,7 +318,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "kainzxx_",
+            "videoId": "7693959499471654164"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -333,7 +354,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "eiidriian",
+            "videoId": "7687011236034235656"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -371,7 +395,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "secrettt781",
+            "videoId": "7659019034431687958"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -404,7 +431,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "staceyslovers",
+            "videoId": "7694771739015908630"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -437,7 +467,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "yenddimusic",
+            "videoId": "7695886052241771789"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -470,7 +503,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "myrommiles",
+            "videoId": "7695711365603806486"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -503,7 +539,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "jordynnlurie",
+            "videoId": "7695912585387969806"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -541,7 +580,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "sunkissblonde",
+            "videoId": "7695954024281001229"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -574,7 +616,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "edsaxxtra",
+            "videoId": "7695420851746917652"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -612,7 +657,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "moximusje",
+            "videoId": "7691424012596956448"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -645,7 +693,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dummdunn8",
+            "videoId": "7694948616057654559"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -683,7 +734,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "akosaep",
+            "videoId": "7689226731227532566"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -716,7 +770,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "netflix",
+            "videoId": "7695846268219772173"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -754,7 +811,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "qandrx",
+            "videoId": "7692182630887869729"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -787,7 +847,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "laurenlieven99",
+            "videoId": "7690762264902634782"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -853,7 +916,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "littlebbanghouse",
+            "videoId": "7664657585743629581"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -890,7 +956,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "princeleoww",
+            "videoId": "7695675199081008414"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -923,7 +992,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "dieguinhotv",
+            "videoId": "7695953728955796757"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -961,7 +1033,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "freesouthparkepisodes9",
+            "videoId": "7694450361234738453"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -999,7 +1074,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "addieblesausage",
+            "videoId": "7292429394444832002"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1032,7 +1110,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "singadvisor",
+            "videoId": "7690048283472841992"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -1065,7 +1146,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bybywo88",
+            "videoId": "7695226098837212446"
+          },
           "fusionSuggestion": {
             "commercial": "喜剧片段形态适合品牌轻量化内容营销（低门槛高传播）。",
             "video": "适合做MCGG英雄喜剧小剧场系列。"
@@ -1098,7 +1182,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pracinhadecimafutebol",
+            "videoId": "7695815202498940167"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1141,7 +1228,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "mysteriousjulia_",
+            "videoId": "7690719771637075213"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1174,7 +1264,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "pratama.gmaial",
+            "videoId": "7687503194741542165"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -1207,7 +1300,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "juanabarrios94",
+            "videoId": "7695953592045325598"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -1240,7 +1336,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "bbuk",
+            "videoId": "7695887743452302614"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1273,7 +1372,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "angelinazhq",
+            "videoId": "7678730525359623431"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -1316,7 +1418,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "themindaa",
+            "videoId": "7691451275795352864"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1349,7 +1454,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "fandango",
+            "videoId": "7685812894482713886"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1382,7 +1490,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "hieudeptrai_211",
+            "videoId": "7695306672453045522"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1415,7 +1526,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "shaunapaige_1",
+            "videoId": "7695898938452217110"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1448,7 +1562,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "eiidriian",
+            "videoId": "7687011236034235656"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1491,7 +1608,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "nostalgicvibes888",
+            "videoId": "7676428886460173585"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1524,7 +1644,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "staceyslovers",
+            "videoId": "7694771739015908630"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1557,7 +1680,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "myrommiles",
+            "videoId": "7695711365603806486"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1594,7 +1720,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "seth_weir",
+            "videoId": "7648057901180931350"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑情侣向游戏内活动/角色CP剪辑联动。",
             "video": "适合做游戏角色爱情故事向短剧。"
@@ -1627,7 +1756,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "brezful",
+            "videoId": "7632574246438407445"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1660,7 +1792,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "addieblesausage",
+            "videoId": "7292429394444832002"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1754,7 +1889,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "agt",
+            "videoId": "7667298043514883341"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1787,7 +1925,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "jessifaye15",
+            "videoId": "7695955130591546654"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1820,7 +1961,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "danielvalko",
+            "videoId": "7652136274748312845"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -1853,7 +1997,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "_.twagn",
+            "videoId": "7692356574257384725"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -1968,7 +2115,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "sony",
+            "videoId": "7688066557649407263"
+          },
           "fusionSuggestion": {
             "commercial": "月度营销日历可借月份标签做规律性活动运营（每月1号\"新月新阵容\"）。",
             "video": "适合做\"九月新开始\"主题活动剪辑。"
@@ -2037,7 +2187,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "shadowgains3",
+            "videoId": "7688605333714963720"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -2070,7 +2223,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "feed.dd",
+            "videoId": "7667201080371072272"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
@@ -2103,7 +2259,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "tekno_edit_",
+            "videoId": "7656541594300222727"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -2136,7 +2295,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "zhencarzon",
+            "videoId": "7680226152237075720"
+          },
           "fusionSuggestion": {
             "commercial": "可考虑\"超长待机圣诞季\"限定活动，契合菲律宾用户提前进入节日消费心态。",
             "video": "适合做\"Ber Months提前过圣诞\"主题短视频。"
@@ -2169,7 +2331,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "zachking",
+            "videoId": "264231090431590400"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -2222,7 +2387,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "kainz_vt",
+            "videoId": "7661992364281744643"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -2255,7 +2423,10 @@ window.TREND_DATA = {
             "status": "not_found",
             "note": "2026-10-09 抖音热搜快照（top30）未见同话题，国内暂无同步热度。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "jordynnlurie",
+            "videoId": "7695912585387969806"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
@@ -2288,7 +2459,10 @@ window.TREND_DATA = {
             "status": "nonapplicable",
             "note": "话题主体为东南亚本地市场内容，抖音无对应讨论生态，无法核实国内同步性（2026-10-09 抖音快照 top30 亦无对应关键词）。"
           },
-          "videoEmbed": null,
+          "videoEmbed": {
+            "author": "noname_999991",
+            "videoId": "7688337164630756615"
+          },
           "fusionSuggestion": {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
