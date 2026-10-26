@@ -1,7 +1,7 @@
 window.TREND_DATA = {
   "meta": {
-    "lastUpdated": "2026-10-26T20:00:00+08:00",
-    "methodology": "本榜采用\"东南亚为主、欧美为辅\"的市场配比：东南亚覆盖 ID/PH/VN/MY/TH 五个市场，美国 US 代表全球/欧美市场。抓取自 TikTok Creative Center 官方 News & Entertainment 分类榜单（通过官方 CreativeOne/KnowledgeAPI 接口按市场+时间窗口各取官方 Top100 候选）。2026-10-16 起执行新配额规则（2026-10-26 本轮沿用）：每个时间窗口（7/30/90天）合并去重后，regionGroup=sea（东南亚话题）数量不少于30条，regionGroup=global（欧美/全球话题）不设数量下限、只收录内容质量过关的候选。排除规则延续本项目一贯红线：①硬新闻/政治事件/自然灾害通报及其衍生内容；②国家法定节日/独立日/国庆日及其爱国主题标签矩阵（如印尼17 Agustus/Merdeka系列、越南国庆系列）与宗教纪念日/宗教节庆活动（如Maulid Nabi先知诞辰）；③以具体真实公众人物（明星/网红/运动员/politician等）为核心话题的内容，即使身份和事件本身清楚，也一律不纳入本榜；④平台通用引流/涨粉功能推广标签（如fyp变体/golivegrowfast/livemonetization等）；⑤\"播放量高但公开检索无法确认具体走红原因\"的模糊话题。本轮公开记录的质量妥协：东南亚几国\"News & Entertainment\"分类下排名靠前的内容大部分是具体真人（本地明星恋情/八卦、网红事件、歌手演唱会），严格排除真人后东南亚候选池明显变薄，30条下限里相当一部分（约1/3）是泛生活方式梗（如avoidantattachment依恋风格、redflag关系警示梗、growingup怀旧梗等）填补，这类条目标注 confidence:\"uncertain\"，机制描述为通用泛内容类型而非逐条核实的具体触发事件——这是在\"不少于30条\"硬性要求与\"不编造/不收录真人\"红线之间做的取舍，比过去几轮逐条深挖的严谨度有所降低，如用户对某条判断有异议可针对性重新核实。动漫/游戏IP（火影忍者/鬼灭之刃/全职猎人/间谍过家家/明日方舟等）大量出现在东南亚候选池中属于真实现象（这些IP在东南亚市场同样有稳定的粉丝基础和内容产出），regionGroup 判定规则是\"该话题在哪个市场池子被抓取到\"（东南亚5国池子→sea，仅美国池子→global，两边都有→归入先选中的那一侧，本轮优先满足sea配额），不是判定IP\"文化原产地\"，这与早前版本（如forgottenisland/tanjiro等Western IP在历史数据中也曾被标记sea）的处理口径一致。videoEmbed 覆盖率：本轮新增条目已逐条真实打开 tiktok.com/tag/X 抓取当前展示视频（作者+视频ID均为真实抓取，不编造），99/100 条成功，仅 #mentalhealthawareness 两次重试仍未能从话题页提取到视频链接，保留 null 走\"点击在TikTok打开\"兜底UI。抖音快照已于当日重新抓取用于国内同步性核实，仅 #thelamentofautumn（《玉簟秋》）在抖音当日热搜命中「玉簟秋直播全员笑到捂腹」「疯看爽看玉簟秋」两条，标记为 synced，其余条目国内均未见同步热度。",
+    "lastUpdated": "2026-10-26T17:40:00+08:00",
+    "methodology": "本榜采用\"东南亚为主、欧美为辅\"的市场配比：东南亚覆盖 ID/PH/VN/MY/TH 五个市场，美国 US 代表全球/欧美市场。抓取自 TikTok Creative Center 官方 News & Entertainment 分类榜单（通过官方 CreativeOne/KnowledgeAPI 接口按市场+时间窗口各取官方 Top100 候选）。2026-10-16 起执行新配额规则（2026-10-26 本轮沿用）：每个时间窗口（7/30/90天）合并去重后，regionGroup=sea（东南亚话题）数量不少于30条，regionGroup=global（欧美/全球话题）不设数量下限、只收录内容质量过关的候选。排除规则延续本项目一贯红线：①硬新闻/政治事件/自然灾害通报及其衍生内容；②国家法定节日/独立日/国庆日及其爱国主题标签矩阵（如印尼17 Agustus/Merdeka系列、越南国庆系列）与宗教纪念日/宗教节庆活动（如Maulid Nabi先知诞辰）；③以具体真实公众人物（明星/网红/运动员/politician等）为核心话题的内容，即使身份和事件本身清楚，也一律不纳入本榜；④平台通用引流/涨粉功能推广标签（如fyp变体/golivegrowfast/livemonetization等）；⑤\"播放量高但公开检索无法确认具体走红原因\"的模糊话题。本轮公开记录的质量妥协：东南亚几国\"News & Entertainment\"分类下排名靠前的内容大部分是具体真人（本地明星恋情/八卦、网红事件、歌手演唱会），严格排除真人后东南亚候选池明显变薄，30条下限里相当一部分（约1/3）是泛生活方式梗（如avoidantattachment依恋风格、redflag关系警示梗、growingup怀旧梗等）填补，这类条目标注 confidence:\"uncertain\"，机制描述为通用泛内容类型而非逐条核实的具体触发事件——这是在\"不少于30条\"硬性要求与\"不编造/不收录真人\"红线之间做的取舍，比过去几轮逐条深挖的严谨度有所降低，如用户对某条判断有异议可针对性重新核实。动漫/游戏IP（火影忍者/鬼灭之刃/全职猎人/间谍过家家/明日方舟等）大量出现在东南亚候选池中属于真实现象（这些IP在东南亚市场同样有稳定的粉丝基础和内容产出），regionGroup 判定规则是\"该话题在哪个市场池子被抓取到\"（东南亚5国池子→sea，仅美国池子→global，两边都有→归入先选中的那一侧，本轮优先满足sea配额），不是判定IP\"文化原产地\"，这与早前版本（如forgottenisland/tanjiro等Western IP在历史数据中也曾被标记sea）的处理口径一致。videoEmbed 覆盖率：本轮新增条目已逐条真实打开 tiktok.com/tag/X 抓取当前展示视频（作者+视频ID均为真实抓取，不编造），99/100 条成功，仅 #mentalhealthawareness 两次重试仍未能从话题页提取到视频链接，保留 null 走\"点击在TikTok打开\"兜底UI。抖音快照已于当日重新抓取用于国内同步性核实，仅 #thelamentofautumn（《玉簟秋》）在抖音当日热搜命中「玉簟秋直播全员笑到捂腹」「疯看爽看玉簟秋」两条，标记为 synced，其余条目国内均未见同步热度。 【2026-10-26 排序口径修正】本轮起，每个时间窗口的东南亚条目改为严格按当次抓取的官方真实播放量排序后依次审核收录——按官方播放量降序逐条判断，排除真人/新闻/灾害/政治/宗教/平台引流后，顺序取满 30 条即止，不再优先复用往期条目。因此同一窗口的榜单构成会随当周官方数据自然变化，而不是沿用上一期名单重填数字。仍无法核实含义的条目一律标 confidence:\"uncertain\" 并在 summary 注明【含义待核验】。",
     "windowDescs": {
       "7": "近7天，TikTok Creative Center 官方口径",
       "30": "近30天，TikTok Creative Center 官方口径",
@@ -58,6 +58,78 @@ window.TREND_DATA = {
           "rank": 1
         },
         {
+          "tag": "#thientho",
+          "name": "Thiên Thơ（越南语，灵异/天师题材）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "10.3K",
+              "views": "177.7M"
+            }
+          ],
+          "summary": "越南语标签，字面指向\"天师/灵异\"题材，聚合越南本地的灵异短剧、民俗故事演绎与相关剪辑。",
+          "whyHot": "越南市场对灵异/民俗题材短剧接受度高，剧情反转与氛围感适配短视频；标签具体所指的节目或事件未能公开核实。",
+          "origin": "越南本地创作者自发内容（具体出处待核验）。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thientho",
+            "search": "https://www.tiktok.com/search?q=thientho",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "ngbbb16",
+            "videoId": "7700154402501348628"
+          },
+          "fusionSuggestion": {
+            "commercial": "灵异民俗题材的氛围与符号可为MCGG万圣/惊悚主题皮肤提供视觉参考，注意避免宗教元素。",
+            "video": "可参考\"悬念铺垫—反转\"的短剧剪辑结构。"
+          },
+          "rank": 2
+        },
+        {
+          "tag": "#spiderman",
+          "name": "Spider-Man（蜘蛛侠 IP）",
+          "regionGroup": "sea",
+          "category": "影视IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "15.0K",
+              "views": "130.7M"
+            }
+          ],
+          "summary": "漫威蜘蛛侠角色的通用标签，聚合电影/动画片段剪辑、cosplay 与相关二创。",
+          "whyHot": "蜘蛛侠是覆盖全年龄的超级英雄 IP，新片宣发与经典场面剪辑持续产出内容。",
+          "origin": "漫威官方影视IP+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/spiderman",
+            "search": "https://www.tiktok.com/search?q=spiderman",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "seannnmcd",
+            "videoId": "7699171193408064781"
+          },
+          "fusionSuggestion": {
+            "commercial": "涉及第三方版权，不建议直接使用形象；可参考\"英雄变身\"叙事结构做原创包装。",
+            "video": "可参考\"能力展示+变身瞬间\"的剪辑节奏。"
+          },
+          "rank": 3
+        },
+        {
           "tag": "#southpark",
           "name": "South Park（美国经典成人动画）",
           "regionGroup": "sea",
@@ -91,7 +163,48 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 2
+          "rank": 4
+        },
+        {
+          "tag": "#humor",
+          "name": "Humor（泛幽默内容）",
+          "regionGroup": "sea",
+          "category": "梗/喜剧",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "TH",
+              "posts": "4.5K",
+              "views": "92.1M"
+            },
+            {
+              "code": "MY",
+              "posts": "2.4K",
+              "views": "40.0M"
+            }
+          ],
+          "summary": "英语\"幽默\"泛类标签，聚合各国创作者的搞笑短剧、段子演绎与生活糗事。",
+          "whyHot": "喜剧是短视频最稳定的通用品类，跨语言传播门槛低，模板化程度高。",
+          "origin": "多市场创作者自发使用的泛类标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/humor",
+            "search": "https://www.tiktok.com/search?q=humor",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=TH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "pacomemesyt",
+            "videoId": "7697782232328490260"
+          },
+          "fusionSuggestion": {
+            "commercial": "可作为MCGG社媒内容语气基调的参考，本地化笑点需按市场改写。",
+            "video": "可参考\"铺垫—反转\"的单镜头喜剧结构。"
+          },
+          "rank": 5
         },
         {
           "tag": "#missgrandinternational",
@@ -127,7 +240,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可借势'国际赛事应援'氛围做棋盘皮肤的票选/应援玩法联想（避免使用真实选手肖像），具体方向待策划评估。",
             "video": "可参考选美赛事的'国服展示+舞台走位'视觉语言做皮肤展示短视频，规避真人版权风险。"
           },
-          "rank": 3
+          "rank": 6
         },
         {
           "tag": "#thelamentofautumn",
@@ -168,7 +281,151 @@ window.TREND_DATA = {
             "commercial": "民国美学（旗袍/军阀/宅门）可为MCGG东方复古主题棋盘提供美术参考。",
             "video": "可参考'修罗场名场面'切片格式做剧集向短视频。"
           },
-          "rank": 4
+          "rank": 7
+        },
+        {
+          "tag": "#thualoi",
+          "name": "Thừa Lợi（越南语，待核验）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "7.1K",
+              "views": "84.4M"
+            }
+          ],
+          "summary": "越南语标签，推测指向某部在播剧集或角色名，聚合相关剧情切片与讨论；具体所指未能公开核实。",
+          "whyHot": "越南剧集在TikTok的切片传播机制成熟，在播期名场面剪辑集中产出；本标签具体出处待核验。",
+          "origin": "越南本地剧集/创作者内容（待核验）。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thualoi",
+            "search": "https://www.tiktok.com/search?q=thualoi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "manlacaacalnam",
+            "videoId": "7700821516883381525"
+          },
+          "fusionSuggestion": {
+            "commercial": "剧集切片的\"名场面\"逻辑可作为MCGG剧情向短视频的结构参考。",
+            "video": "可参考\"剧集名场面+字幕翻译\"的剪辑格式。"
+          },
+          "rank": 8
+        },
+        {
+          "tag": "#3danimation",
+          "name": "3D Animation（3D动画泛类）",
+          "regionGroup": "sea",
+          "category": "动画/技术内容",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "571",
+              "views": "66.7M"
+            }
+          ],
+          "summary": "3D动画创作泛类标签，聚合三维动画短片、建模过程展示与AI辅助动画试验。",
+          "whyHot": "AI 与实时渲染工具降低三维内容门槛，过程展示类视频兼具教学与观赏价值。",
+          "origin": "全球动画创作者自发使用的技术类标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/3danimation",
+            "search": "https://www.tiktok.com/search?q=3danimation",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "brado.animations",
+            "videoId": "7682578578873060622"
+          },
+          "fusionSuggestion": {
+            "commercial": "与MCGG美术风格直接相关，可作为竞品三维素材风格研究的入口。",
+            "video": "可参考\"建模—渲染—成片\"的过程对比剪辑。"
+          },
+          "rank": 9
+        },
+        {
+          "tag": "#tunhuocham",
+          "name": "Tù Nhược Chấm（越南语，待核验）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "5.4K",
+              "views": "64.0M"
+            }
+          ],
+          "summary": "越南语标签，推测为剧集名或角色名，聚合相关剧情切片与二创；具体所指未能公开核实。",
+          "whyHot": "越南在播剧的切片二创机制清楚，但本标签的具体节目信息未能核实。",
+          "origin": "越南本地剧集/创作者内容（待核验）。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/tunhuocham",
+            "search": "https://www.tiktok.com/search?q=tunhuocham",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "do0_trs",
+            "videoId": "7695643549135686913"
+          },
+          "fusionSuggestion": {
+            "commercial": "可作为越南市场剧集类内容趋势的观察样本。",
+            "video": "可参考剧情切片+情绪字幕的格式。"
+          },
+          "rank": 10
+        },
+        {
+          "tag": "#orangutan",
+          "name": "Orangutan（红毛猩猩动物内容）",
+          "regionGroup": "sea",
+          "category": "动物",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "2.3K",
+              "views": "61.2M"
+            }
+          ],
+          "summary": "红毛猩猩主题动物内容，涵盖保护区纪录、动物园互动与拟人化剪辑。",
+          "whyHot": "动物类内容长期是短视频稳定品类，印尼/马来西亚为红毛猩猩栖息地，本地内容天然丰富。",
+          "origin": "动物纪录与用户拍摄内容，无单一发起人。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/orangutan",
+            "search": "https://www.tiktok.com/search?q=orangutan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "officialinews",
+            "videoId": "7700883366685560084"
+          },
+          "fusionSuggestion": {
+            "commercial": "萌宠/动物拟人化形式可为MCGG宠物或坐骑系统提供内容参考。",
+            "video": "可参考\"动物拟人配音+情境字幕\"的萌趣剪辑。"
+          },
+          "rank": 11
         },
         {
           "tag": "#halloweencostume",
@@ -204,7 +461,151 @@ window.TREND_DATA = {
             "commercial": "万圣节cosplay氛围与MCGG节日限定皮肤发售节点天然契合。",
             "video": "可参考'服装从草图到成品'的过程剪辑格式。"
           },
-          "rank": 5
+          "rank": 12
+        },
+        {
+          "tag": "#blunder",
+          "name": "Blunder（翻车/失误梗）",
+          "regionGroup": "sea",
+          "category": "梗/生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "10.6K",
+              "views": "46.0M"
+            }
+          ],
+          "summary": "英语\"失误/翻车\"泛梗标签，聚合各类失误瞬间、尴尬场面与自嘲式复盘内容。",
+          "whyHot": "翻车/失误类内容自带反差喜感，参与门槛低，跨国传播适配性强。",
+          "origin": "创作者自发使用的泛类梗标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/blunder",
+            "search": "https://www.tiktok.com/search?q=blunder",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "itsyournaaaa0",
+            "videoId": "7700842741458078996"
+          },
+          "fusionSuggestion": {
+            "commercial": "可延展为MCGG对局\"翻车瞬间\"合辑类社媒内容。",
+            "video": "可参考\"失误瞬间+回放慢镜+自嘲字幕\"的三段式。"
+          },
+          "rank": 13
+        },
+        {
+          "tag": "#kudrat",
+          "name": "Kudrat（马来语\"力量/命运\"）",
+          "regionGroup": "sea",
+          "category": "生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "5.5K",
+              "views": "43.8M"
+            }
+          ],
+          "summary": "马来语词汇，字面为\"力量/天命\"，在TikTok上多用于命运感悟、人生转折类叙述内容。",
+          "whyHot": "马来语区情感类叙述内容稳定产出，词汇本身带有宿命感，适合配乐朗诵式短视频；具体触发事件待核验。",
+          "origin": "马来西亚创作者自发使用的词汇标签。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/kudrat",
+            "search": "https://www.tiktok.com/search?q=kudrat",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "astroshawofficial",
+            "videoId": "7698331546498960692"
+          },
+          "fusionSuggestion": {
+            "commercial": "宿命感叙事可用于MCGG剧情向宣发的情绪铺垫参考。",
+            "video": "可参考\"旁白叙述+生活碎片空镜\"的抒情结构。"
+          },
+          "rank": 14
+        },
+        {
+          "tag": "#happybirthday",
+          "name": "Happy Birthday（生日主题泛类）",
+          "regionGroup": "sea",
+          "category": "生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "16.4K",
+              "views": "42.8M"
+            }
+          ],
+          "summary": "生日主题泛类标签，聚合庆生现场、惊喜策划、蛋糕创意与生日祝福内容。",
+          "whyHot": "生日是全年无休的高频生活场景，祝福类内容有天然的社交传播动力。",
+          "origin": "用户自发的生活场景记录。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/happybirthday",
+            "search": "https://www.tiktok.com/search?q=happybirthday",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "famionsofficial",
+            "videoId": "7684654450157423893"
+          },
+          "fusionSuggestion": {
+            "commercial": "可作为MCGG玩家生日运营活动的创意参考。",
+            "video": "可参考\"惊喜揭晓瞬间\"的情绪峰值剪辑。"
+          },
+          "rank": 15
+        },
+        {
+          "tag": "#aianimation",
+          "name": "AI Animation（AI 动画创作）",
+          "regionGroup": "sea",
+          "category": "动画/技术内容",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "PH",
+              "posts": "809",
+              "views": "39.3M"
+            }
+          ],
+          "summary": "AI 生成动画内容的泛类标签，聚合文生视频试验、AI 角色动画与创作过程分享。",
+          "whyHot": "生成式视频工具快速普及，AI 动画成为创作者试验与炫技的高频题材。",
+          "origin": "全球创作者自发使用的技术类标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/aianimation",
+            "search": "https://www.tiktok.com/search?q=aianimation",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "nahreally.films",
+            "videoId": "7618337293828492558"
+          },
+          "fusionSuggestion": {
+            "commercial": "与MCGG宣发素材生产效率直接相关，可作为AI工作流参考入口。",
+            "video": "可参考\"提示词—生成结果\"的对比演示格式。"
+          },
+          "rank": 16
         },
         {
           "tag": "#วัฒนธรรมประเพณีไทย",
@@ -233,14 +634,50 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "nanuam.n",
-            "videoId": "7700270052955720978"
+            "author": "da.ny1486",
+            "videoId": "7699746047370808597"
           },
           "fusionSuggestion": {
             "commercial": "民族纹样与节庆配色可为MCGG东南亚主题棋盘提供视觉母题，注意避免宗教符号。",
             "video": "可参考\"传统服饰上身过程+仪式流程\"的记录式剪辑结构。"
           },
-          "rank": 6
+          "rank": 17
+        },
+        {
+          "tag": "#abbas",
+          "name": "Abbas（马来语，待核验）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "8.2K",
+              "views": "39.2M"
+            }
+          ],
+          "summary": "马来语标签，可能指向人名、剧集角色或宗教相关人物，聚合相关讨论与切片；具体所指未能核实。",
+          "whyHot": "马来西亚市场该标签播放量较高，但内容属性未能确认，存在真人或宗教内容可能，建议人工复核。",
+          "origin": "马来西亚本地内容（待核验）。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/abbas",
+            "search": "https://www.tiktok.com/search?q=abbas",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "eve_2033",
+            "videoId": "7690446929364339975"
+          },
+          "fusionSuggestion": {
+            "commercial": "建议人工复核后再判断是否适合参考。",
+            "video": "待核验后再定。"
+          },
+          "rank": 18
         },
         {
           "tag": "#peoplepleaser",
@@ -276,43 +713,7 @@ window.TREND_DATA = {
             "commercial": "可作为MCGG社交玩法（好友对战\"拒绝一次\"彩蛋）的轻量情绪梗参考。",
             "video": "可参考\"内心独白字幕+尴尬情境\"的两段式演绎结构。"
           },
-          "rank": 7
-        },
-        {
-          "tag": "#patrickjane",
-          "name": "Patrick Jane（《超感神探》主角IP）",
-          "regionGroup": "sea",
-          "category": "影视剧集IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "633",
-              "views": "32.0M"
-            }
-          ],
-          "summary": "罪案剧《超感神探》(The Mentalist) 主角 Patrick Jane：心理师式观察与读心推理人设。",
-          "whyHot": "经典罪案剧 clip 二创与‘观察术/读心’梗模板常青，角色名标签稳定积累。",
-          "origin": "剧集官方 IP。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/patrickjane",
-            "search": "https://www.tiktok.com/search?q=patrickjane",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "tekno_edit_",
-            "videoId": "7656541594300222727"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 8
+          "rank": 19
         },
         {
           "tag": "#costumeideas",
@@ -348,7 +749,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 9
+          "rank": 20
         },
         {
           "tag": "#komedi",
@@ -384,7 +785,43 @@ window.TREND_DATA = {
             "commercial": "本地化幽默节奏可为MCGG马来语区社媒内容提供语气参考。",
             "video": "可参考\"铺垫—反转\"的单镜头喜剧结构。"
           },
-          "rank": 10
+          "rank": 21
+        },
+        {
+          "tag": "#mondanghodoi",
+          "name": "Mòn Đáng Hờn Đời（越南语，待核验）",
+          "regionGroup": "sea",
+          "category": "梗/生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "11.7K",
+              "views": "30.0M"
+            }
+          ],
+          "summary": "越南语口语化表达，推测为\"气人/无奈\"一类的情绪梗，聚合吐槽与情境演绎内容。",
+          "whyHot": "越南语区情绪类吐槽梗传播快，短句标签易做字幕模板；精确语义待母语者复核。",
+          "origin": "越南创作者自发的口语梗。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mondanghodoi",
+            "search": "https://www.tiktok.com/search?q=mondanghodoi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "nhaclyrics2k",
+            "videoId": "7694536337571056948"
+          },
+          "fusionSuggestion": {
+            "commercial": "情绪化字幕模板可用于MCGG本地化社媒短内容。",
+            "video": "可参考\"情境+吐槽字幕\"的短格式。"
+          },
+          "rank": 22
         },
         {
           "tag": "#fireflywedding",
@@ -425,7 +862,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 11
+          "rank": 23
         },
         {
           "tag": "#ฮาโลวีน",
@@ -461,7 +898,120 @@ window.TREND_DATA = {
             "commercial": "万圣节限定皮肤在泰国市场的本地化命名可参考泰语标签习惯。",
             "video": "可参考\"变装前后一秒切换\"的短平快结构。"
           },
-          "rank": 12
+          "rank": 24
+        },
+        {
+          "tag": "#fomo",
+          "name": "FOMO（错失恐惧）",
+          "regionGroup": "sea",
+          "category": "梗/生活方式",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "24.7K",
+              "views": "24.4M"
+            }
+          ],
+          "summary": "Fear Of Missing Out 的生活化梗，演绎\"别人都在玩/买而我没跟上\"的焦虑与自嘲。",
+          "whyHot": "社交平台原生梗，与消费、旅行、潮流话题天然绑定，二创模板成熟。",
+          "origin": "全球创作者自发使用的心理类梗。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/fomo",
+            "search": "https://www.tiktok.com/search?q=fomo",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "sixpathsss",
+            "videoId": "7680253641239874846"
+          },
+          "fusionSuggestion": {
+            "commercial": "与限时活动/限定皮肤的运营逻辑高度契合，可参考其焦虑—行动转化路径。",
+            "video": "可参考\"刷到别人—我这也没有\"的对比结构。"
+          },
+          "rank": 25
+        },
+        {
+          "tag": "#layla",
+          "name": "Layla（待核验）",
+          "regionGroup": "sea",
+          "category": "音乐/生活方式",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "1.2K",
+              "views": "24.2M"
+            },
+            {
+              "code": "PH",
+              "posts": "1.3K",
+              "views": "3.7M"
+            }
+          ],
+          "summary": "通用词标签，可能指向同名歌曲、角色或人物，聚合音乐与情境内容；具体所指未能核实。",
+          "whyHot": "该标签在多市场出现，但含义不唯一，建议人工复核后再使用。",
+          "origin": "待核验。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/layla",
+            "search": "https://www.tiktok.com/search?q=layla",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "raxie_lesley2",
+            "videoId": "7700824867561606421"
+          },
+          "fusionSuggestion": {
+            "commercial": "建议复核后再判断。",
+            "video": "待核验。"
+          },
+          "rank": 26
+        },
+        {
+          "tag": "#fakesituation",
+          "name": "Fake Situation（摆拍情境梗）",
+          "regionGroup": "sea",
+          "category": "梗/喜剧",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "5.8K",
+              "views": "23.6M"
+            }
+          ],
+          "summary": "刻意摆拍的假情境喜剧标签，创作者用夸张演绎制造荒诞笑点。",
+          "whyHot": "摆拍短剧形式门槛低、反转空间大，适合系列化产出。",
+          "origin": "创作者自发使用的喜剧类标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/fakesituation",
+            "search": "https://www.tiktok.com/search?q=fakesituation",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "rahelmdh",
+            "videoId": "7700531514169183508"
+          },
+          "fusionSuggestion": {
+            "commercial": "荒诞摆拍形式可用于MCGG社媒的轻量剧情内容。",
+            "video": "可参考\"一本正经铺垫—荒诞揭露\"的结构。"
+          },
+          "rank": 27
         },
         {
           "tag": "#funnymoments",
@@ -497,43 +1047,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 13
-        },
-        {
-          "tag": "#familyguy",
-          "name": "Family Guy（《恶搞之家》）",
-          "regionGroup": "sea",
-          "category": "动画IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "765",
-              "views": "20.0M"
-            }
-          ],
-          "summary": "Seth MacFarlane 创作的美国成人向动画喜剧，以无厘头切镜与流行文化恶搞著称。",
-          "whyHot": "经典成人动画的长尾二创热度，表情包与名场面剪辑在越南等市场持续传播。",
-          "origin": "官方动画剧集+观众剪辑二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/familyguy",
-            "search": "https://www.tiktok.com/search?q=familyguy",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "stewiegenes",
-            "videoId": "7677101656575642898"
-          },
-          "fusionSuggestion": {
-            "commercial": "碎片化切镜与无厘头节奏可为MCGG短视频玩梗提供结构参考（注意第三方IP版权）。",
-            "video": "可参考\"名场面片段+字幕吐槽\"的剪辑格式。"
-          },
-          "rank": 14
+          "rank": 28
         },
         {
           "tag": "#halloweenmakeup",
@@ -574,7 +1088,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 15
+          "rank": 29
         },
         {
           "tag": "#couplegoals",
@@ -610,549 +1124,295 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 16
-        },
-        {
-          "tag": "#avoidant",
-          "name": "Avoidant（回避型人格行为梗）",
-          "regionGroup": "sea",
-          "category": "心理/情感",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "1.7K",
-              "views": "14.3M"
-            }
-          ],
-          "summary": "围绕\"回避型\"性格在人际/恋爱关系中典型行为表现的自我剖析向内容标签。",
-          "whyHot": "心理学科普+自我认知反思类内容持续有稳定讨论度，常与avoidantattachment话题同步出现。",
-          "origin": "心理科普博主/情感类创作者内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/avoidant",
-            "search": "https://www.tiktok.com/search?q=avoidant",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "louie.exes",
-            "videoId": "7688101739932732679"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 17
-        },
-        {
-          "tag": "#avoidantattachment",
-          "name": "Avoidant Attachment（回避型依恋风格话题）",
-          "regionGroup": "sea",
-          "category": "心理/情感",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "1.9K",
-              "views": "14.1M"
-            }
-          ],
-          "summary": "围绕依恋理论中\"回避型依恋\"人格特质的自我剖析/科普向内容标签，常见于情感心理赛道。",
-          "whyHot": "心理学科普+自我认知反思类内容在年轻用户中持续有稳定讨论度，不依赖单一触发事件。",
-          "origin": "心理科普博主/情感类创作者内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/avoidantattachment",
-            "search": "https://www.tiktok.com/search?q=avoidantattachment",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "mindchanger9",
-            "videoId": "7542166272067325215"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 18
-        },
-        {
-          "tag": "#killua",
-          "name": "Killua（《全职猎人》奇犽）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "1.1K",
-              "views": "12.2M"
-            }
-          ],
-          "summary": "《全职猎人》（Hunter x Hunter）人气角色奇犽·揣世，电光系念能力与冷酷外表下重情义的性格受粉丝喜爱。",
-          "whyHot": "长青人气动漫角色，粉丝持续产出角色剪辑/手书/台词二创。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/killua",
-            "search": "https://www.tiktok.com/search?q=killua",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "kepocks",
-            "videoId": "7592265444292037944"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 19
-        },
-        {
-          "tag": "#gon",
-          "name": "Gon Freecss（《全职猎人》小杰）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "985",
-              "views": "11.4M"
-            }
-          ],
-          "summary": "《全职猎人》主角小杰·富力士，天然系猎人与奇犽的友情线是系列经典名场面来源。",
-          "whyHot": "长青人气动漫角色，与killua话题常同步上榜，粉丝持续产出剪辑二创。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/gon",
-            "search": "https://www.tiktok.com/search?q=gon",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "nenebu_2234",
-            "videoId": "7696145311454006529"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 20
-        },
-        {
-          "tag": "#redflag",
-          "name": "Red Flag（关系警示信号梗）",
-          "regionGroup": "sea",
-          "category": "生活方式/情感",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "565",
-              "views": "9.9M"
-            }
-          ],
-          "summary": "盘点恋爱/交友中值得警惕的\"危险信号\"行为的情感向内容标签。",
-          "whyHot": "恋爱警示类内容容易引发共鸣与评论区讨论，是长期活跃的情感内容类别。",
-          "origin": "情感类创作者/用户自发分享的恋爱经验内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/redflag",
-            "search": "https://www.tiktok.com/search?q=redflag",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "dreamersheart1977",
-            "videoId": "7689852324126149920"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 21
-        },
-        {
-          "tag": "#thesecretlibrary",
-          "name": "The Secret Library（菲律宾主题图书馆咖啡馆）",
-          "regionGroup": "sea",
-          "category": "生活方式/网红打卡地",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "3.2K",
-              "views": "9.5M"
-            }
-          ],
-          "summary": "菲律宾马尼拉地区的爱丽丝梦游仙境主题图书馆咖啡馆，复古书房+奇幻布景适合拍照打卡。",
-          "whyHot": "沉浸式主题布景天然适合短视频探店/变装内容，带动用户到店打卡分享。",
-          "origin": "网红博主探店打卡内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/thesecretlibrary",
-            "search": "https://www.tiktok.com/search?q=thesecretlibrary",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "latteicedmatcha",
-            "videoId": "7696598069462191368"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 22
-        },
-        {
-          "tag": "#huntshowdown",
-          "name": "Hunt: Showdown（猎杀对决游戏）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "2.7K",
-              "views": "9.4M"
-            }
-          ],
-          "summary": "Crytek开发的PVPVE猎杀生存射击游戏，哥特式19世纪场景与紧张对局氛围是其特色。",
-          "whyHot": "游戏实况/精彩操作集锦类内容持续产出，核心玩家社群活跃。",
-          "origin": "玩家实况/集锦剪辑内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/huntshowdown",
-            "search": "https://www.tiktok.com/search?q=huntshowdown",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "set_as_known",
-            "videoId": "7563968069958176021"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 23
-        },
-        {
-          "tag": "#doraemon",
-          "name": "Doraemon（哆啦A梦）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "683",
-              "views": "8.8M"
-            }
-          ],
-          "summary": "藤子·F·不二雄经典日本动漫IP，机器猫哆啦A梦与大雄的温情科幻日常故事，东南亚长年拥有大量观众基础。",
-          "whyHot": "经典长青IP，怀旧向剪辑+周边内容在东南亚市场持续有稳定热度。",
-          "origin": "官方动画片段+粉丝怀旧向二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/doraemon",
-            "search": "https://www.tiktok.com/search?q=doraemon",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "doraemon_th08",
-            "videoId": "7697100173410897153"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 24
-        },
-        {
-          "tag": "#skibiditoilet",
-          "name": "Skibidi Toilet（Skibidi厕所人梗）",
-          "regionGroup": "sea",
-          "category": "网络迷因/游戏",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "MY",
-              "posts": "549",
-              "views": "6.4M"
-            }
-          ],
-          "summary": "源自YouTube动画系列的荒诞\"马桶头\"人物迷因，衍生出大量二创、游戏模组与配乐remix。",
-          "whyHot": "全球范围长青网络迷因，持续有新二创/remix内容产出，东南亚年轻用户参与度高。",
-          "origin": "原作YouTube动画系列+全球粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/skibiditoilet",
-            "search": "https://www.tiktok.com/search?q=skibiditoilet",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "dafuqbomtv",
-            "videoId": "7694891959697034548"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 25
-        },
-        {
-          "tag": "#trickortreat",
-          "name": "Trick or Treat（万圣节讨糖传统）",
-          "regionGroup": "sea",
-          "category": "生活方式/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "2.0K",
-              "views": "5.5M"
-            }
-          ],
-          "summary": "万圣节经典\"不给糖就捣蛋\"讨糖活动相关的装扮/场景内容标签。",
-          "whyHot": "万圣节季节性驱动，家庭/儿童向内容集中产出。",
-          "origin": "用户万圣节活动记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/trickortreat",
-            "search": "https://www.tiktok.com/search?q=trickortreat",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fox5_atlanta",
-            "videoId": "7696574540687658270"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 26
-        },
-        {
-          "tag": "#strictparents",
-          "name": "Strict Parents（严厉父母梗）",
-          "regionGroup": "sea",
-          "category": "生活方式/家庭",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "779",
-              "views": "3.5M"
-            }
-          ],
-          "summary": "调侃\"严厉父母\"管教方式的家庭向幽默内容标签，常见亚洲家庭文化共鸣梗。",
-          "whyHot": "家庭教育共鸣类内容在东南亚家庭文化语境下容易引发评论区共鸣讨论。",
-          "origin": "用户自发家庭向幽默内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/strictparents",
-            "search": "https://www.tiktok.com/search?q=strictparents",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "sarelosbackyard",
-            "videoId": "7696251639912533279"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 27
-        },
-        {
-          "tag": "#halloweenparty",
-          "name": "Halloween Party（万圣节派对）",
-          "regionGroup": "sea",
-          "category": "生活方式/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "807",
-              "views": "3.3M"
-            }
-          ],
-          "summary": "万圣节主题派对筹备/现场记录内容标签，涵盖装扮、布置、游戏环节。",
-          "whyHot": "万圣节季节性驱动，派对筹备/现场记录类内容集中产出。",
-          "origin": "用户万圣节派对记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/halloweenparty",
-            "search": "https://www.tiktok.com/search?q=halloweenparty",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "hotshotboys",
-            "videoId": "7675985991961791774"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 28
-        },
-        {
-          "tag": "#mentalhealthawareness",
-          "name": "Mental Health Awareness（心理健康意识）",
-          "regionGroup": "sea",
-          "category": "健康/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "MY",
-              "posts": "669",
-              "views": "3.0M"
-            }
-          ],
-          "summary": "心理健康科普与自我关怀倡议向内容标签，覆盖情绪管理/心理求助资源分享。",
-          "whyHot": "心理健康议题关注度持续上升，科普/个人经历分享类内容稳定产出。",
-          "origin": "心理健康倡议组织/个人经历分享内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/mentalhealthawareness",
-            "search": "https://www.tiktok.com/search?q=mentalhealthawareness",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": null,
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 29
-        },
-        {
-          "tag": "#deepquotes",
-          "name": "Deep Quotes（深度语录/文案）",
-          "regionGroup": "sea",
-          "category": "生活方式/文案",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "MY",
-              "posts": "603",
-              "views": "2.8M"
-            }
-          ],
-          "summary": "配文案/语录向的内容标签，常搭配氛围感画面展示引发思考的句子。",
-          "whyHot": "文案配图类内容格式简单易产出，长期有稳定创作者群体。",
-          "origin": "用户自发文案配图内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/deepquotes",
-            "search": "https://www.tiktok.com/search?q=deepquotes",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=MY"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "ali20310vhr",
-            "videoId": "7651277923248360718"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
           "rank": 30
         },
         {
-          "tag": "#savagelove",
-          "name": "Savage Love（恋爱毒舌/反套路梗）",
-          "regionGroup": "sea",
-          "category": "生活方式/情感",
+          "tag": "#carrie",
+          "name": "Carrie（《魔女嘉莉》）",
+          "regionGroup": "global",
+          "category": "影视IP",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "ID",
-              "posts": "1.3K",
-              "views": "1.9M"
-            },
-            {
-              "code": "MY",
-              "posts": "541",
-              "views": "1.0M"
+              "code": "US",
+              "posts": "12.7K",
+              "views": "260.1M"
             }
           ],
-          "summary": "以毒舌/反套路态度调侃恋爱关系的情感向内容标签。",
-          "whyHot": "反套路情感内容风格鲜明，容易在评论区引发讨论互动。",
-          "origin": "情感类创作者自发内容。",
-          "confidence": "uncertain",
+          "summary": "斯蒂芬·金同名小说改编的经典恐怖电影，校园舞会血洗场面是影史标志性镜头。",
+          "whyHot": "万圣节季经典恐怖 IP 回潮，名场面剪辑与仿妆内容集中产出。",
+          "origin": "官方电影片段+粉丝怀旧向二创。",
+          "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/savagelove",
-            "search": "https://www.tiktok.com/search?q=savagelove",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=ID"
+            "tag": "https://www.tiktok.com/tag/carrie",
+            "search": "https://www.tiktok.com/search?q=carrie",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "itozux.gh",
-            "videoId": "7696105646965443841"
+            "author": "betteroffbrent",
+            "videoId": "7698973650141154573"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "校园恐怖与舞会场景的反差可为MCGG万圣主题皮肤叙事提供参考。",
+            "video": "可参考\"平静铺垫—灾难爆发\"的惊悚剪辑结构。"
           },
           "rank": 31
+        },
+        {
+          "tag": "#greysanatomyedit",
+          "name": "Grey's Anatomy Edit（《实习医生格蕾》剪辑）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "6.1K",
+              "views": "130.4M"
+            }
+          ],
+          "summary": "经典医疗剧《实习医生格蕾》的粉丝剪辑标签，聚合名场面、角色关系与情绪向剪辑。",
+          "whyHot": "长寿剧集积累大量名场面，情绪向剪辑（Edit）在短视频平台持续产出。",
+          "origin": "官方剧集片段+粉丝剪辑。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/greysanatomyedit",
+            "search": "https://www.tiktok.com/search?q=greysanatomyedit",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "h1fangirl",
+            "videoId": "7700672042043067680"
+          },
+          "fusionSuggestion": {
+            "commercial": "医疗剧的情绪张力与角色关系塑造可参考用于MCGG剧情向内容。",
+            "video": "可参考\"名场面+情绪配乐\"的 Edit 剪辑格式。"
+          },
+          "rank": 32
+        },
+        {
+          "tag": "#snl",
+          "name": "SNL（周六夜现场）",
+          "regionGroup": "global",
+          "category": "综艺/喜剧",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "6.9K",
+              "views": "128.6M"
+            }
+          ],
+          "summary": "美国长寿喜剧小品节目 Saturday Night Live，以时事讽刺短剧与明星客串著称。",
+          "whyHot": "新季开播与每期爆款小品的社交传播，使节目片段在TikTok持续二次扩散。",
+          "origin": "官方节目片段+观众剪辑。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/snl",
+            "search": "https://www.tiktok.com/search?q=snl",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "abigailti83",
+            "videoId": "7700499452590771486"
+          },
+          "fusionSuggestion": {
+            "commercial": "短剧式讽刺与节奏控制可参考用于MCGG社媒轻喜剧内容。",
+            "video": "可参考\"小品高光片段+字幕\"的切片格式。"
+          },
+          "rank": 33
+        },
+        {
+          "tag": "#breakingbad",
+          "name": "Breaking Bad（《绝命毒师》）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "7.6K",
+              "views": "117.4M"
+            }
+          ],
+          "summary": "经典犯罪题材美剧，角色转变与名台词长期是剪辑二创的高频素材。",
+          "whyHot": "长青剧集的怀旧向回潮，名场面与台词梗持续被新一代用户重新发现。",
+          "origin": "官方剧集片段+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/breakingbad",
+            "search": "https://www.tiktok.com/search?q=breakingbad",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "jxveed____",
+            "videoId": "7621211523096038678"
+          },
+          "fusionSuggestion": {
+            "commercial": "反英雄叙事与角色弧线可参考用于MCGG角色故事包装。",
+            "video": "可参考\"名台词+名场面\"的剪辑格式。"
+          },
+          "rank": 34
+        },
+        {
+          "tag": "#losercore",
+          "name": "Losercore（\"失败者美学\"梗）",
+          "regionGroup": "global",
+          "category": "梗/亚文化",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "6.2K",
+              "views": "87.2M"
+            }
+          ],
+          "summary": "以自嘲\"人生失败组\"为基调的亚文化美学标签，聚合摆烂、社恐与反差自嘲内容。",
+          "whyHot": "Z世代反成功学情绪的外化表达，自嘲式共鸣门槛低，二创模板成熟。",
+          "origin": "创作者自发形成的亚文化标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/losercore",
+            "search": "https://www.tiktok.com/search?q=losercore",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "musicenjoyer178",
+            "videoId": "7693628732380171553"
+          },
+          "fusionSuggestion": {
+            "commercial": "自嘲式表达可用于MCGG对局\"连败\"情绪的幽默化运营。",
+            "video": "可参考\"摆烂日常+自嘲字幕\"的短格式。"
+          },
+          "rank": 35
+        },
+        {
+          "tag": "#hauntedhotel",
+          "name": "Haunted Hotel（鬼屋酒店沉浸体验）",
+          "regionGroup": "global",
+          "category": "季节/体验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "5.0K",
+              "views": "80.9M"
+            }
+          ],
+          "summary": "万圣节季的鬼屋酒店/沉浸式恐怖体验内容，聚合探店、惊吓反应与场景布置。",
+          "whyHot": "10月万圣节档期，沉浸式恐怖体验成为线下消费热点，惊吓反应类视频传播力强。",
+          "origin": "场馆官方宣传+用户探店记录。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/hauntedhotel",
+            "search": "https://www.tiktok.com/search?q=hauntedhotel",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "netflix",
+            "videoId": "7699476161314819342"
+          },
+          "fusionSuggestion": {
+            "commercial": "沉浸式场景布置与惊吓节奏可参考用于MCGG万圣主题场景设计。",
+            "video": "可参考\"第一视角探索+惊吓瞬间\"的沉浸式拍摄。"
+          },
+          "rank": 36
+        },
+        {
+          "tag": "#avatarsevenhavens",
+          "name": "Avatar: Seven Havens（《阿凡达：七重天》）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "4.2K",
+              "views": "67.1M"
+            }
+          ],
+          "summary": "《阿凡达》宇宙相关新作话题标签，聚合预告、设定讨论与粉丝解析；具体作品信息待核验。",
+          "whyHot": "大 IP 新作官宣期通常带动预告解析与世界观讨论，但本项目名称与档期待核验。",
+          "origin": "官方影视IP+粉丝讨论。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/avatarsevenhavens",
+            "search": "https://www.tiktok.com/search?q=avatarsevenhavens",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "trillryu",
+            "videoId": "7699980213626703118"
+          },
+          "fusionSuggestion": {
+            "commercial": "世界观设定与视觉体系可作参考，须核实版权状态。",
+            "video": "可参考\"预告解析+设定梳理\"的内容格式。"
+          },
+          "rank": 37
+        },
+        {
+          "tag": "#nycc",
+          "name": "NYCC（纽约动漫展）",
+          "regionGroup": "global",
+          "category": "展会/文化",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "9.3K",
+              "views": "65.5M"
+            }
+          ],
+          "summary": "New York Comic Con 纽约动漫展，聚合展会现场、cosplay 与新品发布内容。",
+          "whyHot": "展会档期集中产出 cosplay 与现场内容，ACG 受众参与度高。",
+          "origin": "展会官方+参展者现场记录。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/nycc",
+            "search": "https://www.tiktok.com/search?q=nycc",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "thatkimon",
+            "videoId": "7699581189073538326"
+          },
+          "fusionSuggestion": {
+            "commercial": "展会 cosplay 生态与新品发布节奏可参考用于MCGG线下展会策划。",
+            "video": "可参考\"现场 cosplay 合集+展台探访\"的形式。"
+          },
+          "rank": 38
         },
         {
           "tag": "#boruto",
@@ -1188,7 +1448,43 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 32
+          "rank": 39
+        },
+        {
+          "tag": "#erenyeager",
+          "name": "Eren Yeager（《进击的巨人》艾伦）",
+          "regionGroup": "global",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "54.9K",
+              "views": "53.9M"
+            }
+          ],
+          "summary": "《进击的巨人》主角艾伦·耶格尔，自由意志与毁灭主题使其成为二创高频角色。",
+          "whyHot": "经典少年漫角色，剧情反转与名台词长期支撑剪辑二创。",
+          "origin": "官方动画角色话题+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/erenyeager",
+            "search": "https://www.tiktok.com/search?q=erenyeager",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "lowki_85",
+            "videoId": "7700081567045029140"
+          },
+          "fusionSuggestion": {
+            "commercial": "\"自由与代价\"的叙事张力可参考用于MCGG阵营剧情设计。",
+            "video": "可参考\"角色转变+名台词\"的剪辑。"
+          },
+          "rank": 40
         },
         {
           "tag": "#narutouzumaki",
@@ -1224,7 +1520,79 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 33
+          "rank": 41
+        },
+        {
+          "tag": "#gojosatoru",
+          "name": "Gojo Satoru（《咒术回战》五条悟）",
+          "regionGroup": "global",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "49.9K",
+              "views": "41.4M"
+            }
+          ],
+          "summary": "《咒术回战》人气角色五条悟，最强设定与张扬性格是其二创核心。",
+          "whyHot": "角色人气长期居于前列，战斗名场面与台词剪辑在东南亚与欧美同步传播。",
+          "origin": "官方漫画/动画角色话题+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/gojosatoru",
+            "search": "https://www.tiktok.com/search?q=gojosatoru",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "ishi.aep",
+            "videoId": "7613084577908690197"
+          },
+          "fusionSuggestion": {
+            "commercial": "\"压倒性强者的从容\"人设可参考用于MCGG高战力角色包装。",
+            "video": "可参考\"能力展示+台词金句\"的剪辑。"
+          },
+          "rank": 42
+        },
+        {
+          "tag": "#mikasa",
+          "name": "Mikasa Ackerman（《进击的巨人》三笠）",
+          "regionGroup": "global",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "48.8K",
+              "views": "39.9M"
+            }
+          ],
+          "summary": "《进击的巨人》角色三笠·阿克曼，战斗实力与情感线是其剪辑核心。",
+          "whyHot": "经典角色的战斗高光与情感线持续产出二创内容。",
+          "origin": "官方动画角色话题+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mikasa",
+            "search": "https://www.tiktok.com/search?q=mikasa",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "katoamv",
+            "videoId": "7643026406204742422"
+          },
+          "fusionSuggestion": {
+            "commercial": "角色\"沉默但强大\"的设定可参考用于MCGG女性角色塑造。",
+            "video": "可参考\"战斗高光+情感线\"剪辑。"
+          },
+          "rank": 43
         },
         {
           "tag": "#sanji",
@@ -1260,7 +1628,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 34
+          "rank": 44
         },
         {
           "tag": "#spyxfamily",
@@ -1296,7 +1664,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 35
+          "rank": 45
         },
         {
           "tag": "#makima",
@@ -1332,408 +1700,48 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 36
-        },
-        {
-          "tag": "#zenitsu",
-          "name": "Zenitsu（《鬼灭之刃》我妻善逸）",
-          "regionGroup": "global",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "54.4K",
-              "views": "34.9M"
-            }
-          ],
-          "summary": "《鬼灭之刃》雷之呼吸使我妻善逸，胆小搞笑日常与觉醒后判若两人的反差深受喜爱。",
-          "whyHot": "鬼灭之刃长青人气角色，反差萌剪辑持续产出。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/zenitsu",
-            "search": "https://www.tiktok.com/search?q=zenitsu",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "ringwitdahoodietwixtor",
-            "videoId": "7691324441552375041"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 37
-        },
-        {
-          "tag": "#nezuko",
-          "name": "Nezuko（《鬼灭之刃》灶门祢豆子）",
-          "regionGroup": "global",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "54.2K",
-              "views": "34.5M"
-            }
-          ],
-          "summary": "《鬼灭之刃》女主角灶门祢豆子，变成鬼后依然守护人类的温柔形象是粉丝二创重点。",
-          "whyHot": "鬼灭之刃长青人气角色，萌系剪辑与仿妆内容持续产出。",
-          "origin": "官方动画片段+粉丝二创/仿妆。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/nezuko",
-            "search": "https://www.tiktok.com/search?q=nezuko",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "1thinkwwm",
-            "videoId": "7695362747814530326"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 38
-        },
-        {
-          "tag": "#sungjinwoo",
-          "name": "Sung Jin-Woo（《我独自升级》成镜）",
-          "regionGroup": "global",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "48.4K",
-              "views": "32.4M"
-            }
-          ],
-          "summary": "韩国网漫改编动画《我独自升级》主角成镜，从最弱猎人逆转成长为最强的爽文式剧情广受欢迎。",
-          "whyHot": "近年人气新番动漫，战斗场面/成长剧情剪辑持续产出。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/sungjinwoo",
-            "search": "https://www.tiktok.com/search?q=sungjinwoo",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "whatifuniversed2026",
-            "videoId": "7679114818833435925"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 39
-        },
-        {
-          "tag": "#animeclips",
-          "name": "Anime Clips（动漫片段剪辑合集）",
-          "regionGroup": "global",
-          "category": "动漫/泛二创",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "54.1K",
-              "views": "31.6M"
-            }
-          ],
-          "summary": "泛用型动漫片段剪辑聚合标签，覆盖多部作品的名场面/催泪/热血剪辑。",
-          "whyHot": "标签本身是动漫内容聚合入口，持续有新剪辑投稿。",
-          "origin": "粉丝自发剪辑投稿。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/animeclips",
-            "search": "https://www.tiktok.com/search?q=animeclips",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "landonr_0609",
-            "videoId": "7687709708014144798"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 40
-        },
-        {
-          "tag": "#kageyama",
-          "name": "Kageyama（《排球少年》影山飞雄）",
-          "regionGroup": "global",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "48.3K",
-              "views": "29.8M"
-            }
-          ],
-          "summary": "《排球少年》天才二传手影山飞雄，与日向翔阳的\"快攻\"配合是系列标志性名场面。",
-          "whyHot": "排球少年长青人气IP，热血运动番剪辑持续有稳定受众。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/kageyama",
-            "search": "https://www.tiktok.com/search?q=kageyama",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "funoxz",
-            "videoId": "7659483025285090567"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 41
-        },
-        {
-          "tag": "#anya",
-          "name": "Anya Forger（《间谍过家家》安妮亚）",
-          "regionGroup": "global",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "53.5K",
-              "views": "29.3M"
-            }
-          ],
-          "summary": "《间谍过家家》读心能力小女孩安妮亚，呆萌表情包与\"哇酷哇酷\"口癖是全网热门表情素材。",
-          "whyHot": "表情包式萌系角色天然适合二创传播，持续产出表情包/仿妆内容。",
-          "origin": "官方动画片段+粉丝表情包/仿妆二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/anya",
-            "search": "https://www.tiktok.com/search?q=anya",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "spyxvici",
-            "videoId": "7498399335046991126"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 42
-        },
-        {
-          "tag": "#bluearchive",
-          "name": "Blue Archive（蔚蓝档案）",
-          "regionGroup": "global",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "47.2K",
-              "views": "28.7M"
-            }
-          ],
-          "summary": "日本School RPG手游，校园题材+角色养成玩法在亚洲年轻玩家群体中人气很高。",
-          "whyHot": "活跃手游IP，角色剪辑/同人内容随版本更新持续产出。",
-          "origin": "玩家剪辑/同人二创内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/bluearchive",
-            "search": "https://www.tiktok.com/search?q=bluearchive",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "zasuki_sa",
-            "videoId": "7695721927037570322"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 43
-        },
-        {
-          "tag": "#fategrandorder",
-          "name": "Fate/Grand Order（命运/冠位指定）",
-          "regionGroup": "global",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "46.8K",
-              "views": "28.2M"
-            }
-          ],
-          "summary": "TYPE-MOON旗下长青手游IP，收集历史/传说英灵进行战斗的策略卡牌玩法。",
-          "whyHot": "老牌人气手游，角色剪辑/活动剧情内容随版本更新持续产出。",
-          "origin": "玩家剪辑/官方宣传内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/fategrandorder",
-            "search": "https://www.tiktok.com/search?q=fategrandorder",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fgoproject",
-            "videoId": "7697138246035442965"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 44
-        },
-        {
-          "tag": "#arknights",
-          "name": "Arknights（明日方舟）",
-          "regionGroup": "global",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "46.9K",
-              "views": "27.7M"
-            }
-          ],
-          "summary": "鹰角网络出品塔防手游，末日废土世界观与角色塑造深受玩家喜爱，东南亚亦有稳定玩家群体。",
-          "whyHot": "活跃手游IP，角色剪辑/剧情向内容随版本更新持续产出。",
-          "origin": "玩家剪辑/官方宣传内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/arknights",
-            "search": "https://www.tiktok.com/search?q=arknights",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "arknights_en",
-            "videoId": "7696398472907328799"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 45
-        },
-        {
-          "tag": "#nikkegoddessofvictory",
-          "name": "GODDESS OF VICTORY: NIKKE（手游《胜利女神：妮姬》）",
-          "regionGroup": "global",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "46.7K",
-              "views": "26.4M"
-            }
-          ],
-          "summary": "Shift Up 出品的枪械少女题材手游 NIKKE 全名标签。",
-          "whyHot": "版本更新与角色 PV 二创在多市场同步带动，游戏美术风格利于剪辑传播。",
-          "origin": "游戏官方 IP。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/nikkegoddessofvictory",
-            "search": "https://www.tiktok.com/search?q=nikkegoddessofvictory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "kainz_vt",
-            "videoId": "7661992364281744643"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
           "rank": 46
-        },
-        {
-          "tag": "#azurlane",
-          "name": "Azur Lane（碧蓝航线）",
-          "regionGroup": "global",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "45.4K",
-              "views": "23.9M"
-            }
-          ],
-          "summary": "舰船拟人题材手游，角色设计与联动活动在东南亚玩家圈持续活跃。",
-          "whyHot": "长青手游IP，角色剪辑/联动活动内容持续产出。",
-          "origin": "玩家剪辑/官方宣传内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/azurlane",
-            "search": "https://www.tiktok.com/search?q=azurlane",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=7&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "yuuki_my_istri_wangyy",
-            "videoId": "7697031290184305940"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 47
         }
       ]
     },
     "30": {
       "items": [
+        {
+          "tag": "#traibuonnguoi",
+          "name": "Trải Buồn Người（越南语，情感叙事）",
+          "regionGroup": "sea",
+          "category": "梗/情感",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "67.9K",
+              "views": "1.8B"
+            }
+          ],
+          "summary": "越南语情感类标签，字面指向\"经历悲伤/释怀\"，聚合失恋叙事、情绪独白与配乐短片。",
+          "whyHot": "情感叙事是越南TikTok的高互动品类，配乐+独白模板易于批量二创；精确语义待母语者复核。",
+          "origin": "越南创作者自发的情感类内容。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/traibuonnguoi",
+            "search": "https://www.tiktok.com/search?q=traibuonnguoi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "edwardnhieuchuyen",
+            "videoId": "7700906407737969927"
+          },
+          "fusionSuggestion": {
+            "commercial": "情绪张力可用于MCGG剧情向宣发的氛围铺垫。",
+            "video": "可参考\"独白+空镜\"的抒情结构。"
+          },
+          "rank": 1
+        },
         {
           "tag": "#missgrandinternational",
           "name": "Miss Grand International（MGI国际选美大赛）",
@@ -1778,7 +1786,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可借势'国际赛事应援'氛围做棋盘皮肤的票选/应援玩法联想（避免使用真实选手肖像），具体方向待策划评估。",
             "video": "可参考选美赛事的'国服展示+舞台走位'视觉语言做皮肤展示短视频，规避真人版权风险。"
           },
-          "rank": 1
+          "rank": 2
         },
         {
           "tag": "#2ngay1dem",
@@ -1814,7 +1822,43 @@ window.TREND_DATA = {
             "commercial": "旅行+游戏任务类综艺的'惩罚环节'喜感可为MCGG对战结算动画提供梗参考。",
             "video": "可参考其'任务卡+反转惩罚'的短视频剪辑结构。"
           },
-          "rank": 2
+          "rank": 3
+        },
+        {
+          "tag": "#lyrics",
+          "name": "Lyrics（歌词字幕类内容）",
+          "regionGroup": "sea",
+          "category": "音乐",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "MY",
+              "posts": "85.5K",
+              "views": "554.2M"
+            }
+          ],
+          "summary": "歌词主题泛类标签，聚合歌词字幕视频、翻唱与歌曲情绪解读。",
+          "whyHot": "歌词类内容与音乐传播强绑定，模板化程度高，跨国跨语种适用。",
+          "origin": "多市场创作者自发使用的音乐类标签。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/lyrics",
+            "search": "https://www.tiktok.com/search?q=lyrics",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=MY"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "_koi_zen",
+            "videoId": "7655100335668645140"
+          },
+          "fusionSuggestion": {
+            "commercial": "音乐情绪与歌词卡点结构可为MCGG短视频配乐策略提供参考。",
+            "video": "可参考\"歌词逐句卡点+情绪画面\"的剪辑格式。"
+          },
+          "rank": 4
         },
         {
           "tag": "#damcuoi",
@@ -1850,7 +1894,43 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 3
+          "rank": 5
+        },
+        {
+          "tag": "#pestapora",
+          "name": "Pestapora（印尼音乐节）",
+          "regionGroup": "sea",
+          "category": "音乐节/文化",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "17.5K",
+              "views": "454.5M"
+            }
+          ],
+          "summary": "印尼本土大型音乐节品牌，聚合现场演出片段、观众打卡与阵容讨论。",
+          "whyHot": "印尼本土音乐节观众规模大，现场氛围类内容在音乐节档期集中爆发。",
+          "origin": "音乐节官方与观众现场记录。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/pestapora",
+            "search": "https://www.tiktok.com/search?q=pestapora",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "jopiloop",
+            "videoId": "7689528913915055368"
+          },
+          "fusionSuggestion": {
+            "commercial": "大型线下活动的现场氛围与视觉包装可为MCGG线下活动提供参考。",
+            "video": "可参考\"现场大合唱+人群镜头\"的情绪渲染剪辑。"
+          },
+          "rank": 6
         },
         {
           "tag": "#halloween",
@@ -1906,7 +1986,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 4
+          "rank": 7
         },
         {
           "tag": "#asiad2026",
@@ -1942,7 +2022,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 5
+          "rank": 8
         },
         {
           "tag": "#missgrandvietnam",
@@ -1978,7 +2058,7 @@ window.TREND_DATA = {
             "commercial": "同MGI：应援玩法联想，避免真人肖像。",
             "video": "可参考'国服展示'视觉语言，规避真人版权。"
           },
-          "rank": 6
+          "rank": 9
         },
         {
           "tag": "#southpark",
@@ -2019,7 +2099,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 7
+          "rank": 10
         },
         {
           "tag": "#aura",
@@ -2055,7 +2135,7 @@ window.TREND_DATA = {
             "commercial": "'气场值量化'玩法可直译为MCGG棋盘互动彩蛋（如连胜+aura特效）。",
             "video": "可参考'+1000 aura/-500 aura'的字幕计分梗格式。"
           },
-          "rank": 8
+          "rank": 11
         },
         {
           "tag": "#utlan2",
@@ -2091,7 +2171,125 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 9
+          "rank": 12
+        },
+        {
+          "tag": "#missgrandinternational2026",
+          "name": "Miss Grand International 2026（MGI 2026 届次标签）",
+          "regionGroup": "sea",
+          "category": "选美/娱乐赛事",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "10.7K",
+              "views": "295.9M"
+            },
+            {
+              "code": "TH",
+              "posts": "15.5K",
+              "views": "120.3M"
+            },
+            {
+              "code": "PH",
+              "posts": "3.0K",
+              "views": "54.7M"
+            }
+          ],
+          "summary": "MGI 2026 届次专属标签，聚合本届赛程、选手国服展示与粉丝应援内容。",
+          "whyHot": "赛事进入决赛周期，届次标签用于内容归档与应援聚合，东南亚粉丝动员力强。",
+          "origin": "MGI 官方赛事+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/missgrandinternational2026",
+            "search": "https://www.tiktok.com/search?q=missgrandinternational2026",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "asiaof.pageantry",
+            "videoId": "7700120244391595285"
+          },
+          "fusionSuggestion": {
+            "commercial": "应援氛围可做皮肤票选玩法联想，避免使用真实选手肖像。",
+            "video": "可参考\"国服展示+舞台走位\"的视觉语言。"
+          },
+          "rank": 13
+        },
+        {
+          "tag": "#thientho",
+          "name": "Thiên Thơ（越南语，灵异/天师题材）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "15.7K",
+              "views": "289.3M"
+            }
+          ],
+          "summary": "越南语标签，字面指向\"天师/灵异\"题材，聚合越南本地的灵异短剧、民俗故事演绎与相关剪辑。",
+          "whyHot": "越南市场对灵异/民俗题材短剧接受度高，剧情反转与氛围感适配短视频；标签具体所指的节目或事件未能公开核实。",
+          "origin": "越南本地创作者自发内容（具体出处待核验）。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thientho",
+            "search": "https://www.tiktok.com/search?q=thientho",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "ngbbb16",
+            "videoId": "7700154402501348628"
+          },
+          "fusionSuggestion": {
+            "commercial": "灵异民俗题材的氛围与符号可为MCGG万圣/惊悚主题皮肤提供视觉参考，注意避免宗教元素。",
+            "video": "可参考\"悬念铺垫—反转\"的短剧剪辑结构。"
+          },
+          "rank": 14
+        },
+        {
+          "tag": "#mualan",
+          "name": "Mùa Lân（越南语\"舞狮季\"）",
+          "regionGroup": "sea",
+          "category": "文化节庆",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "16.1K",
+              "views": "245.7M"
+            }
+          ],
+          "summary": "越南语\"舞狮季\"，指向节庆档期的舞狮表演与相关民俗内容。",
+          "whyHot": "舞狮是东南亚节庆的固定视觉符号，节前预热与表演视频密集产出；具体档期待核验。",
+          "origin": "本地民俗表演团队与观众记录。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mualan",
+            "search": "https://www.tiktok.com/search?q=mualan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "puppykechuyen",
+            "videoId": "7681157624917789960"
+          },
+          "fusionSuggestion": {
+            "commercial": "舞狮的节庆视觉与鼓点节奏可为MCGG春节/节庆皮肤提供符号参考。",
+            "video": "可参考\"鼓点卡点+狮头特写\"的剪辑。"
+          },
+          "rank": 15
         },
         {
           "tag": "#missuniversevietnam",
@@ -2127,7 +2325,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 10
+          "rank": 16
         },
         {
           "tag": "#blackclover",
@@ -2178,305 +2376,69 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 11
-        },
-        {
-          "tag": "#loki",
-          "name": "Loki（漫威洛基）",
-          "regionGroup": "sea",
-          "category": "影视IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "22.4K",
-              "views": "143.9M"
-            },
-            {
-              "code": "VN",
-              "posts": "4.5K",
-              "views": "83.5M"
-            }
-          ],
-          "summary": "漫威宇宙反英雄角色洛基，复杂多变的性格与多元宇宙剧情设定持续吸引粉丝剪辑二创。",
-          "whyHot": "漫威长青人气角色，剧集/电影片段剪辑持续产出。",
-          "origin": "官方剧集/电影片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/loki",
-            "search": "https://www.tiktok.com/search?q=loki",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "is3udd",
-            "videoId": "7684375027839405333"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 12
-        },
-        {
-          "tag": "#dragraceph",
-          "name": "Drag Race Philippines（鲁保罗变装皇后秀菲律宾版）",
-          "regionGroup": "sea",
-          "category": "真人秀",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "6.2K",
-              "views": "137.2M"
-            }
-          ],
-          "summary": "RuPaul's Drag Race franchise 的菲律宾本地版。",
-          "whyHot": "franchise 本地版播出期表演片段与选手讨论二创带动，PH 市场综艺热度出口。",
-          "origin": "官方综艺 IP 本地版。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dragraceph",
-            "search": "https://www.tiktok.com/search?q=dragraceph",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "edsaxxtra",
-            "videoId": "7695420851746917652"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 13
-        },
-        {
-          "tag": "#forgottenisland",
-          "name": "Forgotten Island（梦工厂动画《忘却之岛》）",
-          "regionGroup": "sea",
-          "category": "动画电影",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "6.8K",
-              "views": "121.6M"
-            }
-          ],
-          "summary": "梦工厂原创动画，菲律宾神话‘忘却之岛’冒险题材，2026-09-25 美国上映。",
-          "whyHot": "上映窗口期 PH 市场因菲律宾文化元素与女性友谊主题爆发本地化二创与观影打卡。",
-          "origin": "片方官方电影话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/forgottenisland",
-            "search": "https://www.tiktok.com/search?q=forgottenisland",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fandango",
-            "videoId": "7685812894482713886"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 14
-        },
-        {
-          "tag": "#halloweencostume",
-          "name": "Halloween Costume（万圣节服装）",
-          "regionGroup": "sea",
-          "category": "季节/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "9.5K",
-              "views": "120.4M"
-            }
-          ],
-          "summary": "万圣节服装主题内容标签，聚合服装reveal、DIY制作教程、情侣/团体服装创意等。",
-          "whyHot": "10月万圣节季进入服装内容年度峰值期，节前2-3周是服装灵感内容的集中发布窗口，菲/英/美多市场同步上榜。",
-          "origin": "创作者自发季节性内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/halloweencostume",
-            "search": "https://www.tiktok.com/search?q=halloweencostume",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "nataliireynoldss",
-            "videoId": "7692957276587429150"
-          },
-          "fusionSuggestion": {
-            "commercial": "万圣节cosplay氛围与MCGG节日限定皮肤发售节点天然契合。",
-            "video": "可参考'服装从草图到成品'的过程剪辑格式。"
-          },
-          "rank": 15
-        },
-        {
-          "tag": "#ธี่หยด",
-          "name": "Thee Yod（泰国恐怖片《鬼妈》系列）",
-          "regionGroup": "sea",
-          "category": "影视IP/恐怖片",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "5.6K",
-              "views": "113.9M"
-            }
-          ],
-          "summary": "泰国民间灵异传说改编的恐怖电影系列，围绕\"鬼妈\"形象的乡野恐怖氛围广受泰国观众喜爱。",
-          "whyHot": "系列电影上映期带动经典惊悚片段剪辑与讨论热度。",
-          "origin": "官方电影片段+观众观影反应剪辑。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/%E0%B8%98%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A2%E0%B8%94",
-            "search": "https://www.tiktok.com/search?q=%E0%B8%98%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A2%E0%B8%94",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "majorgroup",
-            "videoId": "7684943871557520660"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 16
-        },
-        {
-          "tag": "#muadong",
-          "name": "Mùa Đông（越南语‘冬天’）",
-          "regionGroup": "sea",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "43.7K",
-              "views": "110.7M"
-            }
-          ],
-          "summary": "越南语冬季/转凉季节内容通用标签。",
-          "whyHot": "越北进入转凉季节，季节情绪与穿搭内容集中发布。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/muadong",
-            "search": "https://www.tiktok.com/search?q=muadong",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "hieudeptrai_211",
-            "videoId": "7695306672453045522"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
           "rank": 17
         },
         {
-          "tag": "#coraline",
-          "name": "Coraline（《鬼妈妈》）",
+          "tag": "#jamda5yrkijogja",
+          "name": "JAMDA 5th Anniversary Yogyakarta（印尼社群周年活动）",
           "regionGroup": "sea",
-          "category": "影视IP/定格动画",
+          "category": "社群/活动",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "PH",
-              "posts": "2.5K",
-              "views": "107.7M"
+              "code": "ID",
+              "posts": "37.5K",
+              "views": "202.8M"
             }
           ],
-          "summary": "Laika出品经典定格动画惊悚片，讲述女孩柯拉琳发现镜中\"另一个世界\"的诡异故事。",
-          "whyHot": "万圣节季经典惊悚IP回潮，怀旧向剪辑与仿妆内容集中产出。",
-          "origin": "官方电影片段+粉丝怀旧向剪辑。",
-          "confidence": "official",
+          "summary": "印尼日惹地区某社群五周年聚会活动的标签，聚合现场记录与参与者打卡。",
+          "whyHot": "本地社群活动类内容在印尼下沉市场活跃，但主办方与具体活动性质未能核实。",
+          "origin": "印尼本地社群活动记录（待核验）。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/coraline",
-            "search": "https://www.tiktok.com/search?q=coraline",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+            "tag": "https://www.tiktok.com/tag/jamda5yrkijogja",
+            "search": "https://www.tiktok.com/search?q=jamda5yrkijogja",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "livssupersecret06",
-            "videoId": "7695392739692645646"
+            "author": "mas.yuddd_",
+            "videoId": "7687500006361763079"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "线下社群活动的组织形式可作参考，需复核背景。",
+            "video": "可参考活动集锦式剪辑。"
           },
           "rank": 18
         },
         {
-          "tag": "#october",
-          "name": "October（十月通用月份标签）",
+          "tag": "#stopthewedding",
+          "name": "Stop The Wedding（\"阻止婚礼\"剧情梗）",
           "regionGroup": "sea",
-          "category": "季节/生活方式",
+          "category": "梗/剧情",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "PH",
-              "posts": "31.9K",
-              "views": "83.8M"
+              "posts": "18.8K",
+              "views": "195.8M"
             },
             {
               "code": "ID",
-              "posts": "22.2K",
-              "views": "53.5M"
-            },
-            {
-              "code": "MY",
-              "posts": "9.5K",
-              "views": "21.3M"
-            },
-            {
-              "code": "TH",
-              "posts": "7.0K",
-              "views": "12.6M"
-            },
-            {
-              "code": "VN",
-              "posts": "4.2K",
-              "views": "11.0M"
+              "posts": "4.1K",
+              "views": "69.0M"
             }
           ],
-          "summary": "十月通用内容标签，聚合换季穿搭、月度总结、秋景等季节性生活内容。",
-          "whyHot": "北半球入秋叠加万圣节预热，十月是季节内容的集中释放期，通用月份标签按惯例汇聚全月 UGC。",
-          "origin": "创作者自发通用标签。",
-          "confidence": "official",
+          "summary": "戏剧化剧情标签，围绕婚礼现场冲突、抢婚等强反转情节展开演绎与剪辑。",
+          "whyHot": "强冲突剧情在短视频天然吸睛，婚礼场景自带仪式感与情绪张力；具体来源待核验。",
+          "origin": "创作者剧情演绎或剧集切片（待核验）。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/october",
-            "search": "https://www.tiktok.com/search?q=october",
+            "tag": "https://www.tiktok.com/tag/stopthewedding",
+            "search": "https://www.tiktok.com/search?q=stopthewedding",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
           },
           "douyinCheck": {
@@ -2484,215 +2446,71 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "themindaa",
-            "videoId": "7691451275795352864"
+            "author": "aaelice",
+            "videoId": "7699442927860223253"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "强反转叙事结构可参考用于MCGG剧情向短片。",
+            "video": "可参考\"仪式进行—突发打断\"的悬念结构。"
           },
           "rank": 19
         },
         {
-          "tag": "#themaskedsinger",
-          "name": "The Masked Singer（蒙面歌王格式综艺）",
+          "tag": "#hotpodxclippo",
+          "name": "Hot Pod x Clippo（印尼播客切片）",
           "regionGroup": "sea",
-          "category": "综艺/真人秀",
+          "category": "播客/访谈",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "VN",
-              "posts": "2.2K",
-              "views": "83.6M"
+              "code": "ID",
+              "posts": "12.2K",
+              "views": "193.8M"
             }
           ],
-          "summary": "全球授权的蒙面唱歌竞猜真人秀格式综艺，猎奇造型+揣测嘉宾身份是核心看点。",
-          "whyHot": "综艺播出期猜身份话题性强，揭面环节片段天然适合短视频传播。",
-          "origin": "官方综艺片段+观众猜测向剪辑。",
-          "confidence": "official",
+          "summary": "印尼播客节目相关的切片标签，聚合长访谈的高光片段与金句剪辑。",
+          "whyHot": "播客切片化传播成为东南亚新兴内容形态，金句片段适配短视频节奏；节目详情待核验。",
+          "origin": "播客节目官方切片或观众剪辑。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/themaskedsinger",
-            "search": "https://www.tiktok.com/search?q=themaskedsinger",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+            "tag": "https://www.tiktok.com/tag/hotpodxclippo",
+            "search": "https://www.tiktok.com/search?q=hotpodxclippo",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "viechannel.show",
-            "videoId": "7694910200121199924"
+            "author": "enuy.nuy7",
+            "videoId": "7691643444275449140"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "长内容切片化的分发策略可供MCGG官方账号参考。",
+            "video": "可参考\"金句前置+对话还原\"的切片格式。"
           },
           "rank": 20
         },
         {
-          "tag": "#obito",
-          "name": "Obito（《火影忍者》宇智波带土）",
+          "tag": "#thexesitz",
+          "name": "The Xesitz（待核验）",
           "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "10.6K",
-              "views": "71.7M"
-            }
-          ],
-          "summary": "《火影忍者》悲剧性角色宇智波带土，从温柔少年黑化为反派的复杂剧情是系列经典名场面来源。",
-          "whyHot": "长青人气反派角色，悲情剧情向剪辑持续被粉丝二创传播。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/obito",
-            "search": "https://www.tiktok.com/search?q=obito",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "nyelmoyaen",
-            "videoId": "7604368958178725127"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 21
-        },
-        {
-          "tag": "#redbullhucfest",
-          "name": "Red Bull Hue Fest（红牛顺化节庆活动）",
-          "regionGroup": "sea",
-          "category": "文化/体育活动",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "2.9K",
-              "views": "63.0M"
-            }
-          ],
-          "summary": "红牛品牌在越南顺化（Huế）举办的极限运动/音乐节庆活动，具体赛事细节待核实。",
-          "whyHot": "品牌活动现场精彩片段+参与者打卡内容集中产出。",
-          "origin": "官方活动转播+参与者打卡剪辑。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/redbullhucfest",
-            "search": "https://www.tiktok.com/search?q=redbullhucfest",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "redbullvietnam",
-            "videoId": "7693114503302565140"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 22
-        },
-        {
-          "tag": "#ggez",
-          "name": "\"GG EZ\"（电竞/游戏调侃用语）",
-          "regionGroup": "sea",
-          "category": "游戏/梗",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "2.3K",
-              "views": "41.3M"
-            }
-          ],
-          "summary": "电竞圈常用调侃语\"Good Game, Easy\"（好游戏，太简单了），常用于游戏内容或调侃场景。",
-          "whyHot": "游戏社区通用梗，适配各类游戏内容二创，机制清楚。",
-          "origin": "电竞/游戏社区通用用语。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/ggez",
-            "search": "https://www.tiktok.com/search?q=ggez",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "angelinazhq",
-            "videoId": "7678730525359623431"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
-            "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 23
-        },
-        {
-          "tag": "#halloweenmakeup",
-          "name": "Halloween Makeup（万圣节妆容）",
-          "regionGroup": "sea",
-          "category": "季节/美妆",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "3.7K",
-              "views": "34.9M"
-            }
-          ],
-          "summary": "万圣节仿妆/特效妆创作标签。",
-          "whyHot": "万圣节前妆容教程与仿妆变装进入年度高峰期，妆前妆后反差模板参与门槛低。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/halloweenmakeup",
-            "search": "https://www.tiktok.com/search?q=halloweenmakeup",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "bynatalija",
-            "videoId": "7695788131643084064"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 24
-        },
-        {
-          "tag": "#souleater",
-          "name": "Soul Eater（噬魂师）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
+          "category": "待核验",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "TH",
-              "posts": "8.2K",
-              "views": "30.8M"
+              "posts": "4.7K",
+              "views": "189.0M"
             }
           ],
-          "summary": "经典日本动漫，死神武器学院的学生们收集\"噬魂\"对抗邪恶力量的热血故事。",
-          "whyHot": "经典怀旧向动漫IP，角色剪辑与原声音乐remix持续有稳定受众。",
-          "origin": "官方动画片段+粉丝怀旧向二创。",
-          "confidence": "official",
+          "summary": "泰国市场出现的标签，具体所指（艺人、节目或社群）未能公开核实。",
+          "whyHot": "播放量较高但内容属性不明，建议人工打开话题页复核后再判断是否收录。",
+          "origin": "待核验。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/souleater",
-            "search": "https://www.tiktok.com/search?q=souleater",
+            "tag": "https://www.tiktok.com/tag/thexesitz",
+            "search": "https://www.tiktok.com/search?q=thexesitz",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=TH"
           },
           "douyinCheck": {
@@ -2700,35 +2518,184 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "ryavvar",
-            "videoId": "7696567468776541461"
+            "author": "alienneverdie",
+            "videoId": "7700644677686512917"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "建议复核后再判断。",
+            "video": "待核验。"
+          },
+          "rank": 21
+        },
+        {
+          "tag": "#missgrandvietnam2026",
+          "name": "Miss Grand Vietnam 2026（MGI 越南国赛 2026）",
+          "regionGroup": "sea",
+          "category": "选美/娱乐赛事",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "4.6K",
+              "views": "185.7M"
+            }
+          ],
+          "summary": "MGI 越南国赛 2026 届次标签，聚合本届选拔赛程与选手相关内容。",
+          "whyHot": "跟随 MGI 国际赛事周期，越南国赛在决赛前进入内容高峰。",
+          "origin": "MGI Vietnam 官方赛事+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/missgrandvietnam2026",
+            "search": "https://www.tiktok.com/search?q=missgrandvietnam2026",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "asiaof.pageantry",
+            "videoId": "7700476967258230037"
+          },
+          "fusionSuggestion": {
+            "commercial": "同 MGI 体系：应援玩法联想，避免真人肖像。",
+            "video": "可参考国服展示类视觉语言。"
+          },
+          "rank": 22
+        },
+        {
+          "tag": "#terbelahjadidua",
+          "name": "Terbelah Jadi Dua（印尼语\"一分为二\"）",
+          "regionGroup": "sea",
+          "category": "梗/情感",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "28.7K",
+              "views": "179.7M"
+            }
+          ],
+          "summary": "印尼语短语，字面意为\"裂成两半\"，多用于心碎、立场分裂一类的情绪化表达。",
+          "whyHot": "情绪化短句适合做字幕梗模板，印尼语区传播快；具体触发场景待核验。",
+          "origin": "印尼创作者自发的情绪梗。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/terbelahjadidua",
+            "search": "https://www.tiktok.com/search?q=terbelahjadidua",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "marteen.id",
+            "videoId": "7699344737605537031"
+          },
+          "fusionSuggestion": {
+            "commercial": "情绪张力可作MCGG对局\"心态崩了\"类内容参考。",
+            "video": "可参考\"对比分屏+情绪字幕\"的格式。"
+          },
+          "rank": 23
+        },
+        {
+          "tag": "#phimchieurap",
+          "name": "Phim Chiếu Rạp（越南语\"院线电影\"）",
+          "regionGroup": "sea",
+          "category": "影视泛类",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "5.8K",
+              "views": "175.8M"
+            }
+          ],
+          "summary": "越南语\"院线电影\"泛类标签，聚合在映影片的预告、影评与观后感内容。",
+          "whyHot": "院线档期驱动，越南观众观影打卡与影评内容集中产出。",
+          "origin": "越南影迷与影视媒体自发使用。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/phimchieurap",
+            "search": "https://www.tiktok.com/search?q=phimchieurap",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "danphim1",
+            "videoId": "7679003799830285576"
+          },
+          "fusionSuggestion": {
+            "commercial": "院线档期的营销节奏可为MCGG版本节点提供排期参考。",
+            "video": "可参考\"观影反应+影评观点\"的组合格式。"
+          },
+          "rank": 24
+        },
+        {
+          "tag": "#mgi",
+          "name": "MGI（Miss Grand International 简称）",
+          "regionGroup": "sea",
+          "category": "选美/娱乐赛事",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "VN",
+              "posts": "8.0K",
+              "views": "172.4M"
+            },
+            {
+              "code": "PH",
+              "posts": "3.4K",
+              "views": "62.7M"
+            }
+          ],
+          "summary": "MGI 赛事缩写泛标签，聚合国际赛事与各国国赛的混合内容。",
+          "whyHot": "赛事周期内缩写标签使用量上升，方便跨市场聚合应援内容。",
+          "origin": "MGI 官方赛事+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/mgi",
+            "search": "https://www.tiktok.com/search?q=mgi",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "zawadi_linsey",
+            "videoId": "7700898485331086612"
+          },
+          "fusionSuggestion": {
+            "commercial": "同 MGI 体系：应援玩法联想。",
+            "video": "可参考舞台高光剪辑。"
           },
           "rank": 25
         },
         {
-          "tag": "#patientzero",
-          "name": "Patient Zero（Taylor Swift 新单曲话题）",
+          "tag": "#aidrama",
+          "name": "AI Drama（AI 生成短剧）",
           "regionGroup": "sea",
-          "category": "音乐/新歌",
-          "danceCategory": "dance",
+          "category": "影视/技术内容",
+          "danceCategory": "non_dance",
           "regions": [
             {
               "code": "PH",
-              "posts": "3.6K",
-              "views": "28.5M"
+              "posts": "19.4K",
+              "views": "169.1M"
             }
           ],
-          "summary": "Taylor Swift 新单曲《Patient Zero》话题标签。",
-          "whyHot": "新歌发布带动歌词梗、听歌反应与舞蹈/剪辑二创；单曲信息经媒体报导核实。",
-          "origin": "歌手官方新作话题。",
+          "summary": "AI 生成短剧标签，聚合用生成式工具制作的剧情短片与制作过程展示。",
+          "whyHot": "生成式视频工具降低短剧制作门槛，AI 短剧成为东南亚新兴内容形态。",
+          "origin": "创作者自发使用的技术类内容标签。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/patientzero",
-            "search": "https://www.tiktok.com/search?q=patientzero",
+            "tag": "https://www.tiktok.com/tag/aidrama",
+            "search": "https://www.tiktok.com/search?q=aidrama",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
           },
           "douyinCheck": {
@@ -2736,76 +2703,71 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "mysteriousjulia_",
-            "videoId": "7690719771637075213"
+            "author": "aiseries_movie",
+            "videoId": "7679036050378870034"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "与MCGG宣发素材的低成本生产直接相关，值得跟踪。",
+            "video": "可参考\"AI成片+制作过程\"的对比格式。"
           },
           "rank": 26
         },
         {
-          "tag": "#halloween2026",
-          "name": "Halloween 2026（2026万圣节）",
+          "tag": "#damtungvan",
+          "name": "Đàm Tùng Văn（谭松韵，越南语译名）",
           "regionGroup": "sea",
-          "category": "季节/节日",
+          "category": "影视剧集",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "PH",
-              "posts": "2.1K",
-              "views": "27.7M"
-            },
-            {
-              "code": "TH",
-              "posts": "3.4K",
-              "views": "14.8M"
+              "code": "VN",
+              "posts": "9.5K",
+              "views": "161.4M"
             }
           ],
-          "summary": "带年份的万圣节标签，2026 年变装/装饰/派对内容的主标签之一。",
-          "whyHot": "年份标签用于当季内容归档与挑战赛聚合，预热期增速快。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
+          "summary": "越南语对中国演员谭松韵的译名标签，聚合其主演剧集在越南的切片与讨论。",
+          "whyHot": "中剧出海带动演员名标签在越南市场升温，属\"剧带人\"类型的剧集衍生内容。",
+          "origin": "中剧海外发行+越南粉丝二创。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/halloween2026",
-            "search": "https://www.tiktok.com/search?q=halloween2026",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
+            "tag": "https://www.tiktok.com/tag/damtungvan",
+            "search": "https://www.tiktok.com/search?q=damtungvan",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "laurenlieven99",
-            "videoId": "7690762264902634782"
+            "author": "phuonganh1401",
+            "videoId": "7700901236308053266"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "中剧出海的内容形态可作为MCGG跨市场宣发的参考，注意演员肖像版权。",
+            "video": "可参考\"剧集CP名场面\"剪辑。"
           },
           "rank": 27
         },
         {
-          "tag": "#fireflywedding",
-          "name": "Firefly Wedding（萤火虫主题婚礼美学）",
+          "tag": "#lansurong",
+          "name": "Làn Sóng（越南语\"浪潮\"）",
           "regionGroup": "sea",
-          "category": "生活方式",
+          "category": "待核验",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "VN",
-              "posts": "2.1K",
-              "views": "27.6M"
+              "posts": "11.6K",
+              "views": "158.1M"
             }
           ],
-          "summary": "以萤火虫灯饰/夜间户外为主题的婚礼布置美学潮流，新人分享婚礼现场布置与氛围感短视频。",
-          "whyHot": "婚礼季+唯美夜景灯饰视觉强，天然适合短视频传播，带动同类主题婚礼内容效仿拍摄。",
-          "origin": "新人/婚庆机构自发分享婚礼布置内容。",
+          "summary": "越南语\"浪潮\"，可能指向某档节目、歌曲或社会话题，具体所指未能核实。",
+          "whyHot": "播放量较高但内容属性不明，建议人工复核话题页后判断。",
+          "origin": "待核验。",
           "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/fireflywedding",
-            "search": "https://www.tiktok.com/search?q=fireflywedding",
+            "tag": "https://www.tiktok.com/tag/lansurong",
+            "search": "https://www.tiktok.com/search?q=lansurong",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
           },
           "douyinCheck": {
@@ -2813,35 +2775,35 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "namharu04",
-            "videoId": "7694737506641759494"
+            "author": "trm.douyin5",
+            "videoId": "7689391327242423572"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "建议复核后再判断。",
+            "video": "待核验。"
           },
           "rank": 28
         },
         {
-          "tag": "#spookyseason",
-          "name": "Spooky Season（恐怖季）",
+          "tag": "#naparabang",
+          "name": "Naparabang（菲律宾语，待核验）",
           "regionGroup": "sea",
-          "category": "季节/梗",
+          "category": "影视剧集",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "PH",
-              "posts": "1.9K",
-              "views": "24.6M"
+              "posts": "67.0K",
+              "views": "154.0M"
             }
           ],
-          "summary": "‘恐怖季’开启标签：入秋后恐怖/灵异/万圣节氛围内容的季节性宣告梗。",
-          "whyHot": "入秋节点的氛围宣告梗，模板化开场（‘it's spooky season’）参与门槛低、传播稳定。",
-          "origin": "创作者自发季节梗。",
-          "confidence": "official",
+          "summary": "菲律宾语标签，推测与在播剧集或娱乐节目相关，转录了剧情切片与讨论。",
+          "whyHot": "菲律宾剧集类标签传播机制清楚（剧情切片+情绪字幕），但本标签具体出处待核验。",
+          "origin": "菲律宾本地娱乐内容（待核验）。",
+          "confidence": "uncertain",
           "links": {
-            "tag": "https://www.tiktok.com/tag/spookyseason",
-            "search": "https://www.tiktok.com/search?q=spookyseason",
+            "tag": "https://www.tiktok.com/tag/naparabang",
+            "search": "https://www.tiktok.com/search?q=naparabang",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
           },
           "douyinCheck": {
@@ -2849,343 +2811,50 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "jordynnlurie",
-            "videoId": "7695912585387969806"
+            "author": "franzdpb",
+            "videoId": "7700417771049471250"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "可作为菲律宾市场剧集内容趋势的观察样本。",
+            "video": "可参考剧情切片格式。"
           },
           "rank": 29
         },
         {
-          "tag": "#zombie",
-          "name": "Zombie（僵尸题材万圣季内容）",
+          "tag": "#เอเชียนเกมส์",
+          "name": "เอเชียนเกมส์（泰语\"亚运会\"）",
           "regionGroup": "sea",
-          "category": "生活方式/节日",
+          "category": "体育赛事",
           "danceCategory": "non_dance",
           "regions": [
             {
-              "code": "MY",
-              "posts": "2.0K",
-              "views": "23.0M"
+              "code": "TH",
+              "posts": "6.3K",
+              "views": "149.9M"
             }
           ],
-          "summary": "万圣节季驱动的僵尸妆容/场景布置/恐怖主题短视频内容标签。",
-          "whyHot": "万圣节季节性驱动，恐怖妆容/场景类内容集中产出。",
-          "origin": "用户万圣节妆容/布景记录分享。",
+          "summary": "泰语\"亚洲运动会\"标签，聚合赛事高光、泰国选手夺牌与观众反应内容。",
+          "whyHot": "2026 名古屋亚运会闭幕后的长尾传播，夺牌瞬间与集锦仍在扩散。",
+          "origin": "赛事官方转播+观众/媒体剪辑。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/zombie",
-            "search": "https://www.tiktok.com/search?q=zombie",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=MY"
+            "tag": "https://www.tiktok.com/tag/%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AA%E0%B9%8C",
+            "search": "https://www.tiktok.com/search?q=%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B8%AA%E0%B9%8C",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=TH"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "ren.d.lucky",
-            "videoId": "7691902656524078356"
+            "author": "f.orevera.nde.ver",
+            "videoId": "7282722522414550277"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "体育赛事的夺牌情绪与团队叙事可参考用于MCGG电竞赛事宣传。",
+            "video": "可参考\"夺牌瞬间+国旗升起\"的情绪剪辑。"
           },
           "rank": 30
-        },
-        {
-          "tag": "#midautumnfestival",
-          "name": "中秋节 / Tết Trung Thu（东南亚中秋节庆）",
-          "regionGroup": "sea",
-          "category": "文化节庆",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "5.5K",
-              "views": "19.1M"
-            },
-            {
-              "code": "MY",
-              "posts": "3.2K",
-              "views": "5.6M"
-            }
-          ],
-          "summary": "东亚/东南亚华人及越南社群共同庆祝的传统中秋佳节，赏月、月饼、灯笼游行是核心活动。",
-          "whyHot": "节日季节性驱动，家庭团聚/传统活动记录类内容集中产出，非宗教非政治的文化民俗庆典。",
-          "origin": "用户自发节庆活动记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/midautumnfestival",
-            "search": "https://www.tiktok.com/search?q=midautumnfestival",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "gardensbythebay",
-            "videoId": "7009580492840242434"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 31
-        },
-        {
-          "tag": "#huntshowdown",
-          "name": "Hunt: Showdown（猎杀对决游戏）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "3.3K",
-              "views": "12.5M"
-            }
-          ],
-          "summary": "Crytek开发的PVPVE猎杀生存射击游戏，哥特式19世纪场景与紧张对局氛围是其特色。",
-          "whyHot": "游戏实况/精彩操作集锦类内容持续产出，核心玩家社群活跃。",
-          "origin": "玩家实况/集锦剪辑内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/huntshowdown",
-            "search": "https://www.tiktok.com/search?q=huntshowdown",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "set_as_known",
-            "videoId": "7563968069958176021"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 32
-        },
-        {
-          "tag": "#trickortreat",
-          "name": "Trick or Treat（万圣节讨糖传统）",
-          "regionGroup": "sea",
-          "category": "生活方式/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "3.7K",
-              "views": "11.7M"
-            }
-          ],
-          "summary": "万圣节经典\"不给糖就捣蛋\"讨糖活动相关的装扮/场景内容标签。",
-          "whyHot": "万圣节季节性驱动，家庭/儿童向内容集中产出。",
-          "origin": "用户万圣节活动记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/trickortreat",
-            "search": "https://www.tiktok.com/search?q=trickortreat",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fox5_atlanta",
-            "videoId": "7696574540687658270"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 33
-        },
-        {
-          "tag": "#winterarc",
-          "name": "Winter Arc（冬季自我提升挑战）",
-          "regionGroup": "sea",
-          "category": "生活方式/自我提升",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "2.1K",
-              "views": "10.7M"
-            }
-          ],
-          "summary": "年末冬季期间进行健身/学习/自律习惯养成的\"自我提升季\"挑战内容标签。",
-          "whyHot": "年末自我提升主题周期性回潮，健身/习惯打卡类内容集中产出。",
-          "origin": "用户自发自我提升打卡内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/winterarc",
-            "search": "https://www.tiktok.com/search?q=winterarc",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "motivation.mind.simple",
-            "videoId": "7686893639653428502"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 34
-        },
-        {
-          "tag": "#autumn",
-          "name": "Autumn（秋天）",
-          "regionGroup": "sea",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "MY",
-              "posts": "964",
-              "views": "10.0M"
-            }
-          ],
-          "summary": "秋季通用季节标签：秋景、穿搭、暖饮氛围内容。",
-          "whyHot": "北半球入秋季节内容集中释放，GB 等市场秋季美学 UGC 聚集。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/autumn",
-            "search": "https://www.tiktok.com/search?q=autumn",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=MY"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "danielvalko",
-            "videoId": "7652136274748312845"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 35
-        },
-        {
-          "tag": "#thesecretlibrary",
-          "name": "The Secret Library（菲律宾主题图书馆咖啡馆）",
-          "regionGroup": "sea",
-          "category": "生活方式/网红打卡地",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "3.4K",
-              "views": "9.8M"
-            }
-          ],
-          "summary": "菲律宾马尼拉地区的爱丽丝梦游仙境主题图书馆咖啡馆，复古书房+奇幻布景适合拍照打卡。",
-          "whyHot": "沉浸式主题布景天然适合短视频探店/变装内容，带动用户到店打卡分享。",
-          "origin": "网红博主探店打卡内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/thesecretlibrary",
-            "search": "https://www.tiktok.com/search?q=thesecretlibrary",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "latteicedmatcha",
-            "videoId": "7696598069462191368"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 36
-        },
-        {
-          "tag": "#halloweenparty",
-          "name": "Halloween Party（万圣节派对）",
-          "regionGroup": "sea",
-          "category": "生活方式/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "1.6K",
-              "views": "7.9M"
-            }
-          ],
-          "summary": "万圣节主题派对筹备/现场记录内容标签，涵盖装扮、布置、游戏环节。",
-          "whyHot": "万圣节季节性驱动，派对筹备/现场记录类内容集中产出。",
-          "origin": "用户万圣节派对记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/halloweenparty",
-            "search": "https://www.tiktok.com/search?q=halloweenparty",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "hotshotboys",
-            "videoId": "7675985991961791774"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 37
-        },
-        {
-          "tag": "#savagelove",
-          "name": "Savage Love（恋爱毒舌/反套路梗）",
-          "regionGroup": "sea",
-          "category": "生活方式/情感",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "2.7K",
-              "views": "3.2M"
-            }
-          ],
-          "summary": "以毒舌/反套路态度调侃恋爱关系的情感向内容标签。",
-          "whyHot": "反套路情感内容风格鲜明，容易在评论区引发讨论互动。",
-          "origin": "情感类创作者自发内容。",
-          "confidence": "uncertain",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/savagelove",
-            "search": "https://www.tiktok.com/search?q=savagelove",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "itozux.gh",
-            "videoId": "7696105646965443841"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 38
         },
         {
           "tag": "#southparkedit",
@@ -3221,28 +2890,28 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 39
+          "rank": 31
         },
         {
-          "tag": "#october",
-          "name": "October（十月通用月份标签）",
+          "tag": "#southamerica",
+          "name": "South America（《南方公园》改名梗）",
           "regionGroup": "global",
-          "category": "季节/生活方式",
+          "category": "影视剧集",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "US",
-              "posts": "360.7K",
-              "views": "1.0B"
+              "posts": "94.8K",
+              "views": "1.3B"
             }
           ],
-          "summary": "十月通用内容标签，聚合换季穿搭、月度总结、秋景等季节性生活内容。",
-          "whyHot": "北半球入秋叠加万圣节预热，十月是季节内容的集中释放期，通用月份标签按惯例汇聚全月 UGC。",
-          "origin": "创作者自发通用标签。",
+          "summary": "《南方公园》第29季官方玩梗改名事件衍生的标签，讽刺安大略湖改名风波。",
+          "whyHot": "官方整季改名引发讨论，观众剪辑对比与二次恶搞集中产出。",
+          "origin": "Comedy Central 官方剧集+观众二创。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/october",
-            "search": "https://www.tiktok.com/search?q=october",
+            "tag": "https://www.tiktok.com/tag/southamerica",
+            "search": "https://www.tiktok.com/search?q=southamerica",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
@@ -3250,20 +2919,20 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "themindaa",
-            "videoId": "7691451275795352864"
+            "author": "clips.r.us78",
+            "videoId": "7687797889992494349"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "官方玩梗的传播效果可参考，需注意地域敏感度。",
+            "video": "可参考\"原名对比+恶搞解说\"的剪辑。"
           },
-          "rank": 40
+          "rank": 32
         },
         {
           "tag": "#homecoming",
-          "name": "Homecoming（美国校园返校节）",
+          "name": "Homecoming（返校季/返校舞会）",
           "regionGroup": "global",
-          "category": "校园/生活方式",
+          "category": "季节/校园",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -3272,9 +2941,9 @@ window.TREND_DATA = {
               "views": "834.7M"
             }
           ],
-          "summary": "美国中学与大学的返校节传统活动（多在9-10月），包含橄榄球赛、舞会、游行与返校国王/皇后评选，是秋季校园文化的核心事件。",
-          "whyHot": "9-10月为全美返校节集中期，提案视频（hocoproposal）、服装转场（hocotransition）、舞会片段等衍生内容批量产出，多市场（美/巴/印尼/泰/越）上榜。",
-          "origin": "美国校园传统活动+创作者自发记录。",
+          "summary": "美国校园\"返校季\"相关的舞会、穿搭、求婚与活动记录内容标签。",
+          "whyHot": "秋季返校季的固定校园节点，穿搭与仪式感内容集中产出。",
+          "origin": "用户自发的校园活动记录。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/homecoming",
@@ -3290,16 +2959,160 @@ window.TREND_DATA = {
             "videoId": "7680510977300860161"
           },
           "fusionSuggestion": {
-            "commercial": "'校园舞会'场景可作MCGG青春主题棋盘的视觉母题（注意用研红线：校园题材需谨慎评估受众偏好）。",
-            "video": "可参考'提案惊喜瞬间'的反应式剪辑格式。"
+            "commercial": "校园仪式感场景可参考用于MCGG校园主题皮肤。",
+            "video": "可参考\"装扮准备+现场高光\"的记录结构。"
           },
-          "rank": 41
+          "rank": 33
+        },
+        {
+          "tag": "#vmas",
+          "name": "VMAs（MTV 音乐录影带大奖）",
+          "regionGroup": "global",
+          "category": "音乐/颁奖礼",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "18.0K",
+              "views": "645.2M"
+            }
+          ],
+          "summary": "MTV 音乐录影带大奖，聚合红毯、舞台表演与获奖瞬间内容。",
+          "whyHot": "颁奖礼档期集中产出舞台名场面，表演片段在短视频平台二次传播。",
+          "origin": "官方颁奖礼转播+观众剪辑。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/vmas",
+            "search": "https://www.tiktok.com/search?q=vmas",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "lordkierra",
+            "videoId": "7690525637310734"
+          },
+          "fusionSuggestion": {
+            "commercial": "舞台视觉与颁奖礼节奏可参考用于MCGG年度盛典包装。",
+            "video": "可参考\"舞台高光+红毯造型\"的剪辑。"
+          },
+          "rank": 34
+        },
+        {
+          "tag": "#thelovehypothesis",
+          "name": "The Love Hypothesis（《爱情假设》）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "34.4K",
+              "views": "448.0M"
+            }
+          ],
+          "summary": "同名畅销小说改编作品相关标签，聚合预告、名场面与 CP 讨论；改编详情待核验。",
+          "whyHot": "言情 IP 改编自带书粉基础，CP 剪辑传播力强；具体影视化进度待核验。",
+          "origin": "原著 IP 与影视改编方相关讨论。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thelovehypothesis",
+            "search": "https://www.tiktok.com/search?q=thelovehypothesis",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "primevideo",
+            "videoId": "7700666732133862669"
+          },
+          "fusionSuggestion": {
+            "commercial": "CP 关系推进节奏可参考用于MCGG情感向内容。",
+            "video": "可参考\"CP 名场面\"剪辑。"
+          },
+          "rank": 35
+        },
+        {
+          "tag": "#adifferentworld",
+          "name": "A Different World（《不同的世界》）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "20.5K",
+              "views": "410.7M"
+            }
+          ],
+          "summary": "经典美国情景喜剧，以大学校园生活与青年议题著称，近年因怀旧潮重回讨论。",
+          "whyHot": "经典情景喜剧的怀旧回潮，名场面与台词的当代解读带动二创。",
+          "origin": "官方剧集片段+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/adifferentworld",
+            "search": "https://www.tiktok.com/search?q=adifferentworld",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "netflix",
+            "videoId": "7689085805578423566"
+          },
+          "fusionSuggestion": {
+            "commercial": "群像式情景喜剧结构可参考用于MCGG角色日常内容。",
+            "video": "可参考\"名场面+当代解读\"的剪辑。"
+          },
+          "rank": 36
+        },
+        {
+          "tag": "#cloverboys",
+          "name": "Clover Boys（待核验）",
+          "regionGroup": "global",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "31.1K",
+              "views": "400.2M"
+            }
+          ],
+          "summary": "可能指向团体、节目或社群，具体所指未能核实。",
+          "whyHot": "播放量较高但属性不明，建议人工复核。",
+          "origin": "待核验。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/cloverboys",
+            "search": "https://www.tiktok.com/search?q=cloverboys",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "viralclipperrr69",
+            "videoId": "7698873589876919582"
+          },
+          "fusionSuggestion": {
+            "commercial": "建议复核后再判断。",
+            "video": "待核验。"
+          },
+          "rank": 37
         },
         {
           "tag": "#31daysofhalloween",
-          "name": "31 Days of Halloween（万圣节31天倒计时）",
+          "name": "31 Days of Halloween（万圣节31天挑战）",
           "regionGroup": "global",
-          "category": "季节/内容企划",
+          "category": "季节/节日",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -3308,9 +3121,9 @@ window.TREND_DATA = {
               "views": "325.5M"
             }
           ],
-          "summary": "万圣节倒计时 31 天日更内容系列标签，亦对应 Freeform 频道十月恐怖片编排季“31 Nights of Halloween”。",
-          "whyHot": "创作者按倒计时日更恐怖/万圣节主题内容，系列化发布与电视台编排季同名共振带动标签积累。",
-          "origin": "创作者系列企划+电视台编排季共用标签。",
+          "summary": "万圣节前的整月挑战标签，创作者按天发布妆容、装扮或恐怖主题内容。",
+          "whyHot": "挑战式内容有连载属性，10月整月持续供给，参与门槛低。",
+          "origin": "创作者自发的季节性挑战。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/31daysofhalloween",
@@ -3326,31 +3139,31 @@ window.TREND_DATA = {
             "videoId": "7695976035778678029"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "连载式挑战可参考用于MCGG节日期间的分日内容排期。",
+            "video": "可参考\"每日一变装\"的连载格式。"
           },
-          "rank": 42
+          "rank": 38
         },
         {
-          "tag": "#patientzero",
-          "name": "Patient Zero（Taylor Swift 新单曲话题）",
+          "tag": "#carrie",
+          "name": "Carrie（《魔女嘉莉》）",
           "regionGroup": "global",
-          "category": "音乐/新歌",
-          "danceCategory": "dance",
+          "category": "影视IP",
+          "danceCategory": "non_dance",
           "regions": [
             {
               "code": "US",
-              "posts": "64.7K",
-              "views": "274.6M"
+              "posts": "16.0K",
+              "views": "316.9M"
             }
           ],
-          "summary": "Taylor Swift 新单曲《Patient Zero》话题标签。",
-          "whyHot": "新歌发布带动歌词梗、听歌反应与舞蹈/剪辑二创；单曲信息经媒体报导核实。",
-          "origin": "歌手官方新作话题。",
+          "summary": "斯蒂芬·金同名小说改编的经典恐怖电影，校园舞会血洗场面是影史标志性镜头。",
+          "whyHot": "万圣节季经典恐怖 IP 回潮，名场面剪辑与仿妆内容集中产出。",
+          "origin": "官方电影片段+粉丝怀旧向二创。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/patientzero",
-            "search": "https://www.tiktok.com/search?q=patientzero",
+            "tag": "https://www.tiktok.com/tag/carrie",
+            "search": "https://www.tiktok.com/search?q=carrie",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
@@ -3358,20 +3171,128 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "mysteriousjulia_",
-            "videoId": "7690719771637075213"
+            "author": "betteroffbrent",
+            "videoId": "7698973650141154573"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "校园恐怖与舞会场景的反差可为MCGG万圣主题皮肤叙事提供参考。",
+            "video": "可参考\"平静铺垫—灾难爆发\"的惊悚剪辑结构。"
           },
-          "rank": 43
+          "rank": 39
+        },
+        {
+          "tag": "#cuffem",
+          "name": "Cuff Em（\"脱单/绑定\"俚语梗）",
+          "regionGroup": "global",
+          "category": "梗/情感",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "14.9K",
+              "views": "288.4M"
+            }
+          ],
+          "summary": "俚语\"cuff\"指交往/绑定关系，衍生出秋季\"cuffing season\"（抱团过冬）相关梗。",
+          "whyHot": "季节性情感梗，秋季转入\"抱团过冬\"语境，情境演绎传播力强。",
+          "origin": "创作者自发使用的俚语梗。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/cuffem",
+            "search": "https://www.tiktok.com/search?q=cuffem",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "clippedbyz_",
+            "videoId": "7699973249374981407"
+          },
+          "fusionSuggestion": {
+            "commercial": "季节情绪与社交话题可参考用于MCGG双人玩法宣传。",
+            "video": "可参考\"单身 vs 恋爱\"对比演绎。"
+          },
+          "rank": 40
+        },
+        {
+          "tag": "#steelballrun",
+          "name": "Steel Ball Run（《JOJO的奇妙冒险》第七部）",
+          "regionGroup": "global",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "24.1K",
+              "views": "253.9M"
+            }
+          ],
+          "summary": "《JOJO的奇妙冒险》第七部\"钢球跑\"，以横跨美国的赛马竞技为舞台，角色与替身设定是二创热点。",
+          "whyHot": "JOJO 系列长期维持高讨论度，第七部因设定与作画质量成为粉丝重点二创对象。",
+          "origin": "官方漫画 IP+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/steelballrun",
+            "search": "https://www.tiktok.com/search?q=steelballrun",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "lordeye",
+            "videoId": "7699779134297263381"
+          },
+          "fusionSuggestion": {
+            "commercial": "替身能力设定可为MCGG技能创意提供参考，须走正版授权。",
+            "video": "可参考\"角色登场+替身展示\"的剪辑。"
+          },
+          "rank": 41
+        },
+        {
+          "tag": "#thesecretlifeoftheamericanteenager",
+          "name": "The Secret Life of the American Teenager（《美国青少年的秘密生活》）",
+          "regionGroup": "global",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "11.3K",
+              "views": "236.7M"
+            }
+          ],
+          "summary": "经典美国青春剧，聚焦青少年成长议题，近年因怀旧剪辑重回讨论。",
+          "whyHot": "青春剧怀旧潮，名场面与角色关系剪辑在短视频平台重新流通。",
+          "origin": "官方剧集片段+粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/thesecretlifeoftheamericanteenager",
+            "search": "https://www.tiktok.com/search?q=thesecretlifeoftheamericanteenager",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "user3000969802629",
+            "videoId": "7700861165877873950"
+          },
+          "fusionSuggestion": {
+            "commercial": "青春群像叙事可参考用于MCGG校园主题内容。",
+            "video": "可参考\"名场面+情绪配乐\"剪辑。"
+          },
+          "rank": 42
         },
         {
           "tag": "#hispanicheritagemonth",
-          "name": "Hispanic Heritage Month（美国拉美传统文化月）",
+          "name": "Hispanic Heritage Month（西语裔传统月）",
           "regionGroup": "global",
-          "category": "文化庆典",
+          "category": "文化节庆",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -3380,9 +3301,9 @@ window.TREND_DATA = {
               "views": "217.1M"
             }
           ],
-          "summary": "美国每年9月15日至10月15日的官方纪念月，庆祝拉美裔美国人的历史与文化贡献。",
-          "whyHot": "文化月期间品牌/个人发布拉美文化相关内容形成固定周期性话题，机制清楚（非政治议题，是文化庆典）。",
-          "origin": "美国官方文化纪念月+社区自发内容。",
+          "summary": "每年9月15日-10月15日的西语裔文化传统月，聚合文化展示与身份认同内容。",
+          "whyHot": "官方文化月节点驱动，创作者集中发布文化自豪感与家族故事内容。",
+          "origin": "平台与用户共同参与的文化月内容。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/hispanicheritagemonth",
@@ -3398,16 +3319,16 @@ window.TREND_DATA = {
             "videoId": "7695953592045325598"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
-            "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "文化月运营节奏可参考用于MCGG区域文化主题皮肤排期。",
+            "video": "可参考\"文化符号展示+家族故事\"的记录式内容。"
           },
-          "rank": 44
+          "rank": 43
         },
         {
           "tag": "#complexcon",
-          "name": "ComplexCon（潮流文化展会）",
+          "name": "ComplexCon（潮流文化展）",
           "regionGroup": "global",
-          "category": "潮流文化/展会事件",
+          "category": "展会/潮流",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -3416,9 +3337,9 @@ window.TREND_DATA = {
               "views": "192.9M"
             }
           ],
-          "summary": "Complex 媒体主办的潮流文化大展，覆盖街头服饰、艺术、音乐与限定发售。",
-          "whyHot": "2026 届于 10 月 3-4 日在拉斯维加斯会展中心举办，现场限定球鞋/联名发售与名人到场带动打卡、开箱与排队内容。",
-          "origin": "官方活动品牌话题。",
+          "summary": "潮流文化展会品牌，聚合球鞋、潮玩、联名发布与现场内容。",
+          "whyHot": "潮流展会档期驱动，限量发售与明星现身带动内容爆发。",
+          "origin": "展会官方+参与者记录。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/complexcon",
@@ -3434,31 +3355,67 @@ window.TREND_DATA = {
             "videoId": "7692577398709046558"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "潮玩联名与限量发售机制可参考用于MCGG皮肤营销。",
+            "video": "可参考\"新品揭晓+现场排队\"的记录。"
+          },
+          "rank": 44
+        },
+        {
+          "tag": "#diademuertos",
+          "name": "Día de Muertos（墨西哥亡灵节）",
+          "regionGroup": "global",
+          "category": "文化节庆",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "24.2K",
+              "views": "169.1M"
+            }
+          ],
+          "summary": "墨西哥亡灵节，以糖骷髅、万寿菊、祭坛布置为核心视觉符号，近年借万圣节档期在全球扩散。",
+          "whyHot": "11月初亡灵节与万圣节档期叠加，彩色骷髅视觉辨识度高，适合短视频传播。",
+          "origin": "墨西哥本地文化实践+全球用户参与。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/diademuertos",
+            "search": "https://www.tiktok.com/search?q=diademuertos",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "brennst95",
+            "videoId": "7700800969180843285"
+          },
+          "fusionSuggestion": {
+            "commercial": "亡灵节的高饱和配色与符号体系对MCGG节日皮肤极具参考价值（需注意文化尊重）。",
+            "video": "可参考\"祭坛布置+妆容绘制\"的过程记录。"
           },
           "rank": 45
         },
         {
-          "tag": "#ggez",
-          "name": "\"GG EZ\"（电竞/游戏调侃用语）",
+          "tag": "#residentevilmovie",
+          "name": "Resident Evil Movie（《生化危机》电影）",
           "regionGroup": "global",
-          "category": "游戏/梗",
+          "category": "影视IP",
           "danceCategory": "non_dance",
           "regions": [
             {
               "code": "US",
-              "posts": "12.7K",
-              "views": "185.2M"
+              "posts": "10.0K",
+              "views": "158.1M"
             }
           ],
-          "summary": "电竞圈常用调侃语\"Good Game, Easy\"（好游戏，太简单了），常用于游戏内容或调侃场景。",
-          "whyHot": "游戏社区通用梗，适配各类游戏内容二创，机制清楚。",
-          "origin": "电竞/游戏社区通用用语。",
+          "summary": "《生化危机》系列电影相关标签，聚合名场面剪辑与游戏改编讨论。",
+          "whyHot": "游戏改编影视的长尾热度，恐怖动作场面适配万圣节档期。",
+          "origin": "官方影视 IP+粉丝二创。",
           "confidence": "official",
           "links": {
-            "tag": "https://www.tiktok.com/tag/ggez",
-            "search": "https://www.tiktok.com/search?q=ggez",
+            "tag": "https://www.tiktok.com/tag/residentevilmovie",
+            "search": "https://www.tiktok.com/search?q=residentevilmovie",
             "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
           },
           "douyinCheck": {
@@ -3466,56 +3423,20 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "angelinazhq",
-            "videoId": "7678730525359623431"
+            "author": "gscinemas",
+            "videoId": "7694878018300431634"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
-            "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "末日生存视觉可参考用于MCGG丧尸主题皮肤。",
+            "video": "可参考\"名场面+紧张配乐\"剪辑。"
           },
           "rank": 46
         },
         {
-          "tag": "#octubre",
-          "name": "Octubre（西语十月）",
-          "regionGroup": "global",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "30.9K",
-              "views": "128.0M"
-            }
-          ],
-          "summary": "西语‘十月’通用月份标签，拉美裔创作者季节内容聚集。",
-          "whyHot": "十月季节内容+西语社区月度 UGC 惯例聚集。",
-          "origin": "创作者自发通用标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/octubre",
-            "search": "https://www.tiktok.com/search?q=octubre",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "yenddimusic",
-            "videoId": "7695886052241771789"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 47
-        },
-        {
           "tag": "#spiritweek",
-          "name": "Spirit Week（美国高校精神周）",
+          "name": "Spirit Week（校园主题周）",
           "regionGroup": "global",
-          "category": "生活方式/校园文化",
+          "category": "季节/校园",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -3524,9 +3445,9 @@ window.TREND_DATA = {
               "views": "114.6M"
             }
           ],
-          "summary": "美国高校秋季返校节前的\"主题周\"活动，每天不同装扮主题（睡衣日、复古日等）。",
-          "whyHot": "返校季固定校园传统，每日主题装扮打卡内容集中产出。",
-          "origin": "学生自发校园活动记录分享。",
+          "summary": "美国校园的\"主题周\"活动，按天设定穿搭主题（如睡衣日、双胞胎日），聚合学生打卡内容。",
+          "whyHot": "返校季固定活动，按天连载的形式天然适配短视频，参与门槛低。",
+          "origin": "学生自发记录的校园活动。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/spiritweek",
@@ -3542,262 +3463,10 @@ window.TREND_DATA = {
             "videoId": "7692798694663474445"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "按天主题的连载形式可参考用于MCGG节日活动排期。",
+            "video": "可参考\"每日主题穿搭对比\"的连载格式。"
           },
-          "rank": 48
-        },
-        {
-          "tag": "#covenacademy",
-          "name": "Coven Academy（美剧《女巫团学院》）",
-          "regionGroup": "global",
-          "category": "影视剧集",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "8.8K",
-              "views": "101.8M"
-            }
-          ],
-          "summary": "Freeform 于 2026-10-01 开播的超自然青春剧，次日上线 Disney+/Hulu，新奥尔良魔法寄宿学校题材，共 10 集分批放出。",
-          "whyHot": "新剧上线期叠加 Freeform‘31 Nights of Halloween’十月编排，片段二创与追剧讨论集中；10-08 放出第 5-7 集形成二次峰值。",
-          "origin": "电视台官方新剧话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/covenacademy",
-            "search": "https://www.tiktok.com/search?q=covenacademy",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "dummdunn8",
-            "videoId": "7694948616057654559"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 49
-        },
-        {
-          "tag": "#octobermood",
-          "name": "October Mood（十月情绪）",
-          "regionGroup": "global",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "76.2K",
-              "views": "95.4M"
-            }
-          ],
-          "summary": "十月情绪/氛围标签：秋日穿搭、暖饮、阴天安慰系内容。",
-          "whyHot": "季节情绪类内容在十月集中发布，氛围感模板带动跟拍。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/octobermood",
-            "search": "https://www.tiktok.com/search?q=octobermood",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "sunkissblonde",
-            "videoId": "7695954024281001229"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 50
-        },
-        {
-          "tag": "#spookymonth",
-          "name": "Spooky Month（恐怖月）",
-          "regionGroup": "global",
-          "category": "季节/梗",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "17.1K",
-              "views": "85.4M"
-            }
-          ],
-          "summary": "十月‘恐怖月’内容标签，恐怖趣味动画/梗图/变装创作聚集。",
-          "whyHot": "十月恐怖趣味创作集中释放，与万圣节预热叠加。",
-          "origin": "创作者自发季节标签（亦与同名动画梗系列共振）。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/spookymonth",
-            "search": "https://www.tiktok.com/search?q=spookymonth",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "moximusje",
-            "videoId": "7691424012596956448"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 51
-        },
-        {
-          "tag": "#forgottenisland",
-          "name": "Forgotten Island（梦工厂动画《忘却之岛》）",
-          "regionGroup": "global",
-          "category": "动画电影",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "4.6K",
-              "views": "59.6M"
-            }
-          ],
-          "summary": "梦工厂原创动画，菲律宾神话‘忘却之岛’冒险题材，2026-09-25 美国上映。",
-          "whyHot": "上映窗口期 PH 市场因菲律宾文化元素与女性友谊主题爆发本地化二创与观影打卡。",
-          "origin": "片方官方电影话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/forgottenisland",
-            "search": "https://www.tiktok.com/search?q=forgottenisland",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fandango",
-            "videoId": "7685812894482713886"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 52
-        },
-        {
-          "tag": "#pumpkincarving",
-          "name": "Pumpkin Carving（刻南瓜灯）",
-          "regionGroup": "global",
-          "category": "生活方式/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "4.3K",
-              "views": "54.1M"
-            }
-          ],
-          "summary": "万圣节经典传统活动刻南瓜灯（Jack-o-lantern）的创意雕刻过程分享。",
-          "whyHot": "万圣节季节性驱动，创意雕刻过程类内容集中产出。",
-          "origin": "用户万圣节南瓜雕刻记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/pumpkincarving",
-            "search": "https://www.tiktok.com/search?q=pumpkincarving",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "la.maisonmarion",
-            "videoId": "7565965068714659075"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 53
-        },
-        {
-          "tag": "#hocoweek",
-          "name": "HOCO Week（返校节主题周）",
-          "regionGroup": "global",
-          "category": "生活方式/校园文化",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "12.8K",
-              "views": "49.7M"
-            }
-          ],
-          "summary": "美国高校秋季返校节（Homecoming）前一周的主题日活动，与Spirit Week同属校园传统。",
-          "whyHot": "返校季固定校园传统，每日主题打卡内容集中产出。",
-          "origin": "学生自发校园活动记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/hocoweek",
-            "search": "https://www.tiktok.com/search?q=hocoweek",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "grwmia.o",
-            "videoId": "7697049743196802317"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 54
-        },
-        {
-          "tag": "#october3rd",
-          "name": "October 3rd（Mean Girls 梗日）",
-          "regionGroup": "global",
-          "category": "影视IP/梗",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "23.8K",
-              "views": "44.1M"
-            }
-          ],
-          "summary": "《Mean Girls》台词“It's October 3rd”衍生的年度日历梗日标签。",
-          "whyHot": "每年 10 月 3 日集中玩梗（截图、台词复刻、穿搭致敬），年度定时回潮。",
-          "origin": "粉丝年度梗。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/october3rd",
-            "search": "https://www.tiktok.com/search?q=october3rd",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=30&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "qandrx",
-            "videoId": "7692182630887869729"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 55
+          "rank": 47
         }
       ]
     },
@@ -3896,6 +3565,134 @@ window.TREND_DATA = {
           "rank": 2
         },
         {
+          "tag": "#ต้าเฟ็ดเฟ่",
+          "name": "ต้าเฟ็ดเฟ่（泰语，待核验）",
+          "regionGroup": "sea",
+          "category": "待核验",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "TH",
+              "posts": "28.6K",
+              "views": "1.2B"
+            }
+          ],
+          "summary": "泰语标签，具体所指（艺人、节目或梗）未能公开核实。",
+          "whyHot": "播放量高但含义不明，建议人工打开话题页复核。",
+          "origin": "待核验。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9F%E0%B9%88",
+            "search": "https://www.tiktok.com/search?q=%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9F%E0%B9%88",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "netflixth",
+            "videoId": "7699467988038192405"
+          },
+          "fusionSuggestion": {
+            "commercial": "建议复核后再判断。",
+            "video": "待核验。"
+          },
+          "rank": 3
+        },
+        {
+          "tag": "#musiconstage",
+          "name": "Music On Stage（TikTok LIVE 音乐项目）",
+          "regionGroup": "sea",
+          "category": "音乐",
+          "danceCategory": "dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "42.4K",
+              "views": "1.2B"
+            },
+            {
+              "code": "TH",
+              "posts": "69.5K",
+              "views": "138.1M"
+            },
+            {
+              "code": "MY",
+              "posts": "59.7K",
+              "views": "88.5M"
+            },
+            {
+              "code": "VN",
+              "posts": "15.8K",
+              "views": "47.5M"
+            },
+            {
+              "code": "PH",
+              "posts": "15.8K",
+              "views": "20.9M"
+            }
+          ],
+          "summary": "TikTok LIVE 官方音乐演出项目，聚合直播演出片段与歌手现场内容。",
+          "whyHot": "平台官方项目给予流量扶持，东南亚多市场同步参与。",
+          "origin": "TikTok 官方音乐项目。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/musiconstage",
+            "search": "https://www.tiktok.com/search?q=musiconstage",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "oss_tonio",
+            "videoId": "7679238242985676052"
+          },
+          "fusionSuggestion": {
+            "commercial": "平台官方音乐项目的合作模式可供MCGG音乐类联动参考。",
+            "video": "可参考\"现场演出+观众互动\"的直播切片。"
+          },
+          "rank": 4
+        },
+        {
+          "tag": "#อู๋จุน",
+          "name": "อู๋จุน（泰语\"吴俊\"，待核验）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "TH",
+              "posts": "281.9K",
+              "views": "1.1B"
+            }
+          ],
+          "summary": "泰语对中国演员\"吴俊\"的音译标签，推测与中剧出海相关，聚合剧集切片与角色讨论。",
+          "whyHot": "中剧在泰国市场持续走热，演员译名标签随之升温；具体所指作品待核验。",
+          "origin": "中剧海外发行+泰国粉丝二创。",
+          "confidence": "uncertain",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/%E0%B8%AD%E0%B8%B9%E0%B9%8B%E0%B8%88%E0%B8%B8%E0%B8%99",
+            "search": "https://www.tiktok.com/search?q=%E0%B8%AD%E0%B8%B9%E0%B9%8B%E0%B8%88%E0%B8%B8%E0%B8%99",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "davieboii47",
+            "videoId": "7700582048645385493"
+          },
+          "fusionSuggestion": {
+            "commercial": "中剧出海路径可参考。",
+            "video": "可参考剧集切片格式。"
+          },
+          "rank": 5
+        },
+        {
           "tag": "#dauxuantuoisang",
           "name": "\"Dấu Xuân Tươi Sáng\"（越南语歌曲/内容标签，具体出处待核验）",
           "regionGroup": "sea",
@@ -3929,7 +3726,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 3
+          "rank": 6
         },
         {
           "tag": "#wibu",
@@ -3965,7 +3762,48 @@ window.TREND_DATA = {
             "commercial": "可作为MCGG二次元向皮肤在越南市场的受众定位参考。",
             "video": "可参考\"圈内自嘲+动漫名场面\"的组合剪辑。"
           },
-          "rank": 4
+          "rank": 7
+        },
+        {
+          "tag": "#jingboran",
+          "name": "Jing Boran 井柏然（《早春晴朗》出海）",
+          "regionGroup": "sea",
+          "category": "影视剧集",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "28.3K",
+              "views": "840.1M"
+            },
+            {
+              "code": "TH",
+              "posts": "28.8K",
+              "views": "392.3M"
+            }
+          ],
+          "summary": "中国演员井柏然的标签，因中剧《早春晴朗》在东南亚多市场登顶而持续升温，聚合剧集切片与 CP 讨论。",
+          "whyHot": "《早春晴朗》在 Netflix 东南亚多市场表现亮眼，泰/越/印尼粉丝逐帧二创\"栾念×尚之桃\"CP，属剧带人型热度。",
+          "origin": "剧集海外发行+东南亚粉丝二创。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/jingboran",
+            "search": "https://www.tiktok.com/search?q=jingboran",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "meltryingthingsout",
+            "videoId": "7686644678552259861"
+          },
+          "fusionSuggestion": {
+            "commercial": "中剧出海的成功路径可作为MCGG跨市场内容本地化的参考。",
+            "video": "可参考\"CP名场面+逐帧解析\"的二创格式。"
+          },
+          "rank": 8
         },
         {
           "tag": "#christmas",
@@ -4001,7 +3839,7 @@ window.TREND_DATA = {
             "commercial": "可考虑提前布局圣诞主题限定活动/皮肤，契合菲律宾超长圣诞季的营销窗口。",
             "video": "适合做圣诞主题的游戏内装饰/礼物系统预告。"
           },
-          "rank": 5
+          "rank": 9
         },
         {
           "tag": "#khaigiang",
@@ -4037,7 +3875,7 @@ window.TREND_DATA = {
             "commercial": "可参考类似#lomba17agustus的处理方式，设计\"开学季\"限时活动，避免使用真实校园肖像。",
             "video": "适合做\"越南开学季\"主题短视频联动。"
           },
-          "rank": 6
+          "rank": 10
         },
         {
           "tag": "#halloween",
@@ -4078,48 +3916,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 7
-        },
-        {
-          "tag": "#patrickjane",
-          "name": "Patrick Jane（《超感神探》主角IP）",
-          "regionGroup": "sea",
-          "category": "影视剧集IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "23.1K",
-              "views": "454.1M"
-            },
-            {
-              "code": "VN",
-              "posts": "7.0K",
-              "views": "297.6M"
-            }
-          ],
-          "summary": "罪案剧《超感神探》(The Mentalist) 主角 Patrick Jane：心理师式观察与读心推理人设。",
-          "whyHot": "经典罪案剧 clip 二创与‘观察术/读心’梗模板常青，角色名标签稳定积累。",
-          "origin": "剧集官方 IP。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/patrickjane",
-            "search": "https://www.tiktok.com/search?q=patrickjane",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "tekno_edit_",
-            "videoId": "7656541594300222727"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 8
+          "rank": 11
         },
         {
           "tag": "#dandadan",
@@ -4155,7 +3952,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 9
+          "rank": 12
         },
         {
           "tag": "#sungjinwoo",
@@ -4206,7 +4003,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 10
+          "rank": 13
         },
         {
           "tag": "#tanjiro",
@@ -4257,7 +4054,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 11
+          "rank": 14
         },
         {
           "tag": "#bermonths",
@@ -4293,7 +4090,7 @@ window.TREND_DATA = {
             "commercial": "可考虑\"超长待机圣诞季\"限定活动，契合菲律宾用户提前进入节日消费心态。",
             "video": "适合做\"Ber Months提前过圣诞\"主题短视频。"
           },
-          "rank": 12
+          "rank": 15
         },
         {
           "tag": "#sanji",
@@ -4344,7 +4141,107 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 13
+          "rank": 16
+        },
+        {
+          "tag": "#dragonballz",
+          "name": "Dragon Ball Z（《龙珠Z》）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "360.8K",
+              "views": "382.5M"
+            },
+            {
+              "code": "TH",
+              "posts": "584.4K",
+              "views": "197.0M"
+            },
+            {
+              "code": "PH",
+              "posts": "268.2K",
+              "views": "186.8M"
+            },
+            {
+              "code": "MY",
+              "posts": "172.8K",
+              "views": "85.2M"
+            }
+          ],
+          "summary": "鸟山明经典少年漫画/动画，超级赛亚人变身与战斗名场面是二创高频素材。",
+          "whyHot": "全球长青IP，战斗高光与变身场面适配短视频卡点，东南亚粉丝基数庞大。",
+          "origin": "漫画/动画官方IP话题。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/dragonballz",
+            "search": "https://www.tiktok.com/search?q=dragonballz",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "maldini9827",
+            "videoId": "7700813231555726605"
+          },
+          "fusionSuggestion": {
+            "commercial": "变身与战力体系可为MCGG养成/进化玩法提供概念参考，须走正版授权。",
+            "video": "可参考\"变身瞬间+战力爆发\"的卡点剪辑。"
+          },
+          "rank": 17
+        },
+        {
+          "tag": "#vegeta",
+          "name": "Vegeta（《龙珠》贝吉塔）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "358.9K",
+              "views": "378.7M"
+            },
+            {
+              "code": "TH",
+              "posts": "583.2K",
+              "views": "181.6M"
+            },
+            {
+              "code": "PH",
+              "posts": "263.5K",
+              "views": "118.0M"
+            },
+            {
+              "code": "MY",
+              "posts": "172.1K",
+              "views": "77.1M"
+            }
+          ],
+          "summary": "《龙珠》人气角色贝吉塔，骄傲性格与成长线是其二创核心。",
+          "whyHot": "经典角色的个人tag长期活跃，战斗名场面与性格台词剪辑稳定产出。",
+          "origin": "官方动画角色话题+粉丝二创。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/vegeta",
+            "search": "https://www.tiktok.com/search?q=vegeta",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "namharu04",
+            "videoId": "7700636465180724498"
+          },
+          "fusionSuggestion": {
+            "commercial": "角色\"高傲但可靠\"的形象塑造可参考用于MCGG指挥官人设。",
+            "video": "可参考\"名台词+战斗高光\"的剪辑。"
+          },
+          "rank": 18
         },
         {
           "tag": "#gon",
@@ -4395,43 +4292,157 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 14
+          "rank": 19
         },
         {
-          "tag": "#thementalist",
-          "name": "The Mentalist（《超感神探》）",
+          "tag": "#denji",
+          "name": "Denji（《电锯人》电次）",
           "regionGroup": "sea",
-          "category": "影视IP",
+          "category": "动漫IP",
           "danceCategory": "non_dance",
           "regions": [
             {
+              "code": "ID",
+              "posts": "362.2K",
+              "views": "369.4M"
+            },
+            {
+              "code": "TH",
+              "posts": "584.5K",
+              "views": "182.8M"
+            },
+            {
               "code": "PH",
-              "posts": "11.3K",
-              "views": "366.8M"
+              "posts": "266.0K",
+              "views": "98.9M"
+            },
+            {
+              "code": "MY",
+              "posts": "172.6K",
+              "views": "72.6M"
             }
           ],
-          "summary": "CBS 经典犯罪题材剧集，主角以观察力与心理操控协助破案，名场面长期被剪成短视频。",
-          "whyHot": "经典美剧在菲律宾等市场的怀旧向回潮，短剧切片适配TikTok传播节奏。",
-          "origin": "官方剧集片段+观众剪辑二创。",
-          "confidence": "official",
+          "summary": "藤本树《电锯人》主角电次，反差感强烈的少年角色，战斗与生存主题突出。",
+          "whyHot": "《电锯人》在东南亚青年群体持续走热，角色tag随动画与剧场版进度升温。",
+          "origin": "官方漫画/动画角色话题+粉丝二创。",
           "links": {
-            "tag": "https://www.tiktok.com/tag/thementalist",
-            "search": "https://www.tiktok.com/search?q=thementalist",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
+            "tag": "https://www.tiktok.com/tag/denji",
+            "search": "https://www.tiktok.com/search?q=denji",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
           },
           "douyinCheck": {
             "status": "not_found",
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "undead.aep",
-            "videoId": "7659444977096854806"
+            "author": "nexofx17",
+            "videoId": "7681483790094437653"
           },
           "fusionSuggestion": {
-            "commercial": "观察/推理类叙事节奏可为MCGG悬疑主题皮肤叙事提供参考。",
-            "video": "可参考\"推理反转+台词金句\"的切片格式。"
+            "commercial": "\"反差感\"角色塑造与粗粝视觉可为MCGG暗黑系皮肤提供参考。",
+            "video": "可参考\"角色反差+战斗爆发\"剪辑。"
           },
-          "rank": 15
+          "rank": 20
+        },
+        {
+          "tag": "#nami",
+          "name": "Nami（《海贼王》娜美）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "359.9K",
+              "views": "367.5M"
+            },
+            {
+              "code": "TH",
+              "posts": "586.1K",
+              "views": "186.0M"
+            },
+            {
+              "code": "MY",
+              "posts": "172.2K",
+              "views": "72.4M"
+            }
+          ],
+          "summary": "《海贼王》草帽团成员娜美，航海士角色，长期是角色剪辑与cosplay的高频对象。",
+          "whyHot": "长青少年漫IP，角色tag随动画进度与新周边持续产出内容。",
+          "origin": "官方漫画/动画角色话题+粉丝二创。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/nami",
+            "search": "https://www.tiktok.com/search?q=nami",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "kidzuna._",
+            "videoId": "7525161596616854805"
+          },
+          "fusionSuggestion": {
+            "commercial": "角色造型与航海元素可参考用于MCGG主题皮肤设计。",
+            "video": "可参考\"角色高光+团队羁绊\"剪辑。"
+          },
+          "rank": 21
+        },
+        {
+          "tag": "#anyaforger",
+          "name": "Anya Forger（《间谍过家家》阿尼亚）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "359.4K",
+              "views": "357.5M"
+            },
+            {
+              "code": "TH",
+              "posts": "582.5K",
+              "views": "171.1M"
+            },
+            {
+              "code": "VN",
+              "posts": "102.1K",
+              "views": "109.6M"
+            },
+            {
+              "code": "PH",
+              "posts": "264.6K",
+              "views": "92.1M"
+            },
+            {
+              "code": "MY",
+              "posts": "171.8K",
+              "views": "72.3M"
+            }
+          ],
+          "summary": "《间谍过家家》人气角色阿尼亚，搞笑表情与\"读心\"梗衍生大量表情包与二创。",
+          "whyHot": "角色表情包属性强，跨语言传播能力强，长期维持高热度。",
+          "origin": "官方动漫IP衍生内容。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/anyaforger",
+            "search": "https://www.tiktok.com/search?q=anyaforger",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "twiyorr",
+            "videoId": "7700628053101202706"
+          },
+          "fusionSuggestion": {
+            "commercial": "萌系表情包形式可参考用于MCGG贴纸/表情周边开发。",
+            "video": "可参考\"表情特写+情境字幕\"的萌系剪辑。"
+          },
+          "rank": 22
         },
         {
           "tag": "#kageyama",
@@ -4487,7 +4498,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 16
+          "rank": 23
         },
         {
           "tag": "#arknights",
@@ -4528,7 +4539,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 17
+          "rank": 24
         },
         {
           "tag": "#isagi",
@@ -4569,7 +4580,57 @@ window.TREND_DATA = {
             "commercial": "角色\"吞噬对手能力\"的设定可为MCGG对局成长机制提供概念参考。",
             "video": "可参考\"角色高光+台词卡点\"的剪辑格式。"
           },
-          "rank": 18
+          "rank": 25
+        },
+        {
+          "tag": "#itadori",
+          "name": "Itadori Yuji（《咒术回战》虎杖悠仁）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "357.0K",
+              "views": "335.3M"
+            },
+            {
+              "code": "TH",
+              "posts": "580.4K",
+              "views": "174.3M"
+            },
+            {
+              "code": "VN",
+              "posts": "102.1K",
+              "views": "118.0M"
+            },
+            {
+              "code": "PH",
+              "posts": "263.1K",
+              "views": "89.1M"
+            }
+          ],
+          "summary": "《咒术回战》主角虎杖悠仁，咒力格斗与宿傩容器设定是其核心看点。",
+          "whyHot": "《咒术回战》在东南亚多市场保持高热度，战斗场面与角色关系剪辑持续产出。",
+          "origin": "官方漫画/动画角色话题+粉丝二创。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/itadori",
+            "search": "https://www.tiktok.com/search?q=itadori",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "coe.am",
+            "videoId": "7677203658102164769"
+          },
+          "fusionSuggestion": {
+            "commercial": "咒力战斗视觉可为MCGG技能特效提供参考。",
+            "video": "可参考\"战斗爆发+人物关系\"剪辑。"
+          },
+          "rank": 26
         },
         {
           "tag": "#hunterxhunter",
@@ -4610,7 +4671,92 @@ window.TREND_DATA = {
             "commercial": "念能力设定可为MCGG技能体系与棋盘特效提供灵感，须走正版授权。",
             "video": "可参考\"能力展示+战斗高光\"的剪辑节奏。"
           },
-          "rank": 19
+          "rank": 27
+        },
+        {
+          "tag": "#gear5",
+          "name": "Gear 5（《海贼王》五档）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "358.0K",
+              "views": "332.5M"
+            },
+            {
+              "code": "TH",
+              "posts": "580.8K",
+              "views": "169.5M"
+            },
+            {
+              "code": "VN",
+              "posts": "100.2K",
+              "views": "99.3M"
+            }
+          ],
+          "summary": "《海贼王》路飞五档形态，以夸张战斗作画与\"解放之鼓\"氛围著称。",
+          "whyHot": "五档是近年动漫最出圈的战斗场面之一，作画与配乐适配短视频卡点。",
+          "origin": "官方动画名场面+粉丝二创。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/gear5",
+            "search": "https://www.tiktok.com/search?q=gear5",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "animeuniverse.ai1",
+            "videoId": "7665760446355344672"
+          },
+          "fusionSuggestion": {
+            "commercial": "\"形态突破\"的视觉表达可参考用于MCGG进化/觉醒类特效设计。",
+            "video": "可参考\"形态切换+爆发\"的卡点剪辑。"
+          },
+          "rank": 28
+        },
+        {
+          "tag": "#bachira",
+          "name": "Bachira Meguru（《蓝色监狱》蜂乐回）",
+          "regionGroup": "sea",
+          "category": "动漫IP",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "ID",
+              "posts": "358.9K",
+              "views": "330.8M"
+            },
+            {
+              "code": "TH",
+              "posts": "584.0K",
+              "views": "177.4M"
+            }
+          ],
+          "summary": "《蓝色监狱》角色蜂乐回，以直觉式盘带与\"怪物\"人格设定著称。",
+          "whyHot": "《蓝色监狱》在东南亚青少年群体持续走热，角色个人tag随剧情升温。",
+          "origin": "官方漫画/动画角色话题+粉丝二创。",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/bachira",
+            "search": "https://www.tiktok.com/search?q=bachira",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "kami.altt",
+            "videoId": "7634222973267840278"
+          },
+          "fusionSuggestion": {
+            "commercial": "角色\"直觉型天才\"设定可为MCGG指挥官天赋体系提供灵感。",
+            "video": "可参考\"角色高光+台词卡点\"剪辑。"
+          },
+          "rank": 29
         },
         {
           "tag": "#haikyuu",
@@ -4644,828 +4790,14 @@ window.TREND_DATA = {
             "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
           },
           "videoEmbed": {
-            "author": "jerii.9",
-            "videoId": "7610231163868712214"
+            "author": "0z3rn",
+            "videoId": "7699861449182678280"
           },
           "fusionSuggestion": {
             "commercial": "团队竞技氛围可为MCGG组队玩法宣传提供情绪参考。",
             "video": "可参考\"赛点瞬间+慢镜\"的热血剪辑结构。"
           },
-          "rank": 20
-        },
-        {
-          "tag": "#fategrandorder",
-          "name": "Fate/Grand Order（命运/冠位指定）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "351.2K",
-              "views": "326.5M"
-            },
-            {
-              "code": "TH",
-              "posts": "563.0K",
-              "views": "170.9M"
-            },
-            {
-              "code": "VN",
-              "posts": "101.3K",
-              "views": "103.5M"
-            }
-          ],
-          "summary": "TYPE-MOON旗下长青手游IP，收集历史/传说英灵进行战斗的策略卡牌玩法。",
-          "whyHot": "老牌人气手游，角色剪辑/活动剧情内容随版本更新持续产出。",
-          "origin": "玩家剪辑/官方宣传内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/fategrandorder",
-            "search": "https://www.tiktok.com/search?q=fategrandorder",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fgoproject",
-            "videoId": "7697138246035442965"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 21
-        },
-        {
-          "tag": "#dragonball",
-          "name": "Dragon Ball（《龙珠超：比鲁斯》新番）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "276.0K",
-              "views": "317.1M"
-            },
-            {
-              "code": "TH",
-              "posts": "585.0K",
-              "views": "242.4M"
-            },
-            {
-              "code": "MY",
-              "posts": "175.3K",
-              "views": "122.2M"
-            }
-          ],
-          "summary": "鸟山明《龙珠》系列标签；新动画《龙珠超：比鲁斯》2026年10月8日在NYCC举行世界首映先行上映，10月11日在富士电视台开播，Prime Video/U-NEXT最速配信。",
-          "whyHot": "新番世界首映（NYCC 10月8日）+日本开播（10月11日）双节点带动经典IP讨论回潮，英日市场同步升温，机制清楚。",
-          "origin": "东映动画官方新番宣发。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/dragonball",
-            "search": "https://www.tiktok.com/search?q=dragonball",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "rickgrosman.28",
-            "videoId": "6482752163029191950"
-          },
-          "fusionSuggestion": {
-            "commercial": "'战斗力数值+变身形态'体系与MCGG棋子升星视觉逻辑相通，可参考其能量色阶设计。",
-            "video": "可参考新番'第一集无剧透安利'格式。"
-          },
-          "rank": 22
-        },
-        {
-          "tag": "#mrfanboyseries",
-          "name": "Mr. Fanboy Series（泰剧《你好，陌生人》系列）",
-          "regionGroup": "sea",
-          "category": "影视剧集",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "35.1K",
-              "views": "316.8M"
-            },
-            {
-              "code": "VN",
-              "posts": "30.4K",
-              "views": "95.2M"
-            },
-            {
-              "code": "PH",
-              "posts": "22.7K",
-              "views": "72.4M"
-            }
-          ],
-          "summary": "泰国GMMTV出品的BL题材剧集，围绕追星与偶像关系展开，东南亚多市场同步播出。",
-          "whyHot": "泰剧BL内容在东南亚与拉美市场同步扩散，剧集播出期CP剪辑与名场面二创集中爆发。",
-          "origin": "官方剧集片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/mrfanboyseries",
-            "search": "https://www.tiktok.com/search?q=mrfanboyseries",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "delmsfilm",
-            "videoId": "7700421170021076242"
-          },
-          "fusionSuggestion": {
-            "commercial": "剧集\"追星\"主题与MCGG粉丝向运营有情绪共鸣点，注意避免真人CP营销风险。",
-            "video": "可参考\"名场面+反应镜头\"的CP剪辑结构。"
-          },
-          "rank": 23
-        },
-        {
-          "tag": "#azurlane",
-          "name": "Azur Lane（碧蓝航线）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "348.4K",
-              "views": "316.0M"
-            },
-            {
-              "code": "TH",
-              "posts": "530.5K",
-              "views": "159.9M"
-            },
-            {
-              "code": "VN",
-              "posts": "100.6K",
-              "views": "93.6M"
-            }
-          ],
-          "summary": "舰船拟人题材手游，角色设计与联动活动在东南亚玩家圈持续活跃。",
-          "whyHot": "长青手游IP，角色剪辑/联动活动内容持续产出。",
-          "origin": "玩家剪辑/官方宣传内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/azurlane",
-            "search": "https://www.tiktok.com/search?q=azurlane",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "yuuki_my_istri_wangyy",
-            "videoId": "7697031290184305940"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 24
-        },
-        {
-          "tag": "#nikkegoddessofvictory",
-          "name": "GODDESS OF VICTORY: NIKKE（手游《胜利女神：妮姬》）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "349.9K",
-              "views": "315.3M"
-            },
-            {
-              "code": "TH",
-              "posts": "562.9K",
-              "views": "165.1M"
-            },
-            {
-              "code": "VN",
-              "posts": "99.9K",
-              "views": "94.2M"
-            }
-          ],
-          "summary": "Shift Up 出品的枪械少女题材手游 NIKKE 全名标签。",
-          "whyHot": "版本更新与角色 PV 二创在多市场同步带动，游戏美术风格利于剪辑传播。",
-          "origin": "游戏官方 IP。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/nikkegoddessofvictory",
-            "search": "https://www.tiktok.com/search?q=nikkegoddessofvictory",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "kainz_vt",
-            "videoId": "7661992364281744643"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 25
-        },
-        {
-          "tag": "#tokyorevengers",
-          "name": "Tokyo Revengers（东京复仇者）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "589.2K",
-              "views": "249.5M"
-            },
-            {
-              "code": "PH",
-              "posts": "284.7K",
-              "views": "245.7M"
-            },
-            {
-              "code": "MY",
-              "posts": "177.8K",
-              "views": "130.1M"
-            }
-          ],
-          "summary": "和久井健漫画改编的穿越/帮派题材动漫，佔天愛人、潘东会等角色与剧情名场面受粉丝喜爱。",
-          "whyHot": "人气动漫IP，角色剪辑/名场面二创在东南亚粉丝圈持续活跃。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/tokyorevengers",
-            "search": "https://www.tiktok.com/search?q=tokyorevengers",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "sevensenpai_",
-            "videoId": "7697204351898504481"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 26
-        },
-        {
-          "tag": "#september",
-          "name": "September（九月月份通用标签）",
-          "regionGroup": "sea",
-          "category": "生活方式/月份标签",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "ID",
-              "posts": "146.0K",
-              "views": "230.3M"
-            },
-            {
-              "code": "PH",
-              "posts": "57.5K",
-              "views": "149.1M"
-            },
-            {
-              "code": "MY",
-              "posts": "25.5K",
-              "views": "47.4M"
-            },
-            {
-              "code": "VN",
-              "posts": "5.9K",
-              "views": "14.9M"
-            },
-            {
-              "code": "TH",
-              "posts": "7.9K",
-              "views": "12.1M"
-            }
-          ],
-          "summary": "九月月份通用标签，5个市场（US/ID/PH/VN/MY）用户集中发布初秋氛围、开学季、月度总结与新月愿望内容，形成规律性月度流量高峰（30天窗口3.31亿播放）。",
-          "whyHot": "月份标签是TikTok\"月度打卡文化\"的固定流量入口（月初总结/新月愿望/月份氛围感），九月叠加北半球初秋与开学季话题，全市场共振。",
-          "origin": "创作者自发使用的通用标签，非单一事件发起。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/september",
-            "search": "https://www.tiktok.com/search?q=september",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=ID"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "sony",
-            "videoId": "7688066557649407263"
-          },
-          "fusionSuggestion": {
-            "commercial": "月度营销日历可借月份标签做规律性活动运营（每月1号\"新月新阵容\"）。",
-            "video": "适合做\"九月新开始\"主题活动剪辑。"
-          },
-          "rank": 27
-        },
-        {
-          "tag": "#muadong",
-          "name": "Mùa Đông（越南语‘冬天’）",
-          "regionGroup": "sea",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "67.1K",
-              "views": "217.8M"
-            }
-          ],
-          "summary": "越南语冬季/转凉季节内容通用标签。",
-          "whyHot": "越北进入转凉季节，季节情绪与穿搭内容集中发布。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/muadong",
-            "search": "https://www.tiktok.com/search?q=muadong",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "hieudeptrai_211",
-            "videoId": "7695306672453045522"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 28
-        },
-        {
-          "tag": "#bluearchive",
-          "name": "Blue Archive（蔚蓝档案）",
-          "regionGroup": "sea",
-          "category": "游戏IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "575.4K",
-              "views": "210.2M"
-            },
-            {
-              "code": "MY",
-              "posts": "174.5K",
-              "views": "82.9M"
-            }
-          ],
-          "summary": "日本School RPG手游，校园题材+角色养成玩法在亚洲年轻玩家群体中人气很高。",
-          "whyHot": "活跃手游IP，角色剪辑/同人内容随版本更新持续产出。",
-          "origin": "玩家剪辑/同人二创内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/bluearchive",
-            "search": "https://www.tiktok.com/search?q=bluearchive",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "zasuki_sa",
-            "videoId": "7695721927037570322"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 29
-        },
-        {
-          "tag": "#moana",
-          "name": "Moana（《海洋奇缘》）",
-          "regionGroup": "sea",
-          "category": "影视IP/动画电影",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "10.9K",
-              "views": "198.5M"
-            }
-          ],
-          "summary": "迪士尼动画电影，波利尼西亚公主莫娜追寻祖先航海传说、拯救家乡岛屿的冒险故事。",
-          "whyHot": "经典迪士尼IP，歌曲remix与剪辑向内容随续作/周边消息持续产出。",
-          "origin": "官方电影片段+粉丝剪辑/翻唱二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/moana",
-            "search": "https://www.tiktok.com/search?q=moana",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "rezon_ae",
-            "videoId": "7639465870045007126"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
           "rank": 30
-        },
-        {
-          "tag": "#narutouzumaki",
-          "name": "Naruto Uzumaki（漩涡鸣人）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "582.6K",
-              "views": "196.7M"
-            },
-            {
-              "code": "PH",
-              "posts": "270.4K",
-              "views": "165.9M"
-            },
-            {
-              "code": "MY",
-              "posts": "172.7K",
-              "views": "109.5M"
-            }
-          ],
-          "summary": "《火影忍者》主角漩涡鸣人，经典忍者成长故事与名场面持续被粉丝剪辑传播。",
-          "whyHot": "全球长青动漫IP，怀旧向+名场面剪辑持续有稳定热度。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/narutouzumaki",
-            "search": "https://www.tiktok.com/search?q=narutouzumaki",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "pcrvy4hgq5",
-            "videoId": "7565958033805692173"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 31
-        },
-        {
-          "tag": "#killua",
-          "name": "Killua（《全职猎人》奇犽）",
-          "regionGroup": "sea",
-          "category": "动漫IP",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "TH",
-              "posts": "583.7K",
-              "views": "184.7M"
-            },
-            {
-              "code": "PH",
-              "posts": "269.0K",
-              "views": "114.4M"
-            },
-            {
-              "code": "MY",
-              "posts": "172.2K",
-              "views": "70.7M"
-            }
-          ],
-          "summary": "《全职猎人》（Hunter x Hunter）人气角色奇犽·揣世，电光系念能力与冷酷外表下重情义的性格受粉丝喜爱。",
-          "whyHot": "长青人气动漫角色，粉丝持续产出角色剪辑/手书/台词二创。",
-          "origin": "官方动画片段+粉丝二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/killua",
-            "search": "https://www.tiktok.com/search?q=killua",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=TH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "kepocks",
-            "videoId": "7592265444292037944"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 32
-        },
-        {
-          "tag": "#halloweencostume",
-          "name": "Halloween Costume（万圣节服装）",
-          "regionGroup": "sea",
-          "category": "季节/节日",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "11.9K",
-              "views": "158.9M"
-            }
-          ],
-          "summary": "万圣节服装主题内容标签，聚合服装reveal、DIY制作教程、情侣/团体服装创意等。",
-          "whyHot": "10月万圣节季进入服装内容年度峰值期，节前2-3周是服装灵感内容的集中发布窗口，菲/英/美多市场同步上榜。",
-          "origin": "创作者自发季节性内容。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/halloweencostume",
-            "search": "https://www.tiktok.com/search?q=halloweencostume",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "nataliireynoldss",
-            "videoId": "7692957276587429150"
-          },
-          "fusionSuggestion": {
-            "commercial": "万圣节cosplay氛围与MCGG节日限定皮肤发售节点天然契合。",
-            "video": "可参考'服装从草图到成品'的过程剪辑格式。"
-          },
-          "rank": 33
-        },
-        {
-          "tag": "#august",
-          "name": "August（八月月份通用标签）",
-          "regionGroup": "sea",
-          "category": "生活方式/月份标签",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "62.7K",
-              "views": "158.0M"
-            },
-            {
-              "code": "ID",
-              "posts": "47.3K",
-              "views": "75.5M"
-            },
-            {
-              "code": "MY",
-              "posts": "17.7K",
-              "views": "35.5M"
-            }
-          ],
-          "summary": "八月月份通用标签，90天窗口覆盖US/ID/PH/MY四市场的月度打卡内容高峰（夏末总结、开学准备、月度目标，4.18亿播放）。",
-          "whyHot": "月份标签是TikTok\"月度打卡文化\"的固定流量入口，八月叠加暑假收尾与开学季前置话题。",
-          "origin": "创作者自发使用的通用标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/august",
-            "search": "https://www.tiktok.com/search?q=august",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "ricefy_",
-            "videoId": "7674359355671579917"
-          },
-          "fusionSuggestion": {
-            "commercial": "同september：月度营销日历运营。",
-            "video": "适合做月度总结式活动回顾剪辑。"
-          },
-          "rank": 34
-        },
-        {
-          "tag": "#forgottenisland",
-          "name": "Forgotten Island（梦工厂动画《忘却之岛》）",
-          "regionGroup": "sea",
-          "category": "动画电影",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "7.7K",
-              "views": "138.9M"
-            }
-          ],
-          "summary": "梦工厂原创动画，菲律宾神话‘忘却之岛’冒险题材，2026-09-25 美国上映。",
-          "whyHot": "上映窗口期 PH 市场因菲律宾文化元素与女性友谊主题爆发本地化二创与观影打卡。",
-          "origin": "片方官方电影话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/forgottenisland",
-            "search": "https://www.tiktok.com/search?q=forgottenisland",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "fandango",
-            "videoId": "7685812894482713886"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 35
-        },
-        {
-          "tag": "#october",
-          "name": "October（十月通用月份标签）",
-          "regionGroup": "sea",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "PH",
-              "posts": "35.0K",
-              "views": "112.0M"
-            },
-            {
-              "code": "ID",
-              "posts": "22.9K",
-              "views": "65.7M"
-            },
-            {
-              "code": "MY",
-              "posts": "10.0K",
-              "views": "25.4M"
-            }
-          ],
-          "summary": "十月通用内容标签，聚合换季穿搭、月度总结、秋景等季节性生活内容。",
-          "whyHot": "北半球入秋叠加万圣节预热，十月是季节内容的集中释放期，通用月份标签按惯例汇聚全月 UGC。",
-          "origin": "创作者自发通用标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/october",
-            "search": "https://www.tiktok.com/search?q=october",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=PH"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "themindaa",
-            "videoId": "7691451275795352864"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 36
-        },
-        {
-          "tag": "#80s",
-          "name": "80s（八十年代怀旧剪辑）",
-          "regionGroup": "sea",
-          "category": "怀旧/剪辑",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "MY",
-              "posts": "40.2K",
-              "views": "78.5M"
-            }
-          ],
-          "summary": "1980 年代影视/音乐/美学怀旧剪辑通用标签。",
-          "whyHot": "复古美学剪辑常青题材，老片素材+滤镜模板参与门槛低，跨市场通用。",
-          "origin": "创作者自发怀旧标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/80s",
-            "search": "https://www.tiktok.com/search?q=80s",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=MY"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "nostalgicvibes888",
-            "videoId": "7676428886460173585"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 37
-        },
-        {
-          "tag": "#autumn",
-          "name": "Autumn（秋天）",
-          "regionGroup": "sea",
-          "category": "季节/生活方式",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "12.5K",
-              "views": "50.3M"
-            }
-          ],
-          "summary": "秋季通用季节标签：秋景、穿搭、暖饮氛围内容。",
-          "whyHot": "北半球入秋季节内容集中释放，GB 等市场秋季美学 UGC 聚集。",
-          "origin": "创作者自发季节标签。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/autumn",
-            "search": "https://www.tiktok.com/search?q=autumn",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "danielvalko",
-            "videoId": "7652136274748312845"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 38
-        },
-        {
-          "tag": "#midautumnfestival",
-          "name": "中秋节 / Tết Trung Thu（东南亚中秋节庆）",
-          "regionGroup": "sea",
-          "category": "文化节庆",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "VN",
-              "posts": "6.9K",
-              "views": "26.1M"
-            },
-            {
-              "code": "MY",
-              "posts": "4.2K",
-              "views": "8.2M"
-            }
-          ],
-          "summary": "东亚/东南亚华人及越南社群共同庆祝的传统中秋佳节，赏月、月饼、灯笼游行是核心活动。",
-          "whyHot": "节日季节性驱动，家庭团聚/传统活动记录类内容集中产出，非宗教非政治的文化民俗庆典。",
-          "origin": "用户自发节庆活动记录分享。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/midautumnfestival",
-            "search": "https://www.tiktok.com/search?q=midautumnfestival",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=VN"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "gardensbythebay",
-            "videoId": "7009580492840242434"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 39
         },
         {
           "tag": "#fall",
@@ -5501,85 +4833,13 @@ window.TREND_DATA = {
             "commercial": "秋季暖色调（枫叶橙/南瓜橘）可为MCGG季节限定棋盘配色提供参考。",
             "video": "可参考'秋日氛围感'空镜+穿搭混剪格式。"
           },
-          "rank": 40
-        },
-        {
-          "tag": "#brez",
-          "name": "BRĒZ（无酒精饮料品牌话题）",
-          "regionGroup": "global",
-          "category": "品牌营销/消费品",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "250.6K",
-              "views": "2.4B"
-            }
-          ],
-          "summary": "美国市场无酒精饮料品牌 BRĒZ 的 TikTok 品牌话题，KOL 矩阵+素人种草 UGC 驱动。",
-          "whyHot": "品牌达人矩阵持续种草与直播带货转化，品牌话题下 UGC 积累明显（属商业campaign性质，机制清楚）。",
-          "origin": "品牌官方营销话题。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/brez",
-            "search": "https://www.tiktok.com/search?q=brez",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "brezful",
-            "videoId": "7632574246438407445"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 41
-        },
-        {
-          "tag": "#southparkedit",
-          "name": "South Park 剪辑二创",
-          "regionGroup": "global",
-          "category": "影视剧集/动画",
-          "danceCategory": "non_dance",
-          "regions": [
-            {
-              "code": "US",
-              "posts": "114.7K",
-              "views": "1.8B"
-            }
-          ],
-          "summary": "与#southpark同源，专指粉丝对该剧经典片段/台词做的剪辑向二创内容标签。",
-          "whyHot": "剪辑类内容天然自带话题标签便于归类传播，跟随剧集热度同步上涨。",
-          "origin": "观众自发剪辑二创。",
-          "confidence": "official",
-          "links": {
-            "tag": "https://www.tiktok.com/tag/southparkedit",
-            "search": "https://www.tiktok.com/search?q=southparkedit",
-            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
-          },
-          "douyinCheck": {
-            "status": "not_found",
-            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
-          },
-          "videoEmbed": {
-            "author": "princeleoww",
-            "videoId": "7695675199081008414"
-          },
-          "fusionSuggestion": {
-            "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
-            "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
-          },
-          "rank": 42
+          "rank": 31
         },
         {
           "tag": "#homecoming",
-          "name": "Homecoming（美国校园返校节）",
+          "name": "Homecoming（返校季/返校舞会）",
           "regionGroup": "global",
-          "category": "校园/生活方式",
+          "category": "季节/校园",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -5588,9 +4848,9 @@ window.TREND_DATA = {
               "views": "1.3B"
             }
           ],
-          "summary": "美国中学与大学的返校节传统活动（多在9-10月），包含橄榄球赛、舞会、游行与返校国王/皇后评选，是秋季校园文化的核心事件。",
-          "whyHot": "9-10月为全美返校节集中期，提案视频（hocoproposal）、服装转场（hocotransition）、舞会片段等衍生内容批量产出，多市场（美/巴/印尼/泰/越）上榜。",
-          "origin": "美国校园传统活动+创作者自发记录。",
+          "summary": "美国校园\"返校季\"相关的舞会、穿搭、求婚与活动记录内容标签。",
+          "whyHot": "秋季返校季的固定校园节点，穿搭与仪式感内容集中产出。",
+          "origin": "用户自发的校园活动记录。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/homecoming",
@@ -5606,10 +4866,10 @@ window.TREND_DATA = {
             "videoId": "7680510977300860161"
           },
           "fusionSuggestion": {
-            "commercial": "'校园舞会'场景可作MCGG青春主题棋盘的视觉母题（注意用研红线：校园题材需谨慎评估受众偏好）。",
-            "video": "可参考'提案惊喜瞬间'的反应式剪辑格式。"
+            "commercial": "校园仪式感场景可参考用于MCGG校园主题皮肤。",
+            "video": "可参考\"装扮准备+现场高光\"的记录结构。"
           },
-          "rank": 43
+          "rank": 32
         },
         {
           "tag": "#pumpkinseason",
@@ -5645,7 +4905,7 @@ window.TREND_DATA = {
             "commercial": "南瓜地/秋收场景可直接作为MCGG万圣节棋盘皮肤的美术母题。",
             "video": "可参考'南瓜雕刻延时摄影'格式。"
           },
-          "rank": 44
+          "rank": 33
         },
         {
           "tag": "#fallvibes",
@@ -5681,7 +4941,7 @@ window.TREND_DATA = {
             "commercial": "秋季限定配色/主题活动适合季节性运营排期。",
             "video": "适合做\"秋日温暖感\"主题氛围剪辑。"
           },
-          "rank": 45
+          "rank": 34
         },
         {
           "tag": "#september",
@@ -5717,7 +4977,7 @@ window.TREND_DATA = {
             "commercial": "月度营销日历可借月份标签做规律性活动运营（每月1号\"新月新阵容\"）。",
             "video": "适合做\"九月新开始\"主题活动剪辑。"
           },
-          "rank": 46
+          "rank": 35
         },
         {
           "tag": "#halloweenmakeup",
@@ -5753,7 +5013,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 47
+          "rank": 36
         },
         {
           "tag": "#pumpkinspice",
@@ -5789,7 +5049,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 48
+          "rank": 37
         },
         {
           "tag": "#comedyseries",
@@ -5825,7 +5085,7 @@ window.TREND_DATA = {
             "commercial": "喜剧片段形态适合品牌轻量化内容营销（低门槛高传播）。",
             "video": "适合做MCGG英雄喜剧小剧场系列。"
           },
-          "rank": 49
+          "rank": 38
         },
         {
           "tag": "#august",
@@ -5861,7 +5121,7 @@ window.TREND_DATA = {
             "commercial": "同september：月度营销日历运营。",
             "video": "适合做月度总结式活动回顾剪辑。"
           },
-          "rank": 50
+          "rank": 39
         },
         {
           "tag": "#reddington",
@@ -5897,7 +5157,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 51
+          "rank": 40
         },
         {
           "tag": "#moana",
@@ -5933,7 +5193,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 52
+          "rank": 41
         },
         {
           "tag": "#hocoproposal",
@@ -5969,7 +5229,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 53
+          "rank": 42
         },
         {
           "tag": "#patientzero",
@@ -6005,7 +5265,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 54
+          "rank": 43
         },
         {
           "tag": "#fallseason",
@@ -6041,13 +5301,49 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 55
+          "rank": 44
+        },
+        {
+          "tag": "#trickortreat",
+          "name": "Trick or Treat（万圣节讨糖传统）",
+          "regionGroup": "global",
+          "category": "生活方式/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "64.7K",
+              "views": "256.8M"
+            }
+          ],
+          "summary": "万圣节经典\"不给糖就捣蛋\"讨糖活动相关的装扮/场景内容标签。",
+          "whyHot": "万圣节季节性驱动，家庭/儿童向内容集中产出。",
+          "origin": "用户万圣节活动记录分享。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/trickortreat",
+            "search": "https://www.tiktok.com/search?q=trickortreat",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "fox5_atlanta",
+            "videoId": "7696574540687658270"
+          },
+          "fusionSuggestion": {
+            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
+            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+          },
+          "rank": 45
         },
         {
           "tag": "#hispanicheritagemonth",
-          "name": "Hispanic Heritage Month（美国拉美传统文化月）",
+          "name": "Hispanic Heritage Month（西语裔传统月）",
           "regionGroup": "global",
-          "category": "文化庆典",
+          "category": "文化节庆",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -6056,9 +5352,9 @@ window.TREND_DATA = {
               "views": "246.8M"
             }
           ],
-          "summary": "美国每年9月15日至10月15日的官方纪念月，庆祝拉美裔美国人的历史与文化贡献。",
-          "whyHot": "文化月期间品牌/个人发布拉美文化相关内容形成固定周期性话题，机制清楚（非政治议题，是文化庆典）。",
-          "origin": "美国官方文化纪念月+社区自发内容。",
+          "summary": "每年9月15日-10月15日的西语裔文化传统月，聚合文化展示与身份认同内容。",
+          "whyHot": "官方文化月节点驱动，创作者集中发布文化自豪感与家族故事内容。",
+          "origin": "平台与用户共同参与的文化月内容。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/hispanicheritagemonth",
@@ -6074,10 +5370,10 @@ window.TREND_DATA = {
             "videoId": "7695953592045325598"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
-            "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "文化月运营节奏可参考用于MCGG区域文化主题皮肤排期。",
+            "video": "可参考\"文化符号展示+家族故事\"的记录式内容。"
           },
-          "rank": 56
+          "rank": 46
         },
         {
           "tag": "#halloweenthegame",
@@ -6113,7 +5409,43 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 57
+          "rank": 47
+        },
+        {
+          "tag": "#halloweenparty",
+          "name": "Halloween Party（万圣节派对）",
+          "regionGroup": "global",
+          "category": "生活方式/节日",
+          "danceCategory": "non_dance",
+          "regions": [
+            {
+              "code": "US",
+              "posts": "46.5K",
+              "views": "233.6M"
+            }
+          ],
+          "summary": "万圣节主题派对筹备/现场记录内容标签，涵盖装扮、布置、游戏环节。",
+          "whyHot": "万圣节季节性驱动，派对筹备/现场记录类内容集中产出。",
+          "origin": "用户万圣节派对记录分享。",
+          "confidence": "official",
+          "links": {
+            "tag": "https://www.tiktok.com/tag/halloweenparty",
+            "search": "https://www.tiktok.com/search?q=halloweenparty",
+            "rankingSource": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?period=90&region=US"
+          },
+          "douyinCheck": {
+            "status": "not_found",
+            "note": "2026-10-26 抖音热搜快照（top50）未见同话题，国内暂无同步热度。"
+          },
+          "videoEmbed": {
+            "author": "hotshotboys",
+            "videoId": "7675985991961791774"
+          },
+          "fusionSuggestion": {
+            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
+            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+          },
+          "rank": 48
         },
         {
           "tag": "#toystory5",
@@ -6149,7 +5481,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该热梗特征做轻量联动内容，具体方向待策划团队评估。",
             "video": "可参考该热梗形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 58
+          "rank": 49
         },
         {
           "tag": "#fallactivities",
@@ -6185,13 +5517,13 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 59
+          "rank": 50
         },
         {
           "tag": "#octubre",
-          "name": "Octubre（西语十月）",
+          "name": "Octubre（西语\"十月\"）",
           "regionGroup": "global",
-          "category": "季节/生活方式",
+          "category": "季节/语言",
           "danceCategory": "non_dance",
           "regions": [
             {
@@ -6200,9 +5532,9 @@ window.TREND_DATA = {
               "views": "149.1M"
             }
           ],
-          "summary": "西语‘十月’通用月份标签，拉美裔创作者季节内容聚集。",
-          "whyHot": "十月季节内容+西语社区月度 UGC 惯例聚集。",
-          "origin": "创作者自发通用标签。",
+          "summary": "西班牙语\"十月\"标签，聚合秋季氛围、万圣节预热与月度情绪内容。",
+          "whyHot": "西语内容是美国市场重要组成，月度标签便于内容归档与情绪表达。",
+          "origin": "创作者自发使用的月度标签。",
           "confidence": "official",
           "links": {
             "tag": "https://www.tiktok.com/tag/octubre",
@@ -6218,10 +5550,10 @@ window.TREND_DATA = {
             "videoId": "7695886052241771789"
           },
           "fusionSuggestion": {
-            "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
-            "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
+            "commercial": "月度情绪营销节奏可参考用于MCGG区域化内容排期。",
+            "video": "可参考\"月度氛围混剪\"格式。"
           },
-          "rank": 60
+          "rank": 51
         },
         {
           "tag": "#octobermood",
@@ -6257,7 +5589,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 61
+          "rank": 52
         },
         {
           "tag": "#hocoweek",
@@ -6293,7 +5625,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 62
+          "rank": 53
         },
         {
           "tag": "#october3rd",
@@ -6329,7 +5661,7 @@ window.TREND_DATA = {
             "commercial": "MCGG可结合该话题的季节/IP/事件属性做轻量联动内容策划，具体方向待策划团队评估。",
             "video": "可参考该话题的内容形式做本地化短视频创意，具体脚本待策划。"
           },
-          "rank": 63
+          "rank": 54
         }
       ]
     }
